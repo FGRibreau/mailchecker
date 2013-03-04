@@ -10,7 +10,7 @@ var lists            = ["0-mail.com","0815.ru","0clickemail.com","10minutemail.c
 var isValidEmail     = /^(?:[\w\!\#\$\%\&\'\*\+\-\/\=\?\^\`\{\|\}\~]+\.)*[\w\!\#\$\%\&\'\*\+\-\/\=\?\^\`\{\|\}\~]+@(?:(?:(?:[a-zA-Z0-9](?:[a-zA-Z0-9\-](?!\.)){0,61}[a-zA-Z0-9]?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9\-](?!$)){0,61}[a-zA-Z0-9]?)|(?:\[(?:(?:[01]?\d{1,2}|2[0-4]\d|25[0-5])\.){3}(?:[01]?\d{1,2}|2[0-4]\d|25[0-5])\]))$/;
 var isThrowableEmail = new RegExp(lists.join('|'));
 
-module.exports = function mailChecker(email){
+module.exports = function MailChecker(email){
   if(!isValidEmail.test(email)){return false;}
   return !isThrowableEmail.test(email);
 };

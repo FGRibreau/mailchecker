@@ -10,7 +10,7 @@ var lists            = {{& listJSON }};
 var isValidEmail     = {{& regexp }};
 var isThrowableEmail = new RegExp(lists.join('|'));
 
-module.exports = function mailChecker(email){
+module.exports = function MailChecker(email){
   if(!isValidEmail.test(email)){return false;}
   return !isThrowableEmail.test(email);
 };
