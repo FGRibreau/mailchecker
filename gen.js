@@ -1,3 +1,11 @@
 #!/usr/bin/env node
 
-require('lib/generator')();
+console.log("Compiling libraries from templates...");
+var gen = require('./lib/generator');
+
+gen.on('*', function(template){
+  console.info('[',this.event,']\t', template.template);
+});
+gen.compile(function(){
+  console.log('Done.');
+});
