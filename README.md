@@ -19,6 +19,52 @@ MailChecker currently supports:
 
 -------------------------
 
+## NodeJS
+
+```javascript
+var MailChecker = require('mailchecker');
+
+if(!MailChecker('myemail@yopmail.com')){
+  console.error('O RLY !');
+  process.exit(1);
+}
+
+if(!MailChecker('myemail.com')){
+  console.error('O RLY !');
+  process.exit(1);
+}
+```
+
+## JavaScript
+```html
+<script type="text/javascript" src="MailChecker/platform/javascript/MailChecker.js"></script>
+<script type="text/javascript">
+if(!MailChecker('myemail@yopmail.com')){
+  console.error('O RLY !');
+}
+
+if(!MailChecker('myemail.com')){
+  console.error('O RLY !');
+}
+</script>
+```
+
+## PHP
+```php
+include __DIR__."/MailChecker/platform/php/MailChecker.php";
+
+if(!MailChecker('myemail@yopmail.com')){
+  die('O RLY !');
+}
+
+if(!MailChecker('myemail.com')){
+  die('O RLY !');
+}
+```
+
+--------------------
+
+
 ## Installation
 
 NodeJS/JavaScript
