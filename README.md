@@ -71,12 +71,11 @@ if(!MailChecker('myemail.com')){
 NodeJS/JavaScript
 ```bash
 npm install mailchecker
-./node/modules/mailchecker/gen.js
 ```
 
 __We accept pull-requests for other package manager__.
 
-## Our current sources
+## Data sources
 
 [TorVPN](http://torvpn.com/temporaryemail.html)
 
@@ -92,6 +91,8 @@ __We accept pull-requests for other package manager__.
   Array.prototype.slice.call(document.querySelectorAll('.entry > ul > li a')).map(function(el){return el.innerText});
 ```
 
+... [please add your own dataset to list.json](./list.json).
+
 Regenerate libraries from list.json
 -------------------------------
 
@@ -99,3 +100,7 @@ Just run (requires NodeJS):
 ```
 ./gen.js
 ```
+
+## License
+Copyright (c) 2013 Francois-Guillaume Ribreau
+Licensed under the MIT license.

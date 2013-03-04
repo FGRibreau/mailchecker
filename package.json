@@ -17,7 +17,7 @@
     "disposable"
   ],
   "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com)",
-  "license": "BSD",
+  "license": "MIT",
   "dependencies": {
     "lodash": "~1.0.1",
     "cjson": "~0.2.1",
