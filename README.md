@@ -1,14 +1,15 @@
 # MailChecker [![Build Status](https://drone.io/github.com/FGRibreau/mailchecker/status.png)](https://drone.io/github.com/FGRibreau/mailchecker/latest)
 
-Multi-language email validation.
+Cross-language email validation.
 
-* Validate the format of your email (via [node-validator](https://github.com/chriso/node-validator/blob/master/lib/validators.js#L27) email regex)
-* Validate if the email is not a temporary mail (like yopmail or others..., [add your own dataset to list.json](./blob/master/list.json))
+* Validate the format of your email (uses [node-validator](https://github.com/chriso/node-validator/blob/master/lib/validators.js#L27) email regex underneath and `FILTER_VALIDATE_EMAIL` for PHP)
+* Validate if the email is not a **temporary mail** (yopmail-like..., [add your own dataset to list.json](./list.json))
 
 This will be very helpful when you have to contact your users and you want to avoid errors causing lack of communication or want to block "spamboxes".
 
-MailChecker currently supports:
+-------------------------
 
+MailChecker currently supports:
 * [NodeJS](./mailchecker/tree/master/platform/node) (CommonJS)
 * [JavaScript](./mailchecker/tree/master/platform/javascript) (Client-Side)
 * [PHP](./mailchecker/tree/master/platform/php)
