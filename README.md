@@ -3,7 +3,7 @@
 Multi-language email validation.
 
 * Validate the format of your email (via [node-validator](https://github.com/chriso/node-validator/blob/master/lib/validators.js#L27) email regex)
-* Validate if the email is not a temporary mail (like yopmail or others...)
+* Validate if the email is not a temporary mail (like yopmail or others..., [add your own dataset to list.json](./blob/master/list.json))
 
 This will be very helpful when you have to contact your users and you want to avoid errors causing lack of communication or want to block "spamboxes".
 
