@@ -2,16 +2,16 @@
 
 Multi-language email validation.
 
-* Validate the format of your email
+* Validate the format of your email (via [node-validator](https://github.com/chriso/node-validator/blob/master/lib/validators.js#L27) email regex)
 * Validate if the email is not a temporary mail (like yopmail or others...)
 
 This will be very helpful when you have to contact your users and you want to avoid errors causing lack of communication or want to block "spamboxes".
 
 MailChecker currently supports:
 
-* [NodeJS(CommonJS)](./mailchecker/tree/master/platform/node)
-* [JavaScript (client-side)](./mailchecker/tree/master/platform/javascript).
-* [PHP]((./mailchecker/tree/master/platform/php))
+* [NodeJS](./mailchecker/tree/master/platform/node) (CommonJS)
+* [JavaScript](./mailchecker/tree/master/platform/javascript) (Client-Side)
+* [PHP](./mailchecker/tree/master/platform/php)
 * **Easily add support for your own language with MailChecker template system and [send us a pull-request!](https://github.com/FGRibreau/mailchecker/fork_select)**
 
 ## Installation
@@ -24,7 +24,7 @@ npm install mailchecker
 
 We accept pull-requests for enabling package manager.
 
-## Sources
+## Our current sources
 
 [TorVPN](http://torvpn.com/temporaryemail.html)
 
@@ -43,7 +43,7 @@ We accept pull-requests for enabling package manager.
 Regenerate libraries from list.json
 -------------------------------
 
-Just run: (requires NodeJS)
+Just run (requires NodeJS):
 ```
 ./gen.js
 ```

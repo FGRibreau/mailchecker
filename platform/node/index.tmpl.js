@@ -1,11 +1,16 @@
 /**
  * Usage
  *
- * require('t')
- * @return {[type]} [description]
+ * var MailChecker = require('mailchecker/platform/node')
+ * MailChecker(String email);
+ * @return {Boolean} true is the specified email is valid, false otherwise
  */
 
-var lists = {{& listJSON }};
-module.exports = function mailChecker(email, options){
+var lists            = {{& listJSON }};
+var isValidEmail     = {{& regexp }};
+var isThrowableEmail = new RegExp(lists.join('|'));
 
+module.exports = function mailChecker(email){
+  if(!isValidEmail.test(email)){return false;}
+  return !isThrowableEmail.test(email);
 };

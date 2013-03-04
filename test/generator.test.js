@@ -34,6 +34,13 @@ suite('Generator', function(){
     });
   });
 
+  suite('.getEmailRegexp', function(){
+    test('should return the regexp', function(){
+      var r = Generator.getEmailRegexp();
+      r.should.eql("/^(?:[\\w\\!\\#\\$\\%\\&\\'\\*\\+\\-\\/\\=\\?\\^\\`\\{\\|\\}\\~]+\\.)*[\\w\\!\\#\\$\\%\\&\\'\\*\\+\\-\\/\\=\\?\\^\\`\\{\\|\\}\\~]+@(?:(?:(?:[a-zA-Z0-9](?:[a-zA-Z0-9\\-](?!\\.)){0,61}[a-zA-Z0-9]?\\.)+[a-zA-Z0-9](?:[a-zA-Z0-9\\-](?!$)){0,61}[a-zA-Z0-9]?)|(?:\\[(?:(?:[01]?\\d{1,2}|2[0-4]\\d|25[0-5])\\.){3}(?:[01]?\\d{1,2}|2[0-4]\\d|25[0-5])\\]))$/");
+    });
+  });
+
   suite('.compile', function(){
     test('should compile all templates', function(tdone){
       // Generator.on('*', function(template){
