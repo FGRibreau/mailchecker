@@ -1,5 +1,7 @@
 # MailChecker [![Build Status](https://drone.io/github.com/FGRibreau/mailchecker/status.png)](https://drone.io/github.com/FGRibreau/mailchecker/latest)
 
+-------------------------
+
 Cross-language email validation.
 
 * Validate the format of your email (uses [node-validator](https://github.com/chriso/node-validator/blob/master/lib/validators.js#L27) email regex underneath and `FILTER_VALIDATE_EMAIL` for PHP)
@@ -14,6 +16,8 @@ MailChecker currently supports:
 * [JavaScript](./mailchecker/tree/master/platform/javascript) (Client-Side)
 * [PHP](./mailchecker/tree/master/platform/php)
 * **Easily add support for your own language with MailChecker template system and [send us a pull-request!](https://github.com/FGRibreau/mailchecker/fork_select)**
+
+-------------------------
 
 ## Installation
 
