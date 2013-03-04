@@ -74,7 +74,7 @@ npm install mailchecker
 ./node/modules/mailchecker/gen.js
 ```
 
-We accept pull-requests for enabling package manager.
+__We accept pull-requests for other package manager__.
 
 ## Our current sources
 
