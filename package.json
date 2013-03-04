@@ -1,0 +1,29 @@
+{
+  "name": "mailchecker",
+  "version": "0.1.0",
+  "description": "",
+  "main": "platform/node/",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FGRibreau/mailchecker.git"
+  },
+  "keywords": [
+    "email",
+    "domains",
+    "disposable"
+  ],
+  "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com)",
+  "license": "BSD",
+  "dependencies": {
+    "lodash": "~1.0.1",
+    "cjson": "~0.2.1"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.7.4",
+    "mocha": "~1.8.1",
+    "should": "~1.2.2"
+  }
+}
