@@ -18,8 +18,9 @@ MailChecker currently supports:
 * **Easily add support for your own language with MailChecker template system and [send us a pull-request!](https://github.com/FGRibreau/mailchecker/fork_select)**
 
 -------------------------
+## Usage
 
-## NodeJS
+### NodeJS
 
 ```javascript
 var MailChecker = require('mailchecker');
@@ -35,7 +36,7 @@ if(!MailChecker('myemail.com')){
 }
 ```
 
-## JavaScript
+### JavaScript
 ```html
 <script type="text/javascript" src="MailChecker/platform/javascript/MailChecker.js"></script>
 <script type="text/javascript">
@@ -49,7 +50,7 @@ if(!MailChecker('myemail.com')){
 </script>
 ```
 
-## PHP
+### PHP
 ```php
 include __DIR__."/MailChecker/platform/php/MailChecker.php";
 
