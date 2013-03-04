@@ -7,7 +7,6 @@
  * @return {Boolean} true is the specified email is valid, false otherwise
  */
 
-
 function MailChecker($email){
   $pattern = '/'.implode('|', array({{& listSTR }})).'/';
   if(preg_match($pattern, $email)){return false;}
