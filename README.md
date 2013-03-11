@@ -12,9 +12,9 @@ This will be very helpful when you have to contact your users and you want to av
 -------------------------
 
 MailChecker currently supports:
-* [NodeJS](./mailchecker/tree/master/platform/node) (CommonJS)
-* [JavaScript](./mailchecker/tree/master/platform/javascript) (Client-Side)
-* [PHP](./mailchecker/tree/master/platform/php)
+* [NodeJS](https://github.com/FGRibreau/mailchecker/tree/master/platform/node) (CommonJS)
+* [JavaScript](https://github.com/FGRibreau/mailchecker/tree/master/platform/javascript) (Client-Side)
+* [PHP](https://github.com/FGRibreau/mailchecker/tree/master/platform/php)
 * **Easily add support for your own language with MailChecker template system and [send us a pull-request!](https://github.com/FGRibreau/mailchecker/fork_select)**
 
 -------------------------
