@@ -1,5 +1,5 @@
 <?php
-require('../platform/php/MailChecker.php');
+require(__DIR__.'/../platform/php/mailchecker.php');
 
 // Activation des assertions et mise en mode discret
 assert_options(ASSERT_ACTIVE, 1);
@@ -33,6 +33,7 @@ function isInvalid($email){return _valid(false, $email);}
   isValid("my+ok@ok.plop.com");
   isValid("my=ok@ok.plop.com");
   isValid("ok@gmail.com");
+  isValid("ok@hotmail.com");
 // });
 
 // test('should return false if the email is invalid', function(){
@@ -40,6 +41,7 @@ function isInvalid($email){return _valid(false, $email);}
   isInvalid("my+ok@ok°plop.com");
   isInvalid("my+ok@ok=plop.com");
   isInvalid("my,ok@ok.plop.com");
+  isInvalid("ok@tmail.com");
 // });
 
 // test('should return false if the email come from a throwable domain', function(){
