@@ -19,6 +19,7 @@ suite('Node', function(){
       isValid("my+ok@ok.plop.com");
       isValid("my=ok@ok.plop.com");
       isValid("ok@gmail.com");
+      isValid("ok@hotmail.com");
     });
 
     test('should return false if the email is invalid', function(){
