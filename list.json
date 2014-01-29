@@ -10,5 +10,7 @@
   // Added by @fgribreau
   ["getairmail.com", "33mail.com", "reallymymail.com"],
   // Added by @watadarkstar from http://www.fakemailgenerator.com/
-  ["armyspy.com", "cuvox.de", "dayrep.com", "einrot.com", "fleckens.hu", "gustr.com", "jourrapide.com", "rhyta.com", "superrito.com", "teleworm.us"]
+  ["armyspy.com", "cuvox.de", "dayrep.com", "einrot.com", "fleckens.hu", "gustr.com", "jourrapide.com", "rhyta.com", "superrito.com", "teleworm.us"],
+  // Added by @vikbez from http://www.yopmail.com
+  ["yopmail.fr", "yopmail.net", "jetable.fr.nf", "nospam.ze.tc", "nomail.xl.cx", "mega.zik.dj", "speed.1s.fr", "cool.fr.nf", "courriel.fr.nf", "moncourrier.fr.nf", "monemail.fr.nf", "monmail.fr.nf"]
 ]
