@@ -2,7 +2,7 @@
 
 -------------------------
 
-Cross-language email validation. Backed by a [database](./list.json) of **435 throwable email providers**.
+Cross-language email validation. Backed by a [database](./list.json) of **454 throwable email providers**.
 
 * Validate the format of your email (uses [node-validator](https://github.com/chriso/node-validator/blob/master/lib/validators.js#L27) email regex underneath and `FILTER_VALIDATE_EMAIL` for PHP)
 * Validate if the email is not a **temporary mail** (yopmail-like..., [add your own dataset to list.json](./list.json))
