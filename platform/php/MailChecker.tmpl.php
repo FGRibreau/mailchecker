@@ -8,13 +8,7 @@
  */
 
 function MailChecker($email){
-  $domains = array({{& listSTR }});
-
-  for ($i=0; $i < count($domains); $i++) {
-    $domains[$i] = '\\b'.$domains[$i].'$';
-  }
-
-  $pattern = '/'.implode('|', $domains).'/';
+  $pattern = '/'.implode('|', array({{& listSTR }})).'/';
   if(preg_match($pattern, $email)){return false;}
   return !!filter_var($email, FILTER_VALIDATE_EMAIL);
 }

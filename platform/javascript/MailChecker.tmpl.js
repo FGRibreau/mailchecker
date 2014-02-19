@@ -14,6 +14,7 @@
   var isValidEmail     = {{& regexp }};
   var isThrowableEmail = new RegExp({{& listJSON }}.map(function(m) { return '\\b' + m + '$'; }).join('|'));
 
+
   global.MailChecker = function(email){
     if(!isValidEmail.test(email)){return false;}
     return !isThrowableEmail.test(email);
