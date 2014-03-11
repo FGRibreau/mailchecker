@@ -8,7 +8,7 @@
  */
 
 function MailChecker($email){
-  $pattern = '/'.implode('|', array({{& listSTR }})).'/';
+  $pattern = '/\\b'.implode('|\\b', array({{& listSTR }})).'/';
   if(preg_match($pattern, $email)){return false;}
   return !!filter_var($email, FILTER_VALIDATE_EMAIL);
 }
