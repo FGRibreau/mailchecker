@@ -14,5 +14,7 @@
   // Added by @vikbez from http://www.yopmail.com
   ["yopmail.fr", "yopmail.net", "jetable.fr.nf", "nospam.ze.tc", "nomail.xl.cx", "mega.zik.dj", "speed.1s.fr", "cool.fr.nf", "courriel.fr.nf", "moncourrier.fr.nf", "monemail.fr.nf", "monmail.fr.nf"],
   // Added by @nicolasbruel
-  ["guerrillamail.com","guerrillamailblock.com","sharklasers.com","guerrillamail.net","guerrillamail.org","guerrillamail.biz","spam4.me","grr.la","guerrillamail.de"]
+  ["guerrillamail.com","guerrillamailblock.com","sharklasers.com","guerrillamail.net","guerrillamail.org","guerrillamail.biz","spam4.me","grr.la","guerrillamail.de"],
+  // Added from http://spamdecoy.net
+  ["spamdecoy.net", "dharmatel.net", "ntlhelp.net", "slave-auctions.net", "deadchildren.org"]
 ]
