@@ -105,6 +105,9 @@ Just run (requires NodeJS):
 
 ## Changelog
 
+v1.0.0 
+ - drop support for node 0.6
+ 
 v0.2.0
  - upgrade unsecure deps
  - add `mailtothis.com`
