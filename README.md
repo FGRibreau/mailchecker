@@ -105,7 +105,11 @@ Just run (requires NodeJS):
 
 ## Changelog
 
-v0.1.12
+v0.2.0
+ - upgrade unsecure deps
+ - add `mailtothis.com`
+
+v0.1.11
 
 ## License
 Copyright (c) 2013 Francois-Guillaume Ribreau
