@@ -1,6 +1,6 @@
 {
   "name": "mailchecker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cross-language temporary (disposable/throwaway) email detection library. Covers hundreds fake email providers.",
   "main": "platform/node/",
   "scripts": {
@@ -36,5 +36,6 @@
     "nodeunit": "~0.9.0",
     "mocha": "~2.0.1",
     "should": "~4.2.1"
-  }
+  },
+  "optionalDependencies": {}
 }
