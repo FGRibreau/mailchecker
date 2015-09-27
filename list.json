@@ -18,5 +18,7 @@
   // Added from http://spamdecoy.net
   ["spamdecoy.net", "dharmatel.net", "ntlhelp.net", "slave-auctions.net", "deadchildren.org"],
   // Added from http://10minutemail.com
-  ["trbvm.com", "drdrb.com"]
+  ["trbvm.com", "drdrb.com"],
+  // Added by @gierschv
+  ["maildrop.cc", "harakirimail.com"]
 ]
