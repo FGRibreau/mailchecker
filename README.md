@@ -102,16 +102,8 @@ Just run (requires NodeJS):
 ## Donate
 [Donate Bitcoins](https://coinbase.com/checkouts/fc3041b9d8116e0b98e7d243c4727a30)
 
-## Changelog
+## [Changelog](/CHANGELOG.md)
 
-v1.0.0 
- - drop support for node 0.6
- 
-v0.2.0
- - upgrade unsecure deps
- - add `mailtothis.com`
-
-v0.1.11
 
 ## License
 Copyright (c) 2013 Francois-Guillaume Ribreau
