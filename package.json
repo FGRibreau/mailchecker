@@ -24,17 +24,17 @@
   "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com)",
   "license": "MIT",
   "dependencies": {
-    "async": "~0.9.0",
-    "cjson": "~0.3.0",
+    "async": "0.9.x",
+    "cjson": "0.3.x",
     "eventemitter2": "~0.4.14",
     "glob": "~4.0.6",
-    "lodash": "~2.4.1",
+    "lodash": "3.x.x",
     "mu2": "~0.5.20",
-    "multiline": "^1.0.1"
+    "multiline": "1.0.x"
   },
   "devDependencies": {
-    "nodeunit": "~0.9.0",
-    "mocha": "~2.0.1",
+    "nodeunit": "0.9.x",
+    "mocha": "2.x.x",
     "should": "~4.2.1"
   },
   "optionalDependencies": {}
