@@ -1,5 +1,29 @@
 # Change Log
 
+## [v1.2.0](https://github.com/fgribreau/mailchecker/tree/v1.2.0) (2015-09-27)
+
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.1.1...v1.2.0)
+
+**Implemented enhancements:**
+
+- Add @martenson disposable-email-domains [\#17](https://github.com/FGRibreau/mailchecker/issues/17)
+
+**Closed issues:**
+
+- Add https://raw.githubusercontent.com/lavab/disposable/master/domains.json [\#25](https://github.com/FGRibreau/mailchecker/issues/25)
+
+- Add @guerillamail.org [\#23](https://github.com/FGRibreau/mailchecker/issues/23)
+
+- Add this list https://gist.github.com/adamloving/4401361 [\#22](https://github.com/FGRibreau/mailchecker/issues/22)
+
+- add @ikbenspamvrij.nl [\#21](https://github.com/FGRibreau/mailchecker/issues/21)
+
+- Add @disposableinbox.com [\#20](https://github.com/FGRibreau/mailchecker/issues/20)
+
+- Add @my10minutemail.com [\#19](https://github.com/FGRibreau/mailchecker/issues/19)
+
+- Add chammy.info [\#18](https://github.com/FGRibreau/mailchecker/issues/18)
+
 ## [v1.1.1](https://github.com/fgribreau/mailchecker/tree/v1.1.1) (2015-09-27)
 
 [Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.1.0...v1.1.1)
