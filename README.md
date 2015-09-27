@@ -1,4 +1,5 @@
-# MailChecker [![Build Status](https://drone.io/github.com/FGRibreau/mailchecker/status.png)](https://drone.io/github.com/FGRibreau/mailchecker/latest) [![Deps](https://david-dm.org/FGRibreau/mailchecker.png)](https://david-dm.org/FGRibreau/mailchecker) [![Version](http://badge.fury.io/js/mailchecker.png)](http://badge.fury.io/js/mailchecker) [![Downloads](http://img.shields.io/npm/dm/mailchecker.svg)](https://www.npmjs.com/package/mailchecker)
+# MailChecker 
+[![Build Status](https://drone.io/github.com/FGRibreau/mailchecker/status.png)](https://drone.io/github.com/FGRibreau/mailchecker/latest) [![Deps](https://david-dm.org/FGRibreau/mailchecker.png)](https://david-dm.org/FGRibreau/mailchecker) [![Version](http://badge.fury.io/js/mailchecker.png)](http://badge.fury.io/js/mailchecker) [![Downloads](http://img.shields.io/npm/dm/mailchecker.svg)](https://www.npmjs.com/package/mailchecker)
 
 Cross-language email validation. Backed by a [database](./list.json) of **1327 throwable email providers**.
 
