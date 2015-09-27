@@ -1,5 +1,21 @@
 # Change Log
 
+## [v1.4.0](https://github.com/fgribreau/mailchecker/tree/v1.4.0) (2015-09-27)
+
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.3.1...v1.4.0)
+
+**Closed issues:**
+
+- Create a separate PHP library [\#28](https://github.com/FGRibreau/mailchecker/issues/28)
+
+- list.json isn’t JSON  [\#27](https://github.com/FGRibreau/mailchecker/issues/27)
+
+- Randomail is missing [\#26](https://github.com/FGRibreau/mailchecker/issues/26)
+
+## [v1.3.1](https://github.com/fgribreau/mailchecker/tree/v1.3.1) (2015-09-27)
+
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.3.0...v1.3.1)
+
 ## [v1.3.0](https://github.com/fgribreau/mailchecker/tree/v1.3.0) (2015-09-27)
 
 [Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.2.0...v1.3.0)
