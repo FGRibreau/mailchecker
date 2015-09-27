@@ -43,11 +43,11 @@ suite('Generator', function () {
 
   suite('.compile', function () {
     test('should compile all templates', function (tdone) {
-      // Generator.on('*', function(template){
+      // Generator.on('*', function (template) {
       //   console.info(this.event, template.template);
       // });
       Generator.compile(function (err) {
-        t.deepEqual(err, undefined);
+        t.deepEqual(err, null);
         tdone();
       });
     });
