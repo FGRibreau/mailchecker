@@ -30,9 +30,10 @@
     "glob": "^5.0.14",
     "lodash": "3.x.x",
     "mu2": "~0.5.20",
-    "multiline": "1.0.x"
+    "multiline": "1.0.x",
   },
   "devDependencies": {
+    "should": "^7.1.0",
     "nodeunit": "0.9.x",
     "mocha": "2.x.x"
   },
