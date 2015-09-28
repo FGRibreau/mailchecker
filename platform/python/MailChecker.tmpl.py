@@ -13,6 +13,7 @@ class MailChecker(object):
         self.valid_matcher = re.compile(self.email_regex)
 
     def is_valid(self, email):
+        email = email.lower()
         return self.is_valid_email_format(email) and self.fake_matcher.search(email) == None
 
     def is_valid_email_format(self, email):
