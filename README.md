@@ -10,6 +10,15 @@ This will be very helpful when you have to contact your users and you want to av
 
 -------------------------
 
+> Looking for a free **Redis administration & monitoring** service? 
+>
+> [**Create your free account on Redsmin**](https://redsmin.com?gh)
+
+
+<p align="center"><a href="https://redsmin.com?gh"><img src="https://redsmin.com/logo/rect-large-color-transparent@256.png"/></a></p>
+
+-------------------------
+
 MailChecker currently supports:
 * [NodeJS](https://github.com/FGRibreau/mailchecker/tree/master/platform/node) (CommonJS)
 * [JavaScript](https://github.com/FGRibreau/mailchecker/tree/master/platform/javascript) (Client-Side)
