@@ -32,4 +32,8 @@ class TestMailChecker < MiniTest::Unit::TestCase
     invalid!('ok@ok.33mail.com')
     invalid!('ok@guerrillamailblock.com')
   end
+
+  def test_can_be_called_as_regular_method
+    assert_equal MailChecker.valid?(nil), false
+  end
 end

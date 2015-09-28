@@ -2,3 +2,5 @@
 node_modules
 npm-*.log
 compare.js
+*.gem
+Gemfile.lock

@@ -62,6 +62,20 @@ if(!MailChecker('myemail.com')){
 }
 ```
 
+### Ruby
+
+```ruby
+require 'mail_checker'
+
+unless MailChecker('myemail@yopmail.com')
+  fail('O RLY!')
+end
+
+unless MailChecker.valid?('myemail@yopmail.com')
+  fail('O RLY!')
+end
+```
+
 --------------------
 
 
@@ -70,6 +84,11 @@ if(!MailChecker('myemail.com')){
 NodeJS/JavaScript
 ```bash
 npm install mailchecker
+```
+
+Ruby
+```bash
+gem install mail_checker
 ```
 
 __We accept pull-requests for other package manager__.
