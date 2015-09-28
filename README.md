@@ -74,6 +74,7 @@ if(!MailChecker('myemail.com')){
 
 ### Python
 ```python
+# no package yet; just drop in MailChecker where you want to use it.
 import MailChecker
 m = MailChecker.MailChecker()
 
