@@ -62,7 +62,7 @@ if(!MailChecker('myemail.com')){
 }
 ```
 
-### Ruby
+### Ruby [![Build Status](https://travis-ci.org/FGRibreau/mailchecker.svg)](https://travis-ci.org/FGRibreau/mailchecker)
 
 ```ruby
 require 'mail_checker'
