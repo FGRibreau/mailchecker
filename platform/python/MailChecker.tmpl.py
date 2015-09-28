@@ -17,7 +17,7 @@ class MailChecker(object):
         return self.is_valid_email_format(email) and self.fake_matcher.search(email) == None
 
     def is_valid_email_format(self, email):
-        if email:
+        if email and email != '':
             return self.valid_matcher.search(email) != None
         else:
-			return False
+            return False
