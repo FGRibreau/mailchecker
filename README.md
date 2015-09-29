@@ -88,7 +88,7 @@ npm install mailchecker
 
 Ruby
 ```bash
-gem install mail_checker
+gem install ruby-mailchecker
 ```
 
 __We accept pull-requests for other package manager__.
