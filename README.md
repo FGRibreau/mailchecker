@@ -71,6 +71,17 @@ if(!MailChecker('myemail.com')){
 }
 ```
 
+
+### Python
+```python
+# no package yet; just drop in MailChecker.py where you want to use it.
+import MailChecker
+m = MailChecker.MailChecker()
+
+if not m.is_valid('bla@example.com'):
+    print "O RLY !"
+```
+
 --------------------
 
 
