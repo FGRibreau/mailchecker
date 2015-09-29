@@ -1,4 +1,4 @@
-# MailChecker 
+# MailChecker
 [![Build Status](https://drone.io/github.com/FGRibreau/mailchecker/status.png)](https://drone.io/github.com/FGRibreau/mailchecker/latest) [![Deps](https://david-dm.org/FGRibreau/mailchecker.png)](https://david-dm.org/FGRibreau/mailchecker) [![Version](http://badge.fury.io/js/mailchecker.png)](http://badge.fury.io/js/mailchecker) [![Downloads](http://img.shields.io/npm/dm/mailchecker.svg)](https://www.npmjs.com/package/mailchecker)
 
 Cross-language email validation. Backed by a [database](./list.json) of **1979 throwable email providers**.
@@ -10,7 +10,7 @@ This will be very helpful when you have to contact your users and you want to av
 
 -------------------------
 
-> Looking for a free **Redis administration & monitoring** service? 
+> Looking for a free **Redis administration & monitoring** service?
 >
 > [**Create your free account on Redsmin**](https://redsmin.com?gh)
 
@@ -23,6 +23,8 @@ MailChecker currently supports:
 * [NodeJS](https://github.com/FGRibreau/mailchecker/tree/master/platform/node) (CommonJS)
 * [JavaScript](https://github.com/FGRibreau/mailchecker/tree/master/platform/javascript) (Client-Side)
 * [PHP](https://github.com/FGRibreau/mailchecker/tree/master/platform/php)
+* [Python](https://github.com/FGRibreau/mailchecker/tree/master/platform/python)
+* [Ruby](https://github.com/FGRibreau/mailchecker/tree/master/platform/ruby)
 * **Easily add support for your own language with MailChecker template system and [send us a pull-request!](https://github.com/FGRibreau/mailchecker/fork_select)**
 
 -------------------------
@@ -59,6 +61,7 @@ if(!MailChecker('myemail.com')){
 ```
 
 ### PHP
+
 ```php
 include __DIR__."/MailChecker/platform/php/MailChecker.php";
 
@@ -71,8 +74,8 @@ if(!MailChecker('myemail.com')){
 }
 ```
 
-
 ### Python
+
 ```python
 # no package yet; just drop in MailChecker.py where you want to use it.
 import MailChecker
@@ -80,6 +83,20 @@ m = MailChecker.MailChecker()
 
 if not m.is_valid('bla@example.com'):
     print "O RLY !"
+```
+
+### Ruby
+
+```ruby
+require 'mail_checker'
+
+unless MailChecker('myemail@yopmail.com')
+  fail('O RLY!')
+end
+
+unless MailChecker.valid?('myemail@yopmail.com')
+  fail('O RLY!')
+end
 ```
 
 --------------------
@@ -90,6 +107,11 @@ if not m.is_valid('bla@example.com'):
 NodeJS/JavaScript
 ```bash
 npm install mailchecker
+```
+
+Ruby
+```bash
+gem install mail_checker
 ```
 
 __We accept pull-requests for other package manager__.
