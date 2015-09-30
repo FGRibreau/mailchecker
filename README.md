@@ -14,6 +14,7 @@ MailChecker currently supports:
 * [NodeJS](https://github.com/FGRibreau/mailchecker/tree/master/platform/node) (CommonJS)
 * [JavaScript](https://github.com/FGRibreau/mailchecker/tree/master/platform/javascript) (Client-Side)
 * [PHP](https://github.com/FGRibreau/mailchecker/tree/master/platform/php)
+* [Elixir](https://github.com/FGRibreau/mailchecker/tree/master/platform/elixir)
 * **Easily add support for your own language with MailChecker template system and [send us a pull-request!](https://github.com/FGRibreau/mailchecker/fork_select)**
 
 -------------------------
@@ -60,6 +61,20 @@ if(!MailChecker('myemail@yopmail.com')){
 if(!MailChecker('myemail.com')){
   die('O RLY !');
 }
+```
+
+### Elixir
+
+```elixir
+Code.require_file("mail_checker.ex", "mailchecker/platform/elixir/")
+
+unless MailChecker.valid?("myemail@yopmail.com") do
+  raise "O RLY !"
+end
+
+unless MailChecker.valid?("myemail.com") do
+  raise "O RLY !"
+end
 ```
 
 --------------------
