@@ -10,10 +10,21 @@ This will be very helpful when you have to contact your users and you want to av
 
 -------------------------
 
+> Looking for a free **Redis administration & monitoring** service?
+>
+> [**Create your free account on Redsmin**](https://redsmin.com?gh)
+
+
+<p align="center"><a href="https://redsmin.com?gh"><img src="https://redsmin.com/logo/rect-large-color-transparent@256.png"/></a></p>
+
+-------------------------
+
 MailChecker currently supports:
 * [NodeJS](https://github.com/FGRibreau/mailchecker/tree/master/platform/node) (CommonJS)
 * [JavaScript](https://github.com/FGRibreau/mailchecker/tree/master/platform/javascript) (Client-Side)
 * [PHP](https://github.com/FGRibreau/mailchecker/tree/master/platform/php)
+* [Python](https://github.com/FGRibreau/mailchecker/tree/master/platform/python)
+* [Ruby](https://github.com/FGRibreau/mailchecker/tree/master/platform/ruby)
 * [Elixir](https://github.com/FGRibreau/mailchecker/tree/master/platform/elixir)
 * **Easily add support for your own language with MailChecker template system and [send us a pull-request!](https://github.com/FGRibreau/mailchecker/fork_select)**
 
@@ -51,6 +62,7 @@ if(!MailChecker('myemail.com')){
 ```
 
 ### PHP
+
 ```php
 include __DIR__."/MailChecker/platform/php/MailChecker.php";
 
@@ -77,6 +89,31 @@ unless MailChecker.valid?("myemail.com") do
 end
 ```
 
+### Python
+
+```python
+# no package yet; just drop in MailChecker.py where you want to use it.
+import MailChecker
+m = MailChecker.MailChecker()
+
+if not m.is_valid('bla@example.com'):
+    print "O RLY !"
+```
+
+### Ruby
+
+```ruby
+require 'mail_checker'
+
+unless MailChecker('myemail@yopmail.com')
+  fail('O RLY!')
+end
+
+unless MailChecker.valid?('myemail@yopmail.com')
+  fail('O RLY!')
+end
+```
+
 --------------------
 
 
@@ -85,6 +122,11 @@ end
 NodeJS/JavaScript
 ```bash
 npm install mailchecker
+```
+
+Ruby
+```bash
+gem install ruby-mailchecker
 ```
 
 __We accept pull-requests for other package manager__.
