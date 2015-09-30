@@ -1,4 +1,4 @@
-# MailChecker
+# MailChecker 
 [![Build Status](https://drone.io/github.com/FGRibreau/mailchecker/status.png)](https://drone.io/github.com/FGRibreau/mailchecker/latest) [![Deps](https://david-dm.org/FGRibreau/mailchecker.png)](https://david-dm.org/FGRibreau/mailchecker) [![Version](http://badge.fury.io/js/mailchecker.png)](http://badge.fury.io/js/mailchecker) [![Downloads](http://img.shields.io/npm/dm/mailchecker.svg)](https://www.npmjs.com/package/mailchecker)
 
 Cross-language email validation. Backed by a [database](./list.json) of **1979 throwable email providers**.
@@ -25,6 +25,7 @@ MailChecker currently supports:
 * [PHP](https://github.com/FGRibreau/mailchecker/tree/master/platform/php)
 * [Python](https://github.com/FGRibreau/mailchecker/tree/master/platform/python)
 * [Ruby](https://github.com/FGRibreau/mailchecker/tree/master/platform/ruby)
+* [Elixir](https://github.com/FGRibreau/mailchecker/tree/master/platform/elixir)
 * **Easily add support for your own language with MailChecker template system and [send us a pull-request!](https://github.com/FGRibreau/mailchecker/fork_select)**
 
 -------------------------
@@ -72,6 +73,20 @@ if(!MailChecker('myemail@yopmail.com')){
 if(!MailChecker('myemail.com')){
   die('O RLY !');
 }
+```
+
+### Elixir
+
+```elixir
+Code.require_file("mail_checker.ex", "mailchecker/platform/elixir/")
+
+unless MailChecker.valid?("myemail@yopmail.com") do
+  raise "O RLY !"
+end
+
+unless MailChecker.valid?("myemail.com") do
+  raise "O RLY !"
+end
 ```
 
 ### Python
