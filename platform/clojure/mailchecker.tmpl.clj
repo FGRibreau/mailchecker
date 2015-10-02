@@ -4,11 +4,13 @@
 
 (def ^:const blacklist (set [{{& listSTR }}]))
 
-; Copied from https://github.com/scstarkey/noir/blob/998e846dd44f42b8e01a6977e6d22a3eff5e4542/src/noir/validation.clj#L37-L40
+; Source: https://github.com/scstarkey/noir/blob/998e846dd44f42b8e01a6977e6d22a3eff5e4542/src/noir/validation.clj#L37-L40
+; Modified to return true/false
 (defn is-email?
   "Returns true if email is an email address"
   [email]
-  (re-matches #"(?i)[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" email))
+  (if (re-matches #"(?i)[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" email)
+    true false))
 
 (defn at-split
   "Returns list from string splitted on @ char"
@@ -55,25 +57,3 @@
     (is-email? email)
     (not
       (in-blacklist? email))))
-
-; (println (valid? "test@example.com"))
-; (println (valid? "example.com"))
-; (println (top-domain-part "test@sub.example.com"))
-
-; Valid
-(println (valid? "plop@plop.com"))
-(println (valid? "my.ok@ok.plop.com"))
-(println (valid? "my+ok@ok.plop.com"))
-(println (valid? "my=ok@ok.plop.com"))
-(println (valid? "ok@gmail.com"))
-(println (valid? "ok@hotmail.com"))
-
-; Invalid
-(println (not (valid? "plopplop.com")))
-(println (not (valid? "my+ok@ok=plop.com")))
-(println (not (valid? "my,ok@ok.plop.com")))
-
-(println (not (valid? "ok@tmail.com")))
-(println (not (valid? "ok@33mail.com")))
-(println (not (valid? "ok@ok.33mail.com")))
-(println (not (valid? "ok@guerrillamailblock.com")))
