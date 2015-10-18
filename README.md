@@ -25,6 +25,8 @@ MailChecker currently supports:
 * [PHP](https://github.com/FGRibreau/mailchecker/tree/master/platform/php)
 * [Python](https://github.com/FGRibreau/mailchecker/tree/master/platform/python)
 * [Ruby](https://github.com/FGRibreau/mailchecker/tree/master/platform/ruby)
+* [Elixir](https://github.com/FGRibreau/mailchecker/tree/master/platform/elixir)
+* [Clojure](https://github.com/FGRibreau/mailchecker/tree/master/platform/clojure)
 * **Easily add support for your own language with MailChecker template system and [send us a pull-request!](https://github.com/FGRibreau/mailchecker/fork_select)**
 
 -------------------------
@@ -74,6 +76,20 @@ if(!MailChecker('myemail.com')){
 }
 ```
 
+### Elixir
+
+```elixir
+Code.require_file("mail_checker.ex", "mailchecker/platform/elixir/")
+
+unless MailChecker.valid?("myemail@yopmail.com") do
+  raise "O RLY !"
+end
+
+unless MailChecker.valid?("myemail.com") do
+  raise "O RLY !"
+end
+```
+
 ### Python
 
 ```python
@@ -85,7 +101,7 @@ if not m.is_valid('bla@example.com'):
     print "O RLY !"
 ```
 
-### Ruby
+### Ruby [![Build Status](https://travis-ci.org/FGRibreau/mailchecker.svg)](https://travis-ci.org/FGRibreau/mailchecker)
 
 ```ruby
 require 'mail_checker'
@@ -97,6 +113,19 @@ end
 unless MailChecker.valid?('myemail@yopmail.com')
   fail('O RLY!')
 end
+```
+
+### Clojure
+
+```clojure
+; no package yet; just drop in mailchecker.clj where you want to use it.
+(load-file "platform/clojure/mailchecker.clj")
+
+(if (not (mailchecker/valid? "myemail@yopmail.com"))
+  (throw (Throwable. "O RLY!")))
+
+(if (not (mailchecker/valid? "myemail.com"))
+  (throw (Throwable. "O RLY!")))
 ```
 
 --------------------
