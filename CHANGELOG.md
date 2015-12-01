@@ -1,5 +1,12 @@
 # Change Log
 
+## [v1.5.1](https://github.com/fgribreau/mailchecker/tree/v1.5.1) (2015-12-01)
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.5.0...v1.5.1)
+
+**Closed issues:**
+
+- Remove fastmail.fm provider as it is legitimate [\#47](https://github.com/FGRibreau/mailchecker/issues/47)
+
 ## [v1.5.0](https://github.com/fgribreau/mailchecker/tree/v1.5.0) (2015-11-30)
 [Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.4.0...v1.5.0)
 
