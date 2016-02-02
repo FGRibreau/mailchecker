@@ -1,5 +1,16 @@
 # Change Log
 
+## [v1.5.2](https://github.com/fgribreau/mailchecker/tree/v1.5.2) (2016-02-02)
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.5.1...v1.5.2)
+
+**Closed issues:**
+
+- Some other domains are missing [\#43](https://github.com/FGRibreau/mailchecker/issues/43)
+
+**Merged pull requests:**
+
+- Temporary mail domains assigned by temp-mail.ru [\#49](https://github.com/FGRibreau/mailchecker/pull/49) ([algenon](https://github.com/algenon))
+
 ## [v1.5.1](https://github.com/fgribreau/mailchecker/tree/v1.5.1) (2015-12-01)
 [Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.5.0...v1.5.1)
 
