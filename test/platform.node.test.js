@@ -29,6 +29,7 @@ suite('Node', function () {
       isInvalid("my+ok@ok=plop.com");
       isInvalid("my,ok@ok.plop.com");
       isInvalid("ok@tmail.com");
+      isInvalid("plop@yopmail.pp.ua");
     });
 
     test('should return false if the email come from a throwable domain', function () {

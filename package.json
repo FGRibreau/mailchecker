@@ -5,8 +5,8 @@
   "main": "platform/node/",
   "scripts": {
     "test": "./node_modules/.bin/mocha -r should -R spec -G -u tdd",
-    "gen": "node gen.js",
-    "phptest": "npm run gen && php test/*.php",
+    "build": "node gen.js",
+    "phptest": "npm run build && php test/*.php",
     "watch": "./node_modules/.bin/mocha -r should -R spec -G -u tdd -w"
   },
   "repository": {

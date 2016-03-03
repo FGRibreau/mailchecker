@@ -167,8 +167,9 @@ Regenerate libraries from list.json
 -------------------------------
 
 Just run (requires NodeJS):
+
 ```
-./gen.js
+npm run build
 ```
 
 ## Donate
@@ -179,5 +180,5 @@ I maintain this project in my free time, if it helped you please support my work
 
 
 ## License
-Copyright (c) 2013 Francois-Guillaume Ribreau
+Copyright (c) Francois-Guillaume Ribreau
 Licensed under the MIT license.
