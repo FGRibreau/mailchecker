@@ -1,5 +1,20 @@
 # Change Log
 
+## [Unreleased](https://github.com/fgribreau/mailchecker/tree/HEAD)
+
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.6.0...HEAD)
+
+**Implemented enhancements:**
+
+- Python platform enhancement [\#33](https://github.com/FGRibreau/mailchecker/issues/33)
+
+**Closed issues:**
+
+- Add domains to blacklist [\#52](https://github.com/FGRibreau/mailchecker/issues/52)
+
+## [v1.6.0](https://github.com/fgribreau/mailchecker/tree/v1.6.0) (2016-03-03)
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.5.2...v1.6.0)
+
 ## [v1.5.2](https://github.com/fgribreau/mailchecker/tree/v1.5.2) (2016-02-02)
 [Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.5.1...v1.5.2)
 
