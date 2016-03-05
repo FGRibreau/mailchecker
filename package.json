@@ -7,7 +7,8 @@
     "test": "./node_modules/.bin/mocha -r should -R spec -G -u tdd",
     "build": "node gen.js",
     "phptest": "npm run build && php test/*.php",
-    "watch": "./node_modules/.bin/mocha -r should -R spec -G -u tdd -w"
+    "watch": "./node_modules/.bin/mocha -r should -R spec -G -u tdd -w",
+    "changelog": "./scripts/changelog && git commit -a -m 'docs(changelog)' && git push"
   },
   "repository": {
     "type": "git",
