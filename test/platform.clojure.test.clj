@@ -5,35 +5,50 @@
 (ns clojure.test.example
   (:use clojure.test))
 
+(defn expect-valid-result [expected-valid email]
+  (is (= expected-valid (mailchecker/valid? email))))
+
+(def expect-invalid (partial expect-valid-result false))
+(def expect-valid (partial expect-valid-result true))
+
 ; Valid
 (deftest true-for-valid-1
-  (is (= true (mailchecker/valid? "plop@plop.com"))))
+  (expect-valid "plop@plop.com"))
 (deftest true-for-valid-2
-  (is (= true (mailchecker/valid? "my.ok@ok.plop.com"))))
+  (expect-valid "my.ok@ok.plop.com"))
 (deftest true-for-valid-3
-  (is (= true (mailchecker/valid? "my+ok@ok.plop.com"))))
+  (expect-valid "my+ok@ok.plop.com"))
 (deftest true-for-valid-4
-  (is (= true (mailchecker/valid? "my=ok@ok.plop.com"))))
+  (expect-valid "my=ok@ok.plop.com"))
 (deftest true-for-valid-5
-  (is (= true (mailchecker/valid? "ok@gmail.com"))))
+  (expect-valid "ok@gmail.com"))
 (deftest true-for-valid-6
-  (is (= true (mailchecker/valid? "ok@hotmail.com"))))
+  (expect-valid "ok@hotmail.com"))
 
 ; Invalid
 (deftest false-for-invalid-1
-  (is(= false (mailchecker/valid? "plopplop.com"))))
+  (expect-invalid "plopplop.com"))
 (deftest false-for-invalid-2
-  (is(= false (mailchecker/valid? "my+ok@ok=plop.com"))))
+  (expect-invalid "my+ok@ok=plop.com"))
 (deftest false-for-invalid-3
-  (is(= false (mailchecker/valid? "my,ok@ok.plop.com"))))
+  (expect-invalid "my,ok@ok.plop.com"))
 
 (deftest false-for-spam-1
-  (is(= false (mailchecker/valid? "ok@tmail.com"))))
+  (expect-invalid "ok@tmail.com"))
 (deftest false-for-spam-2
-  (is(= false (mailchecker/valid? "ok@33mail.com"))))
+  (expect-invalid "ok@33mail.com"))
 (deftest false-for-spam-3
-  (is(= false (mailchecker/valid? "ok@ok.33mail.com"))))
+  (expect-invalid "ok@ok.33mail.com"))
 (deftest false-for-spam-4
-  (is(= false (mailchecker/valid? "ok@guerrillamailblock.com"))))
+  (expect-invalid "ok@guerrillamailblock.com"))
+
+(deftest false-for-blacklist-entries
+  (every? (fn [domain]
+              (do (expect-invalid (str "test@" domain))
+                  (expect-invalid (str "test@subdomain." domain))
+                  ;; Blacklisted domains should be valid as subdomains of a
+                  ;; valid domain.
+                  (expect-valid (str "test@" domain ".gmail.com"))))
+          mailchecker/blacklist))
 
 (run-all-tests)

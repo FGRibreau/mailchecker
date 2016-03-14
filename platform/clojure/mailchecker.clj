@@ -38,17 +38,16 @@
   [string]
   (str/split string #"\."))
 
-(defn top-domain-part
-  "Returns the top domain for email"
+(defn all-domain-suffixes
+  "Returns all suffixes of the email domain, longest first"
   [email]
-  (dot-join
-    (take-last 2
-      (dot-split (domain-part email)))))
+  (let [domain-parts (dot-split (domain-part email))]
+       (map #(dot-join (drop % domain-parts)) (range 0 (count domain-parts)))))
 
 (defn in-blacklist?
-  "Returns true if email domain is not in the blacklist"
+  "Returns true if any suffix of the email domain is in the blacklist"
   [email]
-  (contains? blacklist (top-domain-part email)))
+  (some (partial contains? blacklist) (all-domain-suffixes email)))
 
 (defn valid?
   "Returns true if the email is valid"
