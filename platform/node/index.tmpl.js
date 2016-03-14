@@ -2,15 +2,36 @@
  * Usage
  *
  * var MailChecker = require('mailchecker/platform/node')
- * MailChecker(String email);
+ * MailChecker.is_valid(String email);
  * @return {Boolean} true is the specified email is valid, false otherwise
  */
+var range = require('node-range');
 
-var lists            = {{& listJSON }};
+var blacklist        = [{{& listSTR }}];
 var isValidEmail     = {{& regexp }};
-var isThrowableEmail = new RegExp(lists.map(function(m) { return '\\b' + m + '$'; }).join('|'));
 
-module.exports = function MailChecker(email){
-  if(!isValidEmail.test(email)){return false;}
-  return !isThrowableEmail.test(email);
+function all_domain_suffixes(email) {
+  var domain_components = email.split('@')[1].split('.');
+
+  return range(0, domain_components.length).map(function (n) {
+    return domain_components.slice(n).join('.');
+  });
+}
+
+function is_blacklisted(email) {
+  function suffix_is_blacklisted(domain_suffix) {
+    return blacklist.indexOf(domain_suffix) >= 0;
+  }
+
+  return all_domain_suffixes(email).some(suffix_is_blacklisted);
+};
+
+module.exports = {
+  is_valid: function (email){
+    if(!isValidEmail.test(email)){return false;}
+    return !is_blacklisted(email);
+  },
+  blacklist: function () {
+    return blacklist;
+  }
 };

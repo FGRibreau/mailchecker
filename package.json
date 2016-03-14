@@ -31,7 +31,8 @@
     "glob": "^5.0.14",
     "lodash": "3.x.x",
     "mu2": "~0.5.20",
-    "multiline": "1.0.x"
+    "multiline": "1.0.x",
+    "node-range": "0.1.x"
   },
   "devDependencies": {
     "should": "^7.1.0",
