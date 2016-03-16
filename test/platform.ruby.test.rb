@@ -1,8 +1,10 @@
+# Run tests from the repository root directory:
+# $ bundle install && bundle exec ruby test/platform.ruby.test.rb
 require 'minitest/autorun'
 
 require_relative '../platform/ruby/mail_checker'
 
-class TestMailChecker < MiniTest::Unit::TestCase
+class TestMailChecker < MiniTest::Test
   def valid!(email)
     assert_equal true, MailChecker(email)
   end
@@ -21,13 +23,15 @@ class TestMailChecker < MiniTest::Unit::TestCase
   end
 
   def test_return_false_if_email_invalid
+    invalid!('')
+    invalid!('  ')
     invalid!('plopplop.com')
     invalid!('my+ok@ok=plop.com')
     invalid!('my,ok@ok.plop.com')
-    invalid!('ok@tmail.com')
   end
 
   def test_return_false_if_throwable_domain
+    invalid!('ok@tmail.com')
     invalid!('ok@33mail.com')
     invalid!('ok@ok.33mail.com')
     invalid!('ok@guerrillamailblock.com')
