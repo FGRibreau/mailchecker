@@ -33,6 +33,8 @@ class TestMailCheckerIsValid(unittest.TestCase):
     self.valid("ok@hotmail.com")
 
   def test_return_false_if_email_invalid(self):
+    self.invalid("")
+    self.invalid(" ")
     self.invalid("plopplop.com")
     self.invalid("my+ok@ok=plop.com")
     self.invalid("my,ok@ok.plop.com")
@@ -42,6 +44,13 @@ class TestMailCheckerIsValid(unittest.TestCase):
     self.invalid("ok@33mail.com")
     self.invalid("ok@ok.33mail.com")
     self.invalid("ok@guerrillamailblock.com")
+
+  def test_return_false_for_blacklisted_domains_and_their_subdomains(self):
+    for blacklisted_domain in self.mail_checker.blacklist:
+      self.invalid("test@" + blacklisted_domain)
+      self.invalid("test@subdomain." + blacklisted_domain)
+      # Should not be invalid as a subdomain of a valid domain.
+      self.valid("test@%s.gmail.com" % blacklisted_domain)
 
 if __name__ == '__main__':
     unittest.main()
