@@ -9,5 +9,8 @@
 
 function MailChecker($email){
   if(filter_var($email, FILTER_VALIDATE_EMAIL) === false){return false;}
-  return !in_array(strtolower(end(explode("@", $email))), array({{& listSTR }}));
+
+  $components = explode("@", $email);
+
+  return !in_array(strtolower(end($components)), array({{& listSTR }}));
 }
