@@ -11,36 +11,26 @@
 (def expect-invalid (partial expect-valid-result false))
 (def expect-valid (partial expect-valid-result true))
 
-; Valid
-(deftest true-for-valid-1
-  (expect-valid "plop@plop.com"))
-(deftest true-for-valid-2
-  (expect-valid "my.ok@ok.plop.com"))
-(deftest true-for-valid-3
-  (expect-valid "my+ok@ok.plop.com"))
-(deftest true-for-valid-4
-  (expect-valid "my=ok@ok.plop.com"))
-(deftest true-for-valid-5
-  (expect-valid "ok@gmail.com"))
-(deftest true-for-valid-6
-  (expect-valid "ok@hotmail.com"))
+(deftest true-for-valid
+  (do (expect-valid "plop@plop.com")
+      (expect-valid "my.ok@ok.plop.com")
+      (expect-valid "my+ok@ok.plop.com")
+      (expect-valid "my=ok@ok.plop.com")
+      (expect-valid "ok@gmail.com")
+      (expect-valid "ok@hotmail.com")))
 
-; Invalid
-(deftest false-for-invalid-1
-  (expect-invalid "plopplop.com"))
-(deftest false-for-invalid-2
-  (expect-invalid "my+ok@ok=plop.com"))
-(deftest false-for-invalid-3
-  (expect-invalid "my,ok@ok.plop.com"))
+(deftest false-for-invalid
+  (do (expect-invalid "")
+      (expect-invalid "  ")
+      (expect-invalid "plopplop.com")
+      (expect-invalid "my+ok@ok=plop.com")
+      (expect-invalid "my,ok@ok.plop.com")))
 
-(deftest false-for-spam-1
-  (expect-invalid "ok@tmail.com"))
-(deftest false-for-spam-2
-  (expect-invalid "ok@33mail.com"))
-(deftest false-for-spam-3
-  (expect-invalid "ok@ok.33mail.com"))
-(deftest false-for-spam-4
-  (expect-invalid "ok@guerrillamailblock.com"))
+(deftest false-for-throwable-domain
+  (do (expect-invalid "ok@tmail.com")
+      (expect-invalid "ok@33mail.com")
+      (expect-invalid "ok@ok.33mail.com")
+      (expect-invalid "ok@guerrillamailblock.com")))
 
 (deftest false-for-blacklist-entries
   (every? (fn [domain]
