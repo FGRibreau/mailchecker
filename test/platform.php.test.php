@@ -8,9 +8,12 @@ class MailCheckerTest extends PHPUnit_Framework_TestCase
 {
     protected $mailChecker = null;
 
+    public function setUp() {
+        $this->mailChecker = new MailChecker();
+    }
+
     public function assertIsValidResult($expected, $email) {
-        $actual = MailChecker($email);
-        $this->assertEquals($expected, $actual);
+        $this->assertEquals($expected, $this->mailChecker->isValid($email));
     }
 
     public function isValid($email) {
@@ -43,6 +46,15 @@ class MailCheckerTest extends PHPUnit_Framework_TestCase
         $this->isInvalid('ok@33mail.com');
         //$this->isInvalid('ok@ok.33mail.com');
         $this->isInvalid('ok@guerrillamailblock.com');
+    }
+
+    public function testReturnFalseForBlacklistedDomainsAndTheirSubdomains() {
+        foreach($this->mailChecker->blacklist() as $blacklisted_domain) {
+            $this->isInvalid("test@" . $blacklisted_domain);
+            $this->isInvalid("test@subdomain." . $blacklisted_domain);
+            # Should not be invalid as a subdomain of a valid domain.
+            $this->isValid("test@" . $blacklisted_domain . ".gmail.com");
+        }
     }
 }
 ?>
