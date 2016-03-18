@@ -8,7 +8,7 @@
 var range = require('node-range');
 
 var blacklist        = [{{& listSTR }}];
-var isValidEmail     = {{& regexp }};
+var isValidEmail     = /{{& regexp }}/;
 
 function all_domain_suffixes(email) {
   var domain_components = email.split('@')[1].split('.');
@@ -28,6 +28,7 @@ function is_blacklisted(email) {
 
 module.exports = {
   is_valid: function (email){
+    email = email.toLowerCase();
     if(!isValidEmail.test(email)){return false;}
     return !is_blacklisted(email);
   },

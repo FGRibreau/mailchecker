@@ -6,12 +6,12 @@
  *
  * <script type="text/javascript" src="mailchecker/platform/javascript/mailchecker.js"></script>
  * <script type="text/javascript">
- *   alert(MailChecker("plop@plop.33mail.com"));
+ *   alert(MailChecker.is_valid("plop@plop.33mail.com"));
  * </script>
  */
 
 (function(global){
-  var isValidEmail     = {{& regexp }};
+  var isValidEmail     = /{{& regexp }}/;
   var blacklist        = [{{& listSTR }}];
 
   function mapRange(start, endExclusive, f) {
@@ -40,6 +40,7 @@
 
   global.MailChecker = {
     is_valid: function (email){
+      email = email.toLowerCase();
       if(!isValidEmail.test(email)){return false;}
       return !is_blacklisted(email);
     },

@@ -4,13 +4,10 @@
 
 (def ^:const blacklist (set [{{& listSTR }}]))
 
-; Source: https://github.com/scstarkey/noir/blob/998e846dd44f42b8e01a6977e6d22a3eff5e4542/src/noir/validation.clj#L37-L40
-; Modified to return true/false
 (defn is-email?
   "Returns true if email is an email address"
   [email]
-  (if (re-matches #"(?i)[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" email)
-    true false))
+  (if (re-matches #"{{& regexp }}" email) true false))
 
 (defn at-split
   "Returns list from string splitted on @ char"

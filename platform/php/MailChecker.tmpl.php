@@ -11,10 +11,7 @@ class MailChecker {
     private $blacklist;
 
     public function __construct() {
-        $this->blacklist = array_map(
-            'strtolower',
-            array_unique(array({{& listSTR }}))
-        );
+        $this->blacklist = array_unique(array({{& listSTR }}));
     }
 
     public function isValid($email) {
