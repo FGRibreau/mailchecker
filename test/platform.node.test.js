@@ -8,7 +8,7 @@ suite('Node', function () {
   });
 
   function _is(b, email) {
-    t.equal(MailChecker(email), b, "MailChecker(" + email + ") === " + b);
+    t.equal(MailChecker.is_valid(email), b, "MailChecker.is_valid(" + email + ") === " + b);
   }
   var isValid = _is.bind(this, true);
   var isInvalid = _is.bind(this, false);
@@ -37,6 +37,15 @@ suite('Node', function () {
       isInvalid("ok@ok.33mail.com");
       isInvalid("ok@guerrillamailblock.com");
     });
+
+    test("should return false if the email is from a blacklisted domain", function () {
+      MailChecker.blacklist().forEach(function (domain) {
+        isInvalid("test@" + domain);
+        isInvalid("test@subdomain." + domain);
+        isValid("test@" + domain + ".gmail.com");
+      });
+    });
+
   });
 
 });

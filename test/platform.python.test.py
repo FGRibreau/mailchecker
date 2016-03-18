@@ -1,18 +1,56 @@
+# Run tests from the repository root directory:
+# $ python test/platform.python.test.py
+
 # compatibility with both Python 2.x and 3.x
 from __future__ import print_function
 
 # for testing only; add the python MailChecker to the system path
 import os, sys
-sys.path.insert(0, '../platform/python/')
+sys.path.insert(0, 'platform/python/')
 
-# import MailChecker, create instance, check emails
-import MailChecker 
+from MailChecker import MailChecker
+import unittest
 
-m = MailChecker.MailChecker()
+class TestMailCheckerIsValid(unittest.TestCase):
+  def setUp(self):
+    self.mail_checker = MailChecker()
 
-print( m.is_valid('bla@example.com'))
-print( m.is_valid('bla@yourlms.biz'))
-print( m.is_valid('example@you.it'))
-print( m.is_valid('bla@hotmail.com'))
-print( m.is_valid('bla@yui.it'))
-print( m.is_valid(''))
+  def assert_is_valid_result(self, expected_valid, email):
+      self.assertEqual(self.mail_checker.is_valid(email), expected_valid)
+
+  def valid(self, email):
+      self.assert_is_valid_result(True, email)
+
+  def invalid(self, email):
+      self.assert_is_valid_result(False, email)
+
+  def test_return_true_if_valid(self):
+    self.valid("plop@plop.com")
+    self.valid("my.ok@ok.plop.com")
+    self.valid("my+ok@ok.plop.com")
+    self.valid("my=ok@ok.plop.com")
+    self.valid("ok@gmail.com")
+    self.valid("ok@hotmail.com")
+
+  def test_return_false_if_email_invalid(self):
+    self.invalid("")
+    self.invalid(" ")
+    self.invalid("plopplop.com")
+    self.invalid("my+ok@ok=plop.com")
+    self.invalid("my,ok@ok.plop.com")
+
+  def test_return_false_if_throwable_domain(self):
+    self.invalid("ok@tmail.com")
+    self.invalid("ok@33mail.com")
+    self.invalid("ok@ok.33mail.com")
+    self.invalid("ok@guerrillamailblock.com")
+
+  def test_return_false_for_blacklisted_domains_and_their_subdomains(self):
+    for blacklisted_domain in self.mail_checker.blacklist:
+      self.invalid("test@" + blacklisted_domain)
+      self.invalid("test@subdomain." + blacklisted_domain)
+      # Should not be invalid as a subdomain of a valid domain.
+      self.valid("test@%s.gmail.com" % blacklisted_domain)
+
+if __name__ == '__main__':
+    unittest.main()

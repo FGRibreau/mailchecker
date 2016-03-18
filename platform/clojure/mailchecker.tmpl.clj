@@ -4,13 +4,10 @@
 
 (def ^:const blacklist (set [{{& listSTR }}]))
 
-; Source: https://github.com/scstarkey/noir/blob/998e846dd44f42b8e01a6977e6d22a3eff5e4542/src/noir/validation.clj#L37-L40
-; Modified to return true/false
 (defn is-email?
   "Returns true if email is an email address"
   [email]
-  (if (re-matches #"(?i)[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" email)
-    true false))
+  (if (re-matches #"{{& regexp }}" email) true false))
 
 (defn at-split
   "Returns list from string splitted on @ char"
@@ -38,17 +35,16 @@
   [string]
   (str/split string #"\."))
 
-(defn top-domain-part
-  "Returns the top domain for email"
+(defn all-domain-suffixes
+  "Returns all suffixes of the email domain, longest first"
   [email]
-  (dot-join
-    (take-last 2
-      (dot-split (domain-part email)))))
+  (let [domain-parts (dot-split (domain-part email))]
+       (map #(dot-join (drop % domain-parts)) (range 0 (count domain-parts)))))
 
 (defn in-blacklist?
-  "Returns true if email domain is not in the blacklist"
+  "Returns true if any suffix of the email domain is in the blacklist"
   [email]
-  (contains? blacklist (top-domain-part email)))
+  (some (partial contains? blacklist) (all-domain-suffixes email)))
 
 (defn valid?
   "Returns true if the email is valid"

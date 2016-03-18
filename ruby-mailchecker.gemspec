@@ -12,4 +12,5 @@ Gem::Specification.new do |spec|
 
   spec.files         = ['platform/ruby/mail_checker.rb', 'platform/ruby/ruby-mailchecker.rb']
   spec.require_paths = ['platform/ruby']
+  spec.add_development_dependency 'minitest'
 end

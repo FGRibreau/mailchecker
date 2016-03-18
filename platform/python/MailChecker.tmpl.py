@@ -3,21 +3,24 @@ import re
 class MailChecker(object):
 
     def __init__(self):
-        self.list_string = """{{list}}"""
-
-        # valid email format regex source: https://gist.github.com/dideler/5219706
-        self.email_regex = """([a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`"
-                    "{|}~-]+)*(@|\sat\s)(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?(\.|"
-                    "\sdot\s))+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)"""
-        self.fake_matcher = re.compile('|'.join(map(lambda x: '\\b' + x.lower() + '$', self.list_string.split(","))))
-        self.valid_matcher = re.compile(self.email_regex)
+        self.blacklist = set([{{& listSTR}}])
+        self.valid_matcher = re.compile(r"{{& regexp}}")
 
     def is_valid(self, email):
-        email = email.lower()
-        return self.is_valid_email_format(email) and self.fake_matcher.search(email) == None
+        email = email.lower().strip()
+
+        return (self.is_valid_email_format(email) and
+                not self.is_blacklisted(email))
+
+    def all_domain_suffixes(self, email):
+        domain = email.split("@")[-1]
+        components = domain.split(".")
+
+        return (".".join(components[n:]) for n in xrange(0, len(components)))
+
+    def is_blacklisted(self, email):
+        all_domain_suffixes = self.all_domain_suffixes(email)
+        return any(domain in self.blacklist for domain in all_domain_suffixes)
 
     def is_valid_email_format(self, email):
-        if email and email != '':
-            return self.valid_matcher.search(email) != None
-        else:
-            return False
+        return bool(email) and self.valid_matcher.search(email) is not None

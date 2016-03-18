@@ -1,50 +1,60 @@
 <?php
+# Run tests from the repository root directory:
+# $ composer install && ./vendor/bin/phpunit test/platform.php.test.php
+
 require(__DIR__.'/../platform/php/mailchecker.php');
 
-// Activation des assertions et mise en mode discret
-assert_options(ASSERT_ACTIVE, 1);
-assert_options(ASSERT_WARNING, 0);
-assert_options(ASSERT_QUIET_EVAL, 1);
-
-// Création d'un gestionnaire d'assertions
-function my_assert_handler($file, $line, $code)
+class MailCheckerTest extends PHPUnit_Framework_TestCase
 {
-    echo "<hr>Échec de l'assertion :
-        File '$file'<br />
-        Line '$line'<br />
-        Code '$code'<br /><hr />";
+    protected $mailChecker = null;
+
+    public function setUp() {
+        $this->mailChecker = new MailChecker();
+    }
+
+    public function assertIsValidResult($expected, $email) {
+        $this->assertEquals($expected, $this->mailChecker->isValid($email));
+    }
+
+    public function isValid($email) {
+        $this->assertIsValidResult(true, $email);
+    }
+
+    public function isInvalid($email) {
+        $this->assertIsValidResult(false, $email);
+    }
+
+    public function testReturnTrueIfValidEmail() {
+        $this->isValid('plop@plop.com');
+        $this->isValid('my.ok@ok.plop.com');
+        $this->isValid('my+ok@ok.plop.com');
+        $this->isValid('my=ok@ok.plop.com');
+        $this->isValid('ok@gmail.com');
+        $this->isValid('ok@hotmail.com');
+    }
+
+    public function testReturnFalseIfEmailInvalid() {
+        $this->isInvalid('');
+        $this->isInvalid('  ');
+        $this->isInvalid('plopplop.com');
+        $this->isInvalid('my+ok@ok=plop.com');
+        $this->isInvalid('my,ok@ok.plop.com');
+    }
+
+    public function testReturnFalseIfThrowableDomain() {
+        $this->isInvalid('ok@tmail.com');
+        $this->isInvalid('ok@33mail.com');
+        //$this->isInvalid('ok@ok.33mail.com');
+        $this->isInvalid('ok@guerrillamailblock.com');
+    }
+
+    public function testReturnFalseForBlacklistedDomainsAndTheirSubdomains() {
+        foreach($this->mailChecker->blacklist() as $blacklisted_domain) {
+            $this->isInvalid("test@" . $blacklisted_domain);
+            $this->isInvalid("test@subdomain." . $blacklisted_domain);
+            # Should not be invalid as a subdomain of a valid domain.
+            $this->isValid("test@" . $blacklisted_domain . ".gmail.com");
+        }
+    }
 }
-
-// Configuration de la méthode de callback
-assert_options(ASSERT_CALLBACK, 'my_assert_handler');
-function _valid($b, $email){
-  if($b !== MailChecker($email)){
-    echo "ERROR: MailChecker($email) !== $b\n";
-    exit(1);
-  }
-}
-
-function isValid($email){return _valid(true, $email);}
-function isInvalid($email){return _valid(false, $email);}
-
-// test('should return true if the email is valid', function(){
-  isValid("plop@plop.com");
-  isValid("my.ok@ok.plop.com");
-  isValid("my+ok@ok.plop.com");
-  isValid("my=ok@ok.plop.com");
-  isValid("ok@gmail.com");
-  isValid("ok@hotmail.com");
-// });
-
-// test('should return false if the email is invalid', function(){
-  isInvalid("plopplop.com");
-  isInvalid("my+ok@ok°plop.com");
-  isInvalid("my+ok@ok=plop.com");
-  isInvalid("my,ok@ok.plop.com");
-  isInvalid("ok@tmail.com");
-// });
-
-// test('should return false if the email come from a throwable domain', function(){
-  isInvalid("ok@33mail.com");
-  isInvalid("ok@ok.33mail.com");
-// });
+?>

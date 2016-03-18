@@ -1,23 +1,52 @@
 /**
- * MailChecker(String email);
+ * MailChecker.is_valid(String email);
  * @return {Boolean} true is the specified email is valid, false otherwise
  *
  * Usage
  *
  * <script type="text/javascript" src="mailchecker/platform/javascript/mailchecker.js"></script>
  * <script type="text/javascript">
- *   alert(MailChecker("plop@plop.33mail.com"));
+ *   alert(MailChecker.is_valid("plop@plop.33mail.com"));
  * </script>
  */
 
 (function(global){
-  var isValidEmail     = {{& regexp }};
-  var isThrowableEmail = new RegExp({{& listJSON }}.map(function(m) { return '\\b' + m + '$'; }).join('|'));
+  var isValidEmail     = /{{& regexp }}/;
+  var blacklist        = [{{& listSTR }}];
 
+  function mapRange(start, endExclusive, f) {
+    var arr = []
 
-  global.MailChecker = function(email){
-    if(!isValidEmail.test(email)){return false;}
-    return !isThrowableEmail.test(email);
+    for (var i = start; i < endExclusive; i++) {
+      arr.push(f(i))
+    }
+
+    return arr;
+  }
+
+  function all_domain_suffixes(email) {
+    var domain_components = email.split('@')[1].split('.');
+
+    return mapRange(0, domain_components.length, function (n) {
+      return domain_components.slice(n).join('.');
+    });
+  }
+
+  function is_blacklisted(email) {
+    return all_domain_suffixes(email).some(function (domain_suffix) {
+      return blacklist.indexOf(domain_suffix) >= 0;
+    });
+  };
+
+  global.MailChecker = {
+    is_valid: function (email){
+      email = email.toLowerCase();
+      if(!isValidEmail.test(email)){return false;}
+      return !is_blacklisted(email);
+    },
+    blacklist: function () {
+      return blacklist;
+    }
   };
 })(window);
 
