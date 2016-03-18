@@ -12,7 +12,7 @@ module MailChecker
   def self.valid?(email)
     return false unless valid_email?(email)
 
-    !BLACKLIST.include?(extract_domain(email))
+    !extract_all_domain_suffixes(email).any? { |domain| BLACKLIST.include?(domain) }
   end
 
   def self.valid_email?(email)
@@ -21,9 +21,12 @@ module MailChecker
     email =~ EMAIL_REGEX
   end
 
-  def self.extract_domain(email)
+  def self.extract_all_domain_suffixes(email)
     domain = email.gsub(/.+@([^.]+)/, '\1').downcase
-    domain.split('.')[-2, 2].join('.') # Don't include subdomains
+
+    domain_components = domain.split('.')
+
+    (0...domain_components.length).map { |n| domain_components.drop(n).join('.') }
   end
 end
 
