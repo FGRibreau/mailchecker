@@ -7,9 +7,8 @@ machine:
     version: 2.2.2
 
 dependencies:
-  php:
+  override:
     - composer install --prefer-source --no-interaction
-  ruby:
     - gem install bundler -v 1.10.6
 
 test:
