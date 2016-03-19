@@ -2,7 +2,7 @@
 Gem::Specification.new do |spec|
   spec.name          = 'ruby-mailchecker'
   spec.version       = '1.6.3'
-  spec.authors       = ['Francois-Guillaume Ribreau', 'Jacob Burenstam']
+  spec.authors       = ['Francois-Guillaume Ribreau', 'Jacob Burenstam', 'Owen Stephens']
   spec.email         = ['github@fgribreau.com']
 
   spec.summary       = 'Temporary (disposable/throwaway) email detection library. Covers 1979 fake email providers.'
