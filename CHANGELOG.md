@@ -1,5 +1,13 @@
 # Change Log
 
+## [Unreleased](https://github.com/fgribreau/mailchecker/tree/HEAD)
+
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.6.3...HEAD)
+
+**Merged pull requests:**
+
+- Add me to the gemspec authors list [\#55](https://github.com/FGRibreau/mailchecker/pull/55) ([owst](https://github.com/owst))
+
 ## [v1.6.3](https://github.com/fgribreau/mailchecker/tree/v1.6.3) (2016-03-19)
 [Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.6.2...v1.6.3)
 
