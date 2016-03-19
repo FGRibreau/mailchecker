@@ -4,11 +4,12 @@
   "description": "Cross-language temporary (disposable/throwaway) email detection library. Covers hundreds fake email providers.",
   "main": "platform/node/",
   "scripts": {
-    "test": "./node_modules/.bin/mocha -r should -R spec -G -u tdd",
+    "test": "mocha -r should -R spec -G -u tdd",
     "build": "node gen.js",
     "phptest": "npm run build && php test/*.php",
-    "watch": "./node_modules/.bin/mocha -r should -R spec -G -u tdd -w",
-    "changelog": "./scripts/changelog && git commit -a -m 'docs(changelog)' && git push"
+    "watch": "mocha -r should -R spec -G -u tdd -w",
+    "changelog": "./scripts/changelog && git commit -a -m 'docs(changelog)' && git push",
+    "publish-gem": "gem build *.gemspec && gem push ruby-mailchecker-${npm_package_version}.gem"
   },
   "repository": {
     "type": "git",

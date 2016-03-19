@@ -1,7 +1,7 @@
 # coding: utf-8
 Gem::Specification.new do |spec|
   spec.name          = 'ruby-mailchecker'
-  spec.version       = '0.1.0'
+  spec.version       = '1.6.3'
   spec.authors       = ['Francois-Guillaume Ribreau', 'Jacob Burenstam']
   spec.email         = ['github@fgribreau.com']
 
@@ -12,5 +12,5 @@ Gem::Specification.new do |spec|
 
   spec.files         = ['platform/ruby/mail_checker.rb', 'platform/ruby/ruby-mailchecker.rb']
   spec.require_paths = ['platform/ruby']
-  spec.add_development_dependency 'minitest'
+  spec.add_development_dependency 'minitest', '~>5.8'
 end
