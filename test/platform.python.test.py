@@ -12,11 +12,8 @@ from MailChecker import MailChecker
 import unittest
 
 class TestMailCheckerIsValid(unittest.TestCase):
-  def setUp(self):
-    self.mail_checker = MailChecker()
-
   def assert_is_valid_result(self, expected_valid, email):
-      self.assertEqual(self.mail_checker.is_valid(email), expected_valid)
+      self.assertEqual(MailChecker.is_valid(email), expected_valid)
 
   def valid(self, email):
       self.assert_is_valid_result(True, email)
@@ -46,7 +43,7 @@ class TestMailCheckerIsValid(unittest.TestCase):
     self.invalid("ok@guerrillamailblock.com")
 
   def test_return_false_for_blacklisted_domains_and_their_subdomains(self):
-    for blacklisted_domain in self.mail_checker.blacklist:
+    for blacklisted_domain in MailChecker.blacklist:
       self.invalid("test@" + blacklisted_domain)
       self.invalid("test@subdomain." + blacklisted_domain)
       # Should not be invalid as a subdomain of a valid domain.
