@@ -1,8 +1,10 @@
 # Change Log
 
-## [Unreleased](https://github.com/fgribreau/mailchecker/tree/HEAD)
+## [v1.6.3](https://github.com/fgribreau/mailchecker/tree/v1.6.3) (2016-03-19)
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.6.2...v1.6.3)
 
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.6.1...HEAD)
+## [v1.6.2](https://github.com/fgribreau/mailchecker/tree/v1.6.2) (2016-03-19)
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.6.1...v1.6.2)
 
 **Merged pull requests:**
 
