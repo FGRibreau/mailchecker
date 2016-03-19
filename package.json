@@ -28,9 +28,9 @@
   "dependencies": {
     "async": "^1.4.2",
     "cjson": "0.3.x",
-    "eventemitter2": "~0.4.14",
-    "glob": "^5.0.14",
-    "lodash": "3.x.x",
+    "eventemitter2": "^1.0.0",
+    "glob": "^7.0.3",
+    "lodash": "^4.6.1",
     "mu2": "~0.5.20",
     "node-range": "0.1.x"
   },
