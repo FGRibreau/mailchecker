@@ -1,5 +1,14 @@
 # Change Log
 
+## [Unreleased](https://github.com/fgribreau/mailchecker/tree/HEAD)
+
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.6.1...HEAD)
+
+**Merged pull requests:**
+
+- Consider all domain suffixes for blacklisting and normalise implementations [\#54](https://github.com/FGRibreau/mailchecker/pull/54) ([owst](https://github.com/owst))
+- Remove trailing spaces from blacklisted entries [\#53](https://github.com/FGRibreau/mailchecker/pull/53) ([owst](https://github.com/owst))
+
 ## [v1.6.1](https://github.com/fgribreau/mailchecker/tree/v1.6.1) (2016-03-05)
 [Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.6.0...v1.6.1)
 
