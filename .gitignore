@@ -6,3 +6,4 @@ compare.js
 *.gem
 Gemfile.lock
 vendor/
+.env
