@@ -2,7 +2,7 @@
 # Run tests from the repository root directory:
 # $ composer install && ./vendor/bin/phpunit test/platform.php.test.php
 
-require(__DIR__.'/../platform/php/mailchecker.php');
+require(__DIR__.'/../platform/php/MailChecker.php');
 
 class MailCheckerTest extends PHPUnit_Framework_TestCase
 {
