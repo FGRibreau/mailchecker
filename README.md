@@ -37,12 +37,12 @@ MailChecker currently supports:
 ```javascript
 var MailChecker = require('mailchecker');
 
-if(!MailChecker('myemail@yopmail.com')){
+if(!MailChecker.is_valid('myemail@yopmail.com')){
   console.error('O RLY !');
   process.exit(1);
 }
 
-if(!MailChecker('myemail.com')){
+if(!MailChecker.is_valid('myemail.com')){
   console.error('O RLY !');
   process.exit(1);
 }
@@ -52,11 +52,11 @@ if(!MailChecker('myemail.com')){
 ```html
 <script type="text/javascript" src="MailChecker/platform/javascript/MailChecker.js"></script>
 <script type="text/javascript">
-if(!MailChecker('myemail@yopmail.com')){
+if(!MailChecker.is_valid('myemail@yopmail.com')){
   console.error('O RLY !');
 }
 
-if(!MailChecker('myemail.com')){
+if(!MailChecker.is_valid('myemail.com')){
   console.error('O RLY !');
 }
 </script>
@@ -67,11 +67,11 @@ if(!MailChecker('myemail.com')){
 ```php
 include __DIR__."/MailChecker/platform/php/MailChecker.php";
 
-if(!MailChecker('myemail@yopmail.com')){
+if(!MailChecker::isValid('myemail@yopmail.com')){
   die('O RLY !');
 }
 
-if(!MailChecker('myemail.com')){
+if(!MailChecker::isValid('myemail.com')){
   die('O RLY !');
 }
 ```
@@ -95,9 +95,8 @@ end
 ```python
 # no package yet; just drop in MailChecker.py where you want to use it.
 import MailChecker
-m = MailChecker.MailChecker()
 
-if not m.is_valid('bla@example.com'):
+if not MailChecker.is_valid('bla@example.com'):
     print "O RLY !"
 ```
 

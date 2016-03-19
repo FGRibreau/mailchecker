@@ -6,14 +6,8 @@ require(__DIR__.'/../platform/php/MailChecker.php');
 
 class MailCheckerTest extends PHPUnit_Framework_TestCase
 {
-    protected $mailChecker = null;
-
-    public function setUp() {
-        $this->mailChecker = new MailChecker();
-    }
-
     public function assertIsValidResult($expected, $email) {
-        $this->assertEquals($expected, $this->mailChecker->isValid($email));
+        $this->assertEquals($expected, MailChecker::isValid($email));
     }
 
     public function isValid($email) {
@@ -49,7 +43,7 @@ class MailCheckerTest extends PHPUnit_Framework_TestCase
     }
 
     public function testReturnFalseForBlacklistedDomainsAndTheirSubdomains() {
-        foreach($this->mailChecker->blacklist() as $blacklisted_domain) {
+        foreach(MailChecker::blacklist() as $blacklisted_domain) {
             $this->isInvalid("test@" . $blacklisted_domain);
             $this->isInvalid("test@subdomain." . $blacklisted_domain);
             # Should not be invalid as a subdomain of a valid domain.
