@@ -2,7 +2,14 @@
 
 ## [Unreleased](https://github.com/fgribreau/mailchecker/tree/HEAD)
 
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.6.3...HEAD)
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v2.0.0...HEAD)
+
+**Merged pull requests:**
+
+- Use class methods in PHP/Python; update README [\#56](https://github.com/FGRibreau/mailchecker/pull/56) ([owst](https://github.com/owst))
+
+## [v2.0.0](https://github.com/fgribreau/mailchecker/tree/v2.0.0) (2016-03-19)
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.6.3...v2.0.0)
 
 **Merged pull requests:**
 
