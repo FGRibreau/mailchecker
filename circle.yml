@@ -12,7 +12,7 @@ dependencies:
   override:
     - npm install
     - composer install --prefer-source --no-interaction
-    - gem install bundler -v 1.10.6
+    - gem install bundler -v 1.10.6 && bundler
 
 test:
   override:
