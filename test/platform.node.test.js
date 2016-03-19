@@ -8,7 +8,7 @@ suite('Node', function () {
   });
 
   function _is(b, email) {
-    t.equal(MailChecker.is_valid(email), b, "MailChecker.is_valid(" + email + ") === " + b);
+    t.equal(MailChecker.isValid(email), b, "MailChecker.isValid(" + email + ") === " + b);
   }
   var isValid = _is.bind(this, true);
   var isInvalid = _is.bind(this, false);

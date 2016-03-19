@@ -2,7 +2,7 @@
  * Usage
  *
  * var MailChecker = require('mailchecker/platform/node')
- * MailChecker.is_valid(String email);
+ * MailChecker.isValid(String email);
  * @return {Boolean} true is the specified email is valid, false otherwise
  */
 'use strict';
@@ -12,24 +12,24 @@ var range = require('node-range');
 var blacklist        = [{{& listSTR }}];
 var isValidEmail     = /{{& regexp }}/;
 
-function all_domain_suffixes(email) {
-  var domain_components = email.split('@')[1].split('.');
+function allDomainSuffixes(email) {
+  var domainComponents = email.split('@')[1].split('.');
 
-  return range(0, domain_components.length).map(function (n) {
-    return domain_components.slice(n).join('.');
+  return range(0, domainComponents.length).map(function (n) {
+    return domainComponents.slice(n).join('.');
   });
 }
 
-function is_blacklisted(email) {
-  function suffix_is_blacklisted(domain_suffix) {
-    return blacklist.indexOf(domain_suffix) >= 0;
+function isBlacklisted(email) {
+  function suffixIsBlacklisted(domainSuffix) {
+    return blacklist.indexOf(domainSuffix) >= 0;
   }
 
-  return all_domain_suffixes(email).some(suffix_is_blacklisted);
-}
+  return allDomainSuffixes(email).some(suffixIsBlacklisted);
+};
 
 module.exports = {
-  is_valid: function (email){
+  isValid: function (email){
     if (typeof(email) !== 'string') {
       return false;
     }
@@ -37,7 +37,7 @@ module.exports = {
     if (!isValidEmail.test(email)) {
       return false;
     }
-    return !is_blacklisted(email);
+    return !isBlacklisted(email);
   },
   blacklist: function () {
     return blacklist;

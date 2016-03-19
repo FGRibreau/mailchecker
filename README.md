@@ -37,12 +37,12 @@ MailChecker currently supports:
 ```javascript
 var MailChecker = require('mailchecker');
 
-if(!MailChecker.is_valid('myemail@yopmail.com')){
+if(!MailChecker.isValid('myemail@yopmail.com')){
   console.error('O RLY !');
   process.exit(1);
 }
 
-if(!MailChecker.is_valid('myemail.com')){
+if(!MailChecker.isValid('myemail.com')){
   console.error('O RLY !');
   process.exit(1);
 }
@@ -52,11 +52,11 @@ if(!MailChecker.is_valid('myemail.com')){
 ```html
 <script type="text/javascript" src="MailChecker/platform/javascript/MailChecker.js"></script>
 <script type="text/javascript">
-if(!MailChecker.is_valid('myemail@yopmail.com')){
+if(!MailChecker.isValid('myemail@yopmail.com')){
   console.error('O RLY !');
 }
 
-if(!MailChecker.is_valid('myemail.com')){
+if(!MailChecker.isValid('myemail.com')){
   console.error('O RLY !');
 }
 </script>
