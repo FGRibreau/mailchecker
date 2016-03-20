@@ -25,6 +25,7 @@ suite('Node', function () {
     });
 
     test('should return false if the email is invalid', function () {
+      isInvalid(undefined);
       isInvalid("plopplop.com");
       isInvalid("my+ok@ok=plop.com");
       isInvalid("my,ok@ok.plop.com");
