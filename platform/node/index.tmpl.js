@@ -5,6 +5,8 @@
  * MailChecker.is_valid(String email);
  * @return {Boolean} true is the specified email is valid, false otherwise
  */
+'use strict';
+
 var range = require('node-range');
 
 var blacklist        = [{{& listSTR }}];
@@ -24,12 +26,17 @@ function is_blacklisted(email) {
   }
 
   return all_domain_suffixes(email).some(suffix_is_blacklisted);
-};
+}
 
 module.exports = {
   is_valid: function (email){
+    if (typeof(email) !== 'string') {
+      return false;
+    }
     email = email.toLowerCase();
-    if(!isValidEmail.test(email)){return false;}
+    if (!isValidEmail.test(email)) {
+      return false;
+    }
     return !is_blacklisted(email);
   },
   blacklist: function () {
