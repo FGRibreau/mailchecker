@@ -167,6 +167,11 @@ Ruby
 gem install ruby-mailchecker
 ```
 
+PHP
+```bash
+composer require fgribreau/mailchecker
+```
+
 __We accept pull-requests for other package manager__.
 
 ## Data sources
