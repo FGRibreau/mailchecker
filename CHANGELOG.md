@@ -1,5 +1,13 @@
 # Change Log
 
+## [v3.0.0](https://github.com/fgribreau/mailchecker/tree/v3.0.0) (2016-03-21)
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v2.0.1...v3.0.0)
+
+**Merged pull requests:**
+
+- fix\(node\): regression in input check since 1.6.2 [\#58](https://github.com/FGRibreau/mailchecker/pull/58) ([gierschv](https://github.com/gierschv))
+- Use camelCase for JS identifiers [\#57](https://github.com/FGRibreau/mailchecker/pull/57) ([owst](https://github.com/owst))
+
 ## [v2.0.1](https://github.com/fgribreau/mailchecker/tree/v2.0.1) (2016-03-19)
 [Full Changelog](https://github.com/fgribreau/mailchecker/compare/v2.0.0...v2.0.1)
 
