@@ -198,7 +198,7 @@ npm run build
 
 ## Donate
 
-I maintain this project in my free time, if it helped you please support my work [via paypal](paypal.me/fgribreau), thanks a lot!
+I maintain this project in my free time, if it helped you please support my work [via paypal](https://paypal.me/fgribreau), thanks a lot!
 
 ## [Changelog](/CHANGELOG.md)
 
