@@ -1,5 +1,12 @@
 {
+    "name": "fgribreau/mailchecker",
+    "description": "Temporary (disposable/throwaway) email detection library. Covers 1987 fake email providers.",
+    "keywords": ["fake", "email", "detection"],
+    "license": "MIT",
     "require-dev": {
         "phpunit/phpunit": "5.0.*"
+    },
+    "autoload": {
+        "classmap": ["platform/php/MailChecker.php"]
     }
 }
