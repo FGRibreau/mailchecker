@@ -10,12 +10,12 @@ This will be very helpful when you have to contact your users and you want to av
 
 -------------------------
 
-> Looking for a free **Redis administration & monitoring** service?
->
-> [**Create your free account on Redsmin**](https://www.redsmin.com?gh)
+> Need a **free Redis GUI**?
+> 
+> Redsmin offers real-time, atomic, performant administration and monitoring services for Redis
 
 
-<p align="center"><a href="https://redsmin.com?gh"><img src="https://www.redsmin.com/im/logo/rect-large-color-transparent@256.png"/></a></p>
+<p align="center"><a href="https://redsmin.com?gh">Start administrating your Redis servers now<br/><img src="https://www.redsmin.com/im/mac-video.png"/></a></p>
 
 ------------------------
 
