@@ -17,6 +17,31 @@ This will be very helpful when you have to contact your users and you want to av
 
 <p align="center"><a href="https://redsmin.com?gh"><img src="https://www.redsmin.com/im/logo/rect-large-color-transparent@256.png"/></a></p>
 
+------------------------
+
+# Upgrade from 1.x to 3.x
+
+Mailchecker public API has been normalized, here are the changes:
+
+- NodeJS/JavaScript: `MailChecker(email)` -> `MailChecker.isValid(email)`
+- PHP: `MailChecker($email)` -> `MailChecker::isValid($email)`
+- Python
+
+```python
+import MailChecker
+m = MailChecker.MailChecker()
+if not m.is_valid('bla@example.com'):
+  # ...
+```
+
+became:
+
+```python
+import MailChecker
+if not MailChecker.is_valid('bla@example.com'):
+  # ...
+```
+
 -------------------------
 
 MailChecker currently supports:
