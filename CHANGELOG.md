@@ -1,5 +1,14 @@
 # Change Log
 
+## [v3.0.1](https://github.com/fgribreau/mailchecker/tree/v3.0.1) (2016-03-21)
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v3.0.0...v3.0.1)
+
+**Merged pull requests:**
+
+- Extract blacklisted? method for Ruby implementation [\#61](https://github.com/FGRibreau/mailchecker/pull/61) ([owst](https://github.com/owst))
+- Installation using Composer \(PHP\) [\#60](https://github.com/FGRibreau/mailchecker/pull/60) ([Spir](https://github.com/Spir))
+- Make the PHP library available on packagist.org [\#59](https://github.com/FGRibreau/mailchecker/pull/59) ([Spir](https://github.com/Spir))
+
 ## [v3.0.0](https://github.com/fgribreau/mailchecker/tree/v3.0.0) (2016-03-21)
 [Full Changelog](https://github.com/fgribreau/mailchecker/compare/v2.0.1...v3.0.0)
 
