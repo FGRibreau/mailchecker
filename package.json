@@ -9,7 +9,7 @@
     "phptest": "npm run build && php test/*.php",
     "watch": "mocha -r should -R spec -G -u tdd -w",
     "changelog": "./scripts/changelog && git commit -a -m 'docs(changelog)' && git push",
-    "publish-gem": "gem build *.gemspec && gem push ruby-mailchecker-${npm_package_version}.gem"
+    "publish-gem": "sed -E -i '' \"s/spec.version[[:space:]]*=(.*)/spec.version='${npm_package_version}'/g\" *.gemspec && (git add *.gemspec && git commit -m \"feat(gemspec): updated to ${npm_package_version}\" || true) && gem build *.gemspec && gem push ruby-mailchecker-${npm_package_version}.gem"
   },
   "repository": {
     "type": "git",
