@@ -36,5 +36,7 @@
   // Added from https://temp-mail.ru/option/change
   ["olypmall.ru", "mailzi.ru", "vkcode.ru", "yhg.biz"],
   // Added by @FirePro
-  ["trbvn.com", "pp.ua"]
+  ["trbvn.com", "pp.ua"],
+  // Added by @fgirbreau
+  ["20email.eu", "20email.it"]
 ]
