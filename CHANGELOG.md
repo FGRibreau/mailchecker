@@ -1,5 +1,8 @@
 # Change Log
 
+## [v3.0.2](https://github.com/fgribreau/mailchecker/tree/v3.0.2) (2016-04-12)
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v3.0.1...v3.0.2)
+
 ## [v3.0.1](https://github.com/fgribreau/mailchecker/tree/v3.0.1) (2016-03-21)
 [Full Changelog](https://github.com/fgribreau/mailchecker/compare/v3.0.0...v3.0.1)
 
