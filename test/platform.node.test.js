@@ -31,6 +31,12 @@ suite('Node', function () {
       isInvalid("my,ok@ok.plop.com");
       isInvalid("ok@tmail.com");
       isInvalid("plop@yopmail.pp.ua");
+      isInvalid("  ok@gmail.com  ")
+      isInvalid("  ok@gmail.com")
+      isInvalid("ok@gmail.com  ")
+      isInvalid("\nok@gmail.com\n")
+      isInvalid("\nok@gmail.com")
+      isInvalid("ok@gmail.com\n")
     });
 
     test('should return false if the email come from a throwable domain', function () {

@@ -7,7 +7,11 @@
 (defn is-email?
   "Returns true if email is an email address"
   [email]
-  (if (re-matches #"{{& regexp }}" email) true false))
+  (if
+    ;; No anchors reuqired - re-matches checks for matching the whole string.
+    (re-matches #"{{& unanchoredRegexpString }}" email)
+    true
+    false))
 
 (defn at-split
   "Returns list from string splitted on @ char"

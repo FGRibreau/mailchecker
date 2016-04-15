@@ -24,7 +24,13 @@
       (expect-invalid "  ")
       (expect-invalid "plopplop.com")
       (expect-invalid "my+ok@ok=plop.com")
-      (expect-invalid "my,ok@ok.plop.com")))
+      (expect-invalid "my,ok@ok.plop.com")
+      (expect-invalid "  ok@gmail.com  ")
+      (expect-invalid "  ok@gmail.com")
+      (expect-invalid "ok@gmail.com  ")
+      (expect-invalid "\nok@gmail.com\n")
+      (expect-invalid "\nok@gmail.com")
+      (expect-invalid "ok@gmail.com\n")))
 
 (deftest false-for-throwable-domain
   (do (expect-invalid "ok@tmail.com")

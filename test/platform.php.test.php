@@ -33,6 +33,12 @@ class MailCheckerTest extends PHPUnit_Framework_TestCase
         $this->isInvalid('plopplop.com');
         $this->isInvalid('my+ok@ok=plop.com');
         $this->isInvalid('my,ok@ok.plop.com');
+        $this->isInvalid("  ok@gmail.com  ");
+        $this->isInvalid("  ok@gmail.com");
+        $this->isInvalid("ok@gmail.com  ");
+        $this->isInvalid("\nok@gmail.com\n");
+        $this->isInvalid("\nok@gmail.com");
+        $this->isInvalid("ok@gmail.com\n");
     }
 
     public function testReturnFalseIfThrowableDomain() {
