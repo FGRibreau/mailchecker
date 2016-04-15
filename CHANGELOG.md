@@ -1,5 +1,12 @@
 # Change Log
 
+## [v3.0.3](https://github.com/fgribreau/mailchecker/tree/v3.0.3) (2016-04-15)
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v3.0.2...v3.0.3)
+
+**Merged pull requests:**
+
+- Adding +118 disposable email providers [\#63](https://github.com/FGRibreau/mailchecker/pull/63) ([dustywusty](https://github.com/dustywusty))
+
 ## [v3.0.2](https://github.com/fgribreau/mailchecker/tree/v3.0.2) (2016-04-12)
 [Full Changelog](https://github.com/fgribreau/mailchecker/compare/v3.0.1...v3.0.2)
 
