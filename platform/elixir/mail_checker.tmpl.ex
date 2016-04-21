@@ -20,6 +20,6 @@ defmodule MailChecker do
   end
 
   def valid_address?(email) do
-    Regex.match?(~r/{{& regexp}}/i, email)
+    Regex.match?(~r/\A{{& unanchoredRegexpString }}\z/i, email)
   end
 end

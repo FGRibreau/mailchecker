@@ -38,6 +38,12 @@ defmodule MailCheckerTest do
     assert_invalid("my+ok@ok°plop.com")
     assert_invalid("my+ok@ok=plop.com")
     assert_invalid("my,ok@ok.plop.com")
+    assert_invalid("  ok@gmail.com  ")
+    assert_invalid("  ok@gmail.com")
+    assert_invalid("ok@gmail.com  ")
+    assert_invalid("\nok@gmail.com\n")
+    assert_invalid("\nok@gmail.com")
+    assert_invalid("ok@gmail.com\n")
   end
 
   test "should return false if the email come from a throwable domain" do

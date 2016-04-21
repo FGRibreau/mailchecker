@@ -28,6 +28,12 @@ class TestMailChecker < MiniTest::Test
     invalid!('plopplop.com')
     invalid!('my+ok@ok=plop.com')
     invalid!('my,ok@ok.plop.com')
+    invalid!("  ok@gmail.com  ")
+    invalid!("  ok@gmail.com")
+    invalid!("ok@gmail.com  ")
+    invalid!("\nok@gmail.com\n")
+    invalid!("\nok@gmail.com")
+    invalid!("ok@gmail.com\n")
   end
 
   def test_return_false_if_throwable_domain

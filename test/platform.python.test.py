@@ -35,6 +35,12 @@ class TestMailCheckerIsValid(unittest.TestCase):
     self.invalid("plopplop.com")
     self.invalid("my+ok@ok=plop.com")
     self.invalid("my,ok@ok.plop.com")
+    self.invalid("  ok@gmail.com  ")
+    self.invalid("  ok@gmail.com")
+    self.invalid("ok@gmail.com  ")
+    self.invalid("\nok@gmail.com\n")
+    self.invalid("\nok@gmail.com")
+    self.invalid("ok@gmail.com\n")
 
   def test_return_false_if_throwable_domain(self):
     self.invalid("ok@tmail.com")

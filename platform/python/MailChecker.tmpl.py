@@ -3,11 +3,11 @@ import re
 class MailChecker(object):
 
     blacklist = set([{{& listSTR}}])
-    valid_matcher = re.compile(r"{{& regexp}}")
+    valid_matcher = re.compile(r"\A{{& unanchoredRegexpString }}\Z")
 
     @classmethod
     def is_valid(cls, email):
-        email = email.lower().strip()
+        email = email.lower()
 
         return (cls.is_valid_email_format(email) and
                 not cls.is_blacklisted(email))
