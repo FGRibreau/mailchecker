@@ -1,5 +1,18 @@
 # Change Log
 
+## [v3.0.4](https://github.com/fgribreau/mailchecker/tree/v3.0.4) (2016-04-25)
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v3.0.3...v3.0.4)
+
+**Implemented enhancements:**
+
+- Email regex should use \A and \z instead of $ ^ [\#62](https://github.com/FGRibreau/mailchecker/issues/62)
+
+**Merged pull requests:**
+
+- Add address from mail72.com [\#66](https://github.com/FGRibreau/mailchecker/pull/66) ([trisix](https://github.com/trisix))
+- Add addresses from bccto.me [\#65](https://github.com/FGRibreau/mailchecker/pull/65) ([trisix](https://github.com/trisix))
+- \[Fix \#62\] Emails with spaces/newlines are invalid [\#64](https://github.com/FGRibreau/mailchecker/pull/64) ([owst](https://github.com/owst))
+
 ## [v3.0.3](https://github.com/fgribreau/mailchecker/tree/v3.0.3) (2016-04-15)
 [Full Changelog](https://github.com/fgribreau/mailchecker/compare/v3.0.2...v3.0.3)
 
