@@ -1,7 +1,7 @@
 # MailChecker
 [![Build Status](https://img.shields.io/circleci/project/FGRibreau/mailchecker.svg)](https://circleci.com/gh/FGRibreau/mailchecker/) [![Deps](	https://img.shields.io/david/FGRibreau/mailchecker.svg)](https://david-dm.org/FGRibreau/mailchecker) [![NPM version](https://img.shields.io/npm/v/mailchecker.svg)](http://badge.fury.io/js/mailchecker) [![Gem version](https://img.shields.io/gem/v/ruby-mailchecker.svg)](http://badge.fury.io/js/mailchecker) [![Packagist version](https://img.shields.io/packagist/v/FGRibreau/mailchecker.svg)](https://packagist.org/packages/fgribreau/mailchecker) [![Downloads](http://img.shields.io/npm/dm/mailchecker.svg)](https://www.npmjs.com/package/mailchecker) ![extra](https://img.shields.io/badge/actively%20maintained-yes-ff69b4.svg)
 
-Cross-language email validation. Backed by a [database](./list.json) of **2107 throwable email providers**.
+Cross-language email validation. Backed by a [database](./list.json) of **2111 throwable email providers**.
 
 * Validate the format of your email (uses [validator.js](https://github.com/chriso/validator.js/blob/master/validator.js#L38) email regex underneath and `FILTER_VALIDATE_EMAIL` for PHP)
 * Validate if the email is not a **temporary mail** (yopmail-like..., [add your own dataset to list.json](./list.json))
