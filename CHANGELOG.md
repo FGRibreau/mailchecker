@@ -1,5 +1,15 @@
 # Change Log
 
+## [v3.0.6](https://github.com/fgribreau/mailchecker/tree/v3.0.6) (2016-05-24)
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v3.0.5...v3.0.6)
+
+## [v3.0.5](https://github.com/fgribreau/mailchecker/tree/v3.0.5) (2016-05-24)
+[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v3.0.4...v3.0.5)
+
+**Merged pull requests:**
+
+- Adding four new sources from https://temp-mail.org/api/ [\#67](https://github.com/FGRibreau/mailchecker/pull/67) ([dustywusty](https://github.com/dustywusty))
+
 ## [v3.0.4](https://github.com/fgribreau/mailchecker/tree/v3.0.4) (2016-04-25)
 [Full Changelog](https://github.com/fgribreau/mailchecker/compare/v3.0.3...v3.0.4)
 
