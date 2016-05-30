@@ -46,5 +46,7 @@
   // Added by @trisix from http://www.bccto.me/
   ["www.bccto.me", "mail.bccto.me", "bccto.me"],
   // Added by @trisix from http://mail72.com/
-  ["mail72.com"]
+  ["mail72.com"],
+  // Added by @algenon from https://10minutemail.net/
+  ["laoeq.com", "figjs.com"]
 ]
