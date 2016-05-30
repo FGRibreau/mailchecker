@@ -1,206 +1,297 @@
-# Change Log
-
-## [v3.0.6](https://github.com/fgribreau/mailchecker/tree/v3.0.6) (2016-05-24)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v3.0.5...v3.0.6)
-
-## [v3.0.5](https://github.com/fgribreau/mailchecker/tree/v3.0.5) (2016-05-24)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v3.0.4...v3.0.5)
-
-**Merged pull requests:**
-
-- Adding four new sources from https://temp-mail.org/api/ [\#67](https://github.com/FGRibreau/mailchecker/pull/67) ([dustywusty](https://github.com/dustywusty))
-
-## [v3.0.4](https://github.com/fgribreau/mailchecker/tree/v3.0.4) (2016-04-25)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v3.0.3...v3.0.4)
-
-**Implemented enhancements:**
-
-- Email regex should use \A and \z instead of $ ^ [\#62](https://github.com/FGRibreau/mailchecker/issues/62)
-
-**Merged pull requests:**
-
-- Add address from mail72.com [\#66](https://github.com/FGRibreau/mailchecker/pull/66) ([trisix](https://github.com/trisix))
-- Add addresses from bccto.me [\#65](https://github.com/FGRibreau/mailchecker/pull/65) ([trisix](https://github.com/trisix))
-- \[Fix \#62\] Emails with spaces/newlines are invalid [\#64](https://github.com/FGRibreau/mailchecker/pull/64) ([owst](https://github.com/owst))
-
-## [v3.0.3](https://github.com/fgribreau/mailchecker/tree/v3.0.3) (2016-04-15)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v3.0.2...v3.0.3)
-
-**Merged pull requests:**
-
-- Adding +118 disposable email providers [\#63](https://github.com/FGRibreau/mailchecker/pull/63) ([dustywusty](https://github.com/dustywusty))
-
-## [v3.0.2](https://github.com/fgribreau/mailchecker/tree/v3.0.2) (2016-04-12)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v3.0.1...v3.0.2)
-
-## [v3.0.1](https://github.com/fgribreau/mailchecker/tree/v3.0.1) (2016-03-21)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v3.0.0...v3.0.1)
-
-**Merged pull requests:**
-
-- Extract blacklisted? method for Ruby implementation [\#61](https://github.com/FGRibreau/mailchecker/pull/61) ([owst](https://github.com/owst))
-- Installation using Composer \(PHP\) [\#60](https://github.com/FGRibreau/mailchecker/pull/60) ([Spir](https://github.com/Spir))
-- Make the PHP library available on packagist.org [\#59](https://github.com/FGRibreau/mailchecker/pull/59) ([Spir](https://github.com/Spir))
-
-## [v3.0.0](https://github.com/fgribreau/mailchecker/tree/v3.0.0) (2016-03-21)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v2.0.1...v3.0.0)
-
-**Merged pull requests:**
-
-- fix\(node\): regression in input check since 1.6.2 [\#58](https://github.com/FGRibreau/mailchecker/pull/58) ([gierschv](https://github.com/gierschv))
-- Use camelCase for JS identifiers [\#57](https://github.com/FGRibreau/mailchecker/pull/57) ([owst](https://github.com/owst))
-
-## [v2.0.1](https://github.com/fgribreau/mailchecker/tree/v2.0.1) (2016-03-19)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v2.0.0...v2.0.1)
-
-**Merged pull requests:**
-
-- Use class methods in PHP/Python; update README [\#56](https://github.com/FGRibreau/mailchecker/pull/56) ([owst](https://github.com/owst))
-
-## [v2.0.0](https://github.com/fgribreau/mailchecker/tree/v2.0.0) (2016-03-19)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.6.3...v2.0.0)
-
-**Merged pull requests:**
-
-- Add me to the gemspec authors list [\#55](https://github.com/FGRibreau/mailchecker/pull/55) ([owst](https://github.com/owst))
-
-## [v1.6.3](https://github.com/fgribreau/mailchecker/tree/v1.6.3) (2016-03-19)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.6.2...v1.6.3)
-
-## [v1.6.2](https://github.com/fgribreau/mailchecker/tree/v1.6.2) (2016-03-19)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.6.1...v1.6.2)
-
-**Merged pull requests:**
-
-- Consider all domain suffixes for blacklisting and normalise implementations [\#54](https://github.com/FGRibreau/mailchecker/pull/54) ([owst](https://github.com/owst))
-- Remove trailing spaces from blacklisted entries [\#53](https://github.com/FGRibreau/mailchecker/pull/53) ([owst](https://github.com/owst))
-
-## [v1.6.1](https://github.com/fgribreau/mailchecker/tree/v1.6.1) (2016-03-05)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.6.0...v1.6.1)
-
-**Implemented enhancements:**
-
-- Python platform enhancement [\#33](https://github.com/FGRibreau/mailchecker/issues/33)
-
-**Closed issues:**
-
-- Add domains to blacklist [\#52](https://github.com/FGRibreau/mailchecker/issues/52)
-
-## [v1.6.0](https://github.com/fgribreau/mailchecker/tree/v1.6.0) (2016-03-03)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.5.2...v1.6.0)
-
-## [v1.5.2](https://github.com/fgribreau/mailchecker/tree/v1.5.2) (2016-02-02)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.5.1...v1.5.2)
-
-**Closed issues:**
-
-- Some other domains are missing [\#43](https://github.com/FGRibreau/mailchecker/issues/43)
-
-**Merged pull requests:**
-
-- Temporary mail domains assigned by temp-mail.ru [\#49](https://github.com/FGRibreau/mailchecker/pull/49) ([algenon](https://github.com/algenon))
-
-## [v1.5.1](https://github.com/fgribreau/mailchecker/tree/v1.5.1) (2015-12-01)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.5.0...v1.5.1)
-
-**Closed issues:**
-
-- Remove fastmail.fm provider as it is legitimate [\#47](https://github.com/FGRibreau/mailchecker/issues/47)
-
-## [v1.5.0](https://github.com/fgribreau/mailchecker/tree/v1.5.0) (2015-11-30)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.4.0...v1.5.0)
-
-**Implemented enhancements:**
-
-- Eliminate false positives [\#38](https://github.com/FGRibreau/mailchecker/pull/38) ([R-J](https://github.com/R-J))
-
-**Closed issues:**
-
-- Remove cock.li  [\#31](https://github.com/FGRibreau/mailchecker/issues/31)
-
-**Merged pull requests:**
-
-- Update list.json: add missing related email domains [\#44](https://github.com/FGRibreau/mailchecker/pull/44) ([trisix](https://github.com/trisix))
-- Update link to node-validator [\#42](https://github.com/FGRibreau/mailchecker/pull/42) ([djpowers](https://github.com/djpowers))
-- Clojure implementation [\#40](https://github.com/FGRibreau/mailchecker/pull/40) ([buren](https://github.com/buren))
-- Travis CI ruby [\#39](https://github.com/FGRibreau/mailchecker/pull/39) ([buren](https://github.com/buren))
-- Elixir implementation [\#37](https://github.com/FGRibreau/mailchecker/pull/37) ([buren](https://github.com/buren))
-- Rename gem from mail\_checker =\> ruby-mailchecker [\#36](https://github.com/FGRibreau/mailchecker/pull/36) ([buren](https://github.com/buren))
-- Add a simple Python template [\#35](https://github.com/FGRibreau/mailchecker/pull/35) ([hslatman](https://github.com/hslatman))
-- Ruby implementation & Ruby gem [\#34](https://github.com/FGRibreau/mailchecker/pull/34) ([buren](https://github.com/buren))
-
-## [v1.4.0](https://github.com/fgribreau/mailchecker/tree/v1.4.0) (2015-09-27)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.3.1...v1.4.0)
-
-**Closed issues:**
-
-- Create a separate PHP library [\#28](https://github.com/FGRibreau/mailchecker/issues/28)
-- list.json isn’t JSON  [\#27](https://github.com/FGRibreau/mailchecker/issues/27)
-- Randomail is missing [\#26](https://github.com/FGRibreau/mailchecker/issues/26)
-
-## [v1.3.1](https://github.com/fgribreau/mailchecker/tree/v1.3.1) (2015-09-27)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.3.0...v1.3.1)
-
-## [v1.3.0](https://github.com/fgribreau/mailchecker/tree/v1.3.0) (2015-09-27)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.2.0...v1.3.0)
-
-## [v1.2.0](https://github.com/fgribreau/mailchecker/tree/v1.2.0) (2015-09-27)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.1.1...v1.2.0)
-
-**Implemented enhancements:**
-
-- Add @martenson disposable-email-domains [\#17](https://github.com/FGRibreau/mailchecker/issues/17)
-
-**Closed issues:**
-
-- Add https://raw.githubusercontent.com/lavab/disposable/master/domains.json [\#25](https://github.com/FGRibreau/mailchecker/issues/25)
-- Add @guerillamail.org [\#23](https://github.com/FGRibreau/mailchecker/issues/23)
-- Add this list https://gist.github.com/adamloving/4401361 [\#22](https://github.com/FGRibreau/mailchecker/issues/22)
-- add @ikbenspamvrij.nl [\#21](https://github.com/FGRibreau/mailchecker/issues/21)
-- Add @disposableinbox.com [\#20](https://github.com/FGRibreau/mailchecker/issues/20)
-- Add @my10minutemail.com [\#19](https://github.com/FGRibreau/mailchecker/issues/19)
-- Add chammy.info [\#18](https://github.com/FGRibreau/mailchecker/issues/18)
-
-## [v1.1.1](https://github.com/fgribreau/mailchecker/tree/v1.1.1) (2015-09-27)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.1.0...v1.1.1)
-
-**Merged pull requests:**
-
-- Add maildrop.cc and harakirimail.com [\#24](https://github.com/FGRibreau/mailchecker/pull/24) ([gierschv](https://github.com/gierschv))
-
-## [v1.1.0](https://github.com/fgribreau/mailchecker/tree/v1.1.0) (2015-08-10)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.0.1...v1.1.0)
-
-## [v1.0.1](https://github.com/fgribreau/mailchecker/tree/v1.0.1) (2014-11-22)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v1.0.0...v1.0.1)
-
-## [v1.0.0](https://github.com/fgribreau/mailchecker/tree/v1.0.0) (2014-11-09)
-[Full Changelog](https://github.com/fgribreau/mailchecker/compare/v0.2.0...v1.0.0)
-
-## [v0.2.0](https://github.com/fgribreau/mailchecker/tree/v0.2.0) (2014-11-09)
-**Implemented enhancements:**
-
-- Add drdrb.com [\#13](https://github.com/FGRibreau/mailchecker/issues/13)
-- Detect mailHazard.com [\#10](https://github.com/FGRibreau/mailchecker/issues/10)
-- Generator [\#5](https://github.com/FGRibreau/mailchecker/issues/5)
-- JavaScript template [\#4](https://github.com/FGRibreau/mailchecker/issues/4)
-- PHP template [\#3](https://github.com/FGRibreau/mailchecker/issues/3)
-- NodeJS template [\#2](https://github.com/FGRibreau/mailchecker/issues/2)
-- Check subdomains [\#1](https://github.com/FGRibreau/mailchecker/issues/1)
-
-**Closed issues:**
-
-- Add mailtothis.com to list.json [\#16](https://github.com/FGRibreau/mailchecker/issues/16)
-
-**Merged pull requests:**
-
-- Added addresses from spamdecoy.net [\#15](https://github.com/FGRibreau/mailchecker/pull/15) ([LuckyDino](https://github.com/LuckyDino))
-- I add 4 differents email from guerrillamail [\#12](https://github.com/FGRibreau/mailchecker/pull/12) ([NBruel](https://github.com/NBruel))
-- updated with alternate domains from yopmail.com [\#11](https://github.com/FGRibreau/mailchecker/pull/11) ([vikbez](https://github.com/vikbez))
-- Avoid false positives \(e.g. hotmail.com\) [\#9](https://github.com/FGRibreau/mailchecker/pull/9) ([sxyuan](https://github.com/sxyuan))
-- Added spam domains from http://www.fakemailgenerator.com/ [\#8](https://github.com/FGRibreau/mailchecker/pull/8) ([watadarkstar](https://github.com/watadarkstar))
-- update links [\#6](https://github.com/FGRibreau/mailchecker/pull/6) ([vendethiel](https://github.com/vendethiel))
-
-
-
-\* *This Change Log was automatically generated by [github_changelog_generator](https://github.com/skywinder/Github-Changelog-Generator)*
+## Change Log
+
+### v3.0.7 (2016/05/30 09:15 +00:00)
+- [d8ee22c](https://github.com/FGRibreau/mailchecker/commit/d8ee22ca38900ff7af8d1ab00e03bc365810fe6b) Release v3.0.7. (@FGRibreau)
+- [338b4b5](https://github.com/FGRibreau/mailchecker/commit/338b4b5df377ca6d71bf2866bf76d9ece6f567c5) feat(build): update plateform files (@FGRibreau)
+- [#68](https://github.com/FGRibreau/mailchecker/pull/68) Merge pull request #68 from algenon/patch-2 (@algenon)
+- [9fefb74](https://github.com/FGRibreau/mailchecker/commit/9fefb74ac957020129c6c3af28d92246958915dd) Add from 10minutemail.net (@algenon)
+- [899c521](https://github.com/FGRibreau/mailchecker/commit/899c521e5ba82043b1e8081a60935ee2e0d8dbbc) feat(gemspec): updated to 3.0.6 (@FGRibreau)
+- [505bbf0](https://github.com/FGRibreau/mailchecker/commit/505bbf0f1fe5aedb7c887bb5a6b2a28fea34deca) docs(changelog) (@FGRibreau)
+
+### v3.0.6 (2016/05/24 19:52 +00:00)
+- [297eda9](https://github.com/FGRibreau/mailchecker/commit/297eda9b6b35e55aa8e5a6645643ca5e2c5a5e4e) Release v3.0.6. (@FGRibreau)
+- [855f15d](https://github.com/FGRibreau/mailchecker/commit/855f15d7e4b6a69fa2c3828e43f4c158073352fe) feat(build): update plateform files (@FGRibreau)
+- [6101e62](https://github.com/FGRibreau/mailchecker/commit/6101e626c032f7da86e1f1ed7317fa7295c38d41) feat(build): update plateform files (@FGRibreau)
+
+### v3.0.5 (2016/05/24 19:49 +00:00)
+- [d3083ac](https://github.com/FGRibreau/mailchecker/commit/d3083acb95daedecb5445c6d275e7da7c7249ac3) Release v3.0.5. (@FGRibreau)
+- [#67](https://github.com/FGRibreau/mailchecker/pull/67) Merge pull request #67 from dustywusty/master (@dustywusty)
+- [1bc6f24](https://github.com/FGRibreau/mailchecker/commit/1bc6f24ed1e760c08cc400bcc2f9a323b5a2c67b) +4 new sources (@dustywusty)
+- [0abda9d](https://github.com/FGRibreau/mailchecker/commit/0abda9df3bab0f9d2de0926318428f2286e6e7b6) Adding leeching.net, extremail.ru, kismail.ru, and divismail.ru from https://temp-mail.org/api/ + fixed my previous formatting to be more consistent (@dustywusty)
+- [20afe30](https://github.com/FGRibreau/mailchecker/commit/20afe30ebe144a7c9956f495ddb2f8c287c2408a) feat(gemspec): updated to 3.0.4 (@FGRibreau)
+- [d34b5f0](https://github.com/FGRibreau/mailchecker/commit/d34b5f0970587cbde5b7cec2fca04b0e05351f9b) docs(changelog) (@FGRibreau)
+
+### v3.0.4 (2016/04/25 14:17 +00:00)
+- [7a2b150](https://github.com/FGRibreau/mailchecker/commit/7a2b1506cd5ff90bc4a947291ad2feec4d3e7876) Release v3.0.4. (@FGRibreau)
+- [0c8c746](https://github.com/FGRibreau/mailchecker/commit/0c8c7461c5be314623a1060120e64770cb2d2c47) feat(list) (@FGRibreau)
+- [#66](https://github.com/FGRibreau/mailchecker/pull/66) Merge pull request #66 from trisix/add-mail72-domain (@trisix)
+- [4e63c3b](https://github.com/FGRibreau/mailchecker/commit/4e63c3b43b00f2abf5f366f1eacaeed208d532ef) Add address from mail72.com (@trisix)
+- [4af46c2](https://github.com/FGRibreau/mailchecker/commit/4af46c2a6c33c55b0aa7445a3453db8b4c37bcb5) feat(list): build new list (@FGRibreau)
+- [#65](https://github.com/FGRibreau/mailchecker/pull/65) Merge pull request #65 from trisix/add-bcctome-domain-from-cn (@trisix)
+- [#64](https://github.com/FGRibreau/mailchecker/pull/64) Merge pull request #64 from owst/emails_with_spaces_or_newlines_are_invalid (@owst)
+- [46311e1](https://github.com/FGRibreau/mailchecker/commit/46311e19fadcf53612f55e327f721213df3906f9) Add addresses from bccto.me (@trisix)
+- [ee847e3](https://github.com/FGRibreau/mailchecker/commit/ee847e3e78ab07f044edff162c55da491634143e) [Fix #62] Emails with spaces/newlines are invalid (@owst)
+- [fb435cc](https://github.com/FGRibreau/mailchecker/commit/fb435cc9147077b6e610a921a9566f51e32bb3d1) feat(gemspec): updated to 3.0.3 (@FGRibreau)
+- [e7251de](https://github.com/FGRibreau/mailchecker/commit/e7251de4cbd0aeb7ede8c5bab77d19ec7b1f1c39) docs(changelog) (@FGRibreau)
+
+### v3.0.3 (2016/04/15 06:45 +00:00)
+- [0b40556](https://github.com/FGRibreau/mailchecker/commit/0b405563ac3ef36bf3225f9d0ec68804d61c5e4c) Release v3.0.3. (@FGRibreau)
+- [b63b69d](https://github.com/FGRibreau/mailchecker/commit/b63b69d94913f1799b8266ab0116c28daf627ccb) feat(list): updated list (@FGRibreau)
+- [a21984f](https://github.com/FGRibreau/mailchecker/commit/a21984f3f789d88faa8fc15e28f364a29586c507) feat(gemspec): updated to 3.0.2 (@FGRibreau)
+- [#63](https://github.com/FGRibreau/mailchecker/pull/63) Merge pull request #63 from dustywusty/master (@dustywusty)
+- [e52257c](https://github.com/FGRibreau/mailchecker/commit/e52257caba73d944e2d8c17167bafacc6092dcfe) Adding +118 disposable email providers (@dustywusty)
+- [facf8b9](https://github.com/FGRibreau/mailchecker/commit/facf8b9101fc10a6e9afea016b85cf69de072f26) Update README.md (@FGRibreau)
+- [0b236b4](https://github.com/FGRibreau/mailchecker/commit/0b236b432ebb17d88ffe1ec21d3fb76079b0ff58) docs(changelog) (@FGRibreau)
+
+### v3.0.2 (2016/04/12 11:50 +00:00)
+- [ac15712](https://github.com/FGRibreau/mailchecker/commit/ac15712ae4d7b9f42b28a90d0a14f3372e43c75a) Release v3.0.2. (@FGRibreau)
+- [60dc617](https://github.com/FGRibreau/mailchecker/commit/60dc617dd19738560dfea547bd176bee5941513a) feat(20email): added 20 minutes email (@FGRibreau)
+- [ab5205e](https://github.com/FGRibreau/mailchecker/commit/ab5205e8c6d099eb40b01b4509dc276cc3ac131c) Update README.md (@FGRibreau)
+- [467581f](https://github.com/FGRibreau/mailchecker/commit/467581f483a5bf5f2303b2f480c9f6debf78d1fd) feat(gemspec): updated to 3.0.1 (@FGRibreau)
+- [82c234c](https://github.com/FGRibreau/mailchecker/commit/82c234cf8e6e17b716f82b1f3458e03d853377d1) docs(changelog) (@FGRibreau)
+
+### v3.0.1 (2016/03/21 14:32 +00:00)
+- [ae0d2cf](https://github.com/FGRibreau/mailchecker/commit/ae0d2cf302960e22e6e9d3946910a06779f15d20) Release v3.0.1. (@FGRibreau)
+- [458a5d6](https://github.com/FGRibreau/mailchecker/commit/458a5d6ad38e60254f7bed625f4dcf9dcabe2b6f) feat(package): added release-patch (@FGRibreau)
+- [#61](https://github.com/FGRibreau/mailchecker/pull/61) Merge pull request #61 from owst/extract_blacklisted_method_in_ruby (@owst)
+- [#60](https://github.com/FGRibreau/mailchecker/pull/60) Merge pull request #60 from Spir/patch-2 (@Spir)
+- [4afe036](https://github.com/FGRibreau/mailchecker/commit/4afe036a949de3485688795f9c106231d4fbc942) Extract blacklisted? method for Ruby implementation (@owst)
+- [1faa10b](https://github.com/FGRibreau/mailchecker/commit/1faa10b7368e26946507081df992a3d3f2eadb29) Installation using Composer (@Spir)
+- [cc41778](https://github.com/FGRibreau/mailchecker/commit/cc417786dca40acce585d780f2f7212664aba02c) docs(readme) (@FGRibreau)
+- [#59](https://github.com/FGRibreau/mailchecker/pull/59) Merge pull request #59 from Spir/patch-1 (@Spir)
+- [e300ee6](https://github.com/FGRibreau/mailchecker/commit/e300ee6a7c754d68e46f5f1ecd52f5cd51ea46f5) Make the PHP library available on packagist.org (@Spir)
+- [21d638f](https://github.com/FGRibreau/mailchecker/commit/21d638fe891cabb181f4b25f6b360bca26f7c419) docs(readme) (@FGRibreau)
+- [bf77831](https://github.com/FGRibreau/mailchecker/commit/bf7783187d4861e849ae1becabefcc78198c5689) docs(readme) (@FGRibreau)
+- [97fa732](https://github.com/FGRibreau/mailchecker/commit/97fa732e5bee163637ff903a8215d6925b4c49a1) Update README.md (@FGRibreau)
+- [f7e3db2](https://github.com/FGRibreau/mailchecker/commit/f7e3db2d44ab9dd1539a5eef86ef2afed8dde565) docs(changelog) (@FGRibreau)
+- [cf414b0](https://github.com/FGRibreau/mailchecker/commit/cf414b05b2f2469c7d82840920a6f6d00c193036) fix(gem): improved gem published (@FGRibreau)
+- [4f9e6ba](https://github.com/FGRibreau/mailchecker/commit/4f9e6bac0e7c733dad7517dfd09c016fe518fb90) feat(gemspec): updated to 3.0.0 (@FGRibreau)
+
+### v3.0.0 (2016/03/21 06:40 +00:00)
+- [af8b49d](https://github.com/FGRibreau/mailchecker/commit/af8b49d3947109c02e322a5a5557e6cf41a5ffed) Release v3.0.0. (@FGRibreau)
+- [#57](https://github.com/FGRibreau/mailchecker/pull/57) Merge pull request #57 from owst/camel_case_for_JS (@owst)
+- [7336ffc](https://github.com/FGRibreau/mailchecker/commit/7336ffcae67cadc5066e01ca5c2339f7e888b2c5) Use camelCase for JS identifiers (@owst)
+- [#58](https://github.com/FGRibreau/mailchecker/pull/58) Merge pull request #58 from gierschv/fix-regression-check (@gierschv)
+- [83202e4](https://github.com/FGRibreau/mailchecker/commit/83202e47cb5439ffc24837b2233447ab95b7e3fc) fix(node): regression in input check since 1.6.2 (@gierschv)
+- [0461b2d](https://github.com/FGRibreau/mailchecker/commit/0461b2ded1db8cf3ada59a05aff0b28ceca5d97f) docs(changelog) (@FGRibreau)
+
+### v2.0.1 (2016/03/19 21:19 +00:00)
+- [af2e942](https://github.com/FGRibreau/mailchecker/commit/af2e9422be0eac47e7dc43bd6b8bdb3b6b846bfc) Release v2.0.1. (@FGRibreau)
+- [7134fe3](https://github.com/FGRibreau/mailchecker/commit/7134fe35927066d3003a4920cd01368a4602a9a4) docs(changelog) (@FGRibreau)
+- [#56](https://github.com/FGRibreau/mailchecker/pull/56) Merge pull request #56 from owst/static-methods-php-and-python-update-readme (@owst)
+- [e3a8aff](https://github.com/FGRibreau/mailchecker/commit/e3a8aff72814ed7adb8aab8eb0f0aeae6b10c9a0) fix(ruby): it's a breaking change! (@FGRibreau)
+- [674202d](https://github.com/FGRibreau/mailchecker/commit/674202dd09f9f336700ccf5bd2f96a90caff4fc5) docs(changelog) (@FGRibreau)
+- [1c3c56c](https://github.com/FGRibreau/mailchecker/commit/1c3c56cca63c8571a9d2f00430f35cd1f00f58a7) Merge branch 'master' of github.com:FGRibreau/mailchecker (@FGRibreau)
+
+### v2.0.0 (2016/03/19 21:11 +00:00)
+- [a2931c2](https://github.com/FGRibreau/mailchecker/commit/a2931c21fb7b88ced741a5ea21b29e436f33aca8) Release v2.0.0. (@FGRibreau)
+- [#55](https://github.com/FGRibreau/mailchecker/pull/55) Merge pull request #55 from owst/patch-2 (@owst)
+- [2ed6d49](https://github.com/FGRibreau/mailchecker/commit/2ed6d4972a06f38216370e351a8c304a0eb3af1a) Use class methods in PHP/Python; update README (@owst)
+- [ab4a007](https://github.com/FGRibreau/mailchecker/commit/ab4a007f05038c558127cdde7341fac260c73599) Add Owen Stephens to gemspec authors list (@owst)
+- [13d51cf](https://github.com/FGRibreau/mailchecker/commit/13d51cfb28f897be16f809378f0191d3f45f4377) docs(readme): display gem version (@FGRibreau)
+- [6dee1dd](https://github.com/FGRibreau/mailchecker/commit/6dee1dddcddea6754fc3179504b367d276f0e812) fix(loader): upgrade lodash to 4.6, glob and eventemitter2 (@FGRibreau)
+- [e8de1f7](https://github.com/FGRibreau/mailchecker/commit/e8de1f7ab4a12146f7025de2a7051c8523dc3050) docs(changelog) (@FGRibreau)
+- [2e1a012](https://github.com/FGRibreau/mailchecker/commit/2e1a01239118fe007751422a30e15b7d95099a3f) docs(changelog) (@FGRibreau)
+
+### v1.6.3 (2016/03/19 10:17 +00:00)
+- [d13f44f](https://github.com/FGRibreau/mailchecker/commit/d13f44fa17306c03a77aee427ced3ef9f935d33c) Release v1.6.3. (@FGRibreau)
+- [657bb5e](https://github.com/FGRibreau/mailchecker/commit/657bb5e48156629eb1465c048444789947e0b174) fix(git): fix .env leak (@FGRibreau)
+- [d0bfe4e](https://github.com/FGRibreau/mailchecker/commit/d0bfe4e2db4ab3e8bd0d88d30748cb9de065e643) Merge branch 'master' of github.com:FGRibreau/mailchecker (@FGRibreau)
+
+### v1.6.2 (2016/03/19 10:13 +00:00)
+- [467b303](https://github.com/FGRibreau/mailchecker/commit/467b3031f5618d0502a659615384a2bb9b090305) Release v1.6.2. (@FGRibreau)
+- [0583e3f](https://github.com/FGRibreau/mailchecker/commit/0583e3f64dfba8fa5cedce3831854ae9cc5e4ea0) Update README.md (@FGRibreau)
+- [2d10a23](https://github.com/FGRibreau/mailchecker/commit/2d10a236ed8362b6837d5532b421c6d02a22bef5) docs(changelog) (@FGRibreau)
+- [b440d0c](https://github.com/FGRibreau/mailchecker/commit/b440d0c0b0487c023e40a67af3f56b827d3b2b75) fix(Gemfile): fix ruby test (@FGRibreau)
+- [d4199f6](https://github.com/FGRibreau/mailchecker/commit/d4199f6a7433b37806f3d1dac14e29aaf8ca2801) fix(Gemfile): fix ruby test (@FGRibreau)
+- [9c72519](https://github.com/FGRibreau/mailchecker/commit/9c725197cb0d15bd200e02cfc2acb4dc8fcf135e) fix(ci): fixed php tests (@FGRibreau)
+- [b401c5f](https://github.com/FGRibreau/mailchecker/commit/b401c5f7dde6033a5a576e5c0fee7419a768c0ac) fix(ci): use the right php version, cf: https://circleci.com/docs/environment#php (@FGRibreau)
+- [4fd82ca](https://github.com/FGRibreau/mailchecker/commit/4fd82ca679b210641326d058f15a5d366659a932) fix(ci) (@FGRibreau)
+- [e320d8d](https://github.com/FGRibreau/mailchecker/commit/e320d8d29ed197f0aa1615e70c1bfc48c1dadaff) fix(ci) (@FGRibreau)
+- [ae4a050](https://github.com/FGRibreau/mailchecker/commit/ae4a0508d5640870b68ac5dc0d473202e426bceb) fix(ci) (@FGRibreau)
+- [4710d29](https://github.com/FGRibreau/mailchecker/commit/4710d29d7ad06b1fb5e2f0baa5007e057875de43) fix(ci) (@FGRibreau)
+- [c7361b6](https://github.com/FGRibreau/mailchecker/commit/c7361b6e257472ec51fd166919eb7e833488bc40) fix(ci): added ruby support (@FGRibreau)
+- [cae5092](https://github.com/FGRibreau/mailchecker/commit/cae50929496c2e9f5b3b180005092c2db31b90c5) docs(readme) (@FGRibreau)
+- [#54](https://github.com/FGRibreau/mailchecker/pull/54) Merge pull request #54 from owst/master (@owst)
+- [dff1944](https://github.com/FGRibreau/mailchecker/commit/dff1944382f29a19778b9b1fdfcdb2562fc6b588) fix(circle) (@FGRibreau)
+- [#53](https://github.com/FGRibreau/mailchecker/pull/53) Merge pull request #53 from owst/patch-1 (@owst)
+- [da3bfd4](https://github.com/FGRibreau/mailchecker/commit/da3bfd436d393861578bbfc43c5ed12b0bd2fbed) Consider all domain suffixes in PHP (@owst)
+- [fcbc296](https://github.com/FGRibreau/mailchecker/commit/fcbc296b83d82d3193901a56631aa90db5805c87) Use same regexp everywhere; downcase domain list in generator (@owst)
+- [6b91eb0](https://github.com/FGRibreau/mailchecker/commit/6b91eb0523b9c98a568ec9af453dfd7713201bc2) Update Clojure tests (@owst)
+- [b4f0fa6](https://github.com/FGRibreau/mailchecker/commit/b4f0fa66ae636a3ad2aa3dfd7f37f5f185b73a5d) Consider all domain suffixes in Python (@owst)
+- [86c5901](https://github.com/FGRibreau/mailchecker/commit/86c5901ea1f02e1e5057a22a9d04b1e2ea86173f) Update PHP tests (@owst)
+- [187844f](https://github.com/FGRibreau/mailchecker/commit/187844fd1db1b06ef053e7b7e6deceafaa44895d) Update Ruby tests (@owst)
+- [2060cda](https://github.com/FGRibreau/mailchecker/commit/2060cda5c8d4205b4be4e764607bd53b49adad4c) Improve Python implmentation and tests (@owst)
+- [31a9faa](https://github.com/FGRibreau/mailchecker/commit/31a9faa1541c1ac0c3dbe638d1bc10162ff62b7e) Consider all domain suffixes in JavaScript (@owst)
+- [ee7c304](https://github.com/FGRibreau/mailchecker/commit/ee7c304b371e74161a0155595204c3c0903179e4) Consider all domain suffixes in Clojure (@owst)
+- [9576a4c](https://github.com/FGRibreau/mailchecker/commit/9576a4c9975f94a32415617d979e08fff2672878) Consider all domain suffixes in Elixir (@owst)
+- [f5f5b36](https://github.com/FGRibreau/mailchecker/commit/f5f5b36ef948599f42a9d282144bd17a45568367) Consider all domain suffixes in Node (@owst)
+- [db84501](https://github.com/FGRibreau/mailchecker/commit/db84501cbd17621d12870e676223ed375b0b0842) Consider all subdomains in Ruby (@owst)
+- [fa7696d](https://github.com/FGRibreau/mailchecker/commit/fa7696d8cdf4e40d5092f2055c86af5bfd22b80a) Fix invalid colon in domain in list.json (@owst)
+- [49b729c](https://github.com/FGRibreau/mailchecker/commit/49b729cdbb2d584feccccb25770e5fa1f6595b3c) Remove trailing spaces from blacklisted entries (@owst)
+- [38f68c9](https://github.com/FGRibreau/mailchecker/commit/38f68c9e141f0f0e5b0905bae2b1acf61667a3a5) docs(changelog) (@FGRibreau)
+
+### v1.6.1 (2016/03/05 14:22 +00:00)
+- [3a82e43](https://github.com/FGRibreau/mailchecker/commit/3a82e436c732c7db393c965ca63ba4baea3f0aee) Release v1.6.1. (@FGRibreau)
+- [147646a](https://github.com/FGRibreau/mailchecker/commit/147646aa8a46a5f209dafa5be8c2bafc49f23ad2) feat(changelog) (@FGRibreau)
+- [0046622](https://github.com/FGRibreau/mailchecker/commit/0046622e4d1c9f305b0ab1a497d4aa4c9e0283c6) Update README.md (@FGRibreau)
+
+### v1.6.0 (2016/03/03 08:59 +00:00)
+- [0cfd701](https://github.com/FGRibreau/mailchecker/commit/0cfd70139e93763a0882a9277ceaebf74404f096) Release v1.6.0. (@FGRibreau)
+- [2d164f6](https://github.com/FGRibreau/mailchecker/commit/2d164f6d4338b53203412849369149fe4cdd1aa8) feat(mailchecker): added two new domains (@FGRibreau)
+- [613258b](https://github.com/FGRibreau/mailchecker/commit/613258bb005d66e1e76486590daa75ae366e140a) docs(readme) (@FGRibreau)
+- [c628238](https://github.com/FGRibreau/mailchecker/commit/c628238c6952a66a91043dc773ba1c6b37c1316c) docs(changelog) (@FGRibreau)
+
+### v1.5.2 (2016/02/02 18:38 +00:00)
+- [53ec8e2](https://github.com/FGRibreau/mailchecker/commit/53ec8e2b31181c4be7c2592c61cfc948215f2951) Release v1.5.2. (@FGRibreau)
+- [f854b62](https://github.com/FGRibreau/mailchecker/commit/f854b62f137b21690b8cad2c699a8ea4c9c7307f) feat(update) (@FGRibreau)
+- [#49](https://github.com/FGRibreau/mailchecker/pull/49) Merge pull request #49 from algenon/patch-1 (@algenon)
+- [3a4bcf6](https://github.com/FGRibreau/mailchecker/commit/3a4bcf6f68c001074dad67f3f7be8174abc669ae) Temporary mail domains assigned by temp-mail.ru (@algenon)
+- [b2ec2b8](https://github.com/FGRibreau/mailchecker/commit/b2ec2b8645e10c261e6d9f16ba089bdfbcdfb414) Update README.md (@FGRibreau)
+- [4455d5d](https://github.com/FGRibreau/mailchecker/commit/4455d5d15523ae3149322bda1f6a577fc9d8f270) Update README.md (@FGRibreau)
+- [85535b7](https://github.com/FGRibreau/mailchecker/commit/85535b7f266b1e9bc4430a4ea56befc864060b84) docs(readme) (@FGRibreau)
+- [0a66fa1](https://github.com/FGRibreau/mailchecker/commit/0a66fa1ed0b38146d57cea0b5ae08bdf5f3074df) docs(changelog) (@FGRibreau)
+
+### v1.5.1 (2015/12/01 18:23 +00:00)
+- [3da1f32](https://github.com/FGRibreau/mailchecker/commit/3da1f322fca882db0e76eaa7aa558e6b19820ca9) Release v1.5.1. (@FGRibreau)
+- [d8a4025](https://github.com/FGRibreau/mailchecker/commit/d8a4025ddae804f66589fee1e94679aca3f5587a) fix(list): removed fastmail.fm fixes #46 (@FGRibreau)
+- [d5ba80c](https://github.com/FGRibreau/mailchecker/commit/d5ba80c34d81d8764f2d956ee0fafa1a75e0fc23) docs(changelog) (@FGRibreau)
+
+### v1.5.0 (2015/11/30 21:57 +00:00)
+- [25cf9a3](https://github.com/FGRibreau/mailchecker/commit/25cf9a37d8656a2f41ed688a9be7868298468fc2) Release v1.5.0. (@FGRibreau)
+- [d34d1a5](https://github.com/FGRibreau/mailchecker/commit/d34d1a5d993fcd5ee9e5882dea222fde030e8745) feat(mailchecker): added new domain names (@FGRibreau)
+- [#44](https://github.com/FGRibreau/mailchecker/pull/44) Merge pull request #44 from trisix/update-email-list (@trisix)
+- [ea30bf0](https://github.com/FGRibreau/mailchecker/commit/ea30bf095f39613ae87294ed4dc0a4bf4d16965c) Add emails from https://10minutemail.net/history.html (@trisix)
+- [#42](https://github.com/FGRibreau/mailchecker/pull/42) Merge pull request #42 from djpowers/patch-1 (@djpowers)
+- [2ce1ffd](https://github.com/FGRibreau/mailchecker/commit/2ce1ffdad896cbe1afe9628e0919c90cc48fc038) Update link to node-validator (@djpowers)
+- [a71e5b5](https://github.com/FGRibreau/mailchecker/commit/a71e5b55c22876856d5f66d81719b6d911f25abc) Merge branch 'master' of github.com:FGRibreau/mailchecker (@FGRibreau)
+- [e5148a0](https://github.com/FGRibreau/mailchecker/commit/e5148a06fa23355fb1d0bd5d887abe0a4f613ca6) fix(php): fix MailChecker (@FGRibreau)
+- [#38](https://github.com/FGRibreau/mailchecker/pull/38) Merge pull request #38 from R-J/patch-1 (@R-J)
+- [60e1901](https://github.com/FGRibreau/mailchecker/commit/60e190198d20a0da0c742bc5affa95f44cf9a724) Shorten code by not using temp variable (@R-J)
+- [#40](https://github.com/FGRibreau/mailchecker/pull/40) Merge pull request #40 from buren/clojure (@buren)
+- [40af280](https://github.com/FGRibreau/mailchecker/commit/40af2809807d350fac2b935a90b4d282d2bfac3a) Clojure implementation (@buren)
+- [3f2c4e8](https://github.com/FGRibreau/mailchecker/commit/3f2c4e8c99db7d7117da050bbe44dfca719b9bec) First draft of Clojure implementation (@buren)
+- [#39](https://github.com/FGRibreau/mailchecker/pull/39) Merge pull request #39 from buren/travis-ci-ruby (@buren)
+- [665c136](https://github.com/FGRibreau/mailchecker/commit/665c13643aa5580402a05576659f8ce795fd9f11) Merge branch 'master' of https://github.com/FGRibreau/mailchecker into rubygems-travis (@buren)
+- [dc0b49a](https://github.com/FGRibreau/mailchecker/commit/dc0b49a009a2e3d32f1775852f7c25128dad18a5) Eliminate false positives (@R-J)
+- [#37](https://github.com/FGRibreau/mailchecker/pull/37) Merge pull request #37 from buren/elixir-lang (@buren)
+- [a52ca9e](https://github.com/FGRibreau/mailchecker/commit/a52ca9e32c9564f28b339100c0b2a73300fe7d05) Merge branch 'master' of https://github.com/FGRibreau/mailchecker into elixir-lang (@buren)
+- [f2107ab](https://github.com/FGRibreau/mailchecker/commit/f2107ab7e0248acbc8d2481d40ba73149ea88da8) Elixir implementation (@buren)
+- [#36](https://github.com/FGRibreau/mailchecker/pull/36) Merge pull request #36 from buren/rubygem-rename (@buren)
+- [e438bca](https://github.com/FGRibreau/mailchecker/commit/e438bcaf6ad53ec5605a6f626e0624a11e8750dc) Rename gem from mail_checker => ruby-mailchecker (@buren)
+- [9818a9b](https://github.com/FGRibreau/mailchecker/commit/9818a9b49152bb54aec942085876e8a4bfbb351a) Merge branch 'rubygem' of https://github.com/buren/mailchecker into buren-rubygem (@FGRibreau)
+- [#35](https://github.com/FGRibreau/mailchecker/pull/35) Merge pull request #35 from hslatman/hs_python_mailchecker (@hslatman)
+- [31e6639](https://github.com/FGRibreau/mailchecker/commit/31e6639e25a6c593ad1073f2d8be086edfa5194b) Consistent use of spaces + Python 2 & 3 support (@hslatman)
+- [9635b6e](https://github.com/FGRibreau/mailchecker/commit/9635b6ec44025dea99d2fe1d1c5928cbd87b4eeb) Make sure that emails are lowercased (@hslatman)
+- [8f0a542](https://github.com/FGRibreau/mailchecker/commit/8f0a5427258ecdf7c3f779683c740750ce8849f4) No package line clarified (@hslatman)
+- [4433f13](https://github.com/FGRibreau/mailchecker/commit/4433f13be417b577229a238cfdcd1d2943ec7705) No package line added (@hslatman)
+- [ff24d41](https://github.com/FGRibreau/mailchecker/commit/ff24d4184ce2dad9b4c8d8967426578f26a4f1b1) Updated readme for Python usage (@hslatman)
+- [817f768](https://github.com/FGRibreau/mailchecker/commit/817f7687bba9092540d39013ae2bd21764bcc327) Test for basic Python implementation (@hslatman)
+- [ef211f4](https://github.com/FGRibreau/mailchecker/commit/ef211f46056ee58d4b72bcc497788c4926edcc91) Ignore Python byte compiled files (@hslatman)
+- [7be778d](https://github.com/FGRibreau/mailchecker/commit/7be778d3e3acf9dc70cd7fdbe50a79fe21c68c48) Simple python drop-in implementation (@hslatman)
+- [27561f6](https://github.com/FGRibreau/mailchecker/commit/27561f6efa7b55b004fa1db6c5f556b29ea7aa34) Add config for Travis-CI (@buren)
+- [b6dea7d](https://github.com/FGRibreau/mailchecker/commit/b6dea7d51955e330dcc0ae39669bac78a2dba505) Package as Ruby gem (@buren)
+- [702ba0a](https://github.com/FGRibreau/mailchecker/commit/702ba0a422f9d7912c7fc154bf8eb4706804b7c7) Update README.md (@FGRibreau)
+- [fd60471](https://github.com/FGRibreau/mailchecker/commit/fd6047104d5e59c846bf50885c923b81ca880c9d) Define email regex in a constant, instead of a method (@buren)
+- [46931fd](https://github.com/FGRibreau/mailchecker/commit/46931fd671f76ef6c1b0c607826cc8c09ffce637) Add Ruby implementation (@buren)
+- [712a7dd](https://github.com/FGRibreau/mailchecker/commit/712a7dd7f5a769816d6fd442b5831226b455e162) docs(changelog) (@FGRibreau)
+
+### v1.4.0 (2015/09/27 14:00 +00:00)
+- [70007d7](https://github.com/FGRibreau/mailchecker/commit/70007d7de6b1cf38135af7dae06b281053a78ef3) Release v1.4.0. (@FGRibreau)
+- [76679ef](https://github.com/FGRibreau/mailchecker/commit/76679ef129a799de35f6cc32015873005ee3f1b7) docs(readme) (@FGRibreau)
+- [fa5a8dd](https://github.com/FGRibreau/mailchecker/commit/fa5a8dd6f99b80ee9fe9333b5f5361171e6398a9) feat(list): added emails from https://github.com/nfedyashev/valid_email2/blob/master/vendor/disposable_emails.yml (@FGRibreau)
+- [759e593](https://github.com/FGRibreau/mailchecker/commit/759e5932b113ea90a25a2053e47f9a4f19ead0b5) feat(list): fixes #26 (@FGRibreau)
+
+### v1.3.1 (2015/09/27 11:18 +00:00)
+- [4d51929](https://github.com/FGRibreau/mailchecker/commit/4d519292e5d997d02531ec2d6e4f150b9cc71b66) Release v1.3.1. (@FGRibreau)
+- [cbfe5fd](https://github.com/FGRibreau/mailchecker/commit/cbfe5fd26ebd938312593e7f08bdf9891f1cbdf6) docs(readme) (@FGRibreau)
+- [2085b42](https://github.com/FGRibreau/mailchecker/commit/2085b42ceb94de7febf4ded0dec9292864d14466) fix(package) (@FGRibreau)
+- [7d0cf8c](https://github.com/FGRibreau/mailchecker/commit/7d0cf8c11a5aff85978a0001a98b85f2fb368533) fix(package) (@FGRibreau)
+- [2cc6ef8](https://github.com/FGRibreau/mailchecker/commit/2cc6ef880f758f0fb4b94a21fafa8e107524d221) fix(package) (@FGRibreau)
+- [d1e781d](https://github.com/FGRibreau/mailchecker/commit/d1e781d36ecfe19af3e02265b2125442eaaf99d3) docs(changelog) (@FGRibreau)
+
+### v1.3.0 (2015/09/27 11:14 +00:00)
+- [e53cf6a](https://github.com/FGRibreau/mailchecker/commit/e53cf6aa2e719cd640ed8aad7330f4ebc9260b69) Release v1.3.0. (@FGRibreau)
+- [540ee3e](https://github.com/FGRibreau/mailchecker/commit/540ee3e52eddf70f9411ebfd686213793a7ffa2e) feat(package): upgrade async & glob (@FGRibreau)
+- [fbefd6b](https://github.com/FGRibreau/mailchecker/commit/fbefd6b7f7f31983b328c44dbdbe1418d0567231) docs(changelog) (@FGRibreau)
+- [ed57805](https://github.com/FGRibreau/mailchecker/commit/ed578059b24904bae3a014de06e874514eb0ab9d) docs(readme) (@FGRibreau)
+
+### v1.2.0 (2015/09/27 11:09 +00:00)
+- [f6411ef](https://github.com/FGRibreau/mailchecker/commit/f6411efae17676f7922b9c6f15df381ea0e1eec5) Release v1.2.0. (@FGRibreau)
+- [48a6013](https://github.com/FGRibreau/mailchecker/commit/48a6013603faf80f2f0ad8bf6a5318a04cafa05e) feat(list): fixes #22 (@FGRibreau)
+- [c5d0d04](https://github.com/FGRibreau/mailchecker/commit/c5d0d04996c616c5d66969c1f149cf550ad3caf1) feat(list): fixes #17 (@FGRibreau)
+- [e81f8fc](https://github.com/FGRibreau/mailchecker/commit/e81f8fcd261d5e663ad4274982768d358de98123) feat(list): fixes #25 (@FGRibreau)
+- [00dc331](https://github.com/FGRibreau/mailchecker/commit/00dc3319a48037eb38af6d3cc47d91160cfe209f) feat(gen) (@FGRibreau)
+- [f3530a6](https://github.com/FGRibreau/mailchecker/commit/f3530a69e5bb8f4c8112d75744a89abde46e59f0) feat(list): added guerillamail.org, fixes #23 (@FGRibreau)
+- [632a04d](https://github.com/FGRibreau/mailchecker/commit/632a04d1e8cb0433cc98630c703ddad836bbcd92) fix(changelog) (@FGRibreau)
+
+### v1.1.1 (2015/09/27 10:43 +00:00)
+- [92b630b](https://github.com/FGRibreau/mailchecker/commit/92b630ba8ae7c697709a3452cdb8d2253f9e53eb) Release v1.1.1. (@FGRibreau)
+- [#24](https://github.com/FGRibreau/mailchecker/pull/24) Merge pull request #24 from gierschv/added-2709 (@gierschv)
+- [fc44bb4](https://github.com/FGRibreau/mailchecker/commit/fc44bb4d24b83933f91cab206aa23b89251aeb29) add maildrop.cc and harakirimail.com (@gierschv)
+- [b0fb475](https://github.com/FGRibreau/mailchecker/commit/b0fb475d697f812bc4804e010aa6305656663e94) Update README.md (@FGRibreau)
+
+### v1.1.0 (2015/08/10 06:17 +00:00)
+- [b81e5f7](https://github.com/FGRibreau/mailchecker/commit/b81e5f74b9e77b07a27106ff4c40c562df21ece2) Release v1.1.0. (@FGRibreau)
+
+### v1.0.1 (2014/11/22 15:04 +00:00)
+- [a33c6be](https://github.com/FGRibreau/mailchecker/commit/a33c6be695f1e307b830ddced8e49345e158982e) Release v1.0.1. (@FGRibreau)
+- [15ef677](https://github.com/FGRibreau/mailchecker/commit/15ef6777337c31bdf90dd1c79f3ab34071dd6fe9) remove mail.ru from dispoable emails (@FGRibreau)
+- [7e2320d](https://github.com/FGRibreau/mailchecker/commit/7e2320d87b1e615e66f7e0dcd3d2357e9c724859) Update list.json (@FGRibreau)
+
+### v1.0.0 (2014/11/09 11:06 +00:00)
+- [4ee7da0](https://github.com/FGRibreau/mailchecker/commit/4ee7da0544d19f39317409b362772098a728f858) Release v1.0.0. (@FGRibreau)
+- [756f09d](https://github.com/FGRibreau/mailchecker/commit/756f09dc3e41a58f85227ed25c094c0ca90bec2c) drop support for NodeJS 0.6 (@FGRibreau)
+- [1201c70](https://github.com/FGRibreau/mailchecker/commit/1201c7045a70f693010f3ded48820a2513791adb) regenerate (@FGRibreau)
+
+### v0.2.0 (2014/11/09 11:02 +00:00)
+- [4b8390f](https://github.com/FGRibreau/mailchecker/commit/4b8390f84dfa268331f723c99784ca0e5c88cd7c) Release v0.2.0. (@FGRibreau)
+- [f7473e3](https://github.com/FGRibreau/mailchecker/commit/f7473e3bc8a2eeadf7cb510dcdbf8e6b10dfa4a5) update readme (@FGRibreau)
+- [cae60a3](https://github.com/FGRibreau/mailchecker/commit/cae60a36d2320fc981e8df805f994bf66e219477) add mailtothis.com fixes #16 (@FGRibreau)
+- [49c0163](https://github.com/FGRibreau/mailchecker/commit/49c0163ae5087a7447ceb4d07507400ad657be30) format + upgrade deps (@FGRibreau)
+- [8cf699f](https://github.com/FGRibreau/mailchecker/commit/8cf699fcad7c9e94d851387fd2b66d057827aeea) Bump v0.1.11 (@FGRibreau)
+- [c0e7117](https://github.com/FGRibreau/mailchecker/commit/c0e7117d3b439c2e53ac4b137ec4dd152e15c58f) merge #14 (@FGRibreau)
+- [9591b91](https://github.com/FGRibreau/mailchecker/commit/9591b91126f61e293a367715ce3633f3b5ec89d7) Readme (@FGRibreau)
+- [35706a6](https://github.com/FGRibreau/mailchecker/commit/35706a6a3b8d055ebc5be70112f7ff4650891d76) Added 10minutemail (@FGRibreau)
+- [47322ac](https://github.com/FGRibreau/mailchecker/commit/47322acf1123e48c814ec7e772d4684aa36df447) Support for spamdecoy (@FGRibreau)
+- [#15](https://github.com/FGRibreau/mailchecker/pull/15) Merge pull request #15 from LuckyDino/master (@LuckyDino)
+- [1afb323](https://github.com/FGRibreau/mailchecker/commit/1afb3238adb79ef3c55d437cef40a9dc4bf233ab) Update list.json (@LuckyDino)
+- [4cb6250](https://github.com/FGRibreau/mailchecker/commit/4cb6250fd3b83d8274ffa4642693745f2f80174e) Update README.md (@FGRibreau)
+- [d9af264](https://github.com/FGRibreau/mailchecker/commit/d9af2641ec1658a937096b8de073b35e99b9a1bc) Update README.md (@FGRibreau)
+- [88ce112](https://github.com/FGRibreau/mailchecker/commit/88ce1128ab879f4044b3578c87be07154a751d91) Updating email list (@FGRibreau)
+- [#12](https://github.com/FGRibreau/mailchecker/pull/12) Merge pull request #12 from NBruel/master (@NBruel)
+- [ffb0ff7](https://github.com/FGRibreau/mailchecker/commit/ffb0ff740195c663658784590b1d2f7c277c9815) List.json updated (@NBruel)
+- [9df90bb](https://github.com/FGRibreau/mailchecker/commit/9df90bb91afd5c0afaee394e02f8e27a90552dbd) I add guerrillamail.de, grr.la, spam4.me, guerrillamail.net, guerrillamail.biz (@NBruel)
+- [514a43a](https://github.com/FGRibreau/mailchecker/commit/514a43aabcdd0b4042b0eb57241a7ddb876fb0a6) Readme 435 -> 454 (@FGRibreau)
+- [f848a49](https://github.com/FGRibreau/mailchecker/commit/f848a4927f21cebb92e31d67f477ec513a3d9d3c) 0.1.7 - added mailHazard (@FGRibreau)
+- [e7d71b8](https://github.com/FGRibreau/mailchecker/commit/e7d71b8579b76a70dc649f6965bf04a196e91734) 0.1.6 - Updated with alternate domains from yopmail.com (@FGRibreau)
+- [#11](https://github.com/FGRibreau/mailchecker/pull/11) Merge pull request #11 from vikbez/patch-1 (@vikbez)
+- [fabca97](https://github.com/FGRibreau/mailchecker/commit/fabca97b7e3ebbeb976601cff5faf698e10a3e48) updated with alternate domains from yopmail.com (@vikbez)
+- [1568e6e](https://github.com/FGRibreau/mailchecker/commit/1568e6e45793d76eb02fe47d8db291d24e5817f6) #gen (@FGRibreau)
+- [213b8bf](https://github.com/FGRibreau/mailchecker/commit/213b8bf24384703917aa0f0bff760f844751e62f) Added reallymymail.com (mailinator) (@FGRibreau)
+- [7bc1e90](https://github.com/FGRibreau/mailchecker/commit/7bc1e907ed8ca91a2bf112f3f8e4e91d24c752f9) [Php] Avoid false positives (e.g. hotmail.com) (@FGRibreau)
+- [#9](https://github.com/FGRibreau/mailchecker/pull/9) Merge pull request #9 from sxyuan/master (@sxyuan)
+- [5d86825](https://github.com/FGRibreau/mailchecker/commit/5d86825f00ea6e297287adf5fd0db0dfea3b48fd) Avoid false positives (e.g. hotmail.com) (@sxyuan)
+- [616128c](https://github.com/FGRibreau/mailchecker/commit/616128c257f9e7704c08079e65033e67557780fa) Bump to 0.1.2 (@FGRibreau)
+- [3ebdd08](https://github.com/FGRibreau/mailchecker/commit/3ebdd08e680bd4c1110a8ef1264b21c2dda03300) Fix #7 (@FGRibreau)
+- [#8](https://github.com/FGRibreau/mailchecker/pull/8) Merge pull request #8 from watadarkstar/master (@watadarkstar)
+- [7e46416](https://github.com/FGRibreau/mailchecker/commit/7e464169bb7fe309aba85eb95447d5175c8fbfe7) AdrianC: Re-generated the library based on the new list.json (@watadarkstar)
+- [684c9cc](https://github.com/FGRibreau/mailchecker/commit/684c9ccc52e55b926ce1864e77ea9f6685bcc794) AdrianC: Added spam domains from http://www.fakemailgenerator.com/ (@watadarkstar)
+- [374764e](https://github.com/FGRibreau/mailchecker/commit/374764ed3adcc1ed68f440157dd142f3c9cba0c1) Update README.md (@FGRibreau)
+- [e378e68](https://github.com/FGRibreau/mailchecker/commit/e378e68589a6082e6f29cd1ced95ce0256c11a1b) Update README.md (@FGRibreau)
+- [#6](https://github.com/FGRibreau/mailchecker/pull/6) Merge pull request #6 from Nami-Doc/patch-1 (@Nami-Doc)
+- [161d8a7](https://github.com/FGRibreau/mailchecker/commit/161d8a717d4369114141a8abf4ed7cc0e94dd375) update links (@vendethiel)
+- [6d9381d](https://github.com/FGRibreau/mailchecker/commit/6d9381dec50ef67be543230470fddb147f3a565f) Readme (@FGRibreau)
+- [cc2348f](https://github.com/FGRibreau/mailchecker/commit/cc2348f6c565c8531539a3309cfb36784a65c391) Readme (@FGRibreau)
+- [6723148](https://github.com/FGRibreau/mailchecker/commit/6723148baf12fa1ba799d0382bb5d60293385743) LICENSE (@FGRibreau)
+- [37c8cb9](https://github.com/FGRibreau/mailchecker/commit/37c8cb9dafca772fc4f73738ae99c3b1144fb536) README (@FGRibreau)
+- [b6ff57f](https://github.com/FGRibreau/mailchecker/commit/b6ff57f66de7d9edb5873d02ae7f997edfd1830c) Readme usage (@FGRibreau)
+- [b15e5ad](https://github.com/FGRibreau/mailchecker/commit/b15e5adbee819eefa4ca876e9629ba3f322d9bea) README update (@FGRibreau)
+- [c3e12bc](https://github.com/FGRibreau/mailchecker/commit/c3e12bcb83beaaab2de3ddd5d0939f249c796384) Readme (@FGRibreau)
+- [6148f0d](https://github.com/FGRibreau/mailchecker/commit/6148f0d63afb71619ad238d31353c927924ffd03) Readme (@FGRibreau)
+- [7e44e1b](https://github.com/FGRibreau/mailchecker/commit/7e44e1bc2c1208d8f2bf52ecff377e149eab6611) Readme (@FGRibreau)
+- [5b273ac](https://github.com/FGRibreau/mailchecker/commit/5b273acc0351efe3a6c29c7c6d8be1eb6dd7872e) Php unit-test (@FGRibreau)
+- [b6cc54c](https://github.com/FGRibreau/mailchecker/commit/b6cc54c431d72d00e39846b7f544850cbda74d17) Php version #3 (@FGRibreau)
+- [e4ee4be](https://github.com/FGRibreau/mailchecker/commit/e4ee4be99055767bcb107bf7e9b71f7d9fe28056) JavaScript #4 & NodeJS version #2 (@FGRibreau)
+- [93b80c3](https://github.com/FGRibreau/mailchecker/commit/93b80c33131574f3df1c67f92fe3bd06b5c795d7) Generator #5 (@FGRibreau)
+- [42f39da](https://github.com/FGRibreau/mailchecker/commit/42f39da57202aa3831373a2a5dd7f00e0189b8bc) Plop (@FGRibreau)
