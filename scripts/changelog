@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-#  gem install github_changelog_generator
-github_changelog_generator -u fgribreau -p mailchecker --token $CHANGELOG_GITHUB_TOKEN_FG

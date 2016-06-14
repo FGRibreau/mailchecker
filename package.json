@@ -8,9 +8,10 @@
     "build": "node gen.js",
     "phptest": "npm run build && php test/*.php",
     "watch": "mocha -r should -R spec -G -u tdd -w",
-    "changelog": "./scripts/changelog && git commit -a -m 'docs(changelog)' && git push",
+    "changelog": "github-changes --o $(node -p 'process.env.npm_package_repository_url.split(\"/\")[3];') --r $(node -p 'a=process.env.npm_package_repository_url.split(\"/\");a[a.length-1].split(\".\")[0]') --token $CHANGELOG_GITHUB_TOKEN_FG -f CHANGELOG.md",
+    "changelog-git": "npm run changelog && git add CHANGELOG.md && git commit -m 'docs(changelog): updated' && git push origin master",
     "release-after-pr": "git pull --rebase && npm run build && npm run test && git commit -a -m 'feat(build): update plateform files' && npm run release-patch",
-    "release-patch": "npm-release patch && npm run changelog && npm run publish-gem",
+    "release-patch": "npm-release patch && npm run changelog-git && npm run publish-gem",
     "publish-gem": "sed -E -i '' \"s/spec.version[[:space:]]*=(.*)/spec.version='${npm_package_version}'/g\" *.gemspec && (git add *.gemspec && git commit -m \"feat(gemspec): updated to ${npm_package_version}\" || true) && gem build *.gemspec && gem push ruby-mailchecker-${npm_package_version}.gem"
   },
   "repository": {
@@ -37,9 +38,10 @@
     "node-range": "0.1.x"
   },
   "devDependencies": {
-    "should": "^7.1.0",
+    "github-changes": "^1.0.2",
+    "mocha": "2.x.x",
     "nodeunit": "0.9.x",
-    "mocha": "2.x.x"
+    "should": "^7.1.0"
   },
   "optionalDependencies": {}
 }
