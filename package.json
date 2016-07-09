@@ -30,8 +30,8 @@
   "license": "MIT",
   "dependencies": {
     "async": "^1.4.2",
-    "cjson": "0.3.x",
-    "eventemitter2": "^1.0.0",
+    "cjson": "^0.4.0",
+    "eventemitter2": "^2.0.0",
     "glob": "^7.0.3",
     "lodash": "^4.6.1",
     "mu2": "~0.5.20",
