@@ -24,7 +24,7 @@
     "disposable"
   ],
   "engines": {
-    "node": "0.10.0"
+    "node": "0.10"
   },
   "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com)",
   "license": "MIT",
