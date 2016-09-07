@@ -29,7 +29,7 @@
   "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com)",
   "license": "MIT",
   "dependencies": {
-    "async": "^1.4.2",
+    "async": "^2.0.1",
     "cjson": "^0.4.0",
     "eventemitter2": "^2.0.0",
     "glob": "^7.0.3",
@@ -39,9 +39,9 @@
   },
   "devDependencies": {
     "github-changes": "^1.0.2",
-    "mocha": "2.x.x",
-    "nodeunit": "0.9.x",
-    "should": "^7.1.0"
+    "mocha": "3.0.2",
+    "nodeunit": "0.10.2",
+    "should": "^11.1.0"
   },
   "optionalDependencies": {}
 }
