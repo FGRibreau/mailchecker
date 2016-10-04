@@ -6,15 +6,11 @@ module MailChecker
   BLACKLIST = [{{& listSTR }}].to_set
 
   def self.valid?(email)
-    return false unless valid_email?(email)
-
-    !blacklisted?(email)
+    valid_email?(email) && !blacklisted?(email)
   end
 
   def self.valid_email?(email)
-    return false if email.nil?
-
-    email =~ EMAIL_REGEX
+    !email.nil? && !!(email =~ EMAIL_REGEX)
   end
 
   def self.blacklisted?(email)
