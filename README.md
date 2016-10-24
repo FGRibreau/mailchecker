@@ -132,10 +132,6 @@ if not MailChecker.is_valid('bla@example.com'):
 ```ruby
 require 'mail_checker'
 
-unless MailChecker('myemail@yopmail.com')
-  fail('O RLY!')
-end
-
 unless MailChecker.valid?('myemail@yopmail.com')
   fail('O RLY!')
 end
