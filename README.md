@@ -21,7 +21,7 @@ This will be very helpful when you have to contact your users and you want to av
 <p align="center"><a href="https://redsmin.com?gh">Start administrating your Redis servers now<br/><img src="https://www.redsmin.com/im/mac-video.png"/></a></p>-->
 
 > Need to embed a charts into an email? 
-> No more server-side rendering pain, 1 url = 1 chart
+> That's over with Image-Charts, no more server-side rendering pain, 1 url = 1 chart.
 
 ```
 https://image-charts.com/chart?
@@ -32,7 +32,7 @@ cht=lc // chart type
 &chs=873x200 // size
 ```
 
-<p align="center"><a href="https://redsmin.com?gh">Start administrating your Redis servers now<br/><img src="https://image-charts.com/chart?cht=lc&chd=s:cEAELFJHHHKUju9uuXUc&chco=76A4FB&chls=2.0,0.0,0.0&chxt=x,y&chxl=0:%7C0%7C1%7C2%7C3%7C4%7C5%7C1:%7C0%7C50%7C100&chs=873x200&chg=20,50&chan&chf=b0,lg,90,4CA4F5,0.1,C371D3,0.8,EA469E,1"/></a></p>
+<p align="center"><a href="https://image-charts.com">Use Image-Charts for free<br/><img src="https://image-charts.com/chart?cht=lc&chd=s:cEAELFJHHHKUju9uuXUc&chco=76A4FB&chls=2.0,0.0,0.0&chxt=x,y&chxl=0:%7C0%7C1%7C2%7C3%7C4%7C5%7C1:%7C0%7C50%7C100&chs=873x200&chg=20,50&chan&chf=b0,lg,90,4CA4F5,0.1,C371D3,0.8,EA469E,1"/></a></p>
 
 ------------------------
 
