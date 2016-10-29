@@ -21,7 +21,8 @@ This will be very helpful when you have to contact your users and you want to av
 <p align="center"><a href="https://redsmin.com?gh">Start administrating your Redis servers now<br/><img src="https://www.redsmin.com/im/mac-video.png"/></a></p>-->
 
 > Need to embed a charts into an email? 
-> That's over with Image-Charts, no more server-side rendering pain, 1 url = 1 chart.
+> 
+> It's over with [Image-Charts](https://image-charts.com), no more server-side rendering pain, 1 url = 1 chart.
 
 ```
 https://image-charts.com/chart?
