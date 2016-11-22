@@ -34,7 +34,7 @@
   // Added by @trisix because of https://github.com/FGRibreau/mailchecker/issues/43
   ["pooae.com", "foxja.com", "kloap.com"],
   // Added from https://temp-mail.ru/option/change
-  ["olypmall.ru", "mailzi.ru", "vkcode.ru", "yhg.biz"],
+  ["olypmall.ru", "mailzi.ru", "vkcode.ru", "yhg.biz", "rootfest.net", "cartelera.org", "hostcalls.com", "polyfaust.com"],
   // Added by @FirePro
   ["trbvn.com", "pp.ua"],
   // Added by @fgirbreau
@@ -54,5 +54,5 @@
   // Added by @trisix from https://10minutemail.com/10MinuteMail/index.html
   ["mvrht.com"],
   // Added by @quaswex
-  ["emltmp.com","polyfaust.com","zasod.com","lackmail.ru","ispyco.ru","mailspeed.ru"]
+  ["emltmp.com", "zasod.com","lackmail.ru","ispyco.ru","mailspeed.ru"]
 ]
