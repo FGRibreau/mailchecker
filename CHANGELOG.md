@@ -1,5 +1,17 @@
 ## Change Log
 
+### v3.0.18 (2016/11/22 17:44 +00:00)
+- [7637afd](https://github.com/FGRibreau/mailchecker/commit/7637afd0ac503207a33a6c23ab6dd25d5e3a2357) Release v3.0.18. (@FGRibreau)
+- [f049289](https://github.com/FGRibreau/mailchecker/commit/f04928926ea73a791a29685b59ab11795d123910) feat(build): update plateform files (@FGRibreau)
+- [fdc3ff3](https://github.com/FGRibreau/mailchecker/commit/fdc3ff3ab174f9967cd2df245665c2c76ff9aa45) feat(gemspec): updated to 3.0.17 (@FGRibreau)
+- [#84](https://github.com/FGRibreau/mailchecker/pull/84) Merge pull request #84 from quaswex/patch-1 (@quaswex)
+- [df19186](https://github.com/FGRibreau/mailchecker/commit/df19186d55f62fb46e1f44dfce10282d36ba0d28) fix(json) (@FGRibreau)
+- [2cda53b](https://github.com/FGRibreau/mailchecker/commit/2cda53be2ee009812b80915d23bb206582465d77) Add more one-time emails to make list better (@quaswex)
+- [c1619cb](https://github.com/FGRibreau/mailchecker/commit/c1619cbae3670d75c76aa866d45d96d99356c2ba) Update README.md (@FGRibreau)
+- [35c12c4](https://github.com/FGRibreau/mailchecker/commit/35c12c4e6cfd7e21186d615f88e6e3d6c6cfabf7) Update README.md (@FGRibreau)
+- [493d057](https://github.com/FGRibreau/mailchecker/commit/493d05771fd4e54877653206aeadd425d0cd0e65) Update README.md (@FGRibreau)
+- [5c12266](https://github.com/FGRibreau/mailchecker/commit/5c12266d23c9dc4342df1c7d174e59a34be7ae77) docs(changelog): updated (@FGRibreau)
+
 ### v3.0.17 (2016/10/29 13:10 +00:00)
 - [8e798c6](https://github.com/FGRibreau/mailchecker/commit/8e798c63c0662ee655231f3ae8c5fa04a11f1b91) Release v3.0.17. (@FGRibreau)
 - [db99a69](https://github.com/FGRibreau/mailchecker/commit/db99a69c14ddd625ec95c73d12740c6f302ec631) feat(build): update plateform files (@FGRibreau)
@@ -191,8 +203,8 @@
 - [4fd82ca](https://github.com/FGRibreau/mailchecker/commit/4fd82ca679b210641326d058f15a5d366659a932) fix(ci) (@FGRibreau)
 - [e320d8d](https://github.com/FGRibreau/mailchecker/commit/e320d8d29ed197f0aa1615e70c1bfc48c1dadaff) fix(ci) (@FGRibreau)
 - [ae4a050](https://github.com/FGRibreau/mailchecker/commit/ae4a0508d5640870b68ac5dc0d473202e426bceb) fix(ci) (@FGRibreau)
-- [c7361b6](https://github.com/FGRibreau/mailchecker/commit/c7361b6e257472ec51fd166919eb7e833488bc40) fix(ci): added ruby support (@FGRibreau)
 - [4710d29](https://github.com/FGRibreau/mailchecker/commit/4710d29d7ad06b1fb5e2f0baa5007e057875de43) fix(ci) (@FGRibreau)
+- [c7361b6](https://github.com/FGRibreau/mailchecker/commit/c7361b6e257472ec51fd166919eb7e833488bc40) fix(ci): added ruby support (@FGRibreau)
 - [cae5092](https://github.com/FGRibreau/mailchecker/commit/cae50929496c2e9f5b3b180005092c2db31b90c5) docs(readme) (@FGRibreau)
 - [#54](https://github.com/FGRibreau/mailchecker/pull/54) Merge pull request #54 from owst/master (@owst)
 - [dff1944](https://github.com/FGRibreau/mailchecker/commit/dff1944382f29a19778b9b1fdfcdb2562fc6b588) fix(circle) (@FGRibreau)
