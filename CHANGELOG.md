@@ -1,5 +1,12 @@
 ## Change Log
 
+### v3.0.19 (2016/11/23 12:27 +00:00)
+- [3793390](https://github.com/FGRibreau/mailchecker/commit/3793390df591d492a632040f8f810f70e1924a43) Release v3.0.19. (@FGRibreau)
+- [4cc8912](https://github.com/FGRibreau/mailchecker/commit/4cc8912f419290b33d33dedf1a03bb24f3f6ea8d) feat(build): update plateform files (@FGRibreau)
+- [bb3dfdf](https://github.com/FGRibreau/mailchecker/commit/bb3dfdf8ac5704919f0f10d84996ca89d30dd644) fix(list): fixes #86 (@FGRibreau)
+- [0476c22](https://github.com/FGRibreau/mailchecker/commit/0476c22870de7437e9e14a3616093248b7e5d5df) feat(gemspec): updated to 3.0.18 (@FGRibreau)
+- [955193a](https://github.com/FGRibreau/mailchecker/commit/955193aaf24a1be0c870b76ac97421278224891b) docs(changelog): updated (@FGRibreau)
+
 ### v3.0.18 (2016/11/22 17:44 +00:00)
 - [7637afd](https://github.com/FGRibreau/mailchecker/commit/7637afd0ac503207a33a6c23ab6dd25d5e3a2357) Release v3.0.18. (@FGRibreau)
 - [f049289](https://github.com/FGRibreau/mailchecker/commit/f04928926ea73a791a29685b59ab11795d123910) feat(build): update plateform files (@FGRibreau)
@@ -38,8 +45,8 @@
 - [a5236f5](https://github.com/FGRibreau/mailchecker/commit/a5236f57472c10dde7b1a19a83d1e8799e8afcb5) docs(changelog): updated (@FGRibreau)
 
 ### v3.0.15 (2016/09/05 08:01 +00:00)
-- [a42f070](https://github.com/FGRibreau/mailchecker/commit/a42f070827810d681872755c7b23ac2dff4b5237) Release v3.0.15. (@FGRibreau)
 - [a8e1fa3](https://github.com/FGRibreau/mailchecker/commit/a8e1fa39667d42711c26a2b690114fc17e791db5) feat(build): update plateform files (@FGRibreau)
+- [a42f070](https://github.com/FGRibreau/mailchecker/commit/a42f070827810d681872755c7b23ac2dff4b5237) Release v3.0.15. (@FGRibreau)
 - [0bae60e](https://github.com/FGRibreau/mailchecker/commit/0bae60e5ba27ce2fd32fe4fae2163f398b7cfeec) feat(gemspec): updated to 3.0.14 (@FGRibreau)
 - [#73](https://github.com/FGRibreau/mailchecker/pull/73) Merge pull request #73 from trisix/remove-valid-chinese-domains (@trisix)
 - [17af0c5](https://github.com/FGRibreau/mailchecker/commit/17af0c523187b37442896c9b5ab4a6b65fa1cf8d) Request to remove major Chinese email providers' domains (@trisix)
@@ -203,8 +210,8 @@
 - [4fd82ca](https://github.com/FGRibreau/mailchecker/commit/4fd82ca679b210641326d058f15a5d366659a932) fix(ci) (@FGRibreau)
 - [e320d8d](https://github.com/FGRibreau/mailchecker/commit/e320d8d29ed197f0aa1615e70c1bfc48c1dadaff) fix(ci) (@FGRibreau)
 - [ae4a050](https://github.com/FGRibreau/mailchecker/commit/ae4a0508d5640870b68ac5dc0d473202e426bceb) fix(ci) (@FGRibreau)
-- [4710d29](https://github.com/FGRibreau/mailchecker/commit/4710d29d7ad06b1fb5e2f0baa5007e057875de43) fix(ci) (@FGRibreau)
 - [c7361b6](https://github.com/FGRibreau/mailchecker/commit/c7361b6e257472ec51fd166919eb7e833488bc40) fix(ci): added ruby support (@FGRibreau)
+- [4710d29](https://github.com/FGRibreau/mailchecker/commit/4710d29d7ad06b1fb5e2f0baa5007e057875de43) fix(ci) (@FGRibreau)
 - [cae5092](https://github.com/FGRibreau/mailchecker/commit/cae50929496c2e9f5b3b180005092c2db31b90c5) docs(readme) (@FGRibreau)
 - [#54](https://github.com/FGRibreau/mailchecker/pull/54) Merge pull request #54 from owst/master (@owst)
 - [dff1944](https://github.com/FGRibreau/mailchecker/commit/dff1944382f29a19778b9b1fdfcdb2562fc6b588) fix(circle) (@FGRibreau)
@@ -216,9 +223,9 @@
 - [187844f](https://github.com/FGRibreau/mailchecker/commit/187844fd1db1b06ef053e7b7e6deceafaa44895d) Update Ruby tests (@owst)
 - [b4f0fa6](https://github.com/FGRibreau/mailchecker/commit/b4f0fa66ae636a3ad2aa3dfd7f37f5f185b73a5d) Consider all domain suffixes in Python (@owst)
 - [2060cda](https://github.com/FGRibreau/mailchecker/commit/2060cda5c8d4205b4be4e764607bd53b49adad4c) Improve Python implmentation and tests (@owst)
+- [9576a4c](https://github.com/FGRibreau/mailchecker/commit/9576a4c9975f94a32415617d979e08fff2672878) Consider all domain suffixes in Elixir (@owst)
 - [31a9faa](https://github.com/FGRibreau/mailchecker/commit/31a9faa1541c1ac0c3dbe638d1bc10162ff62b7e) Consider all domain suffixes in JavaScript (@owst)
 - [f5f5b36](https://github.com/FGRibreau/mailchecker/commit/f5f5b36ef948599f42a9d282144bd17a45568367) Consider all domain suffixes in Node (@owst)
-- [9576a4c](https://github.com/FGRibreau/mailchecker/commit/9576a4c9975f94a32415617d979e08fff2672878) Consider all domain suffixes in Elixir (@owst)
 - [ee7c304](https://github.com/FGRibreau/mailchecker/commit/ee7c304b371e74161a0155595204c3c0903179e4) Consider all domain suffixes in Clojure (@owst)
 - [db84501](https://github.com/FGRibreau/mailchecker/commit/db84501cbd17621d12870e676223ed375b0b0842) Consider all subdomains in Ruby (@owst)
 - [fa7696d](https://github.com/FGRibreau/mailchecker/commit/fa7696d8cdf4e40d5092f2055c86af5bfd22b80a) Fix invalid colon in domain in list.json (@owst)
