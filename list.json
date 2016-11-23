@@ -54,5 +54,7 @@
   // Added by @trisix from https://10minutemail.com/10MinuteMail/index.html
   ["mvrht.com"],
   // Added by @quaswex
-  ["emltmp.com","polyfaust.com","zasod.com","lackmail.ru","ispyco.ru","mailspeed.ru"]
+  ["emltmp.com","polyfaust.com","zasod.com","lackmail.ru","ispyco.ru","mailspeed.ru"],
+  // Added by @fgribreau
+  ["throwam.com", "throwawayemail.com"]
 ]
