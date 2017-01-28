@@ -24,4 +24,4 @@ test:
     - phpunit test/platform.php.test.php
     - ruby test/platform.ruby.test.rb
     - python test/platform.python.test.py
-    - cd platform/rust && cargo test
+    - cd platform/rust && eval `ssh-agent` && ssh-add /home/ubuntu/.ssh/id_circleci_github && cargo test
