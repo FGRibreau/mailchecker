@@ -13,7 +13,8 @@
     "changelog-git": "npm run changelog && git add CHANGELOG.md && git commit -m 'docs(changelog): updated' && git push origin master",
     "release-after-pr": "git pull --rebase && npm run build && npm run test && git commit -a -m 'feat(build): update plateform files' && npm run release-patch",
     "release-patch": "npm-release patch && npm run changelog-git && npm run publish-gem",
-    "publish-gem": "sed -E -i '' \"s/spec.version[[:space:]]*=(.*)/spec.version='${npm_package_version}'/g\" *.gemspec && (git add *.gemspec && git commit -m \"feat(gemspec): updated to ${npm_package_version}\" || true) && gem build *.gemspec && gem push ruby-mailchecker-${npm_package_version}.gem"
+    "publish-gem": "sed -E -i '' \"s/spec.version[[:space:]]*=(.*)/spec.version='${npm_package_version}'/g\" *.gemspec && (git add *.gemspec && git commit -m \"feat(gemspec): updated to ${npm_package_version}\" || true) && gem build *.gemspec && gem push ruby-mailchecker-${npm_package_version}.gem",
+    "publish-cargo": "cd platform/rust && sed -E -i '' \"s/version[[:space:]]*=(.*)/version = \\\"${npm_package_version}\\\"/g\" Cargo.toml && (git add *.gemspec && git commit -m \"feat(cargo): updated to ${npm_package_version}\" || true) && cargo package && cargo publish"
   },
   "repository": {
     "type": "git",
