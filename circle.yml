@@ -7,6 +7,9 @@ machine:
     version: 2.2.2
   python:
     version: pypy-2.2.1
+  services:
+    - docker
+
 
 
 dependencies:
