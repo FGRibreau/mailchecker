@@ -14,8 +14,6 @@ dependencies:
     - npm install
     - composer install --prefer-source --no-interaction
     - gem install bundler -v 1.10.6 && bundler
-  post:
-    - curl -sf -L https://static.rust-lang.org/rustup.sh | sh /dev/stdin --channel=nightly --yes
 
 test:
   override:
@@ -24,4 +22,4 @@ test:
     - phpunit test/platform.php.test.php
     - ruby test/platform.ruby.test.rb
     - python test/platform.python.test.py
-    - cd platform/rust && eval `ssh-agent` && ssh-add /home/ubuntu/.ssh/id_circleci_github && cargo test
+    - docker run -it --rm -v $(pwd)/platform/rust:/source jimmycuadra/rust cargo test
