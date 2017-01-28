@@ -12,13 +12,13 @@ description = "Cross-language temporary (disposable/throwaway) email detection l
 # These URLs point to more information about the repository. These are
 # intended to be webviews of the relevant data, not necessarily compatible
 # with VCS tools and the like.
-documentation = "https://github.com/FGRibreau/mailchecker"
+documentation = "https://doc.rust-lang.org/mailchecker"
 homepage = "https://github.com/FGRibreau/mailchecker"
-repository = "git@github.com:FGRibreau/mailchecker.git"
+repository = "https://github.com/FGRibreau/mailchecker"
 
 # This points to a file in the repository (relative to this `Cargo.toml`). The
 # contents of this file are stored and indexed in the registry.
-readme = "README.md"
+readme = "../../README.md"
 
 # This is a list of up to five keywords that describe this crate. Keywords
 # are searchable on crates.io, and you may choose any words that would
