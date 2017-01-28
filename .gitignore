@@ -7,3 +7,6 @@ compare.js
 Gemfile.lock
 vendor/
 .env
+
+rust.iml
+platform/rust/target/

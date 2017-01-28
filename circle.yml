@@ -7,6 +7,8 @@ machine:
     version: 2.2.2
   python:
     version: pypy-2.2.1
+  rust:
+    version: 1.16.0
 
 dependencies:
   override:
@@ -21,3 +23,4 @@ test:
     - phpunit test/platform.php.test.php
     - ruby test/platform.ruby.test.rb
     - python test/platform.python.test.py
+    - cd platform/rust && cargo test
