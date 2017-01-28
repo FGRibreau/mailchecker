@@ -7,6 +7,10 @@ machine:
     version: 2.2.2
   python:
     version: pypy-2.2.1
+  services:
+    - docker
+
+
 
 dependencies:
   override:
@@ -21,3 +25,4 @@ test:
     - phpunit test/platform.php.test.php
     - ruby test/platform.ruby.test.rb
     - python test/platform.python.test.py
+    - docker run -it --rm -v $(pwd)/platform/rust:/source jimmycuadra/rust cargo test

@@ -1,0 +1,23 @@
+[root]
+name = "mailchecker"
+version = "0.1.1"
+dependencies = [
+ "fast_chemail 0.9.3 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "ascii_utils"
+version = "0.8.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "fast_chemail"
+version = "0.9.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "ascii_utils 0.8.3 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum ascii_utils 0.8.3 (registry+https://github.com/rust-lang/crates.io-index)" = "34f0557cb0688e67a452b44687d59d5c7ca095f2c73740817324de9304a0ac8a"
+"checksum fast_chemail 0.9.3 (registry+https://github.com/rust-lang/crates.io-index)" = "20129142859904e65f411d7960d402e9d1600129002be12bce97302d03eeca51"
