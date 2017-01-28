@@ -7,14 +7,15 @@ machine:
     version: 2.2.2
   python:
     version: pypy-2.2.1
-  rust:
-    version: 1.16.0
+
 
 dependencies:
   override:
     - npm install
     - composer install --prefer-source --no-interaction
     - gem install bundler -v 1.10.6 && bundler
+  post:
+    - curl -sf -L https://static.rust-lang.org/rustup.sh | sh /dev/stdin --channel=nightly --yes
 
 test:
   override:
