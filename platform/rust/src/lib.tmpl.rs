@@ -1,4 +1,3 @@
-extern crate regex;
 extern crate fast_chemail;
 
 static BLACKLIST: &'static [&'static str] = &[{{ &listSTR }}];
