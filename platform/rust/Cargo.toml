@@ -12,7 +12,7 @@ description = "Cross-language temporary (disposable/throwaway) email detection l
 # These URLs point to more information about the repository. These are
 # intended to be webviews of the relevant data, not necessarily compatible
 # with VCS tools and the like.
-documentation = "https://doc.rust-lang.org/mailchecker"
+documentation = "https://docs.rs/mailchecker"
 homepage = "https://github.com/FGRibreau/mailchecker"
 repository = "https://github.com/FGRibreau/mailchecker"
 
