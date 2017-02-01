@@ -69,6 +69,7 @@ MailChecker currently supports:
 * [PHP](https://github.com/FGRibreau/mailchecker/tree/master/platform/php)
 * [Python](https://github.com/FGRibreau/mailchecker/tree/master/platform/python)
 * [Ruby](https://github.com/FGRibreau/mailchecker/tree/master/platform/ruby)
+* [Rust](https://github.com/FGRibreau/mailchecker/tree/master/platform/rust)
 * [Elixir](https://github.com/FGRibreau/mailchecker/tree/master/platform/elixir)
 * [Clojure](https://github.com/FGRibreau/mailchecker/tree/master/platform/clojure)
 * **Easily add support for your own language with MailChecker template system and [send us a pull-request!](https://github.com/FGRibreau/mailchecker/fork_select)**
@@ -120,20 +121,6 @@ if(!MailChecker::isValid('myemail.com')){
 }
 ```
 
-### Elixir
-
-```elixir
-Code.require_file("mail_checker.ex", "mailchecker/platform/elixir/")
-
-unless MailChecker.valid?("myemail@yopmail.com") do
-  raise "O RLY !"
-end
-
-unless MailChecker.valid?("myemail.com") do
-  raise "O RLY !"
-end
-```
-
 ### Python
 
 ```python
@@ -151,6 +138,31 @@ require 'mail_checker'
 
 unless MailChecker.valid?('myemail@yopmail.com')
   fail('O RLY!')
+end
+```
+
+
+### Rust
+
+```rust
+ extern crate mailchecker;
+
+assert_eq!(true, mailchecker::is_valid("plop@plop.com"));
+assert_eq!(false, mailchecker::is_valid("\nok@gmail.com\n"));
+assert_eq!(false, mailchecker::is_valid("ok@guerrillamailblock.com"));
+```
+
+### Elixir
+
+```elixir
+Code.require_file("mail_checker.ex", "mailchecker/platform/elixir/")
+
+unless MailChecker.valid?("myemail@yopmail.com") do
+  raise "O RLY !"
+end
+
+unless MailChecker.valid?("myemail.com") do
+  raise "O RLY !"
 end
 ```
 
