@@ -5,13 +5,14 @@
   "main": "platform/node/",
   "scripts": {
     "test": "mocha -r should -R spec -G -u tdd",
-    "build": "node gen.js && npm run compile",
+    "build": "node gen.js",
+    "full-build": "npm run build && npm run compile",
     "phptest": "npm run build && php test/*.php",
     "watch": "mocha -r should -R spec -G -u tdd -w",
     "compile": "projectz compile",
     "changelog": "github-changes --o $(node -p 'process.env.npm_package_repository_url.split(\"/\")[3];') --r $(node -p 'a=process.env.npm_package_repository_url.split(\"/\");a[a.length-1].split(\".\")[0]') --token $CHANGELOG_GITHUB_TOKEN_FG -f CHANGELOG.md",
     "changelog-git": "npm run changelog && git add CHANGELOG.md && git commit -m 'docs(changelog): updated' && git push origin master",
-    "release-after-pr": "git pull --rebase && npm run build && npm run test && git commit -a -m 'feat(build): update plateform files' && npm run release-patch",
+    "release-after-pr": "git pull --rebase && npm run full-build && npm run test && git commit -a -m 'feat(build): update plateform files' && npm run release-patch",
     "release-patch": "npm-release patch && npm run changelog-git && npm run publish-gem && npm run publish-cargo",
     "publish-gem": "sed -E -i '' \"s/spec.version[[:space:]]*=(.*)/spec.version='${npm_package_version}'/g\" *.gemspec && (git add *.gemspec && git commit -m \"feat(gemspec): updated to ${npm_package_version}\" || true) && gem build *.gemspec && gem push ruby-mailchecker-${npm_package_version}.gem",
     "publish-cargo": "cd platform/rust && sed -E -i '' \"s/version[[:space:]]*=(.*)/version = \\\"${npm_package_version}\\\"/g\" Cargo.toml && (git add Cargo.toml && git commit -m \"feat(cargo): updated to ${npm_package_version}\" || true) && cargo package && cargo publish"
@@ -57,7 +58,9 @@
     "sxyuan (https://github.com/sxyuan)",
     "Francois-Guillaume Ribreau <github@fgribreau.com> (http://bit.ly/2c7uFJq)",
     "Dustin Clark <hey@dusty.wtf> (http://dusty.wtf)",
-    "larsvegas <larsvegas+github@synpro.io> (http://synpro.io)"
+    "larsvegas <larsvegas+github@synpro.io> (http://synpro.io)",
+    "Zeeshan Muhammad (zeeshanmuhammad.com)",
+    "kkleejoe (https://github.com/kkleejoe)"
   ],
   "badges": {
     "list": [

@@ -275,7 +275,9 @@ These amazing people have contributed code to this project:
 <li><a href="https://github.com/sxyuan">sxyuan</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=sxyuan" title="View the GitHub contributions of sxyuan on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://bit.ly/2c7uFJq">Francois-Guillaume Ribreau</a></li>
 <li><a href="http://dusty.wtf">Dustin Clark</a></li>
-<li><a href="http://synpro.io">larsvegas</a></li></ul>
+<li><a href="http://synpro.io">larsvegas</a></li>
+<li><a href="zeeshanmuhammad.com">Zeeshan Muhammad</a></li>
+<li><a href="https://github.com/kkleejoe">kkleejoe</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=kkleejoe" title="View the GitHub contributions of kkleejoe on repository FGRibreau/mailchecker">view contributions</a></li></ul>
 
 
 
