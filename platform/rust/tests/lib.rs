@@ -1,4 +1,5 @@
 extern crate mailchecker;
+#[macro_use] extern crate pretty_assertions;
 
 #[test]
 fn should_ensure_email_are_valid() {

@@ -1,3 +1,7 @@
+#[cfg(test)]
+#[macro_use]
+extern crate pretty_assertions;
+
 extern crate fast_chemail;
 
 static BLACKLIST: &'static [&'static str] = &[{{ &listSTR }}];
