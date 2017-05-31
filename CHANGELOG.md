@@ -1,5 +1,14 @@
 ## Change Log
 
+### v3.0.27 (2017/05/31 22:35 +00:00)
+- [41db7b0](https://github.com/FGRibreau/mailchecker/commit/41db7b0a9feaa29a32003d09dd4583568fcf09d1) Release v3.0.27. (@FGRibreau)
+- [40f4dc2](https://github.com/FGRibreau/mailchecker/commit/40f4dc2ba6546caa3840da12909ab97e5198f09b) feat(build): update plateform files (@FGRibreau)
+- [27410ce](https://github.com/FGRibreau/mailchecker/commit/27410ced19cbf6854124bc8b433224214d60c210) feat(cargo): updated to 3.0.26 (@FGRibreau)
+- [1849fcf](https://github.com/FGRibreau/mailchecker/commit/1849fcf1fb5c3984864d4569980817b535ec17ae) feat(gemspec): updated to 3.0.26 (@FGRibreau)
+- [#103](https://github.com/FGRibreau/mailchecker/pull/103) Merge pull request #103 from trisix/addNewDomainFrom10MinMail (@trisix)
+- [3f2fcc7](https://github.com/FGRibreau/mailchecker/commit/3f2fcc708a924f0e5778ecbe51a77a13eeedc6a0) Add new domain from https://10minutemail.net (@trisix)
+- [198857d](https://github.com/FGRibreau/mailchecker/commit/198857dcafa724d4fe305bc6c0850fc6fc6deeee) docs(changelog): updated (@FGRibreau)
+
 ### v3.0.26 (2017/05/25 07:16 +00:00)
 - [db49c02](https://github.com/FGRibreau/mailchecker/commit/db49c02301d4b8cb0bf07cb5b53df5747332f2c7) Release v3.0.26. (@FGRibreau)
 - [aa06556](https://github.com/FGRibreau/mailchecker/commit/aa06556c4184de82983db70c8ddf67d3c0565809) feat(build): update plateform files (@FGRibreau)
@@ -143,8 +152,8 @@
 - [df58871](https://github.com/FGRibreau/mailchecker/commit/df58871353a035436fd9c3ea9b0662ead9161fc3) docs(changelog): updated (@FGRibreau)
 
 ### v3.0.14 (2016/07/21 18:37 +00:00)
-- [1945ac6](https://github.com/FGRibreau/mailchecker/commit/1945ac6363d439516fa4b34bd011e80278417770) feat(build): update plateform files (@FGRibreau)
 - [5b00706](https://github.com/FGRibreau/mailchecker/commit/5b00706cd01ecbca44a83368ef18d6ae6993a11d) Release v3.0.14. (@FGRibreau)
+- [1945ac6](https://github.com/FGRibreau/mailchecker/commit/1945ac6363d439516fa4b34bd011e80278417770) feat(build): update plateform files (@FGRibreau)
 - [671da69](https://github.com/FGRibreau/mailchecker/commit/671da69c700450567e257a18ae9cb3874186db13) feat(gemspec): updated to 3.0.13 (@FGRibreau)
 - [#72](https://github.com/FGRibreau/mailchecker/pull/72) Merge pull request #72 from frankydp/patch-1 (@frankydp)
 - [ccf3dca](https://github.com/FGRibreau/mailchecker/commit/ccf3dca7134ee2ffb8740c00c46d49d18e76e091) Yahoo domain (@frankydp)
@@ -300,8 +309,8 @@
 - [4fd82ca](https://github.com/FGRibreau/mailchecker/commit/4fd82ca679b210641326d058f15a5d366659a932) fix(ci) (@FGRibreau)
 - [e320d8d](https://github.com/FGRibreau/mailchecker/commit/e320d8d29ed197f0aa1615e70c1bfc48c1dadaff) fix(ci) (@FGRibreau)
 - [ae4a050](https://github.com/FGRibreau/mailchecker/commit/ae4a0508d5640870b68ac5dc0d473202e426bceb) fix(ci) (@FGRibreau)
-- [4710d29](https://github.com/FGRibreau/mailchecker/commit/4710d29d7ad06b1fb5e2f0baa5007e057875de43) fix(ci) (@FGRibreau)
 - [c7361b6](https://github.com/FGRibreau/mailchecker/commit/c7361b6e257472ec51fd166919eb7e833488bc40) fix(ci): added ruby support (@FGRibreau)
+- [4710d29](https://github.com/FGRibreau/mailchecker/commit/4710d29d7ad06b1fb5e2f0baa5007e057875de43) fix(ci) (@FGRibreau)
 - [cae5092](https://github.com/FGRibreau/mailchecker/commit/cae50929496c2e9f5b3b180005092c2db31b90c5) docs(readme) (@FGRibreau)
 - [#54](https://github.com/FGRibreau/mailchecker/pull/54) Merge pull request #54 from owst/master (@owst)
 - [dff1944](https://github.com/FGRibreau/mailchecker/commit/dff1944382f29a19778b9b1fdfcdb2562fc6b588) fix(circle) (@FGRibreau)
