@@ -242,7 +242,7 @@ These amazing people are maintaining this project:
 
 No sponsors yet! Will you be the first?
 
-<span class="badge-patreon"><a href="http://patreon.com/fgribreau" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
+<span class="badge-patreon"><a href="https://patreon.com/fgribreau" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
 <span class="badge-gratipay"><a href="https://www.gratipay.com/fgribreau" title="Donate weekly to this project using Gratipay"><img src="https://img.shields.io/badge/gratipay-donate-yellow.svg" alt="Gratipay donate button" /></a></span>
 <span class="badge-flattr"><a href="https://flattr.com/profile/fgribreau" title="Donate to this project using Flattr"><img src="https://img.shields.io/badge/flattr-donate-yellow.svg" alt="Flattr donate button" /></a></span>
 <span class="badge-paypal"><a href="https://fgribreau.me/paypal" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" /></a></span>
@@ -278,7 +278,8 @@ These amazing people have contributed code to this project:
 <li><a href="http://synpro.io">larsvegas</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=larsvegas" title="View the GitHub contributions of larsvegas on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="zeeshanmuhammad.com">Zeeshan Muhammad</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=zeeshan83" title="View the GitHub contributions of Zeeshan Muhammad on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/kkleejoe">kkleejoe</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=kkleejoe" title="View the GitHub contributions of kkleejoe on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://www.freneda.com.br">Luiz Freneda</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=lfreneda" title="View the GitHub contributions of Luiz Freneda on repository FGRibreau/mailchecker">view contributions</a></li></ul>
+<li><a href="http://www.freneda.com.br">Luiz Freneda</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=lfreneda" title="View the GitHub contributions of Luiz Freneda on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="https://github.com/thorinisme">thorinisme</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=thorinisme" title="View the GitHub contributions of thorinisme on repository FGRibreau/mailchecker">view contributions</a></li></ul>
 
 
 
