@@ -1,6 +1,6 @@
 {
   "name": "mailchecker",
-  "version": "3.0.28",
+  "version": "3.0.29",
   "description": "Cross-language temporary (disposable/throwaway) email detection library. Covers hundreds fake email providers.",
   "main": "platform/node/",
   "scripts": {
@@ -21,7 +21,11 @@
     "type": "git",
     "url": "git://github.com/FGRibreau/mailchecker.git"
   },
-  "keywords": ["email", "domains", "disposable"],
+  "keywords": [
+    "email",
+    "domains",
+    "disposable"
+  ],
   "engines": {
     "node": ">=0.10"
   },
