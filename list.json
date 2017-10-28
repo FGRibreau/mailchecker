@@ -80,5 +80,7 @@
   // added by @nalgeon from https://www.mydlo.ru/
   ["anonmail.xyz", "writeme.xyz"],
   // added by @nalgeon from https://emlpro.com/
-  ["emlhub.com", "emlpro.com"]
+  ["emlhub.com", "emlpro.com"],
+  // added by @trisix from https://10minutemail.net/readmail.html , https://10minutemail.org/ and https://10minutemail.info/
+  ["loaoa.com", "oiqas.com", "gicua.com"]
 ]
