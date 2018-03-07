@@ -228,6 +228,18 @@ Just run (requires NodeJS):
 npm run build
 ```
 
+## Development
+
+Development environment requires [docker](https://www.docker.com/).
+
+```sh
+# install and setup every language dependencies in parallel through docker
+npm install
+
+# run every language tests in parallel through docker
+npm test
+```
+
 <!-- BACKERS/ -->
 
 <h2>Backers</h2>

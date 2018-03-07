@@ -1,12 +1,23 @@
 .DS_Store
 node_modules
-npm-*.log
+npm-*.log*
 compare.js
-*.pyc
-*.gem
-Gemfile.lock
+
+
 vendor/
 .env
 
+# python
+*.pyc
+
+# ruby
+*.gem
+Gemfile.lock
+
+# rust
 rust.iml
 platform/rust/target/
+
+# clojure
+target
+pom.xml
