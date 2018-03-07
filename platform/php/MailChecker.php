@@ -31,7 +31,7 @@ class MailChecker {
         }
     }
 
-    public static function isBlacklisted($email) {
+    private static function isBlacklisted($email) {
         $parts = explode("@", $email);
         $domain = end($parts);
 
