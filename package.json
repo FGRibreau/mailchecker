@@ -8,7 +8,7 @@
     "setup": "npm run build && npm-run-all --max-parallel 2 --parallel setup:*",
     "setup:ruby": "docker run -i -v $(pwd):/app -w /app centurylink/ruby-base:2.2 bundler",
     "setup:clojure": "docker run -i -v $(pwd):/app -w /app clojure:lein-2.8.1 lein install",
-    "setup:rust": "docker run -i -v $(pwd)/platform/rust:/source jimmycuadra/rust:1.19.0 cargo build",
+    "setup:rust": "docker run -i -v $(pwd)/platform/rust:/source -e RUSTUP_HOME=/source/rustup -e CARGO_HOME=/source/cargo jimmycuadra/rust:1.19.0 cargo build",
     "full-build": "npm run build && npm run compile",
     "test": "npm run build && npm-run-all --max-parallel 2 --parallel test:*",
     "test:clojure": "docker run -i -v $(pwd):/app -w /app clojure:lein-2.8.1 lein exec test/platform.clojure.test.clj",
@@ -17,7 +17,7 @@
     "test:php": "docker run -i -v $(pwd):/app -w /app phpunit/phpunit:5.0.3 phpunit test/platform.php.test.php",
     "test:python": "docker run -i -v $(pwd):/app -w /app python:2.7-alpine3.7 python test/*.test.py",
     "test:ruby": "docker run -i -v $(pwd):/app -w /app centurylink/ruby-base:2.2 ruby test/platform.ruby.test.rb",
-    "test:rust": "docker run -i -v $(pwd)/platform/rust:/source jimmycuadra/rust:1.19.0 cargo test",
+    "test:rust": "docker run -i -v $(pwd)/platform/rust:/source -e RUSTUP_HOME=/source/rustup -e CARGO_HOME=/source/cargo jimmycuadra/rust:1.19.0 cargo test",
     "watch": "mocha -r should -R spec -u tdd -w",
     "compile": "projectz compile",
     "changelog": "github-changes --o $(node -p 'process.env.npm_package_repository_url.split(\"/\")[3];') --r $(node -p 'a=process.env.npm_package_repository_url.split(\"/\");a[a.length-1].split(\".\")[0]') --token $CHANGELOG_GITHUB_TOKEN_FG -f CHANGELOG.md",
@@ -75,7 +75,8 @@
     "thorinisme (https://github.com/thorinisme)",
     "Liudas Šumskas (https://github.com/Outsidaz)",
     "Alexandr (https://github.com/Wapweb)",
-    "Alex Domakidis (https://github.com/datio)"
+    "Alex Domakidis (http://gitlab.com/datio/)",
+    "Carlos Rios (http://zanaca.com)"
   ],
   "badges": {
     "list": [
