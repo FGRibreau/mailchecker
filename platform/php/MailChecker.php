@@ -31,7 +31,12 @@ class MailChecker {
         }
     }
 
-    private static function isBlacklisted($email) {
+    /**
+     * Check if an email is blacklisted or not
+     * @param  String  $email
+     * @return boolean        true if $email is blacklisted
+     */
+    public static function isBlacklisted($email) {
         $parts = explode("@", $email);
         $domain = end($parts);
 
