@@ -16,6 +16,7 @@
     "test:node": "mocha -r should -R spec -u tdd",
     "test:php": "docker run -i -v $(pwd):/app -w /app phpunit/phpunit:5.0.3 phpunit test/platform.php.test.php",
     "test:python": "docker run -i -v $(pwd):/app -w /app python:2.7-alpine3.7 python test/*.test.py",
+    "test:python3": "docker run -i -v $(pwd):/app -w /app python:3.6-alpine3.7 python test/*.test.py",
     "test:ruby": "docker run -i -v $(pwd):/app -w /app centurylink/ruby-base:2.2 ruby test/platform.ruby.test.rb",
     "test:rust": "docker run -i -v $(pwd)/platform/rust:/source -e CARGO_HOME=/source/cargo jimmycuadra/rust:1.19.0 cargo test",
     "watch": "mocha -r should -R spec -u tdd -w",
