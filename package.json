@@ -22,7 +22,7 @@
     "compile": "projectz compile",
     "changelog": "github-changes --o $(node -p 'process.env.npm_package_repository_url.split(\"/\")[3];') --r $(node -p 'a=process.env.npm_package_repository_url.split(\"/\");a[a.length-1].split(\".\")[0]') --token $CHANGELOG_GITHUB_TOKEN_FG -f CHANGELOG.md",
     "changelog-git": "npm run changelog && git add CHANGELOG.md && git commit -m 'docs(changelog): updated' && git push origin master",
-    "release-after-pr": "git pull --rebase && npm run full-build && npm run test && git commit -a -m 'feat(build): update plateform files' && npm-release patch && && npm run release-cross",
+    "release-after-pr": "git pull --rebase && npm run full-build && npm run test && git commit -a -m 'feat(build): update plateform files' && npm-release patch && npm run release-cross",
     "release-patch": "npm run full-build && npm run test && git commit -a -m 'feat(build): update plateform files' && npm-release patch && npm run release-cross",
     "release-minor": "npm run full-build && npm run test && git commit -a -m 'feat(build): update plateform files' && npm-release minor && npm run release-cross",
     "release-cross": "npm run changelog-git && npm run publish-gem && npm run publish-cargo",
