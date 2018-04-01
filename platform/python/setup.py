@@ -4,11 +4,12 @@ from setuptools import setup
 
 setup(
   name='mailchecker',
-  version='3.2.1-pre2',
+  version = "3.2.0",
   py_modules=['MailChecker'],
   url='https://github.com/FGRibreau/mailchecker',
   license='MIT',
   author='Francois-Guillaume Ribreau',
+  author_email='github@fgribreau.com',
   description='Cross-language email validation. '
               'Backed by a database of thousands throwable email providers.',
   classifiers=[
