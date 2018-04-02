@@ -9,6 +9,9 @@ vendor/
 
 # python
 *.pyc
+platform/python/dist
+platform/python/mailchecker.egg-info
+
 
 # ruby
 *.gem
