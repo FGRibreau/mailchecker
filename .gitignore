@@ -20,6 +20,8 @@ Gemfile.lock
 # rust
 rust.iml
 platform/rust/target/
+platform/rust/cargo/
+
 
 # clojure
 target
