@@ -139,8 +139,6 @@ Django validator: https://github.com/jonashaag/django-indisposable
 
 ### Ruby
 
-[![Build Status](https://travis-ci.org/FGRibreau/mailchecker.svg)](https://travis-ci.org/FGRibreau/mailchecker)
-
 ```ruby
 require 'mail_checker'
 
