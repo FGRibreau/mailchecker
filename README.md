@@ -64,14 +64,14 @@ if not MailChecker.is_valid('bla@example.com'):
 -------------------------
 
 MailChecker currently supports:
-* [NodeJS](https://github.com/FGRibreau/mailchecker/tree/master/platform/node) (CommonJS)
-* [JavaScript](https://github.com/FGRibreau/mailchecker/tree/master/platform/javascript) (Client-Side)
-* [PHP](https://github.com/FGRibreau/mailchecker/tree/master/platform/php)
-* [Python](https://github.com/FGRibreau/mailchecker/tree/master/platform/python)
-* [Ruby](https://github.com/FGRibreau/mailchecker/tree/master/platform/ruby)
-* [Rust](https://github.com/FGRibreau/mailchecker/tree/master/platform/rust)
-* [Elixir](https://github.com/FGRibreau/mailchecker/tree/master/platform/elixir)
-* [Clojure](https://github.com/FGRibreau/mailchecker/tree/master/platform/clojure)
+* [NodeJS](https://github.com/FGRibreau/mailchecker/tree/master/platform/node) (CommonJS, [Instructions](#nodejs))
+* [JavaScript](https://github.com/FGRibreau/mailchecker/tree/master/platform/javascript) (Client-Side, [Instructions](#javascript))
+* [PHP](https://github.com/FGRibreau/mailchecker/tree/master/platform/php) ([Instructions](#php))
+* [Python](https://github.com/FGRibreau/mailchecker/tree/master/platform/python) ([Instructions](#python))
+* [Ruby](https://github.com/FGRibreau/mailchecker/tree/master/platform/ruby) ([Instructions](#ruby))
+* [Rust](https://github.com/FGRibreau/mailchecker/tree/master/platform/rust) ([Instructions](#rust))
+* [Elixir](https://github.com/FGRibreau/mailchecker/tree/master/platform/elixir) ([Instructions](#elixir))
+* [Clojure](https://github.com/FGRibreau/mailchecker/tree/master/platform/clojure) ([Instructions](#clojure))
 * **Easily add support for your own language with MailChecker template system and [send us a pull-request!](https://github.com/FGRibreau/mailchecker/fork_select)**
 
 -------------------------
@@ -123,6 +123,10 @@ if(!MailChecker::isValid('myemail.com')){
 
 ### Python
 
+```
+pip install mailchecker
+```
+
 ```python
 # no package yet; just drop in MailChecker.py where you want to use it.
 import MailChecker
@@ -131,7 +135,9 @@ if not MailChecker.is_valid('bla@example.com'):
     print "O RLY !"
 ```
 
-### Ruby [![Build Status](https://travis-ci.org/FGRibreau/mailchecker.svg)](https://travis-ci.org/FGRibreau/mailchecker)
+Django validator: https://github.com/jonashaag/django-indisposable
+
+### Ruby
 
 ```ruby
 require 'mail_checker'
