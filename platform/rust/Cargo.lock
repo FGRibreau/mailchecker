@@ -18,7 +18,7 @@ dependencies = [
 
 [[package]]
 name = "mailchecker"
-version = "3.2.2"
+version = "3.2.3"
 dependencies = [
  "fast_chemail 0.9.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "pretty_assertions 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
