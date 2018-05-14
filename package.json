@@ -21,6 +21,7 @@
     "test:rust": "docker run -i -v $(pwd)/platform/rust:/source -e CARGO_HOME=/source/cargo jimmycuadra/rust:1.19.0 cargo test",
     "watch": "mocha -r should -R spec -u tdd -w",
     "compile": "projectz compile",
+    "updtr": "updtr",
     "changelog": "github-changes --o $(node -p 'process.env.npm_package_repository_url.split(\"/\")[3];') --r $(node -p 'a=process.env.npm_package_repository_url.split(\"/\");a[a.length-1].split(\".\")[0]') --token $CHANGELOG_GITHUB_TOKEN_FG -f CHANGELOG.md",
     "changelog-git": "npm run changelog && git add CHANGELOG.md && git commit -m 'docs(changelog): updated' && git push origin master",
     "release-after-pr": "git pull --rebase && npm run full-build && npm run test && git commit -a -m 'feat(build): update plateform files' && npm-release patch && npm run release-cross",
@@ -110,20 +111,20 @@
   "dependencies": {
     "async": "^2.6.0",
     "cjson": "^0.5.0",
-    "eventemitter2": "^5.0.0",
+    "eventemitter2": "^5.0.1",
     "glob": "^7.0.3",
     "lodash": "^4.6.1",
     "mu2": "~0.5.20",
     "node-range": "0.1.x"
   },
   "devDependencies": {
-    "github-changes": "^1.1.1",
-    "mocha": "^4.0.1",
+    "github-changes": "^1.1.2",
+    "mocha": "^5.0.0",
     "nodeunit": "^0.11.2",
     "npm-release": "^1.0.0",
-    "npm-run-all": "^4.1.2",
+    "npm-run-all": "^4.1.3",
     "projectz": "^1.3.2",
-    "should": "^13.1.3",
+    "should": "^13.2.1",
     "updtr": "^2.0.0"
   },
   "optionalDependencies": {},
