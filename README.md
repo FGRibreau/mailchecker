@@ -309,7 +309,8 @@ These amazing people have contributed code to this project:
 <li><a href="http://github.com/apps/greenkeeper">greenkeeper[bot]</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=greenkeeper[bot]" title="View the GitHub contributions of greenkeeper[bot] on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/dustywusty">Dustin Clark</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=dustywusty" title="View the GitHub contributions of Dustin Clark on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://cashlink.io">Jonas Haag</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=jonashaag" title="View the GitHub contributions of Jonas Haag on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://alex.domakidis.com/">Alex Dom￸aki￸dis</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=datio" title="View the GitHub contributions of Alex Dom￸aki￸dis on repository FGRibreau/mailchecker">view contributions</a></li></ul>
+<li><a href="http://alex.domakidis.com/">￸A￸l￸e￸x D￸o￸m￸a￸k￸i￸d￸i￸s</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=datio" title="View the GitHub contributions of ￸A￸l￸e￸x D￸o￸m￸a￸k￸i￸d￸i￸s on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="https://github.com/mcgregordan">Dan McGregor</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=mcgregordan" title="View the GitHub contributions of Dan McGregor on repository FGRibreau/mailchecker">view contributions</a></li></ul>
 
 
 
