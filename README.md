@@ -4,7 +4,7 @@
 
 [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/francois-guillaume-ribreau?utm_source=github&utm_medium=button&utm_term=francois-guillaume-ribreau&utm_campaign=github)  [![available-for-advisory](https://img.shields.io/badge/available%20for%20advising-yes-ff69b4.svg?)](http://bit.ly/2c7uFJq) ![extra](https://img.shields.io/badge/actively%20maintained-yes-ff69b4.svg?)
 
-Cross-language email validation. Backed by a [database](./list.json) of **3064 throwable email providers**.
+Cross-language email validation. Backed by a [database](./list.json) of **5277 throwable email providers**.
 
 * Validate the format of your email (uses [validator.js](https://github.com/chriso/validator.js/blob/master/validator.js#L38) email regex underneath and `FILTER_VALIDATE_EMAIL` for PHP)
 * Validate if the email is not a **temporary mail** (yopmail-like..., [add your own dataset to list.json](./list.json))
