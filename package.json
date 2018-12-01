@@ -1,6 +1,6 @@
 {
   "name": "mailchecker",
-  "version": "3.2.11",
+  "version": "3.2.12",
   "description": "Cross-language temporary (disposable/throwaway) email detection library. Covers hundreds fake email providers.",
   "main": "platform/node/",
   "scripts": {
@@ -90,7 +90,8 @@
     "Dan McGregor (https://github.com/mcgregordan)",
     "greenkeeper[bot] (http://github.com/marketplace/greenkeeper)",
     "Thiago Rodrigues (http://xthiago.com/)",
-    "Dilli Labs LLC (http://www.dillilabs.com)"
+    "Dilli Labs LLC (http://www.dillilabs.com)",
+    "Ryan Castellucci (http://rya.nc/)"
   ],
   "badges": {
     "list": [
