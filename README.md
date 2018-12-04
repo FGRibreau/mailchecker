@@ -243,7 +243,7 @@ Development environment requires [docker](https://www.docker.com/).
 npm install
 
 # run every language setup in parallel through docker
-npm setup
+npm run setup
 
 # run every language tests in parallel through docker
 npm test
