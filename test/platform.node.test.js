@@ -22,6 +22,7 @@ suite('Node', function () {
       isValid("my=ok@ok.plop.com");
       isValid("ok@gmail.com");
       isValid("ok@hotmail.com");
+      isValid("plop@yopmail.pp.ua");
     });
 
     test('should return false if the email is invalid', function () {
@@ -30,13 +31,19 @@ suite('Node', function () {
       isInvalid("my+ok@ok=plop.com");
       isInvalid("my,ok@ok.plop.com");
       isInvalid("ok@tmail.com");
-      isInvalid("plop@yopmail.pp.ua");
-      isInvalid("  ok@gmail.com  ")
-      isInvalid("  ok@gmail.com")
-      isInvalid("ok@gmail.com  ")
-      isInvalid("\nok@gmail.com\n")
-      isInvalid("\nok@gmail.com")
-      isInvalid("ok@gmail.com\n")
+      isInvalid("plop@ass.pp.ua");
+      isInvalid("plop@fake-email.pp.ua");
+      isInvalid("plop@get.pp.ua");
+      isInvalid("plop@ip4.pp.ua");
+      isInvalid("plop@ip6.pp.ua");
+      isInvalid("plop@loh.pp.ua");
+      isInvalid("plop@poh.pp.ua");
+      isInvalid("  ok@gmail.com  ");
+      isInvalid("  ok@gmail.com");
+      isInvalid("ok@gmail.com  ");
+      isInvalid("\nok@gmail.com\n");
+      isInvalid("\nok@gmail.com");
+      isInvalid("ok@gmail.com\n");
     });
 
     test('should return false if the email come from a throwable domain', function () {
