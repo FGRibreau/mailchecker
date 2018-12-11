@@ -106,5 +106,10 @@
   // added by @nalgeon from https://www.abandonmail.com/
   ["coffeelovers.life", "hard-life.org", "hard-life.online", "crazymail.info", "crazymail.online"],
   // added by @kieronlawson from https://www.mailtemp.it/
-  ["20minutemail.it"]
+  ["20minutemail.it"],
+  // added by @kslr
+  // https://github.com/FGRibreau/mailchecker/issues/152
+  // http://mdu.edu.rs/
+  ["mdu.edu.rs", "bccto.me", "3202.com", "oiizz.com", "dawin.com", "4057.com", "cr219.com", "juyouxi.com", "1766258.com", "cuirushi.org" , "chaichuang.com", "a7996.com", "jnpayy.com", "dongqing365.com", "mail.jpgames.net", "zymuying.com", "zhaoyuanedu.cn", "m.bccto.me", "mail.wvwvw.tech", "mail.libivan.com", "jiaxin8736.com"],
+  ["mailhex.com", "idx4.com", "rsvhr.com", "voltaer.com", "zsero.com", "kulmeo.com", "xcodes.net", "daabox.com", "moruzza.com", "veanlo.com", "heros3.com", "autowb.com", "meihuajun76.com", "shayzam.net", "zdfpost.net", "providier.com", "laonanrenj.com", "lagify.com", "mailox.fun", "khtyler.com"]
 ]
