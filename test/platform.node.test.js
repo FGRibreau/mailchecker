@@ -30,7 +30,7 @@ suite('Node', function () {
       isInvalid("my+ok@ok=plop.com");
       isInvalid("my,ok@ok.plop.com");
       isInvalid("ok@tmail.com");
-      isInvalid("plop@yopmail.pp.ua");
+      isInvalid("plop@ip6.pp.ua");
       isInvalid("  ok@gmail.com  ")
       isInvalid("  ok@gmail.com")
       isInvalid("ok@gmail.com  ")
