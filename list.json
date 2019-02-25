@@ -123,5 +123,7 @@
   // added by @larsvegas from https://temp-mail.org/en/option/change/
   [ "next2cloud.info", "alexbox.online", "321-email.com", "utooemail.com", "22office.com", "heximail.com", "4senditnow.com", "braun4email.com", "onecitymail.com", "utoo.email"],
   // added by @C0derLint from https://rainmail.xyz/
-  ["zerodog.icu", "filerpost.xyz"]
+  ["zerodog.icu", "filerpost.xyz"],
+  // added by @chadliu23 from https://10minutemail.net/
+  ["zwoho.com", "mbox.re"],
 ]
