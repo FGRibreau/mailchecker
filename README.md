@@ -317,7 +317,8 @@ These amazing people have contributed code to this project:
 <li><a href="http://rya.nc/">Ryan Castellucci</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=ryancdotorg" title="View the GitHub contributions of Ryan Castellucci on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://spokephone.com">Kieron Lawson</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=kieronlawson" title="View the GitHub contributions of Kieron Lawson on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://kslr.org">Kslr</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=kslr" title="View the GitHub contributions of Kslr on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://C0derLint.github.io">Lint</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=C0derLint" title="View the GitHub contributions of Lint on repository FGRibreau/mailchecker">view contributions</a></li></ul>
+<li><a href="http://C0derLint.github.io">Lint</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=C0derLint" title="View the GitHub contributions of Lint on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="https://github.com/chadliu23">chadliu23</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=chadliu23" title="View the GitHub contributions of chadliu23 on repository FGRibreau/mailchecker">view contributions</a></li></ul>
 
 
 
