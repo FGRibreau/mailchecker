@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 
 workflows:
   version: 2
@@ -8,11 +8,11 @@ workflows:
 
 jobs:
   test:
+    machine: true
     docker:
       - image: circleci/node:10
     steps:
       - checkout
       - run: npm install
-      - run: npm run setup
       - run: npm run setup
       - run: npm test
