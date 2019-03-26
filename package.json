@@ -4,7 +4,7 @@
   "description": "Cross-language temporary (disposable/throwaway) email detection library. Covers hundreds fake email providers.",
   "main": "platform/node/",
   "scripts": {
-    "build": "node gen.js",
+    "build": "node plain2json.js && node gen.js",
     "setup": "npm run build && npm-run-all --max-parallel 2 --parallel setup:*",
     "setup:ruby": "docker run -i -v $(pwd):/app -w /app centurylink/ruby-base:2.2 bundler",
     "setup:clojure": "docker run -i -v $(pwd):/app -w /app clojure:lein-2.8.1 lein install",
@@ -139,6 +139,7 @@
     "npm-run-all": "^4.1.3",
     "projectz": "^1.3.2",
     "should": "^13.2.1",
+    "tmp": "^0.1.0",
     "updtr": "^2.0.0"
   },
   "optionalDependencies": {},
