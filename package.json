@@ -124,7 +124,6 @@
   "license": "MIT",
   "dependencies": {
     "async": "^2.6.0",
-    "cjson": "^0.5.0",
     "eventemitter2": "^5.0.1",
     "glob": "^7.0.3",
     "lodash": ">4.17.5",
