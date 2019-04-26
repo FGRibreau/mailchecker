@@ -316,13 +316,16 @@ These amazing people have contributed code to this project:
 <li><a href="http://www.dillilabs.com">Dilli Labs LLC</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=dillilabs" title="View the GitHub contributions of Dilli Labs LLC on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://rya.nc/">Ryan Castellucci</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=ryancdotorg" title="View the GitHub contributions of Ryan Castellucci on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://spokephone.com">Kieron Lawson</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=kieronlawson" title="View the GitHub contributions of Kieron Lawson on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://kslr.org">Kslr</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=kslr" title="View the GitHub contributions of Kslr on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://kslr.org">Kslr</a></li>
 <li><a href="http://C0derLint.github.io">Lint</a></li>
 <li><a href="https://github.com/chadliu23">chadliu23</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=chadliu23" title="View the GitHub contributions of chadliu23 on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://t.me/milkyklim">Klim Kolyvanov</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=milkyklim" title="View the GitHub contributions of Klim Kolyvanov on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/cosmosgenius">Sharat M R</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=cosmosgenius" title="View the GitHub contributions of Sharat M R on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/nicolasPerraud">nicolasPerraud</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=nicolasPerraud" title="View the GitHub contributions of nicolasPerraud on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="https://github.com/tbdmainrepo">tbdmainrepo</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=tbdmainrepo" title="View the GitHub contributions of tbdmainrepo on repository FGRibreau/mailchecker">view contributions</a></li></ul>
+<li><a href="https://github.com/tbdmainrepo">tbdmainrepo</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=tbdmainrepo" title="View the GitHub contributions of tbdmainrepo on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="https://github.com/kslr">Kslr</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=kslr" title="View the GitHub contributions of Kslr on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://fabiocaccamo.com/">Fabio Caccamo</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=fabiocaccamo" title="View the GitHub contributions of Fabio Caccamo on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="https://github.com/nayluge">cyril souillard</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=nayluge" title="View the GitHub contributions of cyril souillard on repository FGRibreau/mailchecker">view contributions</a></li></ul>
 
 
 
