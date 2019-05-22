@@ -26,3 +26,4 @@ platform/rust/cargo/
 # clojure
 target
 pom.xml
+mailchecker.iml
