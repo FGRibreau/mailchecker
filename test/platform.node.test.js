@@ -46,7 +46,7 @@ suite('Node', function () {
     });
 
     test("should return false if the email is from a blacklisted domain", function () {
-      MailChecker.blacklist().forEach(function (domain) {
+      _.sampleSize(MailChecker.blacklist(), 2000).forEach(function (domain) {
         isInvalid("test@" + domain);
         isInvalid("test@subdomain." + domain);
         isValid("test@" + domain + ".gmail.com");
