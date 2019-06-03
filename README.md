@@ -325,7 +325,8 @@ These amazing people have contributed code to this project:
 <li><a href="https://github.com/tbdmainrepo">tbdmainrepo</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=tbdmainrepo" title="View the GitHub contributions of tbdmainrepo on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/kslr">Kslr</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=kslr" title="View the GitHub contributions of Kslr on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://fabiocaccamo.com/">Fabio Caccamo</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=fabiocaccamo" title="View the GitHub contributions of Fabio Caccamo on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="https://github.com/nayluge">cyril souillard</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=nayluge" title="View the GitHub contributions of cyril souillard on repository FGRibreau/mailchecker">view contributions</a></li></ul>
+<li><a href="https://github.com/nayluge">cyril souillard</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=nayluge" title="View the GitHub contributions of cyril souillard on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://blog.lyrixx.info">Grégoire Pineau</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=lyrixx" title="View the GitHub contributions of Grégoire Pineau on repository FGRibreau/mailchecker">view contributions</a></li></ul>
 
 
 
