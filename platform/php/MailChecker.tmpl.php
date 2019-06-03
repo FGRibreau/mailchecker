@@ -1,47 +1,55 @@
 <?php
+
 /**
- * Usage
+ * MailChecker
+ *
+ * Usage:
  *
  * include('mailchecker/platform/php/Mailchecker.php');
- * MailChecker::isValid(String email);
+ * MailChecker::isValid(string email): bool;
+ *
  * @return {Boolean} true is the specified email is valid, false otherwise
  */
+class MailChecker
+{
+    public static $blacklist;
 
-class MailChecker {
-    static $blacklist;
-    static function init() {
+    public static function init()
+    {
         self::$blacklist = array_unique(array({{& listSTR }}));
     }
 
-    static function isValid($email) {
+    public static function isValid($email)
+    {
         $email = strtolower($email);
 
         return self::validEmail($email) && !self::isBlacklisted($email);
     }
 
-    static function blacklist() {
+    public static function blacklist()
+    {
         return self::$blacklist;
     }
 
-    private static function validEmail($email) {
-        if(filter_var($email, FILTER_VALIDATE_EMAIL) === false){
-            return false;
-        } else {
-            return true;
-        }
+    private static function validEmail($email)
+    {
+        return false !== filter_var($email, FILTER_VALIDATE_EMAIL);
     }
 
     /**
-     * Check if an email is blacklisted or not
-     * @param  String  $email
-     * @return boolean        true if $email is blacklisted
+     * Check if an email is blacklisted or not.
+     *
+     * @param string $email
+     *
+     * @return bool true if $email is blacklisted
      */
-    public static function isBlacklisted($email) {
-        $parts = explode("@", $email);
+    public static function isBlacklisted($email)
+    {
+        $parts = explode('@', $email);
         $domain = end($parts);
 
         foreach (self::allDomainSuffixes($domain) as $domainSuffix) {
-            if (in_array($domainSuffix, self::$blacklist)) {
+            if (\in_array($domainSuffix, self::$blacklist, true)) {
                 return true;
             }
         }
@@ -49,16 +57,18 @@ class MailChecker {
         return false;
     }
 
-    private static function allDomainSuffixes($domain) {
+    private static function allDomainSuffixes($domain)
+    {
         $components = explode('.', $domain);
 
         $return = [];
 
-        for ($i = 0; $i < count($components); $i++) {
+        foreach ($components as $i => $component) {
             array_push($return, implode('.', array_slice($components, $i)));
         }
 
         return $return;
     }
 }
+
 MailChecker::init();

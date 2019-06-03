@@ -4,7 +4,7 @@
     "keywords": ["fake", "email", "detection"],
     "license": "MIT",
     "require-dev": {
-        "phpunit/phpunit": "5.0.*"
+        "phpunit/phpunit": "^7.0"
     },
     "autoload": {
         "classmap": ["platform/php/MailChecker.php"]

@@ -14,7 +14,7 @@
     "test:clojure": "echo 'skipping clojure test because it cant handle code too large' || docker run -i -v $(pwd):/app -w /app clojure:lein-2.8.1 lein exec test/platform.clojure.test.clj",
     "test:elixir": "docker run -i -v $(pwd):/app -w /app elixir:1.6-slim elixir test/platform.elixir.test.exs",
     "test:node": "mocha --timeout 10000 -r should -R spec -u tdd",
-    "test:php": "docker run -i -v $(pwd):/app -w /app phpunit/phpunit:5.0.3 phpunit test/platform.php.test.php",
+    "test:php": "docker run -i -v $(pwd):/app -w /app phpunit/phpunit phpunit test/platform.php.test.php",
     "test:python": "docker run -i -v $(pwd):/app -w /app python:2.7-alpine3.7 python test/*.test.py",
     "test:python3": "docker run -i -v $(pwd):/app -w /app python:3.6-alpine3.7 python test/*.test.py",
     "test:ruby": "docker run -i -v $(pwd):/app -w /app centurylink/ruby-base:2.2 ruby test/platform.ruby.test.rb",
