@@ -2585,7 +2585,6 @@ affordablevoiceguy.com
 affordablewe.us
 affricca.com
 afganbaba.com
-afilias-nst.info
 afisha.biz.ua
 afishaonline.info
 afmail.com
@@ -18772,6 +18771,7 @@ mailserver2.ga
 mailserver2.ml
 mailserver2.tk
 mailshell.com
+mailshiv.com
 mailsinabox.bid
 mailsinabox.info
 mailsinthebox.co
