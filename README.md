@@ -129,7 +129,7 @@ pip install mailchecker
 
 ```python
 # no package yet; just drop in MailChecker.py where you want to use it.
-import MailChecker
+from MailChecker import MailChecker
 
 if not MailChecker.is_valid('bla@example.com'):
     print "O RLY !"
