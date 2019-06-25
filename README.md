@@ -257,7 +257,7 @@ npm test
 
 These amazing people are maintaining this project:
 
-<ul><li><a href="http://bit.ly/2c7uFJq">Francois-Guillaume Ribreau</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=FGRibreau" title="View the GitHub contributions of Francois-Guillaume Ribreau on repository FGRibreau/mailchecker">view contributions</a></li></ul>
+<ul><li><a href="http://bit.ly/2c7uFJq">Francois-Guillaume Ribreau</a></li></ul>
 
 <h3>Sponsors</h3>
 
@@ -273,61 +273,61 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-<ul><li><a href="http://www.owenstephens.co.uk">Owen Stephens</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=owst" title="View the GitHub contributions of Owen Stephens on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://jacobburenstam.com">Jacob Burenstam</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=buren" title="View the GitHub contributions of Jacob Burenstam on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://hermanslatman.nl">Herman Slatman</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=hslatman" title="View the GitHub contributions of Herman Slatman on repository FGRibreau/mailchecker">view contributions</a></li>
+<ul><li><a href="http://www.owenstephens.co.uk">Owen Stephens</a></li>
+<li><a href="http://jacobburenstam.com">Jacob Burenstam</a></li>
+<li><a href="http://hermanslatman.nl">Herman Slatman</a></li>
 <li><a href="https://github.com/trisix">trisix</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=trisix" title="View the GitHub contributions of trisix on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://greenkeeper.io/">Greenkeeper</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=greenkeeperio-bot" title="View the GitHub contributions of Greenkeeper on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://greenkeeper.io/">Greenkeeper</a></li>
 <li><a href="http://wusty.io">Dustin Clark</a></li>
-<li><a href="http://antonz.ru/">Anton Zhiyanov</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=nalgeon" title="View the GitHub contributions of Anton Zhiyanov on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://antonz.ru/">Anton Zhiyanov</a></li>
 <li><a href="https://github.com/NBruel">Bruel Nicolas</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=NBruel" title="View the GitHub contributions of Bruel Nicolas on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/R-J">Robin</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=R-J" title="View the GitHub contributions of Robin on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/Spir">Spir</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=Spir" title="View the GitHub contributions of Spir on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://flat.io">Vincent Giersch</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=gierschv" title="View the GitHub contributions of Vincent Giersch on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://adriancarolli.surge.sh/">Adrian Carolli</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=watadarkstar" title="View the GitHub contributions of Adrian Carolli on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://djpowers.github.io">Dave Powers</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=djpowers" title="View the GitHub contributions of Dave Powers on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://flat.io">Vincent Giersch</a></li>
+<li><a href="http://adriancarolli.surge.sh/">Adrian Carolli</a></li>
+<li><a href="http://djpowers.github.io">Dave Powers</a></li>
 <li><a href="https://github.com/frankydp">Frank Phillips</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=frankydp" title="View the GitHub contributions of Frank Phillips on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/LuckyDino">LuckyDino</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=LuckyDino" title="View the GitHub contributions of LuckyDino on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/vendethiel">ven</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=vendethiel" title="View the GitHub contributions of ven on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://www.linkedin.com/in/romaingay">Romain Gay</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=vikbez" title="View the GitHub contributions of Romain Gay on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://stormforger.com">Sebastian Cohnen</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=tisba" title="View the GitHub contributions of Sebastian Cohnen on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://www.linkedin.com/in/romaingay">Romain Gay</a></li>
+<li><a href="http://stormforger.com">Sebastian Cohnen</a></li>
 <li><a href="https://github.com/dav1a1223">Dalai</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=dav1a1223" title="View the GitHub contributions of Dalai on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/quaswex">quaswex</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=quaswex" title="View the GitHub contributions of quaswex on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/sxyuan">sxyuan</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=sxyuan" title="View the GitHub contributions of sxyuan on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://bit.ly/2c7uFJq">Francois-Guillaume Ribreau</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=FGRibreau" title="View the GitHub contributions of Francois-Guillaume Ribreau on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://bit.ly/2c7uFJq">Francois-Guillaume Ribreau</a></li>
 <li><a href="http://dusty.wtf">Dustin Clark</a></li>
-<li><a href="http://synpro.io">larsvegas</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=larsvegas" title="View the GitHub contributions of larsvegas on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="zeeshanmuhammad.com">Zeeshan Muhammad</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=zeeshan83" title="View the GitHub contributions of Zeeshan Muhammad on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://synpro.io">larsvegas</a></li>
+<li><a href="zeeshanmuhammad.com">Zeeshan Muhammad</a></li>
 <li><a href="https://github.com/kkleejoe">kkleejoe</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=kkleejoe" title="View the GitHub contributions of kkleejoe on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://www.freneda.com.br">Luiz Freneda</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=lfreneda" title="View the GitHub contributions of Luiz Freneda on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://www.freneda.com.br">Luiz Freneda</a></li>
 <li><a href="https://github.com/thorinisme">thorinisme</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=thorinisme" title="View the GitHub contributions of thorinisme on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/Outsidaz">Liudas Šumskas</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=Outsidaz" title="View the GitHub contributions of Liudas Šumskas on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/Wapweb">Alexandr</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=Wapweb" title="View the GitHub contributions of Alexandr on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://gitlab.com/datio/">Alex Dom￸aki￸dis</a></li>
-<li><a href="http://zanaca.com">Carlos Rios</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=zanaca" title="View the GitHub contributions of Carlos Rios on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://zanaca.com">Carlos Rios</a></li>
 <li><a href="https://github.com/jbzdak">Jacek Bzdak</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=jbzdak" title="View the GitHub contributions of Jacek Bzdak on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://github.com/apps/greenkeeper">greenkeeper[bot]</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=greenkeeper[bot]" title="View the GitHub contributions of greenkeeper[bot] on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://github.com/apps/greenkeeper">greenkeeper[bot]</a></li>
 <li><a href="https://github.com/dustywusty">Dustin Clark</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=dustywusty" title="View the GitHub contributions of Dustin Clark on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://cashlink.io">Jonas Haag</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=jonashaag" title="View the GitHub contributions of Jonas Haag on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://alex.domakidis.com/">￸A￸l￸e￸x D￸o￸m￸a￸k￸i￸d￸i￸s</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=datio" title="View the GitHub contributions of ￸A￸l￸e￸x D￸o￸m￸a￸k￸i￸d￸i￸s on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://cashlink.io">Jonas Haag</a></li>
+<li><a href="http://alex.domakidis.com/">￸A￸l￸e￸x D￸o￸m￸a￸k￸i￸d￸i￸s</a></li>
 <li><a href="https://github.com/mcgregordan">Dan McGregor</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=mcgregordan" title="View the GitHub contributions of Dan McGregor on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://github.com/marketplace/greenkeeper">greenkeeper[bot]</a></li>
-<li><a href="http://xthiago.com/">Thiago Rodrigues</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=xthiago" title="View the GitHub contributions of Thiago Rodrigues on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://www.dillilabs.com">Dilli Labs LLC</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=dillilabs" title="View the GitHub contributions of Dilli Labs LLC on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://rya.nc/">Ryan Castellucci</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=ryancdotorg" title="View the GitHub contributions of Ryan Castellucci on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://spokephone.com">Kieron Lawson</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=kieronlawson" title="View the GitHub contributions of Kieron Lawson on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://xthiago.com/">Thiago Rodrigues</a></li>
+<li><a href="http://www.dillilabs.com">Dilli Labs LLC</a></li>
+<li><a href="http://rya.nc/">Ryan Castellucci</a></li>
+<li><a href="http://spokephone.com">Kieron Lawson</a></li>
 <li><a href="http://kslr.org">Kslr</a></li>
 <li><a href="http://C0derLint.github.io">Lint</a></li>
 <li><a href="https://github.com/chadliu23">chadliu23</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=chadliu23" title="View the GitHub contributions of chadliu23 on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://t.me/milkyklim">Klim Kolyvanov</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=milkyklim" title="View the GitHub contributions of Klim Kolyvanov on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://t.me/milkyklim">Klim Kolyvanov</a></li>
 <li><a href="https://github.com/cosmosgenius">Sharat M R</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=cosmosgenius" title="View the GitHub contributions of Sharat M R on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/nicolasPerraud">nicolasPerraud</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=nicolasPerraud" title="View the GitHub contributions of nicolasPerraud on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/tbdmainrepo">tbdmainrepo</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=tbdmainrepo" title="View the GitHub contributions of tbdmainrepo on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/kslr">Kslr</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=kslr" title="View the GitHub contributions of Kslr on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://fabiocaccamo.com/">Fabio Caccamo</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=fabiocaccamo" title="View the GitHub contributions of Fabio Caccamo on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://fabiocaccamo.com/">Fabio Caccamo</a></li>
 <li><a href="https://github.com/nayluge">cyril souillard</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=nayluge" title="View the GitHub contributions of cyril souillard on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://blog.lyrixx.info">Grégoire Pineau</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=lyrixx" title="View the GitHub contributions of Grégoire Pineau on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="meterian.io">Bruno Bossola</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=bbossola" title="View the GitHub contributions of Bruno Bossola on repository FGRibreau/mailchecker">view contributions</a></li></ul>
+<li><a href="http://blog.lyrixx.info">Grégoire Pineau</a></li>
+<li><a href="meterian.io">Bruno Bossola</a></li></ul>
 
 
 
