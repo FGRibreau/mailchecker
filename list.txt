@@ -210,6 +210,7 @@
 1.emaile.org
 1.kerl.cf
 10-tube.ru
+10.dns-cloud.net
 10000websites.miasta.pl
 1000kti.xyz
 1000mail.com
@@ -290,6 +291,7 @@
 120mail.com
 1221locust.com
 123-m.com
+123.dns-cloud.net
 123321asedad.info
 1236456.com
 123amateucam.com
@@ -532,12 +534,14 @@
 2.batikbantul.com
 2.emailfake.ml
 2.kerl.cf
+2.mmspa.cf
 2.safemail.cf
 2.safemail.tk
 2.sexymail.ooo
 2.tebwinsoi.ooo
 2.vvsmail.com
 20-20pathways.com
+20.dns-cloud.net
 20.gov
 2000-plus.pl
 2000rebates.stream
@@ -613,6 +617,7 @@
 22ov17gzgebhrl.tk
 22zollmonitor.com
 23-february-posdrav.ru
+23.8.dnsabr.com
 2323bryanstreet.com
 234.pl
 234asdadsxz.info
@@ -815,6 +820,7 @@
 3.batikbantul.com
 3.kerl.cf
 3.vvsmail.com
+30.dns-cloud.net
 300book.info
 301er.com
 301url.info
@@ -1017,6 +1023,8 @@
 4-n.us
 4.batikbantul.com
 4.fackme.gq
+40.volvo-xc.ml
+40.volvo-xc.tk
 4006444444.com
 4006633333.com
 4006677777.com
@@ -1040,6 +1048,7 @@
 445t6454545ty4.ml
 445t6454545ty4.tk
 4545.a.hostable.me
+456.dns-cloud.net
 456b4564.cf
 456b4564.ga
 456b4564.gq
@@ -1070,6 +1079,7 @@
 49ersuperbowlshop.com
 49qoyzl.aid.pl
 49xq.com
+4alphapro.com
 4b5yt45b4.cf
 4b5yt45b4.ga
 4b5yt45b4.gq
@@ -1392,6 +1402,8 @@
 6-debt.com
 6.emailfake.ml
 60-minuten-mail.de
+60.volvo-xc.ml
+60.volvo-xc.tk
 600pro.com
 609k23.pl
 60dayworkoutdvd.info
@@ -1578,6 +1590,7 @@
 777.net.cn
 777slots-online.com
 787y849s.bij.pl
+789.dns-cloud.net
 789456123mail.ml
 799fu.com
 79mail.com
@@ -1689,7 +1702,10 @@
 7wzctlngbx6fawlv.ml
 7wzctlngbx6fawlv.tk
 7xnk9kv.pl
+8-8.ddns.net
+8-8.sytes.net
 8-mail.com
+8.dnsabr.com
 8.fackme.gq
 800hotspots.info
 800sacramento.tk
@@ -1880,7 +1896,10 @@
 8zbpmvhxvue.gq
 8zbpmvhxvue.ml
 8zbpmvhxvue.tk
+90.volvo-xc.ml
+90.volvo-xc.tk
 900k.es
+901.email
 91.200.12.139
 91.200.12.141
 91.200.12.143
@@ -2026,6 +2045,7 @@ a.sach.ir
 a.uditt.cf
 a.vztc.com
 a.wxnw.net
+a.yertxenor.tk
 a0.igg.biz
 a02sjv3e4e8jk4liat.cf
 a02sjv3e4e8jk4liat.ga
@@ -2062,6 +2082,7 @@ a4hk3s5ntw1fisgam.ga
 a4hk3s5ntw1fisgam.gq
 a4hk3s5ntw1fisgam.ml
 a4hk3s5ntw1fisgam.tk
+a4papersize.net
 a4rpeoila5ekgoux.cf
 a4rpeoila5ekgoux.ga
 a4rpeoila5ekgoux.gq
@@ -2171,6 +2192,8 @@ abanksat.us
 abarth.ga
 abarth.gq
 abarth.tk
+abb.dns-cloud.net
+abb.dnsabr.com
 abba.co.pl
 abbelt.com
 abbeyrose.info
@@ -2351,6 +2374,7 @@ acqm38bmz5atkh3.ga
 acqm38bmz5atkh3.gq
 acqm38bmz5atkh3.ml
 acqm38bmz5atkh3.tk
+acquaintance70.ga
 acres.asia
 acrilicoemosasco.ml
 acrilicosemosasco.ml
@@ -2487,7 +2511,7 @@ adverstudio.com
 advertforyou.info
 advertiseall.com
 advertisingmarketingfuture.info
-ADVEXTREME.COM
+advextreme.com
 advisorwe.us
 adviva-odsz.com
 advocatewe.us
@@ -2845,7 +2869,7 @@ airn.co.pl
 airold.net
 airparkmax.us
 airplay.elk.pl
-AirPriority.com
+airpriority.com
 airpurifiermax.us
 airriveroutlet.us
 airshowmax.us
@@ -3091,7 +3115,7 @@ allemaling.com
 allen.nom.za
 allenrothclosetorganizer.com
 allerguxfpoq.com
-AllergyPeanut.com
+allergypeanut.com
 allesgutezumgeburtstag.info
 allfactory.com
 allfamus.com
@@ -3150,7 +3174,7 @@ alphafrau.de
 alphaomegawe.us
 alphaphalpha74.com
 alphaupsilon.thefreemail.top
-AlphonseBathrick.com
+alphonsebathrick.com
 alpinewe.us
 alqy5wctzmjjzbeeb7s.cf
 alqy5wctzmjjzbeeb7s.ga
@@ -3328,8 +3352,10 @@ angesti.tech
 angielski.edu
 angielskie.synonimy.com
 angioblast.info
+angksoeas.club
 angola-nedv.ru
 angoplengop.cf
+angrityas.club
 angrybirdsforpc.info
 angularcheilitisguide.info
 anhthu.org
@@ -3431,7 +3457,7 @@ antichef.com
 antichef.net
 antichef.org
 antigua-nedv.ru
-AntiguaBars.com
+antiguabars.com
 antimalware360.co.uk
 antiquerestorationwork.com
 antiquestores.us
@@ -3498,6 +3524,7 @@ aonbola.club
 aonbola.org
 aonbola.store
 aopconsultants.com
+apagitu.biz.tm
 apagitu.chickenkiller.com
 apakahandasiap.com
 apalo.tk
@@ -3525,6 +3552,7 @@ apotekerid.com
 apown.com
 apoyrwyr.gq
 apozemail.com
+app-expert.com
 app-inc-vol.ml
 app-lex-acc.com
 appbotbsxddf.com
@@ -3593,7 +3621,7 @@ arabdemocracy.info
 arak.ml
 arakcarpet.ir
 aramamotor.net
-ArcadeSpecialist.com
+arcadespecialist.com
 arcelormittal-construction.pl
 archeage-gold.co.uk
 archeage-gold.de
@@ -3637,6 +3665,7 @@ arkanzas-nedv.ru
 arkonnide.cf
 arkotronic.pl
 armail.com
+armail.in
 armandwii.me
 armatny.augustow.pl
 armiasrodek.pl
@@ -3762,7 +3791,7 @@ asdqwee213.info
 asdqwevfsd.com
 asdrxzaa.com
 asdsd.co
-ASDVERSD.COM
+asdversd.com
 asdvewq.com
 aseewr1tryhtu.co.cc
 aseq.com
@@ -3790,8 +3819,10 @@ asghashasdhasjhashag.ml
 ashik2in.com
 ashishsingla.com
 ashleyandrew.com
+ashotmail.com
 asi72.ru
 asia-pasifikacces.com
+asia.dnsabr.com
 asiahot.jp
 asian-handicap.org.uk
 asianeggdonor.info
@@ -3843,7 +3874,7 @@ asooemail.net
 asopenhrs.com
 asorent.com
 asouses.ru
-Asperorotutmail.com
+asperorotutmail.com
 asportsa.ru
 aspotgmail.org
 ass.pp.ua
@@ -4171,6 +4202,10 @@ azxhzkohzjwvt6lcx.ga
 azxhzkohzjwvt6lcx.gq
 azxhzkohzjwvt6lcx.ml
 azxhzkohzjwvt6lcx.tk
+azzurro.cf
+azzurro.ga
+azzurro.gq
+azzurro.ml
 b-geamuritermopan-p.com
 b-geamuritermopane-p.com
 b-preturitermopane-p.com
@@ -4181,10 +4216,12 @@ b-sky-b.gq
 b-sky-b.ml
 b-sky-b.tk
 b-termopanepreturi-p.com
+b.cr.cloudns.asia
 b.kerl.gq
 b.polosburberry.com
 b.reed.to
 b.royal-syrup.tk
+b.yertxenor.tk
 b0.nut.cc
 b057bf.pl
 b1gmail.epicgamer.org
@@ -4471,7 +4508,7 @@ barzan.mielno.pl
 basakgidapetrol.com
 base-all.ru
 base-weight.com
-BaseballBoycott.com
+baseballboycott.com
 baseny-mat.com.pl
 basgoo.com
 bashmak.info
@@ -4552,12 +4589,14 @@ bcdmail.date
 bcg-adwokaci.pl
 bchatz.ga
 bcompiled3.com
+bcproducts.cloudns.asia
 bcxaiws58b1sa03dz.cf
 bcxaiws58b1sa03dz.ga
 bcxaiws58b1sa03dz.gq
 bcxaiws58b1sa03dz.ml
 bcxaiws58b1sa03dz.tk
 bczwy6j7q.pl
+bd.dns-cloud.net
 bd.if.ua
 bdf343rhe.de
 bdmuzic.pw
@@ -4816,7 +4855,7 @@ bestvpn.top
 bestvpshostings.com
 bestwatches.com
 bestways.ga
-BestWeightLossFitness.com
+bestweightlossfitness.com
 bestwesternpromotioncode.org
 bestwindows7key.net
 bestwish.biz
@@ -5239,7 +5278,7 @@ blueoceanrecruiting.com
 bluepills.pp.ua
 blueright.net
 bluesmail.pw
-BluetoothBuys.com
+bluetoothbuys.com
 bluewerks.com
 blueyi.com
 bluffersguidetoit.com
@@ -5285,8 +5324,8 @@ bmw-z4.ga
 bmw-z4.gq
 bmw-z4.ml
 bmw-z4.tk
-BMW4LIFE.com
-BMW4LIFE.edu
+bmw4life.com
+bmw4life.edu
 bmwgroup.cf
 bmwgroup.ga
 bmwgroup.gq
@@ -5322,7 +5361,7 @@ bob.email4edu.com
 bob.inkandtonercartridge.co.uk
 bobablast.com
 bobandvikki.club
-bobbyDcrook.com
+bobbydcrook.com
 bobfilmclub.ru
 bobmail.info
 bobmurchison.com
@@ -5363,7 +5402,7 @@ bohani.ga
 bohani.gq
 bohani.ml
 bohani.tk
-BohemianToo.com
+bohemiantoo.com
 boimail.com
 boinkmas.top
 boiserockssocks.com
@@ -5512,7 +5551,7 @@ bouss.net
 boutiqueenlignefr.info
 bovinaisd.net
 bowamaranth.website
-BowlingLawn.com
+bowlinglawn.com
 bowtrolcolontreatment.com
 box-email.ru
 box-emaill.info
@@ -5668,6 +5707,7 @@ brrvpuitu8hr.tk
 brunhilde.ml
 brunomarsconcert2014.com
 bruzdownice-v.pl
+brxqoy.cf
 bs6bjf8wwr6ry.cf
 bs6bjf8wwr6ry.ga
 bs6bjf8wwr6ry.gq
@@ -5893,7 +5933,7 @@ buycialisusa.org
 buyclarisonicmiaoutlet.com
 buyclarisonicmiasale.com
 buycow.org
-BuyCultureBoxes.com
+buycultureboxes.com
 buycustompaper.review
 buydeltasoneonlinenow.com
 buydfcat9893lk.cf
@@ -6170,12 +6210,12 @@ camerabuy.info
 camerabuy.ru
 camerachoicetips.info
 camgirls.de
-CAMIONESRD.COM
+camionesrd.com
 camisetashollisterbrasil.com
 cammk.com
 camnangdoisong.com
 campano.cl
-CampCuts.com
+campcuts.com
 camping-grill.info
 camthaigirls.com
 canadacoachhandbags.ca
@@ -6195,7 +6235,7 @@ canadawebmail.ca.vu
 canadian-onlinep-harmacy.com
 canadian-pharmacy.xyz
 canadian-pharmacys.com
-CanadianHackers.com
+canadianhackers.com
 canadianonline.email
 canadianpharmaciesbnt.com
 canadianpharmacymim.com
@@ -6334,6 +6374,7 @@ caspianfan.ir
 casquebeatsdrefrance.com
 cassidony.info
 castillodepavones.com
+castlebranchlogin.com
 castromail.bid
 casualdx.com
 cat.pp.ua
@@ -6590,7 +6631,7 @@ charlie.mike.spithamail.top
 charlie.omega.webmailious.top
 charlielainevideo.com
 charminggirl.net
-CharmLessons.com
+charmlessons.com
 chatfap.info
 chatjunky.com
 chatlines.club
@@ -6772,7 +6813,7 @@ cheaptheuksaleface.com
 cheaptiffanyandcoclub.co.uk
 cheaptomshoesoutlet.com
 cheaptomshoesoutlet.net
-CheapToothpicks.com
+cheaptoothpicks.com
 cheaptraineruk.com
 cheaptravelguide.net
 cheapuggbootonsaleus.com
@@ -6837,7 +6878,7 @@ chichichichi.com
 chicken-girl.com
 chickenadobo.org
 chickenkiller.com
-ChicoMaps.com
+chicomaps.com
 chiefyagan.com
 chielo.com
 chihairstraightenerv.com
@@ -6846,6 +6887,7 @@ chilelinks.cl
 chilepro.cc
 chili-nedv.ru
 chilkat.com
+chilloutpro.me
 china-mattress.org
 china-nedv.ru
 china183.com
@@ -7173,8 +7215,8 @@ cnamed.com
 cndps.com
 cnew.ir
 cnewsgroup.com
-CNH.industrial.ga
-CNH.industrial.gq
+cnh.industrial.ga
+cnh.industrial.gq
 cnhindustrial.cf
 cnhindustrial.ga
 cnhindustrial.gq
@@ -7293,12 +7335,14 @@ collegee.net
 collegefornurse.com
 colloware.com
 coloc.venez.fr
+cologno.cf
 coloncleanse.club
 coloncleansereview1.org
 coloncleansingplan.com
 coloninsta.tk
 colorado-nedv.ru
 colorweb.cf
+column1
 com-posted.org
 com.ar
 comagrilsa.com
@@ -7355,7 +7399,7 @@ computercrown.com
 computerengineering4u.com
 computerhardware2012.info
 computerinformation4u.com
-ComputerLookup.com
+computerlookup.com
 computerrepairinfosite.com
 computerrepairredlands.com
 computersoftware2012.info
@@ -7407,7 +7451,7 @@ contrasto.cu.cc
 controlinbox.com
 controllerblog.com
 contumail.com
-ConventionPreview.com
+conventionpreview.com
 conventionstrategy.win
 conversejapan.com
 convert-five.ru
@@ -7518,6 +7562,7 @@ cqutssntx9356oug.ga
 cqutssntx9356oug.gq
 cqutssntx9356oug.ml
 cqutssntx9356oug.tk
+cr.cloudns.asia
 cr219.com
 cr3wmail.sytes.net
 cr3wxmail.servequake.com
@@ -8307,7 +8352,7 @@ desocupa.org
 desoz.com
 despam.it
 despammed.com
-DestructiveBlog.com
+destructiveblog.com
 deszn1d5wl8iv0q.cf
 deszn1d5wl8iv0q.ga
 deszn1d5wl8iv0q.gq
@@ -8332,7 +8377,7 @@ dev-null.ml
 devax.pl
 devdating.info
 developan.ru
-DevelopFuel.com
+developfuel.com
 developmentwebsite.co.uk
 devicefoods.ru
 devinmariam.coayako.top
@@ -8609,7 +8654,7 @@ dispose.it
 disposeamail.com
 disposemail.com
 dispostable.com
-DisputeSpecialists.com
+disputespecialists.com
 distdurchbrumi.xyz
 diujungsenja.online
 divad.ga
@@ -8900,7 +8945,7 @@ download-warez.com
 downloadarea.net
 downloadbaixarpdf.com
 downloadeguide.mywire.org
-DownloadMortgage.com
+downloadmortgage.com
 downloadmoviefilm.net
 downportal.tk
 downsmail.bid
@@ -9021,6 +9066,7 @@ droolingfanboy.de
 drop-max.info
 drop.ekholm.org
 dropcake.de
+drope.ml
 dropfresh.net
 dropjar.com
 droplar.com
@@ -9177,6 +9223,8 @@ dutybux.info
 duzybillboard.pl
 dv6w2z28obi.pl
 dvakansiisochi20139.cx.cc
+dvd.dns-cloud.net
+dvd.dnsabr.com
 dvdallnews.com
 dvdcloset.net
 dvdexperts.info
@@ -9767,7 +9815,7 @@ electriccarvehicle.com
 electricistaurgente.net
 electricswitch.info
 electro.mn
-ElectroFunds.com
+electrofunds.com
 electromax.us
 electronic-smoke.com
 electronic-stores.org
@@ -9837,6 +9885,7 @@ email-fake.tk
 email-host.info
 email-jetable.fr
 email-list.online
+email-mail.pw
 email-me.bid
 email-server.info
 email-sms.com
@@ -9856,6 +9905,7 @@ email.infokehilangan.com
 email.net
 email.org
 email.pozycjonowanie8.pl
+email.viola.gq
 email.wassusf.online
 email.zyz5.com
 email0.cf
@@ -10170,7 +10220,7 @@ entirelynl.nl
 entregandobiblia.com.br
 enu.kr
 envelop2.tk
-EnviroPhoenix.com
+envirophoenix.com
 envy17.com
 envysa.com
 envywork.ru
@@ -10400,6 +10450,16 @@ etmail.top
 etoic.com
 etonracingboats.co.uk
 etovar.net.ua
+etr500.cf
+etr500.ga
+etr500.gq
+etr500.ml
+etr500.tk
+etr700.cf
+etr700.ga
+etr700.gq
+etr700.ml
+etr700.tk
 etranquil.com
 etranquil.net
 etranquil.org
@@ -10411,8 +10471,10 @@ etwienmf7hs.gq
 etwienmf7hs.ml
 etxm.gq
 etzdnetx.com
-EU.DLink.cf
-EU.DLink.gq
+eu.dlink.cf
+eu.dlink.gq
+eu.dns-cloud.net
+eu.dnsabr.com
 eu.igg.biz
 eu6genetic.com
 euabds.com
@@ -10437,6 +10499,7 @@ eurodmain.com
 euromail.tk
 euromillionsresults.be
 europesmail.gdn
+euroweb.email
 eurox.eu
 euwbvkhuqwdrcp8m.cf
 euwbvkhuqwdrcp8m.ml
@@ -10602,6 +10665,7 @@ extremebacklinks.info
 exxon-mobil.tk
 ey5kg8zm.mil.pl
 eyal-golan.com
+eyandex.ru
 eyelidsflorida.com
 eyepaste.com
 eyimail.com
@@ -10705,7 +10769,7 @@ facilesend.com
 fackme.gq
 factopedia.pl
 factoryburberryoutlet.com
-FactoryDrugs.com
+factorydrugs.com
 fadingemail.com
 fae412wdfjjklpp.com
 fae42wsdf.com
@@ -11182,7 +11246,7 @@ firematchvn.tk
 firemymail.co.cc
 firestore.pl
 firestylemail.tk
-FirewallRemoval.com
+firewallremoval.com
 firma-frugtordning.dk
 firma-remonty-warszawa.pl
 firmaa.pl
@@ -11394,7 +11458,7 @@ for1mail.tk
 for4.com
 for4mail.com
 forecastertests.com
-ForeclosureFest.com
+foreclosurefest.com
 foreskin.cf
 foreskin.ga
 foreskin.gq
@@ -11701,7 +11765,7 @@ frontiers.com
 frooogle.com
 frouse.ru
 frozen.com
-FrozenFund.com
+frozenfund.com
 frpascherbottes.com
 fruertwe.com
 frugalpens.com
@@ -11799,7 +11863,7 @@ fun2night.club
 fun64.com
 fun64.net
 funandrun.waw.pl
-FundraisingTactics.com
+fundraisingtactics.com
 funeemail.info
 funfar.pl
 funfoodmachines.co.uk
@@ -12078,6 +12142,7 @@ garnous.com
 garrifulio.mailexpire.com
 garrymccooey.com
 garrynacov.cf
+garsasd.club
 gartenarbeiten-muenchen.ovh
 garudaesports.com
 garyschollmeier.com
@@ -12114,6 +12179,7 @@ gcmail.top
 gcordobaguerrero.com
 gcznu5lyiuzbudokn.ml
 gcznu5lyiuzbudokn.tk
+gd.luk2.com
 gd6ubc0xilchpozgpg.cf
 gd6ubc0xilchpozgpg.ga
 gd6ubc0xilchpozgpg.gq
@@ -12376,6 +12442,10 @@ ghymail.com
 gi-pro.org
 giacmosuaviet.info
 giaiphapmuasam.com
+giallo.cf
+giallo.gq
+giallo.ml
+giallo.tk
 gianna1121.club
 giantmail.de
 giantwebs2010.info
@@ -12450,7 +12520,7 @@ girlsindetention.com
 girlsu.com
 girlsundertheinfluence.com
 giromail.info
-GishPuppy.com
+gishpuppy.com
 gispgeph6qefd.cf
 gispgeph6qefd.ga
 gispgeph6qefd.gq
@@ -12520,6 +12590,7 @@ glqbsobn8adzzh.ml
 glqbsobn8adzzh.tk
 glubex.com
 glucosegrin.com
+gm.marrone.cf
 gma2il.com
 gmaeil.com
 gmai.com
@@ -12628,6 +12699,8 @@ gmmx.com
 gmojl.com
 gmsdfhail.com
 gmssail.com
+gmx.dns-cloud.net
+gmx.dnsabr.com
 gmx.fr.nf
 gmx1mail.top
 gmxip8vet5glx2n9ld.cf
@@ -12922,6 +12995,7 @@ gratislink.net
 gratislose.de
 gratisneuke.be
 gratosmail.fr.nf
+gray.grigio.cf
 graymail.ga
 great-host.in
 great-names.info
@@ -12976,6 +13050,7 @@ grencex.cf
 grenn24.com
 grepekhyo65hfr.tk
 gresyuip.com.uk
+grey.grigio.cf
 greyjack.com
 griffeyjrshoesstore.com
 griffeyshoesoutletsale.com
@@ -13489,6 +13564,8 @@ hazelnuts4u.com
 hazmatshipping.org
 hbccreditcard.net
 hbdya.info
+hbo.dns-cloud.net
+hbo.dnsabr.com
 hbontqv90dsmvko9ss.cf
 hbontqv90dsmvko9ss.ga
 hbontqv90dsmvko9ss.gq
@@ -13544,7 +13621,7 @@ hdqputlockers.com
 hdrecording-al.info
 hdseriionline.ru
 hdstream247.com
-HDTVSounds.com
+hdtvsounds.com
 he2duk.net
 he8801.com
 headachetreatment.net
@@ -13603,6 +13680,7 @@ hello123.com
 hellodream.mobi
 hellohitech.com
 hellokittyjewelrystore.com
+hellomail.fun
 helloricky.com
 hellow-man.pw
 hellowman.pw
@@ -13800,6 +13878,7 @@ hitler-adolf.ga
 hitler-adolf.gq
 hitler-adolf.ml
 hitler-adolf.tk
+hitler.dnsabr.com
 hitlerbehna.com
 hitprice.co
 hitthatne.org.ua
@@ -14026,7 +14105,7 @@ hotelfocus.com.pl
 hotelnextmail.com
 hoteloferty.pl
 hotelsatparis.com
-HotelVet.com
+hotelvet.com
 hotermail.org
 hotesell.com
 hotfile24h.net
@@ -14642,6 +14721,7 @@ ihomail.com
 iidiscounts.com
 iidiscounts.org
 iidzlfals.pl
+iigmail.com
 iigtzic3kesgq8c8.cf
 iigtzic3kesgq8c8.ga
 iigtzic3kesgq8c8.gq
@@ -14856,7 +14936,7 @@ infalled.com
 inferno4.pl
 infest.org
 infideles.nu
-Infilddrilemail.com
+infilddrilemail.com
 infinityclippingpath.com
 info-radio.ml
 info7.eus
@@ -15149,7 +15229,7 @@ irovonopo.com
 irpanenjin.com
 irper.com
 irr.kr
-IRSAnalysis.com
+irsanalysis.com
 irssi.tv
 irti.info
 irydoidy.pl
@@ -16347,7 +16427,7 @@ keykeykelynz.ga
 keykeykelynz.gq
 keykeykelynz.ml
 keykeykelynz.tk
-KeyPreview.com
+keypreview.com
 keywordstudy.pl
 kf2ddmce7w.cf
 kf2ddmce7w.ga
@@ -16925,6 +17005,7 @@ kwiaty-hurt.pl
 kwiatyikrzewy.pl
 kwift.net
 kwilco.net
+kwrffm.ml
 kxliooiycl.pl
 kxmnbhm.gsm.pl
 kxzaten9tboaumyvh.cf
@@ -17097,10 +17178,11 @@ landans.ru
 landaugo.com
 landmail.co
 landmark.io
-LandonBrafford.com
+landonbrafford.com
 langabendkleider.com
 langanswers.ru
 langitserver.biz
+lanscieze.club
 laoeq.com
 laoho.com
 laonanrenj.com
@@ -17415,6 +17497,7 @@ likesv.com
 likesyouback.com
 likevipfb.cf
 lilin.pl
+lilittka.gq
 lillemap.net
 lilnx.net
 lilo.me
@@ -17691,6 +17774,7 @@ logwulan9.ml
 logyanti412.ga
 loh.pp.ua
 loin.in
+lojasmax.ml
 lokaperuss.com
 lokata-w-banku.com.pl
 lokd.com
@@ -18100,6 +18184,7 @@ lyjnhkmpe1no.tk
 lylilupuzy.pl
 lyrics-lagu.me
 lyustra-bra.info
+lyva.luk2.com
 lyzj.org
 lzcxssxirzj.cf
 lzcxssxirzj.ga
@@ -18157,16 +18242,21 @@ m0y1mqvqegwfvnth.gq
 m0y1mqvqegwfvnth.ml
 m0y1mqvqegwfvnth.tk
 m1.blogrtui.ru
+m1.dns-cloud.net
 m1.guardmail.cf
+m2.dns-cloud.net
 m2.guardmail.cf
 m2.trekr.tk
 m21.cc
 m2project.xyz
 m2r60ff.com
+m3.dns-cloud.net
 m3.guardmail.cf
 m3u5dkjyz.pl
+m4.dns-cloud.net
 m4il5.pl
 m4ilweb.info
+m5.dns-cloud.net
 m6c718i7i.pl
 m8g8.com
 m8gj8lsd0i0jwdno7l.cf
@@ -18261,12 +18351,14 @@ mail-c.ga
 mail-c.gq
 mail-c.ml
 mail-c.tk
+mail-card.com
 mail-cart.com
 mail-demon.bid
 mail-easy.fr
 mail-fake.com
 mail-filter.com
 mail-finder.net
+mail-fix.com
 mail-hub.info
 mail-hub.online
 mail-j.cf
@@ -18393,6 +18485,7 @@ mail1999.ml
 mail1999.tk
 mail1a.de
 mail2.cf
+mail2.dns-cloud.net
 mail2.drama.tw
 mail2.info.tm
 mail2.ntuz.me
@@ -18538,6 +18631,7 @@ mailcc.tk
 mailcdn.ml
 mailchop.com
 mailcker.com
+mailcloud.com
 mailclubs.info
 mailcom.cf
 mailcom.ga
@@ -18614,15 +18708,22 @@ mailfreeonline.com
 mailfs.com
 mailgc.com
 mailgen.biz
+mailgen.club
+mailgen.fun
+mailgen.info
+mailgen.pro
+mailgen.pw
+mailgen.xyz
 mailglobalnet.space
 mailgoogle.com
 mailgov.info
+mailgroup.in
 mailguard.me
 mailgui.pw
 mailgutter.com
 mailhaven.com
-mailHazard.com
-mailHazard.us
+mailhazard.com
+mailhazard.us
 mailhero.io
 mailhex.com
 mailhound.com
@@ -18741,6 +18842,8 @@ mailplus.pl
 mailpm.live
 mailpooch.com
 mailpost.comx.cf
+mailpost.dns-cloud.net
+mailpost.ga
 mailpost.gq
 mailpremium.net
 mailpro5.club
@@ -18958,7 +19061,7 @@ mall.tko.co.kr
 mallinator.com
 mallinco.com
 malove.site
-MalpracticeBoard.com
+malpracticeboard.com
 malta-nedv.ru
 mama.com
 mamail.cf
@@ -19001,7 +19104,7 @@ mapleemail.com
 mapolace.xyz
 mapycyfrowe-bydgoszcz.pl
 mara.jessica.webmailious.top
-MarathonKit.com
+marathonkit.com
 marbau-hydro.pl
 marbleorbmail.bid
 marcbymarcjacobsjapan.com
@@ -19041,6 +19144,7 @@ marloni.com.pl
 maroonsea.com
 marriedchat.co.uk
 marrocomail.gdn
+marrone.cf
 marryznakomstv.ru
 marthaloans.co.uk
 martin.securehost.com.es
@@ -19298,7 +19402,7 @@ memecituenakganasli.tk
 memeil.top
 memem.uni.me
 memkottawaprofilebacks.com
-MemoryGalore.com
+memorygalore.com
 memp.net
 memsg.site
 mendoan.uu.gl
@@ -19431,7 +19535,7 @@ mial.cf
 mial.tk
 mialbox.info
 miam.kd2.org
-Miami.edy
+miami.edy
 miamovies.com
 miamovies.net
 miauj.com
@@ -19569,10 +19673,10 @@ mirstyle.ru
 miscritscheats.info
 missi.fun
 mississaugaseo.com
-MissLawyers.com
+misslawyers.com
 missright.co.uk
 missthegame.com
-MisTeacher.com
+misteacher.com
 misterpinball.de
 mistressnatasha.net
 mite.tk
@@ -19659,6 +19763,7 @@ mlsix.ovh
 mlsix.xyz
 mlsmodels.com
 mlx.ooo
+mm.8.dnsabr.com
 mm.my
 mm5.se
 mmach.ru
@@ -19697,10 +19802,11 @@ mnbvcxz8.info
 mng2gq.pl
 mnode.me
 mntwincitieshomeloans.com
+mnxo.luk2.com
 moakt.co
 moakt.com
 moakt.ws
-MoAnalyst.com
+moanalyst.com
 moathrababah.com
 mobanswer.ru
 mobaratopcinq.life
@@ -19876,7 +19982,7 @@ mot1zb3cxdul.gq
 mot1zb3cxdul.ml
 mot1zb3cxdul.tk
 motique.de
-MotivationalSites.com
+motivationalsites.com
 moto-gosz.pl
 moto4you.pl
 motorcycleserivce.info
@@ -20010,6 +20116,7 @@ mscbestforever.com
 mscdex.com.au.pn
 msendback.com
 mseo.ehost.pl
+msft.cloudns.asia
 msgden.com
 msgos.com
 msgsafe.ninja
@@ -20173,7 +20280,7 @@ mvoudzz34rn.ga
 mvoudzz34rn.gq
 mvoudzz34rn.ml
 mvoudzz34rn.tk
-MVPDream.com
+mvpdream.com
 mvrh.com
 mvrht.com
 mvrht.net
@@ -20228,6 +20335,7 @@ my-webmail.tk
 my.efxs.ca
 my.longaid.net
 my.safe-mail.gq
+my.viola.gq
 my.vondata.com.ar
 my10minutemail.com
 my301.info
@@ -20588,7 +20696,7 @@ namemerfo.co.pl
 namemerfo.com
 nameofname.pw
 nameofpic.org.ua
-NamePrediction.com
+nameprediction.com
 nameshirt.xyz
 namilu.com
 namnerbca.com
@@ -20642,6 +20750,7 @@ naudau.com
 naughty-blog.com
 naughtyrevenue.com
 nauka999.pl
+navientlogin.net
 naviosun-ca.info
 navmanwirelessoem.com
 nawforum.ru
@@ -20878,7 +20987,7 @@ newsmag.us
 newsms.pl
 newsonlinejapan.com
 newsonlinejp.com
-NewsOuting.com
+newsouting.com
 newspro.fun
 newssites.com
 newsslimming.info
@@ -20939,7 +21048,7 @@ nfljerseysussupplier.com
 nflnewsforfun.com
 nflravenssuperbowl.com
 nflravenssuperbowlshop.com
-NFLshop112.com
+nflshop112.com
 nfnorthfaceoutlet.co.uk
 nfnov28y9r7pxox.ga
 nfnov28y9r7pxox.gq
@@ -21802,7 +21911,7 @@ oiizz.com
 oilofolay.in
 oilpaintingsale.net
 oilpaintingvalue.info
-OilRepairs.com
+oilrepairs.com
 oimail.com
 oing.cf
 oink8jwx7sgra5dz.cf
@@ -22073,12 +22182,13 @@ oolus.com
 oopi.org
 oopsify.com
 oou.us
-OpalRoom.com
+opalroom.com
 opayq.com
 opelmail.com
 open-domains.info
 open-sites.info
 open.brainonfire.net
+opende.de
 opendns.ro
 openfront.com
 openingforex.com
@@ -22115,7 +22225,7 @@ optymalizacja.com.pl
 opulent-fx.com
 or.orgz.in
 oracruicat.xyz
-OralReply.com
+oralreply.com
 oranek.com
 orange-bonplan.com
 orangeinbox.org
@@ -22465,7 +22575,7 @@ paherpur.ml
 pahrumptourism.com
 paidattorney.com
 paiindustries.com
-PaintballPoints.com
+paintballpoints.com
 paintyourarboxers.com
 pakadebu.ga
 paketliburantourwisata.com
@@ -22635,7 +22745,7 @@ payforclick.org
 payforpost.net
 payforpost.org
 payinapp.com
-PaylessClinic.com
+paylessclinic.com
 paypal.comx.cf
 payperex2.com
 payspun.com
@@ -23028,7 +23138,7 @@ planowaniewakacji.pl
 plastikmed.com
 plateapanama.com
 plates4skates2.info
-PlatinumAlerts.com
+platinumalerts.com
 plavixprime.com
 playcard-semi.com
 player-midi.info
@@ -23051,7 +23161,7 @@ plrdn.com
 pluggedinsocial.net
 plumberjerseycity.info
 plumberplainfieldnj.info
-PlumbingPackages.com
+plumbingpackages.com
 plumblandconsulting.co.uk
 plus-size-promdresses.com
 plusgmail.ru
@@ -23267,6 +23377,8 @@ postemail.net
 postermanderson.com
 postfach2go.de
 posthectomie.info
+postheo.de
+postim.de
 postnasaldripbadbreath.com
 postonline.me
 postupstand.com
@@ -23455,7 +23567,7 @@ privacymailshh.com
 privatdemail.net
 private.kubuntu.myhomenetwork.info
 privatebag.ml
-PrivateClosets.com
+privateclosets.com
 privateinvest.me
 privatemail.in
 privatemailinator.nl
@@ -23515,6 +23627,7 @@ programacomoemagrecer.org
 programmaperspiarecellulari.info
 programmeimmobilier-neuf.org
 programmerov.net
+programmingant.com
 programmiperspiarecellulari.info
 programmispiapercellulari.info
 programpit2013rok.pl
@@ -23764,7 +23877,7 @@ purseva11ey.co
 purtunic.com
 pushmojo.com
 put2.net
-PutDomainHERE.COM
+putdomainhere.com
 putfs6fbkicck.cf
 putfs6fbkicck.ga
 putfs6fbkicck.gq
@@ -23786,6 +23899,8 @@ pw-mail.ga
 pw-mail.gq
 pw-mail.ml
 pw-mail.tk
+pw.8.dnsabr.com
+pw.email-mail.cf
 pw.epac.to
 pw.flu.cc
 pw.igg.biz
@@ -23986,7 +24101,7 @@ qhrgzdqthrqocrge922.ml
 qhrgzdqthrqocrge922.tk
 qhstreetr.com
 qhwclmql.pl
-QianaSeres.com
+qianaseres.com
 qiaua.com
 qibl.at
 qinicial.ru
@@ -24136,6 +24251,7 @@ qualityservice.com
 quanaothethao.com
 quangcaoso1.net
 quanthax.com
+quantity.cloudns.asia
 quantsoftware.com
 qubecorp.tk
 quebec.alpha.webmailious.top
@@ -24344,7 +24460,7 @@ rabotnikibest.ru
 rabuberkah.cf
 race-karts.com
 rachelsreelreviews.com
-RacquetballNut.com
+racquetballnut.com
 radardetectorhunt.com
 radecoratingltd.com
 radiku.ye.vc
@@ -24357,6 +24473,7 @@ raf-store.com
 rafalrudnik.pl
 raffles.gg
 rafmail.cf
+rafmailku.ml
 rafmix.site
 rafrem3456ails.com
 rag-tube.com
@@ -24661,7 +24778,7 @@ reliable-mail.com
 reliableproxies.com
 reliefsmokedeter.com
 religionguru.ru
-ReligiousSearch.com
+religioussearch.com
 relleano.com
 remail.cf
 remail.ga
@@ -24698,7 +24815,8 @@ renaulttrucks.tk
 rendymail.com
 renegade-hair-studio.com
 rengginangred95btw.cf
-RenoTravels.com
+renoszrtqw.club
+renotravels.com
 renouweb.fr
 renovasibangun-rumah.com
 renraku.in
@@ -24721,7 +24839,7 @@ reportes.ml
 reports-here.com
 reptilegenetics.com
 republiktycoon.com
-RequestMeds.com
+requestmeds.com
 rerajut.com
 rertimail.org
 rerttymail.com
@@ -24729,10 +24847,10 @@ res.craigslist.org
 researchobservatories.org.uk
 resellermurah.me
 resepku.site
-ReservationForum.com
+reservationforum.com
 reservelp.de
 resgedvgfed.tk
-ResidenceRewards.com
+residencerewards.com
 resistore.co
 resolution4print.info
 resort-in-asia.com
@@ -24867,7 +24985,7 @@ rincewind4.pl
 rincewind5.pl
 rincewind6.pl
 ring123.com
-RingtoneCulture.com
+ringtoneculture.com
 ringwormadvice.info
 rippedabs.info
 ririe.club
@@ -25026,6 +25144,7 @@ rosechina.com
 rosmillo.com
 rossa-art.pl
 rossmail.ru
+rosso.ml
 rotaniliam.com
 rotate.pw
 rotermail.com
@@ -25069,6 +25188,7 @@ royalhost.info
 royalmail.top
 royalmarket.club
 royalmarket.online
+royalweb.email
 royaumedesjeux.fr
 roys.ml
 rpaowpro3l5ha.tk
@@ -25165,7 +25285,7 @@ ruedeschaus.com
 ruffrey.com
 ruggedinbox.com
 ruhshe5uet547.tk
-Ruinnyrurrendmail.com
+ruinnyrurrendmail.com
 rumbu.com
 rumgel.com
 rumpelhumpel.com
@@ -25683,7 +25803,7 @@ scania.gq
 scania.tk
 scanitxtr.com
 scanmail.us
-ScannerChip.com
+scannerchip.com
 scatmail.com
 scay.net
 scbox.one.pl
@@ -25859,7 +25979,7 @@ seekapps.com
 seekfindask.com
 seekintertech.info
 seekjobs4u.com
-SeekSupply.com
+seeksupply.com
 seekusjobs.com
 seemail.info
 seevideoemail.com
@@ -25877,7 +25997,7 @@ selfarticle.com
 selfdestructingmail.com
 selfdestructingmail.org
 selfmadesuccesstoday.com
-SelfRestaurant.com
+selfrestaurant.com
 selfretro.net
 selfstoragefind.net
 sellcow.net
@@ -26044,6 +26164,7 @@ sex-mobile-blog.ru
 sex-ru.net
 sex-vox.info
 sex.dns-cloud.net
+sex.marrone.cf
 sex.si
 sexactive18.info
 sexakt.org
@@ -26171,6 +26292,8 @@ shishish.cf
 shishish.ga
 shishish.gq
 shishish.ml
+shit.dns-cloud.net
+shit.dnsabr.com
 shitaway.cf
 shitaway.flu.cc
 shitaway.ga
@@ -26262,7 +26385,7 @@ shouldpjr.com
 showartcenter.com
 showbusians.ru
 showcoachfactory.com
-ShowLogin.com
+showlogin.com
 showme.social
 showslow.de
 showup.us
@@ -26318,6 +26441,7 @@ simails.info
 simcity.hirsemeier.de
 simoka73.vv.cc
 simple-mail-server.bid
+simplebox.email
 simpleemail.info
 simpleitsecurity.info
 simplemailserver.bid
@@ -26415,7 +26539,7 @@ skachat-1c.org
 skachatfilm.com
 skafunderz.com
 skakuntv.com
-SkateboardingCourses.com
+skateboardingcourses.com
 skdjfmail.com
 skeefmail.com
 skg3qvpntq.cf
@@ -26451,6 +26575,7 @@ sky-isite.com
 sky-mail.ga
 sky-movie.com
 sky-ts.de
+sky.dnsabr.com
 skybarlex.xyz
 skydragon112.cf
 skydragon112.ga
@@ -26722,7 +26847,7 @@ sokratit.ru
 solar-impact.pro
 solarino.pl
 soldesburbery.com
-SoldierReport.com
+soldierreport.com
 soliaflatirons.in
 soliahairstyling.in
 solidseovps.com
@@ -26768,7 +26893,7 @@ soulfire.pl
 soulinluv.com
 soumail.info
 soundclouddownloader.info
-SoundItems.com
+sounditems.com
 soupans.ru
 sourcl.club
 sourcreammail.info
@@ -26800,6 +26925,8 @@ spam.coroiu.com
 spam.deluser.net
 spam.dexter0.xyz
 spam.dhsf.net
+spam.dns-cloud.net
+spam.dnsabr.com
 spam.dnsx.xyz
 spam.fassagforpresident.ga
 spam.flu.cc
@@ -26819,6 +26946,7 @@ spam.shep.pw
 spam.su
 spam.trajano.net
 spam.usa.cc
+spam.viola.gq
 spam.visuao.net
 spam.wtf.at
 spam.wulczer.org
@@ -27075,6 +27203,7 @@ ssfehtjoiv7wj.tk
 ssgjylc1013.com
 sshid.com
 sskmail.top
+ssl.tls.cloudns.asia
 sslglobalnetwork.com
 sslporno.ru
 sslsecurecert.com
@@ -27148,7 +27277,7 @@ statiix.com
 stationatprominence.com
 statloan.info
 stattech.info
-StatUsers.com
+statusers.com
 statuspage.ga
 statx.ga
 stayfitforever.org
@@ -27384,7 +27513,7 @@ suhugatel.tk
 suhusangar.ml
 suioe.com
 suitcasesjapan.com
-SuitTrends.com
+suittrends.com
 suiyoutalkblog.com
 sujjn9qz.pc.pl
 sukaalkuma.com
@@ -27446,7 +27575,7 @@ supergreatmail.com
 supergreen.com
 superintim.com
 superior-seo.com
-SuperiorMarketers.com
+superiormarketers.com
 superiorwholesaleblinds.com
 supermail.cf
 supermail.tk
@@ -27496,7 +27625,7 @@ surrogatemothercost.com
 surveyrnonkey.net
 survivalgears.net
 suscm.co.uk
-SushiSeeker.com
+sushiseeker.com
 susi.ml
 suskapark.com
 sussin99gold.co.uk
@@ -27552,7 +27681,7 @@ swift10minutemail.com
 swiftmail.xyz
 swimail.info
 swinbox.info
-SwingingGame.com
+swinginggame.com
 swissglobalonline.com
 swizeland-nedv.ru
 swq213567mm.cf
@@ -27686,6 +27815,7 @@ t8kco4lsmbeeb.gq
 t8kco4lsmbeeb.ml
 t8kco4lsmbeeb.tk
 ta-6.com
+taalunie43.gq
 tab-24.pl
 tabithaanaya.livefreemail.top
 tabletas.top
@@ -27701,7 +27831,7 @@ tac0hlfp0pqqawn.cf
 tac0hlfp0pqqawn.ga
 tac0hlfp0pqqawn.ml
 tac0hlfp0pqqawn.tk
-TacomaCardiology.com
+tacomacardiology.com
 tadacipprime.com
 tafmail.com
 tafoi.gr
@@ -27753,7 +27883,7 @@ tammega.com
 tampa-seo.us
 tampaflcomputerrepair.com
 tampasurveys.com
-TampaTailor.com
+tampatailor.com
 tamuhost.me
 tandberggroup.com
 tandbergonline.com
@@ -28044,6 +28174,7 @@ temporarymail.ga
 temporarymail.org
 temporarymailaddress.com
 tempr.email
+tempr.email.viola.gq
 tempremail.cf
 tempremail.tk
 tempsky.com
@@ -28071,6 +28202,7 @@ terminalerror.com
 terminate.tech
 ternaklele.ga
 terra7.com
+terrapuz.ddns.net
 tert353ayre6tw.ml
 tesiov.info
 tessen.info
@@ -28216,7 +28348,7 @@ thedarkmaster097.sytes.net
 thedealsvillage.com
 thedepression.com
 thediamants.org
-TheDietSolutionProgramReview.com
+thedietsolutionprogramreview.com
 thedigitalphotoframe.com
 thedimcafe.com
 thedirhq.info
@@ -28537,6 +28669,7 @@ tldoe8nil4tbq.ml
 tldoe8nil4tbq.tk
 tlgpwzmqe.pl
 tlpn.org
+tls.cloudns.asia
 tlumaczeniawaw.com.pl
 tlvl8l66amwbe6.cf
 tlvl8l66amwbe6.ga
@@ -28792,7 +28925,7 @@ totse1voqoqoad.tk
 toughness.org
 touoejiz.pl
 tourbalitravel.com
-TourCatalyst.com
+tourcatalyst.com
 tourmalinehairdryerz.com
 tournament-challenge.com
 tourtripbali.com
@@ -28893,7 +29026,7 @@ trading-courses.org
 trafficreviews.org
 trafik.co.pl
 tragaver.ga
-TrainingCamera.com
+trainingcamera.com
 trainingpedia.online
 tralalajos.ga
 tralalajos.gq
@@ -29253,7 +29386,7 @@ tylerexpress.com
 tylko-dobre-lokaty.com.pl
 tymail.top
 tynkowanie-cktynki.pl
-TypePoker.com
+typepoker.com
 typesoforchids.info
 typlrqbhn.pl
 tyskali.org
@@ -29358,13 +29491,15 @@ ubdeexu2ozqnoykoqn8.tk
 uberdriver-taxi.ru
 ubermail.info
 ubermail39.info
-UberMember.com
+ubermember.com
 ubfre2956mails.com
 ubismail.net
 ublomail.com
 ubm.md
 ubmail.com
 ubumail.com
+ubuntu.dns-cloud.net
+ubuntu.dnsabr.com
 ubuntu.org
 ubwerrr.com
 ubwerrrd.com
@@ -29599,6 +29734,7 @@ ultrtime.org.ua
 ulumdocab.xyz
 ulzlemwzyx.pl
 umail.net
+umail2.com
 umail4less.bid
 umail4less.men
 umbrellascolors.info
@@ -29741,6 +29877,7 @@ ureee.us
 uremail.com
 urfey.com
 urfunktion.se
+urhen.com
 urid-answer.ru
 urirmail.com
 url.gen.in
@@ -29760,7 +29897,7 @@ urugvai-nedv.ru
 urx7.com
 us-uggboots.com
 us.af
-US.DLink.cf
+us.dlink.cf
 us.dlink.gq
 us.to
 usa-gov.cf
@@ -29951,6 +30088,12 @@ v0domwwkbyzh1vkgz.gq
 v0domwwkbyzh1vkgz.ml
 v0domwwkbyzh1vkgz.tk
 v21.me.uk
+v250.cf
+v250.dns-cloud.net
+v250.ga
+v250.gq
+v250.ml
+v250.tk
 v27hb4zrfc.cf
 v27hb4zrfc.ga
 v27hb4zrfc.gq
@@ -29988,6 +30131,7 @@ vaasfc4.tk
 vaati.org
 vacancies-job.info
 vacationrentalshawaii.info
+vacuus.gq
 vacwdlenws604.ml
 vadlag.xyz
 vaffanculo.gq
@@ -30049,6 +30193,7 @@ vbha0moqoig.ga
 vbha0moqoig.ml
 vbha0moqoig.tk
 vcbmail.ga
+vcbox.pro
 vcghv0eyf3fr.cf
 vcghv0eyf3fr.ga
 vcghv0eyf3fr.gq
@@ -30101,12 +30246,12 @@ veloxmail.pw
 vemaybaygiare.com
 vemaybaytetgiare.com
 vemomail.win
-VendorBrands.com
+vendorbrands.com
 venesuela-nedv.ru
 vengr-nedv.ru
 venompen.com
 venturacarpetcleaning.net
-VentureSchedule.com
+ventureschedule.com
 ventureuoso.com
 venue-ars.com
 venuears.com
@@ -30330,6 +30475,8 @@ visa-securepay.gq
 visa-securepay.ml
 visa-securepay.tk
 visa.coms.hk
+visa.dns-cloud.net
+visa.dnsabr.com
 visal007.tk
 visal168.cf
 visal168.ga
@@ -30344,7 +30491,7 @@ visiondating.info
 visionwithoutglassesscam.org
 visitinbox.com
 visitnorwayusa.com
-VisitorRatings.com
+visitorratings.com
 visitxhot.org
 visitxx.com
 vista-tube.ru
@@ -30973,7 +31120,7 @@ weightloss.info
 weightlossshort.info
 weightlossworld.net
 weightoffforgood.com
-WeightRating.com
+weightrating.com
 weihnachts-gruesse.info
 weil4feet.com
 weird3.eu
@@ -31201,7 +31348,7 @@ wildstar-gold.us
 wildthingsbap.org.uk
 wilemail.com
 willakarmazym.pl
-Willette.com
+willette.com
 willhackforfood.biz
 williamcastillo.me
 willselfdestruct.com
@@ -31249,7 +31396,7 @@ wirawanakhmadi.cf
 wire-shelving.info
 wirefreeemail.com
 wireless-alarm-system.info
-WirelessPreviews.com
+wirelesspreviews.com
 wirp.xyz
 wisans.ru
 wisconsincomedy.com
@@ -31435,7 +31582,7 @@ wr.moeri.org
 wr9v6at7.com
 wralawfirm.com
 wrangler-sale.com
-WrinkleCareProduct.com
+wrinklecareproduct.com
 writeme-lifestyle.com
 writeme.us
 writeme.xyz
@@ -31613,8 +31760,11 @@ x-porno-away.info
 x-today-x.info
 x.agriturismopavi.it
 x.bigpurses.org
+x.dc74.cf
+x.dc74.ml
 x.host-001.eu
 x.ip6.li
+x.marrone.cf
 x.nadazero.net
 x.polosburberry.com
 x.puk.ro
@@ -31749,7 +31899,7 @@ xcremail.com
 xctrade.info
 xcufrmogj.pl
 xcvlolonyancat.com
-XCVRTASDQWE.COM
+xcvrtasdqwe.com
 xcxqtsfd0ih2l.cf
 xcxqtsfd0ih2l.ga
 xcxqtsfd0ih2l.gq
@@ -32413,7 +32563,7 @@ yobe.pl
 yodx.ro
 yogamaven.com
 yogod.com
-YogurtCereal.com
+yogurtcereal.com
 yohomail.ga
 yohomail.ml
 yokmpqg.pl
@@ -32423,6 +32573,8 @@ yomail.com
 yomail.info
 yoo.ro
 yood.org
+yop.dns-cloud.net
+yop.dnsabr.com
 yop.email
 yop.emersion.fr
 yop.itram.es
@@ -32603,6 +32755,7 @@ yvgalgu7zt.gq
 yvgalgu7zt.ml
 yvgalgu7zt.tk
 ywamarts.org
+yx.dns-cloud.net
 yx48bxdv.ga
 yxbv0bipacuhtq4f6z.ga
 yxbv0bipacuhtq4f6z.gq
@@ -32999,6 +33152,7 @@ zoroasterdomain.com
 zoroasterplace.com
 zoroastersite.com
 zoroasterwebsite.com
+zoutlook.com
 zoviraxprime.com
 zp.ua
 zpcaf8dhq.pl
