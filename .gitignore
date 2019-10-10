@@ -27,3 +27,4 @@ platform/rust/cargo/
 target
 pom.xml
 mailchecker.iml
+idea/
