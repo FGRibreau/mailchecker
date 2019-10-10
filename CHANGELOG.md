@@ -1,5 +1,11 @@
 ## Change Log
 
+### upcoming (2019/10/10 13:43 +00:00)
+- [8166f1b](https://github.com/FGRibreau/mailchecker/commit/8166f1bc37492c1b2a552bab79f10621f1b0acff) fix (@FGRibreau)
+- [ddf044c](https://github.com/FGRibreau/mailchecker/commit/ddf044c755ac73377db910140d7503585833d0c9) feat(cargo): updated to 3.2.36 (@FGRibreau)
+- [b57b16e](https://github.com/FGRibreau/mailchecker/commit/b57b16e04e83d479b189d303fd9a5804f2793a29) feat(gemspec): updated to 3.2.36 (@FGRibreau)
+- [12252a6](https://github.com/FGRibreau/mailchecker/commit/12252a6ce3d04030771d93e187c62d29fe8d0072) docs(changelog): updated (@FGRibreau)
+
 ### v3.2.36 (2019/10/10 13:40 +00:00)
 - [4b76cd0](https://github.com/FGRibreau/mailchecker/commit/4b76cd0d1ef6c85e00c073029242467d30230a93) Release v3.2.36. (@FGRibreau)
 - [419c932](https://github.com/FGRibreau/mailchecker/commit/419c93229d2a77c2d90880a525bba0bd24fdcb2e) feat(build): update plateform files (@FGRibreau)
