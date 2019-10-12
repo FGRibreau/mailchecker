@@ -1,6 +1,13 @@
 ## Change Log
 
-### upcoming (2019/10/10 13:43 +00:00)
+### v3.2.37 (2019/10/12 10:33 +00:00)
+- [81905db](https://github.com/FGRibreau/mailchecker/commit/81905dbf3ed6deb71fc5a14e697ff536538a3647) Release v3.2.37. (@FGRibreau)
+- [ee67e82](https://github.com/FGRibreau/mailchecker/commit/ee67e8224cc22b34641df7e5a2278193f26b0425) feat(build): update plateform files (@FGRibreau)
+- [ae6a969](https://github.com/FGRibreau/mailchecker/commit/ae6a969102e23c4354f90482b74e93f6b29cf5b8) doc(readme) (@FGRibreau)
+- [#201](https://github.com/FGRibreau/mailchecker/pull/201) Merge pull request #201 from alongat/master (@alongat)
+- [5be7c9e](https://github.com/FGRibreau/mailchecker/commit/5be7c9e646722236681d58092ea7945e852d1e23) remove com.ar for list (@alongat)
+- [2fa9d98](https://github.com/FGRibreau/mailchecker/commit/2fa9d98bffdc29c2a128b4c6ccb55e6d6af13d65) feat(python): updated to 3.2.36 (@FGRibreau)
+- [13138af](https://github.com/FGRibreau/mailchecker/commit/13138af1a67435fec30716584b0e1c536d24187e) docs(changelog): updated (@FGRibreau)
 - [8166f1b](https://github.com/FGRibreau/mailchecker/commit/8166f1bc37492c1b2a552bab79f10621f1b0acff) fix (@FGRibreau)
 - [ddf044c](https://github.com/FGRibreau/mailchecker/commit/ddf044c755ac73377db910140d7503585833d0c9) feat(cargo): updated to 3.2.36 (@FGRibreau)
 - [b57b16e](https://github.com/FGRibreau/mailchecker/commit/b57b16e04e83d479b189d303fd9a5804f2793a29) feat(gemspec): updated to 3.2.36 (@FGRibreau)
