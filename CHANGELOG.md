@@ -1,5 +1,20 @@
 ## Change Log
 
+### v3.2.38 (2019/10/14 21:47 +00:00)
+- [c382244](https://github.com/FGRibreau/mailchecker/commit/c38224496c06641a7f094287123fd80bd74a6428) Release v3.2.38. (@FGRibreau)
+- [a49ef77](https://github.com/FGRibreau/mailchecker/commit/a49ef772a80c215426d5987cad14637b112d7a2f) feat(build): update plateform files (@FGRibreau)
+- [1efe9d6](https://github.com/FGRibreau/mailchecker/commit/1efe9d6a581cc1ca0be2fa0736f1105dd95fa89c) fix(package): (@FGRibreau)
+- [19331de](https://github.com/FGRibreau/mailchecker/commit/19331de81f7c3728692c19d5cfc9281b47f2bf84) fix(package): (@FGRibreau)
+- [3a21e18](https://github.com/FGRibreau/mailchecker/commit/3a21e18dc347227cb5ce0c7a7c0da6e60fc13a8a) fix (@FGRibreau)
+- [#193](https://github.com/FGRibreau/mailchecker/pull/193) Merge pull request #193 from nitra/master (@nitra)
+- [6a4940c](https://github.com/FGRibreau/mailchecker/commit/6a4940c701198e32aa48f7692cfe5758d08b3beb) remove not valid TLD and second level TLD domains (@vitaliytv)
+- [c9a9696](https://github.com/FGRibreau/mailchecker/commit/c9a9696a3777e73c8e5eb0245da11f0b98fa46b3) fix(python): use twine for upload (@FGRibreau)
+- [1b1b2a6](https://github.com/FGRibreau/mailchecker/commit/1b1b2a6bfef95728e49171d9273f0368660430c8) feat(python): updated to 3.2.37 (@FGRibreau)
+- [c66f6c2](https://github.com/FGRibreau/mailchecker/commit/c66f6c2aaf2e69e563c96b13095716e1cd70ed9f) fix (@FGRibreau)
+- [6a4c270](https://github.com/FGRibreau/mailchecker/commit/6a4c270f626c94053cc80e915c9903e7243dc90f) feat(cargo): updated to 3.2.37 (@FGRibreau)
+- [53f08bf](https://github.com/FGRibreau/mailchecker/commit/53f08bf1579b1c46e8a2fc24fad47c0c49874af4) feat(gemspec): updated to 3.2.37 (@FGRibreau)
+- [891d882](https://github.com/FGRibreau/mailchecker/commit/891d882be113b1f78ac9441c86a716f102351f22) docs(changelog): updated (@FGRibreau)
+
 ### v3.2.37 (2019/10/12 10:33 +00:00)
 - [81905db](https://github.com/FGRibreau/mailchecker/commit/81905dbf3ed6deb71fc5a14e697ff536538a3647) Release v3.2.37. (@FGRibreau)
 - [ee67e82](https://github.com/FGRibreau/mailchecker/commit/ee67e8224cc22b34641df7e5a2278193f26b0425) feat(build): update plateform files (@FGRibreau)
