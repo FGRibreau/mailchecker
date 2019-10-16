@@ -1,11 +1,24 @@
 ## Change Log
 
+### v3.3.0 (2019/10/16 19:44 +00:00)
+- [44b2fa5](https://github.com/FGRibreau/mailchecker/commit/44b2fa59675dfb023a763f8b3c6af26ac4bfdffa) feat(build): update plateform files (@FGRibreau)
+- [6d4ce62](https://github.com/FGRibreau/mailchecker/commit/6d4ce6230a931be7a0a9d1df6d43f07a62fa37ce) Release v3.3.0. (@FGRibreau)
+- [#199](https://github.com/FGRibreau/mailchecker/pull/199) Merge pull request #199 from F21/go (@F21)
+- [e814b63](https://github.com/FGRibreau/mailchecker/commit/e814b63a390905113dba3a789d99af5f4b8b297d) fix(package) (@FGRibreau)
+- [decbc7b](https://github.com/FGRibreau/mailchecker/commit/decbc7b56eb20c40e9a8069b9429efb3550bbf74) fix(cargo) (@FGRibreau)
+- [9cb21bd](https://github.com/FGRibreau/mailchecker/commit/9cb21bd4d3d9ec309ce6d72c637e8a77f4f6f581) feat(cargo): updated to 3.2.39 (@FGRibreau)
+- [e70bb9f](https://github.com/FGRibreau/mailchecker/commit/e70bb9ffcdd0dfec1e41f336aca852b7ef5050ee) feat(python): updated to 3.2.39 (@FGRibreau)
+- [17b9644](https://github.com/FGRibreau/mailchecker/commit/17b9644577ccb380f00616cb2bbd761373ec8eff) feat(gemspec): updated to 3.2.39 (@FGRibreau)
+- [9315494](https://github.com/FGRibreau/mailchecker/commit/93154949bfade8d3e5b5856d258bde6d068ced7d) docs(changelog): updated (@FGRibreau)
+
 ### v3.2.39 (2019/10/16 19:14 +00:00)
 - [61beada](https://github.com/FGRibreau/mailchecker/commit/61beada0b5777746bebe92ec977222a76d56ac93) Release v3.2.39. (@FGRibreau)
 - [b03e19e](https://github.com/FGRibreau/mailchecker/commit/b03e19e3cb5663696e5ada96958a013348d26d8e) feat(build): update plateform files (@FGRibreau)
 - [78de74a](https://github.com/FGRibreau/mailchecker/commit/78de74a2ba364ab400dc0f200ffba7167db96f78) fix(package) (@FGRibreau)
 - [#202](https://github.com/FGRibreau/mailchecker/pull/202) Merge pull request #202 from nitra/master (@nitra)
 - [82f6026](https://github.com/FGRibreau/mailchecker/commit/82f60268dba23de823667a64d1899ecb79d7a28b) this not disposable domain (@vitaliytv)
+- [56c4c2c](https://github.com/FGRibreau/mailchecker/commit/56c4c2c902bc869c48bbb3be569111e770935986) Add go implementation (@F21)
+- [988314c](https://github.com/FGRibreau/mailchecker/commit/988314c6a6f413899ab5064c4b37c95a22ba4b98) Update generator to support underscores in template filename extensions. (@F21)
 - [00f7d25](https://github.com/FGRibreau/mailchecker/commit/00f7d25a4f10e675f1d2f93d0d7d355a222f4d31) fix(cargo) (@FGRibreau)
 - [9b06763](https://github.com/FGRibreau/mailchecker/commit/9b067632471a66dd61eadd8a0b0fa673108e3436) feat(cargo): updated to 3.2.38 (@FGRibreau)
 - [6d348f6](https://github.com/FGRibreau/mailchecker/commit/6d348f6f351c52e0c01ac1a152273470b4c3f8dd) fix(python): fix deploy script with twine (@FGRibreau)
@@ -1049,8 +1062,6 @@
 - [4ee7da0](https://github.com/FGRibreau/mailchecker/commit/4ee7da0544d19f39317409b362772098a728f858) Release v1.0.0. (@FGRibreau)
 - [756f09d](https://github.com/FGRibreau/mailchecker/commit/756f09dc3e41a58f85227ed25c094c0ca90bec2c) drop support for NodeJS 0.6 (@FGRibreau)
 - [1201c70](https://github.com/FGRibreau/mailchecker/commit/1201c7045a70f693010f3ded48820a2513791adb) regenerate (@FGRibreau)
-
-### v0.2.0 (2014/11/09 11:02 +00:00)
 - [4b8390f](https://github.com/FGRibreau/mailchecker/commit/4b8390f84dfa268331f723c99784ca0e5c88cd7c) Release v0.2.0. (@FGRibreau)
 - [f7473e3](https://github.com/FGRibreau/mailchecker/commit/f7473e3bc8a2eeadf7cb510dcdbf8e6b10dfa4a5) update readme (@FGRibreau)
 - [cae60a3](https://github.com/FGRibreau/mailchecker/commit/cae60a36d2320fc981e8df805f994bf66e219477) add mailtothis.com fixes #16 (@FGRibreau)
