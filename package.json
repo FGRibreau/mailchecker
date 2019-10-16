@@ -30,7 +30,7 @@
     "release-minor": "npm run full-build && npm run test && git commit -a -m 'feat(build): update plateform files' && npm-release minor && npm run release-cross",
     "release-cross": "npm run changelog-git && npm run publish-gem && npm run publish-python && npm run publish-cargo",
     "publish-gem": "sed -E -i '' \"s/spec.version[[:space:]]*=(.*)/spec.version='${npm_package_version}'/g\" *.gemspec && (git add *.gemspec && git commit -m \"feat(gemspec): updated to ${npm_package_version}\" || true) && gem build *.gemspec && gem push ruby-mailchecker-${npm_package_version}.gem",
-    "publish-cargo": "cd platform/rust && sed -E -i '' \"s/version[[:space:]]*=(.*)/version = \\\"${npm_package_version}\\\"/g\" Cargo.toml && (git add Cargo.toml Cargo.lock && git commit -m \"feat(cargo): updated to ${npm_package_version}\" && git push || true) && cargo package && (git add Cargo.lock && git commit -m 'chore: update Cargo.lock' && git push || true) && cargo --allow-dirty publish",
+    "publish-cargo": "cd platform/rust && sed -E -i '' \"s/version[[:space:]]*=(.*)/version = \\\"${npm_package_version}\\\"/g\" Cargo.toml && (git add Cargo.toml Cargo.lock && git commit -m \"feat(cargo): updated to ${npm_package_version}\" && git push || true) && sleep 3 && (git add Cargo.lock && git commit -m 'chore: update Cargo.lock' && git push || true) && cargo package && cargo --allow-dirty publish",
     "publish-python": "cd platform/python && sed -E -i '' \"s/version[[:space:]]*=(.*)/version = \\\"${npm_package_version}\\\",/g\" setup.py && (git add setup.py && git commit -m \"feat(python): updated to ${npm_package_version}\" || true) && rm -rf dist/* && python3 setup.py sdist && twine upload dist/*"
   },
   "repository": {
