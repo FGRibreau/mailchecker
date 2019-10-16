@@ -1,5 +1,18 @@
 ## Change Log
 
+### v3.2.39 (2019/10/16 19:14 +00:00)
+- [61beada](https://github.com/FGRibreau/mailchecker/commit/61beada0b5777746bebe92ec977222a76d56ac93) Release v3.2.39. (@FGRibreau)
+- [b03e19e](https://github.com/FGRibreau/mailchecker/commit/b03e19e3cb5663696e5ada96958a013348d26d8e) feat(build): update plateform files (@FGRibreau)
+- [78de74a](https://github.com/FGRibreau/mailchecker/commit/78de74a2ba364ab400dc0f200ffba7167db96f78) fix(package) (@FGRibreau)
+- [#202](https://github.com/FGRibreau/mailchecker/pull/202) Merge pull request #202 from nitra/master (@nitra)
+- [82f6026](https://github.com/FGRibreau/mailchecker/commit/82f60268dba23de823667a64d1899ecb79d7a28b) this not disposable domain (@vitaliytv)
+- [00f7d25](https://github.com/FGRibreau/mailchecker/commit/00f7d25a4f10e675f1d2f93d0d7d355a222f4d31) fix(cargo) (@FGRibreau)
+- [9b06763](https://github.com/FGRibreau/mailchecker/commit/9b067632471a66dd61eadd8a0b0fa673108e3436) feat(cargo): updated to 3.2.38 (@FGRibreau)
+- [6d348f6](https://github.com/FGRibreau/mailchecker/commit/6d348f6f351c52e0c01ac1a152273470b4c3f8dd) fix(python): fix deploy script with twine (@FGRibreau)
+- [99e44f9](https://github.com/FGRibreau/mailchecker/commit/99e44f9b5a6d6cffc469257f9d8fef1ec3cb1d7b) feat(python): updated to 3.2.38 (@FGRibreau)
+- [fe8cf71](https://github.com/FGRibreau/mailchecker/commit/fe8cf713d88c1f733cda5f74a4895421cfff0721) feat(gemspec): updated to 3.2.38 (@FGRibreau)
+- [ab028d0](https://github.com/FGRibreau/mailchecker/commit/ab028d0200bee818ffd42fb5cb9cbdf4d52ec622) docs(changelog): updated (@FGRibreau)
+
 ### v3.2.38 (2019/10/14 21:47 +00:00)
 - [c382244](https://github.com/FGRibreau/mailchecker/commit/c38224496c06641a7f094287123fd80bd74a6428) Release v3.2.38. (@FGRibreau)
 - [a49ef77](https://github.com/FGRibreau/mailchecker/commit/a49ef772a80c215426d5987cad14637b112d7a2f) feat(build): update plateform files (@FGRibreau)
