@@ -64,11 +64,22 @@ pub fn is_valid(email: &str) -> bool {
   return !email_domain_is_in_blacklist;
 }
 
-fn all_domain_suffixes(email: &str) -> Vec<String>{
-  let domains = email.split("@").skip(1).collect::<String>();
-  let domain_part: Vec<&str> = domains.split('.').collect();
-  (1..domain_part.len()+1).map(|i| (domain_part[0..i]).iter().map(|&x| x).collect::<Vec<&str>>().join(".")).collect::<Vec<String>>()
+fn all_domain_suffixes(email: &str) -> Vec<String> {
+  let domains1: Vec<&str> = email.split("@").skip(1).collect();
+
+  let mut domains = domains1.first().unwrap().split(".").collect::<Vec<&str>>();
+  domains.reverse();
+
+  let parts: Vec<String> = domains[1..domains.len()]
+    .iter()
+    .fold(vec![String::from(domains[0].clone())], |v, domain_part| {
+      let new_domain = format!("{}.{}", domain_part, v[v.len() - 1]);
+      return [v, vec![new_domain]].concat();
+    });
+
+  return parts[1..parts.len()].to_owned();
 }
+
 
 
 fn suffix_is_blacklisted(domain: &str) -> bool{
