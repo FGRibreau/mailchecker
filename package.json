@@ -2,7 +2,10 @@
   "name": "mailchecker",
   "version": "3.3.0",
   "description": "Cross-language temporary (disposable/throwaway) email detection library. Covers hundreds fake email providers.",
-  "main": "platform/node/",
+  "main": "platform/node/index.js",
+  "files":[
+    "platform/node/index.js"
+  ],
   "scripts": {
     "build": "node lib/clean.js && node gen.js",
     "setup": "npm run build && npm-run-all --max-parallel 2 --parallel setup:*",
