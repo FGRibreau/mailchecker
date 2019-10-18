@@ -361,7 +361,8 @@ These amazing people have contributed code to this project:
 <li><a href="http://github.com/apps/dependabot-preview">dependabot-preview[bot]</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=dependabot-preview[bot]" title="View the GitHub contributions of dependabot-preview[bot] on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://lyrixx.info/">Grégoire Pineau</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=lyrixx" title="View the GitHub contributions of Grégoire Pineau on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/alongat">alonga</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=alongat" title="View the GitHub contributions of alonga on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="nitralabs.com">Vitalii Tverdokhlib</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=vitaliytv" title="View the GitHub contributions of Vitalii Tverdokhlib on repository FGRibreau/mailchecker">view contributions</a></li></ul>
+<li><a href="nitralabs.com">Vitalii Tverdokhlib</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=vitaliytv" title="View the GitHub contributions of Vitalii Tverdokhlib on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="https://github.com/F21">Francis Chuang</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=F21" title="View the GitHub contributions of Francis Chuang on repository FGRibreau/mailchecker">view contributions</a></li></ul>
 
 
 

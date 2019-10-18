@@ -3,7 +3,7 @@
   "version": "3.3.0",
   "description": "Cross-language temporary (disposable/throwaway) email detection library. Covers hundreds fake email providers.",
   "main": "platform/node/index.js",
-  "files":[
+  "files": [
     "platform/node/index.js"
   ],
   "scripts": {
@@ -115,7 +115,8 @@
     "dependabot-preview[bot] (http://github.com/apps/dependabot-preview)",
     "Grégoire Pineau (http://lyrixx.info/)",
     "alonga (https://github.com/alongat)",
-    "Vitalii Tverdokhlib (nitralabs.com)"
+    "Vitalii Tverdokhlib (nitralabs.com)",
+    "Francis Chuang (https://github.com/F21)"
   ],
   "badges": {
     "list": [
