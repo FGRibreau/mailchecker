@@ -1,6 +1,24 @@
 ## Change Log
 
+### v3.3.2 (2019/11/12 21:15 +00:00)
+- [a1b74d2](https://github.com/FGRibreau/mailchecker/commit/a1b74d2d5fd5cd5a49a904d928f248b865b222cc) feat(build): update plateform files (@FGRibreau)
+- [f7f2768](https://github.com/FGRibreau/mailchecker/commit/f7f276845e2f7ddb5ef8aa27f4b5436e26785aad) Release v3.3.2. (@FGRibreau)
+- [#218](https://github.com/FGRibreau/mailchecker/pull/218) Merge pull request #218 from hwvs/master (@hwvs)
+- [be55f39](https://github.com/FGRibreau/mailchecker/commit/be55f390f54bb8eb5869b377ed9b48cd45732b39) removed cock.li (@hwvs)
+- [294b20d](https://github.com/FGRibreau/mailchecker/commit/294b20df698eda74d075c2dedf95823aac272261) Update README.md (@FGRibreau)
+- [bd58793](https://github.com/FGRibreau/mailchecker/commit/bd587935fd069278a8334dc75ffcdffa54221aa0) Update README.md (@FGRibreau)
+- [6133d32](https://github.com/FGRibreau/mailchecker/commit/6133d321ce186b643cc37d8d348c8ff6df3cbe0a) fix(cargo) (@FGRibreau)
+- [7388a46](https://github.com/FGRibreau/mailchecker/commit/7388a468e737b978b51ceb646b00ab3ec35bebc2) feat(cargo): updated to 3.3.1 (@FGRibreau)
+- [17bd831](https://github.com/FGRibreau/mailchecker/commit/17bd8311deaa3400d0ef920fa53a2e673237b7b1) feat(python): updated to 3.3.1 (@FGRibreau)
+- [6814ca0](https://github.com/FGRibreau/mailchecker/commit/6814ca0f899799b4c7531dd9f87f4632f11adae9) feat(gemspec): updated to 3.3.1 (@FGRibreau)
+- [d956f84](https://github.com/FGRibreau/mailchecker/commit/d956f84db2aacc991239bc2953682a5887661d61) docs(changelog): updated (@FGRibreau)
+
 ### v3.3.1 (2019/10/18 12:33 +00:00)
+- [2005b1a](https://github.com/FGRibreau/mailchecker/commit/2005b1aa9f31d2ab3471353b5c19252e82dfe332) Release v3.3.1. (@FGRibreau)
+- [1a98e48](https://github.com/FGRibreau/mailchecker/commit/1a98e48fdba485668898dec444fdc73100127f42) feat(build): update plateform files (@FGRibreau)
+- [0a75ab4](https://github.com/FGRibreau/mailchecker/commit/0a75ab4f8346bf7596922d82461135411d8ba1ac) fix(rust) (@FGRibreau)
+- [197a9b5](https://github.com/FGRibreau/mailchecker/commit/197a9b5884dec4daed62ae650148f0b5d65dc757) fix (@FGRibreau)
+- [65ee353](https://github.com/FGRibreau/mailchecker/commit/65ee35395c4f181ca9ad8d4315f67170aefedea8) fix(node): only publish platform/node/index.js (@FGRibreau)
 - [#213](https://github.com/FGRibreau/mailchecker/pull/213) Merge pull request #213 from FGRibreau/F21-fix-go.mod (@FGRibreau)
 - [98f7de6](https://github.com/FGRibreau/mailchecker/commit/98f7de66814870cb7fc4eea14a2ad1573761dca7) fix(package): add publish-go script (@FGRibreau)
 - [f3ec358](https://github.com/FGRibreau/mailchecker/commit/f3ec358cbd41a91d2a4a45cc9c703772ba3c76f3) Fix module name in go.mod (@F21)
@@ -59,7 +77,7 @@
 - [ee67e82](https://github.com/FGRibreau/mailchecker/commit/ee67e8224cc22b34641df7e5a2278193f26b0425) feat(build): update plateform files (@FGRibreau)
 - [ae6a969](https://github.com/FGRibreau/mailchecker/commit/ae6a969102e23c4354f90482b74e93f6b29cf5b8) doc(readme) (@FGRibreau)
 - [#201](https://github.com/FGRibreau/mailchecker/pull/201) Merge pull request #201 from alongat/master (@alongat)
-- [5be7c9e](https://github.com/FGRibreau/mailchecker/commit/5be7c9e646722236681d58092ea7945e852d1e23) remove com.ar for list (@alongat)
+- [5be7c9e](https://github.com/FGRibreau/mailchecker/commit/5be7c9e646722236681d58092ea7945e852d1e23) remove com.ar for list
 - [2fa9d98](https://github.com/FGRibreau/mailchecker/commit/2fa9d98bffdc29c2a128b4c6ccb55e6d6af13d65) feat(python): updated to 3.2.36 (@FGRibreau)
 - [13138af](https://github.com/FGRibreau/mailchecker/commit/13138af1a67435fec30716584b0e1c536d24187e) docs(changelog): updated (@FGRibreau)
 - [8166f1b](https://github.com/FGRibreau/mailchecker/commit/8166f1bc37492c1b2a552bab79f10621f1b0acff) fix (@FGRibreau)
@@ -1065,8 +1083,6 @@
 
 ### v1.1.0 (2015/08/10 06:17 +00:00)
 - [b81e5f7](https://github.com/FGRibreau/mailchecker/commit/b81e5f74b9e77b07a27106ff4c40c562df21ece2) Release v1.1.0. (@FGRibreau)
-
-### v1.0.1 (2014/11/22 15:04 +00:00)
 - [a33c6be](https://github.com/FGRibreau/mailchecker/commit/a33c6be695f1e307b830ddced8e49345e158982e) Release v1.0.1. (@FGRibreau)
 - [15ef677](https://github.com/FGRibreau/mailchecker/commit/15ef6777337c31bdf90dd1c79f3ab34071dd6fe9) remove mail.ru from dispoable emails (@FGRibreau)
 - [7e2320d](https://github.com/FGRibreau/mailchecker/commit/7e2320d87b1e615e66f7e0dcd3d2357e9c724859) Update list.json (@FGRibreau)
