@@ -18578,7 +18578,6 @@ mail.pozycjonowanie8.pl
 mail.przyklad-domeny.pl
 mail.qmeta.net
 mail.rthyde.com
-mail.ru
 mail.stars19.xyz
 mail.tggmall.com
 mail.ticket-please.ga
@@ -23889,7 +23888,6 @@ protipsters.net
 protivirus.ru
 proto2mail.com
 protonemach.waw.pl
-protonmail.com
 protrendcolorshop.com
 provident-pl.info
 providentwniosek.info
@@ -24399,7 +24397,6 @@ qpi8iqrh8wtfpee3p.ml
 qpi8iqrh8wtfpee3p.tk
 qpptplypblyp052.cf
 qpulsa.com
-qq.com
 qq.my
 qq152.com
 qq163.com
