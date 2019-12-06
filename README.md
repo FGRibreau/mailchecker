@@ -363,7 +363,12 @@ These amazing people have contributed code to this project:
 <li><a href="https://github.com/alongat">alonga</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=alongat" title="View the GitHub contributions of alonga on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="nitralabs.com">Vitalii Tverdokhlib</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=vitaliytv" title="View the GitHub contributions of Vitalii Tverdokhlib on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/F21">Francis Chuang</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=F21" title="View the GitHub contributions of Francis Chuang on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="https://github.com/mikeyzm">mikeyzm</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=mikeyzm" title="View the GitHub contributions of mikeyzm on repository FGRibreau/mailchecker">view contributions</a></li></ul>
+<li><a href="https://github.com/mikeyzm">mikeyzm</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=mikeyzm" title="View the GitHub contributions of mikeyzm on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://www.syshack.ch">Pascal Vizeli</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=pvizeli" title="View the GitHub contributions of Pascal Vizeli on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="https://github.com/carolineBda">Caroline</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=carolineBda" title="View the GitHub contributions of Caroline on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://danielmihai.ro">Daniel Mihai</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=danmihai89" title="View the GitHub contributions of Daniel Mihai on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="https://github.com/hwvs">HWVS</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=hwvs" title="View the GitHub contributions of HWVS on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="https://github.com/sydneyitguy">seb's</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=sydneyitguy" title="View the GitHub contributions of seb's on repository FGRibreau/mailchecker">view contributions</a></li></ul>
 
 
 
