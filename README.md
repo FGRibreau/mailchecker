@@ -292,10 +292,10 @@ These amazing people are maintaining this project:
 No sponsors yet! Will you be the first?
 
 <span class="badge-patreon"><a href="https://patreon.com/fgribreau" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
-<span class="badge-gratipay"><a href="https://www.gratipay.com/fgribreau" title="Donate weekly to this project using Gratipay"><img src="https://img.shields.io/badge/gratipay-donate-yellow.svg" alt="Gratipay donate button" /></a></span>
+<span class="badge-gratipay"><a href="https://gratipay.com/fgribreau" title="Donate weekly to this project using Gratipay"><img src="https://img.shields.io/badge/gratipay-donate-yellow.svg" alt="Gratipay donate button" /></a></span>
 <span class="badge-flattr"><a href="https://flattr.com/profile/fgribreau" title="Donate to this project using Flattr"><img src="https://img.shields.io/badge/flattr-donate-yellow.svg" alt="Flattr donate button" /></a></span>
 <span class="badge-paypal"><a href="https://fgribreau.me/paypal" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" /></a></span>
-<span class="badge-bitcoin"><a href="https://www.coinbase.com/fgribreau" title="Donate once-off to this project using Bitcoin"><img src="https://img.shields.io/badge/bitcoin-donate-yellow.svg" alt="Bitcoin donate button" /></a></span>
+<span class="badge-bitcoin"><a href="https://www.coinbase.com/fgribreau" title="Donate to this project using Cryptocurrency"><img src="https://img.shields.io/badge/crypto-donate-yellow.svg" alt="crypto donate button" /></a></span>
 
 <h3>Contributors</h3>
 
@@ -368,7 +368,9 @@ These amazing people have contributed code to this project:
 <li><a href="https://github.com/carolineBda">Caroline</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=carolineBda" title="View the GitHub contributions of Caroline on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://danielmihai.ro">Daniel Mihai</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=danmihai89" title="View the GitHub contributions of Daniel Mihai on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/hwvs">HWVS</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=hwvs" title="View the GitHub contributions of HWVS on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="https://github.com/sydneyitguy">seb's</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=sydneyitguy" title="View the GitHub contributions of seb's on repository FGRibreau/mailchecker">view contributions</a></li></ul>
+<li><a href="https://github.com/sydneyitguy">seb's</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=sydneyitguy" title="View the GitHub contributions of seb's on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://bug.is">Asakusa Yakumo</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=LimiQS" title="View the GitHub contributions of Asakusa Yakumo on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://cutelab.space">Maki</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=makitsune" title="View the GitHub contributions of Maki on repository FGRibreau/mailchecker">view contributions</a></li></ul>
 
 
 
