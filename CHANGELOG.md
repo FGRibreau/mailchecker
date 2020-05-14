@@ -1,5 +1,24 @@
 ## Change Log
 
+### v3.3.6 (2020/05/14 07:02 +00:00)
+- [0962187](https://github.com/FGRibreau/mailchecker/commit/0962187510a19e75863968967b9a58deabd02736) feat(build): update plateform files (@FGRibreau)
+- [55ff035](https://github.com/FGRibreau/mailchecker/commit/55ff0356805c284b559aa0b2fb3ee2231b4bf832) Release v3.3.6. (@FGRibreau)
+- [6cb37d3](https://github.com/FGRibreau/mailchecker/commit/6cb37d31893a204399b32cace03357da874d9c7a) feat(build): update plateform files (@FGRibreau)
+- [40819d0](https://github.com/FGRibreau/mailchecker/commit/40819d0320a50e4d94b57bb4c6afc6c1d9cbbb48) Release v3.3.5. (@FGRibreau)
+
+### v3.3.5 (2020/05/14 06:59 +00:00)
+- [#269](https://github.com/FGRibreau/mailchecker/pull/269) Merge pull request #269 from luke-j/master (@luke-j)
+- [#257](https://github.com/FGRibreau/mailchecker/pull/257) Merge pull request #257 from SuveenVundavalli/add-mailboxok-spam-email-domain (@SuveenVundavalli)
+- [00a7872](https://github.com/FGRibreau/mailchecker/commit/00a7872d5c063dce7ee90e90cd889b74ba77c9c4) Add typescript type definitions (@luke-j)
+- [82112cf](https://github.com/FGRibreau/mailchecker/commit/82112cfee82d3211e03b8e71935f4cf82b861006) Added mailboxok.club to spam list
+- [103123d](https://github.com/FGRibreau/mailchecker/commit/103123d159e6f69c3fe0c972c91c424809374cf1) fix: update deps (@FGRibreau)
+- [2f786e6](https://github.com/FGRibreau/mailchecker/commit/2f786e625437f288c1792cd7cc63c418a7d32138) fix: package (@FGRibreau)
+- [5e6b0d5](https://github.com/FGRibreau/mailchecker/commit/5e6b0d563f344f29c642a6e84e3c92ca641367fc) feat(cargo): updated to 3.3.4 (@FGRibreau)
+- [0714601](https://github.com/FGRibreau/mailchecker/commit/07146010f246b829610fb267909334ca1ba0da24) feat(cargo): updated to 3.3.4 (@FGRibreau)
+- [8d4287f](https://github.com/FGRibreau/mailchecker/commit/8d4287f9468481c2de4c1d031c3d98dd4ef28b36) feat(python): updated to 3.3.4 (@FGRibreau)
+- [b2309c3](https://github.com/FGRibreau/mailchecker/commit/b2309c3f48b0c39192521b868ecd07fdd177ccf3) feat(gemspec): updated to 3.3.4 (@FGRibreau)
+- [e60a768](https://github.com/FGRibreau/mailchecker/commit/e60a76803f9c28f81166a36eb99e8944e56f0150) docs(changelog): updated (@FGRibreau)
+
 ### v3.3.4 (2020/01/22 13:48 +00:00)
 - [f1ac3a8](https://github.com/FGRibreau/mailchecker/commit/f1ac3a84b643817e3846c21bb110fdb2c6d838dc) Release v3.3.4. (@FGRibreau)
 - [4e8083b](https://github.com/FGRibreau/mailchecker/commit/4e8083b97e7fd1cc89d826949a2601a39a80e547) feat(build): update plateform files (@FGRibreau)
@@ -265,7 +284,7 @@
 - [#174](https://github.com/FGRibreau/mailchecker/pull/174) Merge pull request #174 from cosmosgenius/temp-mail-org (@cosmosgenius)
 - [#173](https://github.com/FGRibreau/mailchecker/pull/173) Merge pull request #173 from dbyio/master (@dbyio)
 - [#170](https://github.com/FGRibreau/mailchecker/pull/170) Merge pull request #170 from cosmosgenius/cosmosgenius-patch-1 (@cosmosgenius)
-- [384e2c3](https://github.com/FGRibreau/mailchecker/commit/384e2c39b3de8bb918c9126c3204f22d0192dda4) Add `tryninja.io` (@tbdmainrepo)
+- [384e2c3](https://github.com/FGRibreau/mailchecker/commit/384e2c39b3de8bb918c9126c3204f22d0192dda4) Add `tryninja.io` (@OctopodsIO)
 - [5d8c3ad](https://github.com/FGRibreau/mailchecker/commit/5d8c3ade976cde2b7e64573f29233db2b7b459f5) Add domains from temp-mail.org (@cosmosgenius)
 - [1f3aee3](https://github.com/FGRibreau/mailchecker/commit/1f3aee39a7b7135e244a762f362524f0e0f212ff) add cowstore.org (@cosmosgenius)
 - [f96bc34](https://github.com/FGRibreau/mailchecker/commit/f96bc3441fa276af27dc69dbafac7c563d56f094) Add domains from services: emailfake.com, sneakemail.com, grr.la, tempmail.net, 13dk.net, tmpeml.info, thetrash.email (@nicolasPerraud)
@@ -1105,14 +1124,10 @@
 - [7d0cf8c](https://github.com/FGRibreau/mailchecker/commit/7d0cf8c11a5aff85978a0001a98b85f2fb368533) fix(package) (@FGRibreau)
 - [2cc6ef8](https://github.com/FGRibreau/mailchecker/commit/2cc6ef880f758f0fb4b94a21fafa8e107524d221) fix(package) (@FGRibreau)
 - [d1e781d](https://github.com/FGRibreau/mailchecker/commit/d1e781d36ecfe19af3e02265b2125442eaaf99d3) docs(changelog) (@FGRibreau)
-
-### v1.3.0 (2015/09/27 11:14 +00:00)
 - [e53cf6a](https://github.com/FGRibreau/mailchecker/commit/e53cf6aa2e719cd640ed8aad7330f4ebc9260b69) Release v1.3.0. (@FGRibreau)
 - [540ee3e](https://github.com/FGRibreau/mailchecker/commit/540ee3e52eddf70f9411ebfd686213793a7ffa2e) feat(package): upgrade async & glob (@FGRibreau)
 - [fbefd6b](https://github.com/FGRibreau/mailchecker/commit/fbefd6b7f7f31983b328c44dbdbe1418d0567231) docs(changelog) (@FGRibreau)
 - [ed57805](https://github.com/FGRibreau/mailchecker/commit/ed578059b24904bae3a014de06e874514eb0ab9d) docs(readme) (@FGRibreau)
-
-### v1.2.0 (2015/09/27 11:09 +00:00)
 - [f6411ef](https://github.com/FGRibreau/mailchecker/commit/f6411efae17676f7922b9c6f15df381ea0e1eec5) Release v1.2.0. (@FGRibreau)
 - [48a6013](https://github.com/FGRibreau/mailchecker/commit/48a6013603faf80f2f0ad8bf6a5318a04cafa05e) feat(list): fixes #22 (@FGRibreau)
 - [c5d0d04](https://github.com/FGRibreau/mailchecker/commit/c5d0d04996c616c5d66969c1f149cf550ad3caf1) feat(list): fixes #17 (@FGRibreau)
