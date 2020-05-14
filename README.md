@@ -334,12 +334,10 @@ These amazing people have contributed code to this project:
 <li><a href="http://gitlab.com/datio/">Alex Dom￸aki￸dis</a></li>
 <li><a href="http://zanaca.com">Carlos Rios</a></li>
 <li><a href="https://github.com/jbzdak">Jacek Bzdak</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=jbzdak" title="View the GitHub contributions of Jacek Bzdak on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://github.com/apps/greenkeeper">greenkeeper[bot]</a></li>
 <li><a href="https://github.com/dustywusty">Dustin Clark</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=dustywusty" title="View the GitHub contributions of Dustin Clark on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://cashlink.io">Jonas Haag</a></li>
 <li><a href="http://alex.domakidis.com/">￸A￸l￸e￸x D￸o￸m￸a￸k￸i￸d￸i￸s</a></li>
 <li><a href="https://github.com/mcgregordan">Dan McGregor</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=mcgregordan" title="View the GitHub contributions of Dan McGregor on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://github.com/marketplace/greenkeeper">greenkeeper[bot]</a></li>
 <li><a href="http://xthiago.com/">Thiago Rodrigues</a></li>
 <li><a href="http://www.dillilabs.com">Dilli Labs LLC</a></li>
 <li><a href="http://rya.nc/">Ryan Castellucci</a></li>
@@ -358,7 +356,6 @@ These amazing people have contributed code to this project:
 <li><a href="meterian.io">Bruno Bossola</a></li>
 <li><a href="https://github.com/florian-crtl">florian-crtl</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=florian-crtl" title="View the GitHub contributions of florian-crtl on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://aneveningcalm.com">mikeyzm</a></li>
-<li><a href="http://github.com/apps/dependabot-preview">dependabot-preview[bot]</a></li>
 <li><a href="http://lyrixx.info/">Grégoire Pineau</a></li>
 <li><a href="https://github.com/alongat">alonga</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=alongat" title="View the GitHub contributions of alonga on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="nitralabs.com">Vitalii Tverdokhlib</a></li>
