@@ -5,7 +5,7 @@
   "main": "platform/node/index.js",
   "files": [
     "platform/node/index.js",
-    "types.d.ts
+    "types.d.ts"
   ],
   "scripts": {
     "build": "node lib/clean.js && node gen.js",
