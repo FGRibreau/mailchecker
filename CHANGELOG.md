@@ -1,5 +1,19 @@
 ## Change Log
 
+### v3.3.7 (2020/05/17 16:00 +00:00)
+- [24b81a5](https://github.com/FGRibreau/mailchecker/commit/24b81a50a92b6c2a4d4d8e40c52ba27653f3f07b) Release v3.3.7. (@FGRibreau)
+- [c192b49](https://github.com/FGRibreau/mailchecker/commit/c192b494fd42cfec6dc07f68e76dcf27a0330d19) feat(build): update plateform files (@FGRibreau)
+- [801ebd0](https://github.com/FGRibreau/mailchecker/commit/801ebd0b79d3e0f485fc1cfaf7ff45aa5720125d) fix: package (@FGRibreau)
+- [#273](https://github.com/FGRibreau/mailchecker/pull/273) Merge pull request #273 from makskkkk/master (@makskkkk)
+- [#274](https://github.com/FGRibreau/mailchecker/pull/274) Merge pull request #274 from luke-j/patch-1 (@luke-j)
+- [0ec8cd3](https://github.com/FGRibreau/mailchecker/commit/0ec8cd3451ed25048a2659a52dc2574daba59744) Ensure types are published (@luke-j)
+- [666b05c](https://github.com/FGRibreau/mailchecker/commit/666b05ca0b4ed9ca787729956ef555a57aa36854) remove trusted polish sites (@makskkkk)
+- [709751f](https://github.com/FGRibreau/mailchecker/commit/709751fbc764e9d0334f511b49360593cd476ef7) fix: Cargo.lock (@FGRibreau)
+- [312a264](https://github.com/FGRibreau/mailchecker/commit/312a2641fa384803c06b1a08a4f4c3878e4404ae) feat(cargo): updated to 3.3.6 (@FGRibreau)
+- [1cdfa4e](https://github.com/FGRibreau/mailchecker/commit/1cdfa4e1dbfb9a6a5d122e29cc679697499b2575) feat(python): updated to 3.3.6 (@FGRibreau)
+- [0836308](https://github.com/FGRibreau/mailchecker/commit/08363089fafcb8a9cc623df414931aea792cb759) feat(gemspec): updated to 3.3.6 (@FGRibreau)
+- [3d5a193](https://github.com/FGRibreau/mailchecker/commit/3d5a19329abacbe206f8e8386afe653d0d72a67b) docs(changelog): updated (@FGRibreau)
+
 ### v3.3.6 (2020/05/14 07:02 +00:00)
 - [0962187](https://github.com/FGRibreau/mailchecker/commit/0962187510a19e75863968967b9a58deabd02736) feat(build): update plateform files (@FGRibreau)
 - [55ff035](https://github.com/FGRibreau/mailchecker/commit/55ff0356805c284b559aa0b2fb3ee2231b4bf832) Release v3.3.6. (@FGRibreau)
@@ -1116,8 +1130,6 @@
 - [76679ef](https://github.com/FGRibreau/mailchecker/commit/76679ef129a799de35f6cc32015873005ee3f1b7) docs(readme) (@FGRibreau)
 - [fa5a8dd](https://github.com/FGRibreau/mailchecker/commit/fa5a8dd6f99b80ee9fe9333b5f5361171e6398a9) feat(list): added emails from https://github.com/nfedyashev/valid_email2/blob/master/vendor/disposable_emails.yml (@FGRibreau)
 - [759e593](https://github.com/FGRibreau/mailchecker/commit/759e5932b113ea90a25a2053e47f9a4f19ead0b5) feat(list): fixes #26 (@FGRibreau)
-
-### v1.3.1 (2015/09/27 11:18 +00:00)
 - [4d51929](https://github.com/FGRibreau/mailchecker/commit/4d519292e5d997d02531ec2d6e4f150b9cc71b66) Release v1.3.1. (@FGRibreau)
 - [cbfe5fd](https://github.com/FGRibreau/mailchecker/commit/cbfe5fd26ebd938312593e7f08bdf9891f1cbdf6) docs(readme) (@FGRibreau)
 - [2085b42](https://github.com/FGRibreau/mailchecker/commit/2085b42ceb94de7febf4ded0dec9292864d14466) fix(package) (@FGRibreau)
