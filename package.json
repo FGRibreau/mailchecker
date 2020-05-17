@@ -4,7 +4,8 @@
   "description": "Cross-language temporary (disposable/throwaway) email detection library. Covers hundreds fake email providers.",
   "main": "platform/node/index.js",
   "files": [
-    "platform/node/index.js"
+    "platform/node/index.js",
+    "types.d.ts
   ],
   "scripts": {
     "build": "node lib/clean.js && node gen.js",
