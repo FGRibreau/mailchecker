@@ -1,5 +1,16 @@
 ## Change Log
 
+### v3.3.8 (2020/05/19 20:33 +00:00)
+- [f706706](https://github.com/FGRibreau/mailchecker/commit/f706706d547361f2354fc9e80192dff3f54920bc) feat(build): update plateform files (@FGRibreau)
+- [98c5938](https://github.com/FGRibreau/mailchecker/commit/98c59389a1c47fb18b93e7250ec4372c80be564b) Release v3.3.8. (@FGRibreau)
+- [a999bee](https://github.com/FGRibreau/mailchecker/commit/a999bee048154ef6327b13b423e6c21260853eb7) fix: cargo (@FGRibreau)
+- [#275](https://github.com/FGRibreau/mailchecker/pull/275) Merge pull request #275 from skatkov/patch-1 (@skatkov)
+- [2a7306d](https://github.com/FGRibreau/mailchecker/commit/2a7306d7caa6169800733bff00907a22e475bf6e) Update list.txt (@skatkov)
+- [763e13b](https://github.com/FGRibreau/mailchecker/commit/763e13b18e16c5775444f7c14ce32c5ccbef6fd6) feat(cargo): updated to 3.3.7 (@FGRibreau)
+- [cd60cdb](https://github.com/FGRibreau/mailchecker/commit/cd60cdb5a2995da06417fa25b0d6b119814d920f) feat(python): updated to 3.3.7 (@FGRibreau)
+- [81c46c9](https://github.com/FGRibreau/mailchecker/commit/81c46c97458c9e91abe3fa888d0bb3039513932c) feat(gemspec): updated to 3.3.7 (@FGRibreau)
+- [ea95354](https://github.com/FGRibreau/mailchecker/commit/ea95354ed0df494a30d3e14abf4fac3f7caa76ae) docs(changelog): updated (@FGRibreau)
+
 ### v3.3.7 (2020/05/17 16:00 +00:00)
 - [24b81a5](https://github.com/FGRibreau/mailchecker/commit/24b81a50a92b6c2a4d4d8e40c52ba27653f3f07b) Release v3.3.7. (@FGRibreau)
 - [c192b49](https://github.com/FGRibreau/mailchecker/commit/c192b494fd42cfec6dc07f68e76dcf27a0330d19) feat(build): update plateform files (@FGRibreau)
@@ -1124,8 +1135,6 @@
 - [fd60471](https://github.com/FGRibreau/mailchecker/commit/fd6047104d5e59c846bf50885c923b81ca880c9d) Define email regex in a constant, instead of a method (@buren)
 - [46931fd](https://github.com/FGRibreau/mailchecker/commit/46931fd671f76ef6c1b0c607826cc8c09ffce637) Add Ruby implementation (@buren)
 - [712a7dd](https://github.com/FGRibreau/mailchecker/commit/712a7dd7f5a769816d6fd442b5831226b455e162) docs(changelog) (@FGRibreau)
-
-### v1.4.0 (2015/09/27 14:00 +00:00)
 - [70007d7](https://github.com/FGRibreau/mailchecker/commit/70007d7de6b1cf38135af7dae06b281053a78ef3) Release v1.4.0. (@FGRibreau)
 - [76679ef](https://github.com/FGRibreau/mailchecker/commit/76679ef129a799de35f6cc32015873005ee3f1b7) docs(readme) (@FGRibreau)
 - [fa5a8dd](https://github.com/FGRibreau/mailchecker/commit/fa5a8dd6f99b80ee9fe9333b5f5361171e6398a9) feat(list): added emails from https://github.com/nfedyashev/valid_email2/blob/master/vendor/disposable_emails.yml (@FGRibreau)
