@@ -1,5 +1,16 @@
 ## Change Log
 
+### v3.3.9 (2020/06/09 10:26 +00:00)
+- [10c77f6](https://github.com/FGRibreau/mailchecker/commit/10c77f67d39b0e4af83098218fdefb830b4acabb) feat(build): update plateform files (@FGRibreau)
+- [8b80975](https://github.com/FGRibreau/mailchecker/commit/8b80975319b5bdbf7e213ef026521ab325cc3c4e) Release v3.3.9. (@FGRibreau)
+- [#277](https://github.com/FGRibreau/mailchecker/pull/277) Merge pull request #277 from goldfire/patch-1 (@goldfire)
+- [a5377f7](https://github.com/FGRibreau/mailchecker/commit/a5377f7ff018d41ccafae2a933000359bcd6208d) Add ttirv and awdrt to list (@goldfire)
+- [b6c6537](https://github.com/FGRibreau/mailchecker/commit/b6c6537d5138c631669f5c55274ecab77c7559f2) fix: cargo (@FGRibreau)
+- [deb91bb](https://github.com/FGRibreau/mailchecker/commit/deb91bb3a86e70a7804971e7a05ef2772735b8c1) feat(cargo): updated to 3.3.8 (@FGRibreau)
+- [1aa29ae](https://github.com/FGRibreau/mailchecker/commit/1aa29ae68f469cbd8c9508bea8494161b08f50b4) feat(python): updated to 3.3.8 (@FGRibreau)
+- [6681660](https://github.com/FGRibreau/mailchecker/commit/66816601c1d8447a8d9462df97b2eaa657c4c834) feat(gemspec): updated to 3.3.8 (@FGRibreau)
+- [e9384b7](https://github.com/FGRibreau/mailchecker/commit/e9384b7f9318544d3fde2928bc12bc38874e8de1) docs(changelog): updated (@FGRibreau)
+
 ### v3.3.8 (2020/05/19 20:33 +00:00)
 - [f706706](https://github.com/FGRibreau/mailchecker/commit/f706706d547361f2354fc9e80192dff3f54920bc) feat(build): update plateform files (@FGRibreau)
 - [98c5938](https://github.com/FGRibreau/mailchecker/commit/98c59389a1c47fb18b93e7250ec4372c80be564b) Release v3.3.8. (@FGRibreau)
@@ -1096,8 +1107,6 @@
 - [3da1f32](https://github.com/FGRibreau/mailchecker/commit/3da1f322fca882db0e76eaa7aa558e6b19820ca9) Release v1.5.1. (@FGRibreau)
 - [d8a4025](https://github.com/FGRibreau/mailchecker/commit/d8a4025ddae804f66589fee1e94679aca3f5587a) fix(list): removed fastmail.fm fixes #46 (@FGRibreau)
 - [d5ba80c](https://github.com/FGRibreau/mailchecker/commit/d5ba80c34d81d8764f2d956ee0fafa1a75e0fc23) docs(changelog) (@FGRibreau)
-
-### v1.5.0 (2015/11/30 21:57 +00:00)
 - [25cf9a3](https://github.com/FGRibreau/mailchecker/commit/25cf9a37d8656a2f41ed688a9be7868298468fc2) Release v1.5.0. (@FGRibreau)
 - [d34d1a5](https://github.com/FGRibreau/mailchecker/commit/d34d1a5d993fcd5ee9e5882dea222fde030e8745) feat(mailchecker): added new domain names (@FGRibreau)
 - [#44](https://github.com/FGRibreau/mailchecker/pull/44) Merge pull request #44 from trisix/update-email-list (@trisix)
