@@ -2,7 +2,7 @@
 
 [package]
 name = "mailchecker"
-version = "3.3.8"
+version = "3.3.9"
 authors = ["François-Guillaume Ribreau <rust@fgribreau.com>"]
 
 # A short blurb about the package. This is not rendered in any format when
