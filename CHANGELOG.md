@@ -1,5 +1,18 @@
 ## Change Log
 
+### v3.3.10 (2020/07/13 20:12 +00:00)
+- [09867b7](https://github.com/FGRibreau/mailchecker/commit/09867b7c8104d268c8a1081d3047e718e6d3bb36) feat(build): update plateform files (@FGRibreau)
+- [279b365](https://github.com/FGRibreau/mailchecker/commit/279b36586b18bf19f09c1537cc98acdfb80ff0a7) Release v3.3.10. (@FGRibreau)
+- [#278](https://github.com/FGRibreau/mailchecker/pull/278) Merge pull request #278 from StanBright/master (@StanBright)
+- [b78b371](https://github.com/FGRibreau/mailchecker/commit/b78b37180d1c1f1011a5398ea0814c34eacd42f7) Add tempinbox.xyz, fitschool.be & fitschool.space (@StanBright)
+- [901f339](https://github.com/FGRibreau/mailchecker/commit/901f33996a6769a045130dabb726e5ab8e856f20) Update README.md (@FGRibreau)
+- [860e9f5](https://github.com/FGRibreau/mailchecker/commit/860e9f53026f9d7b86c7612a3902cc90e087dde8) fix: (@FGRibreau)
+- [d3efa30](https://github.com/FGRibreau/mailchecker/commit/d3efa3090bd4e191edeb4f582560e387b390f001) fix (@FGRibreau)
+- [ad3d2a7](https://github.com/FGRibreau/mailchecker/commit/ad3d2a7688a9b1a15de687656528e6c52d8d5ce9) feat(cargo): updated to 3.3.9 (@FGRibreau)
+- [894d8a4](https://github.com/FGRibreau/mailchecker/commit/894d8a4033693d9772fd49ddd2040d005dea87cd) feat(python): updated to 3.3.9 (@FGRibreau)
+- [c2053b9](https://github.com/FGRibreau/mailchecker/commit/c2053b9abddea4ed65a7238b47c79577399df37e) feat(gemspec): updated to 3.3.9 (@FGRibreau)
+- [cf85d38](https://github.com/FGRibreau/mailchecker/commit/cf85d3869d831bd1d0238cfc4ee89e1a297a7c0a) docs(changelog): updated (@FGRibreau)
+
 ### v3.3.9 (2020/06/09 10:26 +00:00)
 - [10c77f6](https://github.com/FGRibreau/mailchecker/commit/10c77f67d39b0e4af83098218fdefb830b4acabb) feat(build): update plateform files (@FGRibreau)
 - [8b80975](https://github.com/FGRibreau/mailchecker/commit/8b80975319b5bdbf7e213ef026521ab325cc3c4e) Release v3.3.9. (@FGRibreau)
@@ -748,7 +761,7 @@
 - [0a922b3](https://github.com/FGRibreau/mailchecker/commit/0a922b367aa4db2d1593b373f13a555f23295395) feat(build): update plateform files (@FGRibreau)
 - [59f7c6b](https://github.com/FGRibreau/mailchecker/commit/59f7c6b0f5ec900d959934cdbc34dbc8cd4828c7) misc(package-lock) (@FGRibreau)
 - [#106](https://github.com/FGRibreau/mailchecker/pull/106) Merge pull request #106 from thorinisme/patch-1 (@thorinisme)
-- [c058950](https://github.com/FGRibreau/mailchecker/commit/c058950b40d69b7578e56fd3c48e8cc75100872b) add 228 domains from mailinator (list of hash) (@thorinisme)
+- [c058950](https://github.com/FGRibreau/mailchecker/commit/c058950b40d69b7578e56fd3c48e8cc75100872b) add 228 domains from mailinator (list of hash) (@Oloompa)
 - [cc4fb7f](https://github.com/FGRibreau/mailchecker/commit/cc4fb7f077dc5350251d51e17f15210bbeeaaac9) docs(changelog): updated (@FGRibreau)
 
 ### v3.0.27 (2017/05/31 22:35 +00:00)
@@ -1102,8 +1115,6 @@
 - [4455d5d](https://github.com/FGRibreau/mailchecker/commit/4455d5d15523ae3149322bda1f6a577fc9d8f270) Update README.md (@FGRibreau)
 - [85535b7](https://github.com/FGRibreau/mailchecker/commit/85535b7f266b1e9bc4430a4ea56befc864060b84) docs(readme) (@FGRibreau)
 - [0a66fa1](https://github.com/FGRibreau/mailchecker/commit/0a66fa1ed0b38146d57cea0b5ae08bdf5f3074df) docs(changelog) (@FGRibreau)
-
-### v1.5.1 (2015/12/01 18:23 +00:00)
 - [3da1f32](https://github.com/FGRibreau/mailchecker/commit/3da1f322fca882db0e76eaa7aa558e6b19820ca9) Release v1.5.1. (@FGRibreau)
 - [d8a4025](https://github.com/FGRibreau/mailchecker/commit/d8a4025ddae804f66589fee1e94679aca3f5587a) fix(list): removed fastmail.fm fixes #46 (@FGRibreau)
 - [d5ba80c](https://github.com/FGRibreau/mailchecker/commit/d5ba80c34d81d8764f2d956ee0fafa1a75e0fc23) docs(changelog) (@FGRibreau)
