@@ -1,5 +1,17 @@
 ## Change Log
 
+### v3.3.11 (2020/07/28 07:21 +00:00)
+- [f91bff6](https://github.com/FGRibreau/mailchecker/commit/f91bff6ff73c69ab53ec0bfde460668a44358114) feat(build): update plateform files (@FGRibreau)
+- [414a35a](https://github.com/FGRibreau/mailchecker/commit/414a35aaf6f66207f6ff2f033c4e4ecd97b9dbd3) Release v3.3.11. (@FGRibreau)
+- [#280](https://github.com/FGRibreau/mailchecker/pull/280) Merge pull request #280 from jslirola/master (@jslirola)
+- [7dee69a](https://github.com/FGRibreau/mailchecker/commit/7dee69a9eca805f97d6036256e0002197ca87092) Add cuoly.com (@jslirola)
+- [508159f](https://github.com/FGRibreau/mailchecker/commit/508159f423a5ee005c42542216a5ddaf58ff1831) Add eoopy.com (@jslirola)
+- [7920454](https://github.com/FGRibreau/mailchecker/commit/79204542021b7c292c7ef1f5a2d19707027e35f3) fix(cargo) (@FGRibreau)
+- [8074fd7](https://github.com/FGRibreau/mailchecker/commit/8074fd7f676ab49bfdda2495bc6e845457a43073) feat(cargo): updated to 3.3.10 (@FGRibreau)
+- [4eb7b97](https://github.com/FGRibreau/mailchecker/commit/4eb7b9752230d962b45aa3a04503f2a0009a00c5) feat(python): updated to 3.3.10 (@FGRibreau)
+- [153d82d](https://github.com/FGRibreau/mailchecker/commit/153d82d40b397273e44efd791c2a6c08986c43fd) feat(gemspec): updated to 3.3.10 (@FGRibreau)
+- [321e7f8](https://github.com/FGRibreau/mailchecker/commit/321e7f8c90a7104e805026cc72ced0a32acbf2f1) docs(changelog): updated (@FGRibreau)
+
 ### v3.3.10 (2020/07/13 20:12 +00:00)
 - [09867b7](https://github.com/FGRibreau/mailchecker/commit/09867b7c8104d268c8a1081d3047e718e6d3bb36) feat(build): update plateform files (@FGRibreau)
 - [279b365](https://github.com/FGRibreau/mailchecker/commit/279b36586b18bf19f09c1537cc98acdfb80ff0a7) Release v3.3.10. (@FGRibreau)
@@ -72,8 +84,8 @@
 - [f1ac3a8](https://github.com/FGRibreau/mailchecker/commit/f1ac3a84b643817e3846c21bb110fdb2c6d838dc) Release v3.3.4. (@FGRibreau)
 - [4e8083b](https://github.com/FGRibreau/mailchecker/commit/4e8083b97e7fd1cc89d826949a2601a39a80e547) feat(build): update plateform files (@FGRibreau)
 - [#254](https://github.com/FGRibreau/mailchecker/pull/254) Merge pull request #254 from LimiQS/patch-1 (@LimiQS)
-- [779f797](https://github.com/FGRibreau/mailchecker/commit/779f797fb2ff1fe1ffe7a6911e29fb74fafcc04e) And more (@LimiQS)
-- [2a6cc2c](https://github.com/FGRibreau/mailchecker/commit/2a6cc2cde4cd9ad2944d12991490a1929c497900) Add meantinc.com (@LimiQS)
+- [779f797](https://github.com/FGRibreau/mailchecker/commit/779f797fb2ff1fe1ffe7a6911e29fb74fafcc04e) And more (@Chigusa0w0)
+- [2a6cc2c](https://github.com/FGRibreau/mailchecker/commit/2a6cc2cde4cd9ad2944d12991490a1929c497900) Add meantinc.com (@Chigusa0w0)
 - [#245](https://github.com/FGRibreau/mailchecker/pull/245) Merge pull request #245 from makitsune/changes (@makitsune)
 - [602e219](https://github.com/FGRibreau/mailchecker/commit/602e219855c789b4831334693a1fcf2032663152) Added domains from cock.li (@makitsune)
 - [89371a9](https://github.com/FGRibreau/mailchecker/commit/89371a944d0ae614d272bcc91b4beafd0d9ac096) fix(cargo) (@FGRibreau)
@@ -1105,8 +1117,6 @@
 - [2d164f6](https://github.com/FGRibreau/mailchecker/commit/2d164f6d4338b53203412849369149fe4cdd1aa8) feat(mailchecker): added two new domains (@FGRibreau)
 - [613258b](https://github.com/FGRibreau/mailchecker/commit/613258bb005d66e1e76486590daa75ae366e140a) docs(readme) (@FGRibreau)
 - [c628238](https://github.com/FGRibreau/mailchecker/commit/c628238c6952a66a91043dc773ba1c6b37c1316c) docs(changelog) (@FGRibreau)
-
-### v1.5.2 (2016/02/02 18:38 +00:00)
 - [53ec8e2](https://github.com/FGRibreau/mailchecker/commit/53ec8e2b31181c4be7c2592c61cfc948215f2951) Release v1.5.2. (@FGRibreau)
 - [f854b62](https://github.com/FGRibreau/mailchecker/commit/f854b62f137b21690b8cad2c699a8ea4c9c7307f) feat(update) (@FGRibreau)
 - [#49](https://github.com/FGRibreau/mailchecker/pull/49) Merge pull request #49 from algenon/patch-1 (@algenon)
