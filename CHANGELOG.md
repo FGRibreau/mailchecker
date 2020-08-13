@@ -1,5 +1,16 @@
 ## Change Log
 
+### v3.3.12 (2020/08/13 08:28 +00:00)
+- [70af79f](https://github.com/FGRibreau/mailchecker/commit/70af79f5972bd5b6f80d769f0b647a21d357d2b9) Release v3.3.12. (@FGRibreau)
+- [69b528f](https://github.com/FGRibreau/mailchecker/commit/69b528f535da140fe83a714329ae6ddfad6c5cea) feat(build): update plateform files (@FGRibreau)
+- [ffae5b1](https://github.com/FGRibreau/mailchecker/commit/ffae5b14e8dc583124e87663ae6b2ff38553f149) fix (@FGRibreau)
+- [#281](https://github.com/FGRibreau/mailchecker/pull/281) Merge pull request #281 from jslirola/master (@jslirola)
+- [171f86e](https://github.com/FGRibreau/mailchecker/commit/171f86eaab3dc3471b2b941276c95cedecfff35c) Add xedmi.com, ximtyl.com and close #276 (@jslirola)
+- [13c85e7](https://github.com/FGRibreau/mailchecker/commit/13c85e7eabf91a72e18f929464257a0781449bb4) feat(cargo): updated to 3.3.11 (@FGRibreau)
+- [e3afc08](https://github.com/FGRibreau/mailchecker/commit/e3afc08136b83bb0db136912736380443bc5d23a) feat(python): updated to 3.3.11 (@FGRibreau)
+- [48282af](https://github.com/FGRibreau/mailchecker/commit/48282afaef4310da7f14f4d44b3c9f2fa2da276a) feat(gemspec): updated to 3.3.11 (@FGRibreau)
+- [d405d7e](https://github.com/FGRibreau/mailchecker/commit/d405d7e025e5712220ceda149cea242d99eff310) docs(changelog): updated (@FGRibreau)
+
 ### v3.3.11 (2020/07/28 07:21 +00:00)
 - [f91bff6](https://github.com/FGRibreau/mailchecker/commit/f91bff6ff73c69ab53ec0bfde460668a44358114) feat(build): update plateform files (@FGRibreau)
 - [414a35a](https://github.com/FGRibreau/mailchecker/commit/414a35aaf6f66207f6ff2f033c4e4ecd97b9dbd3) Release v3.3.11. (@FGRibreau)
@@ -1111,8 +1122,6 @@
 - [3a82e43](https://github.com/FGRibreau/mailchecker/commit/3a82e436c732c7db393c965ca63ba4baea3f0aee) Release v1.6.1. (@FGRibreau)
 - [147646a](https://github.com/FGRibreau/mailchecker/commit/147646aa8a46a5f209dafa5be8c2bafc49f23ad2) feat(changelog) (@FGRibreau)
 - [0046622](https://github.com/FGRibreau/mailchecker/commit/0046622e4d1c9f305b0ab1a497d4aa4c9e0283c6) Update README.md (@FGRibreau)
-
-### v1.6.0 (2016/03/03 08:59 +00:00)
 - [0cfd701](https://github.com/FGRibreau/mailchecker/commit/0cfd70139e93763a0882a9277ceaebf74404f096) Release v1.6.0. (@FGRibreau)
 - [2d164f6](https://github.com/FGRibreau/mailchecker/commit/2d164f6d4338b53203412849369149fe4cdd1aa8) feat(mailchecker): added two new domains (@FGRibreau)
 - [613258b](https://github.com/FGRibreau/mailchecker/commit/613258bb005d66e1e76486590daa75ae366e140a) docs(readme) (@FGRibreau)
