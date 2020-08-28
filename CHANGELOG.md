@@ -1,5 +1,16 @@
 ## Change Log
 
+### v3.3.13 (2020/08/28 18:54 +00:00)
+- [ff17aa4](https://github.com/FGRibreau/mailchecker/commit/ff17aa466911084dbf278f80bb3fec6ab2c1b400) Release v3.3.13. (@FGRibreau)
+- [4f52db4](https://github.com/FGRibreau/mailchecker/commit/4f52db485416e216a6ebdd7420c137b7588a352c) feat(build): update plateform files (@FGRibreau)
+- [#282](https://github.com/FGRibreau/mailchecker/pull/282) Merge pull request #282 from skatkov/patch-2 (@skatkov)
+- [79c0ef7](https://github.com/FGRibreau/mailchecker/commit/79c0ef743fef66ab1413cae6f7046d08d03852ec) Adding loufad.com domain to the list. (@skatkov)
+- [978547c](https://github.com/FGRibreau/mailchecker/commit/978547c5386077837b77c13157aded49b9e9548c) fix: version (@FGRibreau)
+- [675cef5](https://github.com/FGRibreau/mailchecker/commit/675cef57fa20117163cb885411c562ad9f6f7868) feat(cargo): updated to 3.3.12 (@FGRibreau)
+- [48ab0f4](https://github.com/FGRibreau/mailchecker/commit/48ab0f43a44471687ce7a1bb7fd0f437563d8e04) feat(python): updated to 3.3.12 (@FGRibreau)
+- [351ee7d](https://github.com/FGRibreau/mailchecker/commit/351ee7d34936cc2998b7ee9c4fdcb665a363b066) feat(gemspec): updated to 3.3.12 (@FGRibreau)
+- [de91436](https://github.com/FGRibreau/mailchecker/commit/de9143697df254e2505172c85b3612dfe5bc7289) docs(changelog): updated (@FGRibreau)
+
 ### v3.3.12 (2020/08/13 08:28 +00:00)
 - [70af79f](https://github.com/FGRibreau/mailchecker/commit/70af79f5972bd5b6f80d769f0b647a21d357d2b9) Release v3.3.12. (@FGRibreau)
 - [69b528f](https://github.com/FGRibreau/mailchecker/commit/69b528f535da140fe83a714329ae6ddfad6c5cea) feat(build): update plateform files (@FGRibreau)
@@ -1117,8 +1128,6 @@
 - [fa7696d](https://github.com/FGRibreau/mailchecker/commit/fa7696d8cdf4e40d5092f2055c86af5bfd22b80a) Fix invalid colon in domain in list.json (@owst)
 - [49b729c](https://github.com/FGRibreau/mailchecker/commit/49b729cdbb2d584feccccb25770e5fa1f6595b3c) Remove trailing spaces from blacklisted entries (@owst)
 - [38f68c9](https://github.com/FGRibreau/mailchecker/commit/38f68c9e141f0f0e5b0905bae2b1acf61667a3a5) docs(changelog) (@FGRibreau)
-
-### v1.6.1 (2016/03/05 14:22 +00:00)
 - [3a82e43](https://github.com/FGRibreau/mailchecker/commit/3a82e436c732c7db393c965ca63ba4baea3f0aee) Release v1.6.1. (@FGRibreau)
 - [147646a](https://github.com/FGRibreau/mailchecker/commit/147646aa8a46a5f209dafa5be8c2bafc49f23ad2) feat(changelog) (@FGRibreau)
 - [0046622](https://github.com/FGRibreau/mailchecker/commit/0046622e4d1c9f305b0ab1a497d4aa4c9e0283c6) Update README.md (@FGRibreau)
