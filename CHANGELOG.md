@@ -1,5 +1,16 @@
 ## Change Log
 
+### v3.3.14 (2020/09/09 21:11 +00:00)
+- [0147e4c](https://github.com/FGRibreau/mailchecker/commit/0147e4c96ed435d0b6244ffd7680f7e962dcc406) feat(build): update plateform files (@FGRibreau)
+- [eb0ec46](https://github.com/FGRibreau/mailchecker/commit/eb0ec4664f28b9c9a2b8364e3cf35fb48f517171) Release v3.3.14. (@FGRibreau)
+- [accc689](https://github.com/FGRibreau/mailchecker/commit/accc689ac4edb1010ebccb6c4b75721ca0d66477) fix (@FGRibreau)
+- [#283](https://github.com/FGRibreau/mailchecker/pull/283) Merge pull request #283 from jannicars/master (@jannicars)
+- [72f7a49](https://github.com/FGRibreau/mailchecker/commit/72f7a494a7661d914049d5258d5abc8077c8c4be) Adding gomaild to the domain list. (@jannicars)
+- [5dababb](https://github.com/FGRibreau/mailchecker/commit/5dababb20470bd9fac720766a0441649c26f8d1e) feat(cargo): updated to 3.3.13 (@FGRibreau)
+- [23b3722](https://github.com/FGRibreau/mailchecker/commit/23b3722cadfdcd469f23e803543c4400e42b8a72) feat(python): updated to 3.3.13 (@FGRibreau)
+- [a53e438](https://github.com/FGRibreau/mailchecker/commit/a53e4381c62228621d50d78215a0c2d6aad1dc63) feat(gemspec): updated to 3.3.13 (@FGRibreau)
+- [4dc91f2](https://github.com/FGRibreau/mailchecker/commit/4dc91f2c947d968ad4ffd202d99eaab2404f54ad) docs(changelog): updated (@FGRibreau)
+
 ### v3.3.13 (2020/08/28 18:54 +00:00)
 - [ff17aa4](https://github.com/FGRibreau/mailchecker/commit/ff17aa466911084dbf278f80bb3fec6ab2c1b400) Release v3.3.13. (@FGRibreau)
 - [4f52db4](https://github.com/FGRibreau/mailchecker/commit/4f52db485416e216a6ebdd7420c137b7588a352c) feat(build): update plateform files (@FGRibreau)
@@ -1095,8 +1106,6 @@
 - [d13f44f](https://github.com/FGRibreau/mailchecker/commit/d13f44fa17306c03a77aee427ced3ef9f935d33c) Release v1.6.3. (@FGRibreau)
 - [657bb5e](https://github.com/FGRibreau/mailchecker/commit/657bb5e48156629eb1465c048444789947e0b174) fix(git): fix .env leak (@FGRibreau)
 - [d0bfe4e](https://github.com/FGRibreau/mailchecker/commit/d0bfe4e2db4ab3e8bd0d88d30748cb9de065e643) Merge branch 'master' of github.com:FGRibreau/mailchecker (@FGRibreau)
-
-### v1.6.2 (2016/03/19 10:13 +00:00)
 - [467b303](https://github.com/FGRibreau/mailchecker/commit/467b3031f5618d0502a659615384a2bb9b090305) Release v1.6.2. (@FGRibreau)
 - [0583e3f](https://github.com/FGRibreau/mailchecker/commit/0583e3f64dfba8fa5cedce3831854ae9cc5e4ea0) Update README.md (@FGRibreau)
 - [2d10a23](https://github.com/FGRibreau/mailchecker/commit/2d10a236ed8362b6837d5532b421c6d02a22bef5) docs(changelog) (@FGRibreau)
