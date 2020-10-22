@@ -1,5 +1,16 @@
 ## Change Log
 
+### v3.3.15 (2020/10/22 21:55 +00:00)
+- [5c1077e](https://github.com/FGRibreau/mailchecker/commit/5c1077ea4d5e3537a554483fce4c3f4efd61e126) Release v3.3.15. (@FGRibreau)
+- [c7419b8](https://github.com/FGRibreau/mailchecker/commit/c7419b85e87588b9acb706bc563b71b689ff6933) feat(build): update plateform files (@FGRibreau)
+- [4f54757](https://github.com/FGRibreau/mailchecker/commit/4f54757e6f74fe7193b0cfa0548a2793db263197) fix: release (@FGRibreau)
+- [#285](https://github.com/FGRibreau/mailchecker/pull/285) Merge pull request #285 from kazk/remove-gmx-com (@kazk)
+- [e67e773](https://github.com/FGRibreau/mailchecker/commit/e67e7739c7e79b629cbd51df8291513808488045) Remove gmx.com from the list (@kazk)
+- [4302f8e](https://github.com/FGRibreau/mailchecker/commit/4302f8ee432250e6f20518ce242bc0d91e8395ee) feat(cargo): updated to 3.3.14 (@FGRibreau)
+- [02c0c94](https://github.com/FGRibreau/mailchecker/commit/02c0c948715ea77b15966e7576bad9cf0a1518a8) feat(python): updated to 3.3.14 (@FGRibreau)
+- [6f5577f](https://github.com/FGRibreau/mailchecker/commit/6f5577f5d731b369eded72f0171a25617d8334c2) feat(gemspec): updated to 3.3.14 (@FGRibreau)
+- [e00bf78](https://github.com/FGRibreau/mailchecker/commit/e00bf78c9e1fe07d0ed7ce12ff3af373c6a85aa9) docs(changelog): updated (@FGRibreau)
+
 ### v3.3.14 (2020/09/09 21:11 +00:00)
 - [0147e4c](https://github.com/FGRibreau/mailchecker/commit/0147e4c96ed435d0b6244ffd7680f7e962dcc406) feat(build): update plateform files (@FGRibreau)
 - [eb0ec46](https://github.com/FGRibreau/mailchecker/commit/eb0ec4664f28b9c9a2b8364e3cf35fb48f517171) Release v3.3.14. (@FGRibreau)
@@ -613,7 +624,7 @@
 - [79f92d5](https://github.com/FGRibreau/mailchecker/commit/79f92d5eb092db350c8d468973e3c6343a6dac62) feat(cargo): updated to 3.2.5 (@FGRibreau)
 - [4aa3bd3](https://github.com/FGRibreau/mailchecker/commit/4aa3bd3bc415ccaff5011e044e5df81624fae417) feat(python): updated to 3.2.5 (@FGRibreau)
 - [#140](https://github.com/FGRibreau/mailchecker/pull/140) Merge pull request #140 from mcgregordan/patch-1 (@mcgregordan)
-- [2d90b86](https://github.com/FGRibreau/mailchecker/commit/2d90b86f9fcc80e1bc3ee68affaa4f746363b662) Update list.json from temp-mail.org (@mcgregordan)
+- [2d90b86](https://github.com/FGRibreau/mailchecker/commit/2d90b86f9fcc80e1bc3ee68affaa4f746363b662) Update list.json from temp-mail.org
 - [fe97a5d](https://github.com/FGRibreau/mailchecker/commit/fe97a5d0cea8987d27fd6da9d165281794f4d7b7) docs(changelog): updated (@FGRibreau)
 
 ### v3.2.5 (2018/05/14 19:29 +00:00)
@@ -1101,8 +1112,6 @@
 - [6dee1dd](https://github.com/FGRibreau/mailchecker/commit/6dee1dddcddea6754fc3179504b367d276f0e812) fix(loader): upgrade lodash to 4.6, glob and eventemitter2 (@FGRibreau)
 - [e8de1f7](https://github.com/FGRibreau/mailchecker/commit/e8de1f7ab4a12146f7025de2a7051c8523dc3050) docs(changelog) (@FGRibreau)
 - [2e1a012](https://github.com/FGRibreau/mailchecker/commit/2e1a01239118fe007751422a30e15b7d95099a3f) docs(changelog) (@FGRibreau)
-
-### v1.6.3 (2016/03/19 10:17 +00:00)
 - [d13f44f](https://github.com/FGRibreau/mailchecker/commit/d13f44fa17306c03a77aee427ced3ef9f935d33c) Release v1.6.3. (@FGRibreau)
 - [657bb5e](https://github.com/FGRibreau/mailchecker/commit/657bb5e48156629eb1465c048444789947e0b174) fix(git): fix .env leak (@FGRibreau)
 - [d0bfe4e](https://github.com/FGRibreau/mailchecker/commit/d0bfe4e2db4ab3e8bd0d88d30748cb9de065e643) Merge branch 'master' of github.com:FGRibreau/mailchecker (@FGRibreau)
