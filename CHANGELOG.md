@@ -1,5 +1,17 @@
 ## Change Log
 
+### v3.3.16 (2020/11/02 22:15 +00:00)
+- [e77461f](https://github.com/FGRibreau/mailchecker/commit/e77461fff85d2885f92178fb3f05ac4885f84570) feat(build): update plateform files (@FGRibreau)
+- [813d8c1](https://github.com/FGRibreau/mailchecker/commit/813d8c1131045b24a589e0885a64bc09de43faf3) Release v3.3.16. (@FGRibreau)
+- [9d0bb9c](https://github.com/FGRibreau/mailchecker/commit/9d0bb9ca6a026418f6a81d4a187ac0df067e8aa5) fix: cargo (@FGRibreau)
+- [#288](https://github.com/FGRibreau/mailchecker/pull/288) Merge pull request #288 from LxyFlorian/lxyflorian/list (@LxyFlorian)
+- [3b531d2](https://github.com/FGRibreau/mailchecker/commit/3b531d2df28172d844d7b9886512a8f3358dab94) add avxrja.com to the list (@LxyFlorian)
+- [3bc253f](https://github.com/FGRibreau/mailchecker/commit/3bc253f14f780a39d4b70e7800f6627b05913b88) fix: cargo (@FGRibreau)
+- [151d5cb](https://github.com/FGRibreau/mailchecker/commit/151d5cb5abec16880e0435a6df12684d2a367c70) feat(cargo): updated to 3.3.15 (@FGRibreau)
+- [3e0f5ee](https://github.com/FGRibreau/mailchecker/commit/3e0f5ee52a7fd916064c4e8ab14f3e3aa5529e43) feat(python): updated to 3.3.15 (@FGRibreau)
+- [759b82c](https://github.com/FGRibreau/mailchecker/commit/759b82ce64231b9391476053afff2cdc0e83453b) feat(gemspec): updated to 3.3.15 (@FGRibreau)
+- [1f66b20](https://github.com/FGRibreau/mailchecker/commit/1f66b202214778303f54535c4ac77e07402fe20a) docs(changelog): updated (@FGRibreau)
+
 ### v3.3.15 (2020/10/22 21:55 +00:00)
 - [5c1077e](https://github.com/FGRibreau/mailchecker/commit/5c1077ea4d5e3537a554483fce4c3f4efd61e126) Release v3.3.15. (@FGRibreau)
 - [c7419b8](https://github.com/FGRibreau/mailchecker/commit/c7419b85e87588b9acb706bc563b71b689ff6933) feat(build): update plateform files (@FGRibreau)
@@ -1102,8 +1114,6 @@
 - [e3a8aff](https://github.com/FGRibreau/mailchecker/commit/e3a8aff72814ed7adb8aab8eb0f0aeae6b10c9a0) fix(ruby): it's a breaking change! (@FGRibreau)
 - [674202d](https://github.com/FGRibreau/mailchecker/commit/674202dd09f9f336700ccf5bd2f96a90caff4fc5) docs(changelog) (@FGRibreau)
 - [1c3c56c](https://github.com/FGRibreau/mailchecker/commit/1c3c56cca63c8571a9d2f00430f35cd1f00f58a7) Merge branch 'master' of github.com:FGRibreau/mailchecker (@FGRibreau)
-
-### v2.0.0 (2016/03/19 21:11 +00:00)
 - [a2931c2](https://github.com/FGRibreau/mailchecker/commit/a2931c21fb7b88ced741a5ea21b29e436f33aca8) Release v2.0.0. (@FGRibreau)
 - [#55](https://github.com/FGRibreau/mailchecker/pull/55) Merge pull request #55 from owst/patch-2 (@owst)
 - [2ed6d49](https://github.com/FGRibreau/mailchecker/commit/2ed6d4972a06f38216370e351a8c304a0eb3af1a) Use class methods in PHP/Python; update README (@owst)
