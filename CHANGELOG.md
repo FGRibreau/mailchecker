@@ -1,5 +1,16 @@
 ## Change Log
 
+### v3.3.17 (2020/11/04 21:23 +00:00)
+- [b822b1d](https://github.com/FGRibreau/mailchecker/commit/b822b1d259d8cccef24849f81c9a0f7bcb066c4e) Release v3.3.17. (@FGRibreau)
+- [79ffa5b](https://github.com/FGRibreau/mailchecker/commit/79ffa5b4caa883df17c9512844a74c47d4ac03fd) feat(build): update plateform files (@FGRibreau)
+- [#289](https://github.com/FGRibreau/mailchecker/pull/289) Merge pull request #289 from jeremypress/jeremypress-gmailnator (@jeremypress)
+- [80648a5](https://github.com/FGRibreau/mailchecker/commit/80648a5cda4d35716c190a629386ffa06ec823e9) add gmailnator to list.txt (@jeremypress)
+- [528d52a](https://github.com/FGRibreau/mailchecker/commit/528d52aa38b72c000258b9b5725cc04d2212db40) chore: update Cargo.lock (@FGRibreau)
+- [14828c3](https://github.com/FGRibreau/mailchecker/commit/14828c3e84c06fb0967033248ef6410b46e4c3c6) feat(cargo): updated to 3.3.16 (@FGRibreau)
+- [4d00fd5](https://github.com/FGRibreau/mailchecker/commit/4d00fd5a87651e514d3fa7fe8db4e46ebe8518bb) feat(python): updated to 3.3.16 (@FGRibreau)
+- [5fcc2f6](https://github.com/FGRibreau/mailchecker/commit/5fcc2f69dd43d5b69d5ddaeec7027154b9b7f5d5) feat(gemspec): updated to 3.3.16 (@FGRibreau)
+- [6c3af12](https://github.com/FGRibreau/mailchecker/commit/6c3af1280c11da055148bc2e00bb4cc2a021cae5) docs(changelog): updated (@FGRibreau)
+
 ### v3.3.16 (2020/11/02 22:15 +00:00)
 - [e77461f](https://github.com/FGRibreau/mailchecker/commit/e77461fff85d2885f92178fb3f05ac4885f84570) feat(build): update plateform files (@FGRibreau)
 - [813d8c1](https://github.com/FGRibreau/mailchecker/commit/813d8c1131045b24a589e0885a64bc09de43faf3) Release v3.3.16. (@FGRibreau)
@@ -1106,8 +1117,6 @@
 - [#58](https://github.com/FGRibreau/mailchecker/pull/58) Merge pull request #58 from gierschv/fix-regression-check (@gierschv)
 - [83202e4](https://github.com/FGRibreau/mailchecker/commit/83202e47cb5439ffc24837b2233447ab95b7e3fc) fix(node): regression in input check since 1.6.2 (@gierschv)
 - [0461b2d](https://github.com/FGRibreau/mailchecker/commit/0461b2ded1db8cf3ada59a05aff0b28ceca5d97f) docs(changelog) (@FGRibreau)
-
-### v2.0.1 (2016/03/19 21:19 +00:00)
 - [af2e942](https://github.com/FGRibreau/mailchecker/commit/af2e9422be0eac47e7dc43bd6b8bdb3b6b846bfc) Release v2.0.1. (@FGRibreau)
 - [7134fe3](https://github.com/FGRibreau/mailchecker/commit/7134fe35927066d3003a4920cd01368a4602a9a4) docs(changelog) (@FGRibreau)
 - [#56](https://github.com/FGRibreau/mailchecker/pull/56) Merge pull request #56 from owst/static-methods-php-and-python-update-readme (@owst)
