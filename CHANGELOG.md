@@ -1,5 +1,19 @@
 ## Change Log
 
+### v4.0.0 (2020/11/26 11:45 +00:00)
+- [74ebf06](https://github.com/FGRibreau/mailchecker/commit/74ebf06a13f54fb63712e2d2f34d1c826925219d) Release v4.0.0. (@FGRibreau)
+- [62b3be0](https://github.com/FGRibreau/mailchecker/commit/62b3be02feb33f2990b97040398f9923ae68f69a) fix: array does not seems to be compatible with our php version (@FGRibreau)
+- [#290](https://github.com/FGRibreau/mailchecker/pull/290) Merge pull request #290 from lyrixx/php-the-good-way (@lyrixx)
+- [275bacc](https://github.com/FGRibreau/mailchecker/commit/275bacc20667f049e27d4b1a904e10964ef383f2) Modernize en Optimize (A LOT) PHP platform (@lyrixx)
+- [38606ec](https://github.com/FGRibreau/mailchecker/commit/38606ec2fe47ab0701564211ae15e620ec690c6f) Update FUNDING.yml (@FGRibreau)
+- [9369083](https://github.com/FGRibreau/mailchecker/commit/9369083696650c8e4cb60d16861cfaee639f0a29) Create FUNDING.yml (@FGRibreau)
+- [2008e91](https://github.com/FGRibreau/mailchecker/commit/2008e91899d6250afcef1a0064ae4974420a56a2) fix: pkg (@FGRibreau)
+- [be4afc9](https://github.com/FGRibreau/mailchecker/commit/be4afc911dcad85eea9b766827b42ba032d59a42) chore: update Cargo.lock (@FGRibreau)
+- [3cebe97](https://github.com/FGRibreau/mailchecker/commit/3cebe9740206ba3e5a87896ea347459f198c7708) feat(cargo): updated to 3.3.17 (@FGRibreau)
+- [939781c](https://github.com/FGRibreau/mailchecker/commit/939781c76dd2fdea28ff0ff804652a72949322cb) feat(python): updated to 3.3.17 (@FGRibreau)
+- [00c3da1](https://github.com/FGRibreau/mailchecker/commit/00c3da1db00dcda1667aa31a0f62db033ad0b2e6) feat(gemspec): updated to 3.3.17 (@FGRibreau)
+- [a838a1b](https://github.com/FGRibreau/mailchecker/commit/a838a1bf0b96d99f1a5b2c4f97b7a56dece5f3a5) docs(changelog): updated (@FGRibreau)
+
 ### v3.3.17 (2020/11/04 21:23 +00:00)
 - [b822b1d](https://github.com/FGRibreau/mailchecker/commit/b822b1d259d8cccef24849f81c9a0f7bcb066c4e) Release v3.3.17. (@FGRibreau)
 - [79ffa5b](https://github.com/FGRibreau/mailchecker/commit/79ffa5b4caa883df17c9512844a74c47d4ac03fd) feat(build): update plateform files (@FGRibreau)
@@ -1109,8 +1123,6 @@
 - [f7e3db2](https://github.com/FGRibreau/mailchecker/commit/f7e3db2d44ab9dd1539a5eef86ef2afed8dde565) docs(changelog) (@FGRibreau)
 - [cf414b0](https://github.com/FGRibreau/mailchecker/commit/cf414b05b2f2469c7d82840920a6f6d00c193036) fix(gem): improved gem published (@FGRibreau)
 - [4f9e6ba](https://github.com/FGRibreau/mailchecker/commit/4f9e6bac0e7c733dad7517dfd09c016fe518fb90) feat(gemspec): updated to 3.0.0 (@FGRibreau)
-
-### v3.0.0 (2016/03/21 06:40 +00:00)
 - [af8b49d](https://github.com/FGRibreau/mailchecker/commit/af8b49d3947109c02e322a5a5557e6cf41a5ffed) Release v3.0.0. (@FGRibreau)
 - [#57](https://github.com/FGRibreau/mailchecker/pull/57) Merge pull request #57 from owst/camel_case_for_JS (@owst)
 - [7336ffc](https://github.com/FGRibreau/mailchecker/commit/7336ffcae67cadc5066e01ca5c2339f7e888b2c5) Use camelCase for JS identifiers (@owst)
