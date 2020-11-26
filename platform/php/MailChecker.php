@@ -12,7 +12,7 @@
  */
 class MailChecker
 {
-    private static array $blacklist;
+    private static $blacklist;
 
     public static function init(): void
     {
