@@ -1,5 +1,17 @@
 ## Change Log
 
+### v4.0.1 (2020/12/03 11:55 +00:00)
+- [a0372df](https://github.com/FGRibreau/mailchecker/commit/a0372df6fcfc5d79a22212db4f0cabfc4db5184a) feat(build): update plateform files (@FGRibreau)
+- [e5931d6](https://github.com/FGRibreau/mailchecker/commit/e5931d6b9f912d5c4a53f3198cbdb357c8d330c3) Release v4.0.1. (@FGRibreau)
+- [#292](https://github.com/FGRibreau/mailchecker/pull/292) Merge pull request #292 from qvanex/master (@qvanex)
+- [0846e36](https://github.com/FGRibreau/mailchecker/commit/0846e36fee5a6ed987c7606e0efd9914c6a3c662) Remove gmx.es from invalid domains
+- [3f34a0b](https://github.com/FGRibreau/mailchecker/commit/3f34a0b148a7608349c8dfedb34f83f52d251474) chore: update Cargo.lock (@FGRibreau)
+- [ca984fb](https://github.com/FGRibreau/mailchecker/commit/ca984fbd89c1a8c7f9009dc50756fd8e419bcbfe) fix: go.mod (@FGRibreau)
+- [b909e6e](https://github.com/FGRibreau/mailchecker/commit/b909e6edd3fd5db2e80398f94a67e168faa9be14) feat(cargo): updated to 4.0.0 (@FGRibreau)
+- [918eecf](https://github.com/FGRibreau/mailchecker/commit/918eecf32ea5d6ec1ed85a37ccfc9ed1acde772b) feat(python): updated to 4.0.0 (@FGRibreau)
+- [f5ddbfc](https://github.com/FGRibreau/mailchecker/commit/f5ddbfc2fe3e0740184aa358cbacab921d11489a) feat(gemspec): updated to 4.0.0 (@FGRibreau)
+- [2c8fe62](https://github.com/FGRibreau/mailchecker/commit/2c8fe62ae3278743da9f3ce2f2577f0004add7e7) docs(changelog): updated (@FGRibreau)
+
 ### v4.0.0 (2020/11/26 11:45 +00:00)
 - [74ebf06](https://github.com/FGRibreau/mailchecker/commit/74ebf06a13f54fb63712e2d2f34d1c826925219d) Release v4.0.0. (@FGRibreau)
 - [62b3be0](https://github.com/FGRibreau/mailchecker/commit/62b3be02feb33f2990b97040398f9923ae68f69a) fix: array does not seems to be compatible with our php version (@FGRibreau)
@@ -1106,8 +1118,6 @@
 - [ab5205e](https://github.com/FGRibreau/mailchecker/commit/ab5205e8c6d099eb40b01b4509dc276cc3ac131c) Update README.md (@FGRibreau)
 - [467581f](https://github.com/FGRibreau/mailchecker/commit/467581f483a5bf5f2303b2f480c9f6debf78d1fd) feat(gemspec): updated to 3.0.1 (@FGRibreau)
 - [82c234c](https://github.com/FGRibreau/mailchecker/commit/82c234cf8e6e17b716f82b1f3458e03d853377d1) docs(changelog) (@FGRibreau)
-
-### v3.0.1 (2016/03/21 14:32 +00:00)
 - [ae0d2cf](https://github.com/FGRibreau/mailchecker/commit/ae0d2cf302960e22e6e9d3946910a06779f15d20) Release v3.0.1. (@FGRibreau)
 - [458a5d6](https://github.com/FGRibreau/mailchecker/commit/458a5d6ad38e60254f7bed625f4dcf9dcabe2b6f) feat(package): added release-patch (@FGRibreau)
 - [#61](https://github.com/FGRibreau/mailchecker/pull/61) Merge pull request #61 from owst/extract_blacklisted_method_in_ruby (@owst)
