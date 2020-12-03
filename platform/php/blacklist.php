@@ -12796,7 +12796,6 @@ return [
     "gmssail.com" => true,
     "gmx.dns-cloud.net" => true,
     "gmx.dnsabr.com" => true,
-    "gmx.es" => true,
     "gmx.fr.nf" => true,
     "gmx1mail.top" => true,
     "gmxip8vet5glx2n9ld.cf" => true,
