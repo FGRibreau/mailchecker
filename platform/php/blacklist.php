@@ -14438,7 +14438,6 @@ return [
     "hurramm.us" => true,
     "hurrijian.us" => true,
     "hush.ai" => true,
-    "hush.com" => true,
     "hushclouds.com" => true,
     "hushmail.cf" => true,
     "huskion.net" => true,
