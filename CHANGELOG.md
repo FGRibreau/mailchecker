@@ -1,5 +1,16 @@
 ## Change Log
 
+### v4.0.2 (2020/12/23 12:01 +00:00)
+- [2fe4c1e](https://github.com/FGRibreau/mailchecker/commit/2fe4c1ee6191325443a083969fdd1c5fcdc726c8) feat(build): update plateform files (@FGRibreau)
+- [13e598c](https://github.com/FGRibreau/mailchecker/commit/13e598c497bafa6f4130b5e4c914ef52498b5340) Release v4.0.2. (@FGRibreau)
+- [#294](https://github.com/FGRibreau/mailchecker/pull/294) Merge pull request #294 from jeremypress/jeremypress-hush.com (@jeremypress)
+- [adfb534](https://github.com/FGRibreau/mailchecker/commit/adfb534891f23e94c9c39f5956d1f69edc4d3a0d) remove hush.com from list.txt (@jeremypress)
+- [7ef28cf](https://github.com/FGRibreau/mailchecker/commit/7ef28cfbdee8efb26f46c6c866d7e66e4a8f267f) fix: cargo (@FGRibreau)
+- [3ffe530](https://github.com/FGRibreau/mailchecker/commit/3ffe5309b8e94c04069f1a82685eb6c778a769ab) feat(cargo): updated to 4.0.1 (@FGRibreau)
+- [f9cb79e](https://github.com/FGRibreau/mailchecker/commit/f9cb79e9fde8d30680c131830dc6fa108ddd041c) feat(python): updated to 4.0.1 (@FGRibreau)
+- [df23bf5](https://github.com/FGRibreau/mailchecker/commit/df23bf52003f6f517e5c9bd0822e3e63872d5b5f) feat(gemspec): updated to 4.0.1 (@FGRibreau)
+- [fc30856](https://github.com/FGRibreau/mailchecker/commit/fc308569e3bdaad4b67a01fecf8f3e85ff3cf802) docs(changelog): updated (@FGRibreau)
+
 ### v4.0.1 (2020/12/03 11:55 +00:00)
 - [a0372df](https://github.com/FGRibreau/mailchecker/commit/a0372df6fcfc5d79a22212db4f0cabfc4db5184a) feat(build): update plateform files (@FGRibreau)
 - [e5931d6](https://github.com/FGRibreau/mailchecker/commit/e5931d6b9f912d5c4a53f3198cbdb357c8d330c3) Release v4.0.1. (@FGRibreau)
@@ -1111,8 +1122,6 @@
 - [e52257c](https://github.com/FGRibreau/mailchecker/commit/e52257caba73d944e2d8c17167bafacc6092dcfe) Adding +118 disposable email providers (@dustywusty)
 - [facf8b9](https://github.com/FGRibreau/mailchecker/commit/facf8b9101fc10a6e9afea016b85cf69de072f26) Update README.md (@FGRibreau)
 - [0b236b4](https://github.com/FGRibreau/mailchecker/commit/0b236b432ebb17d88ffe1ec21d3fb76079b0ff58) docs(changelog) (@FGRibreau)
-
-### v3.0.2 (2016/04/12 11:50 +00:00)
 - [ac15712](https://github.com/FGRibreau/mailchecker/commit/ac15712ae4d7b9f42b28a90d0a14f3372e43c75a) Release v3.0.2. (@FGRibreau)
 - [60dc617](https://github.com/FGRibreau/mailchecker/commit/60dc617dd19738560dfea547bd176bee5941513a) feat(20email): added 20 minutes email (@FGRibreau)
 - [ab5205e](https://github.com/FGRibreau/mailchecker/commit/ab5205e8c6d099eb40b01b4509dc276cc3ac131c) Update README.md (@FGRibreau)
