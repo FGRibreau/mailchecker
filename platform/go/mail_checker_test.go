@@ -100,7 +100,7 @@ func TestReturnFalseForBlacklistedDomainsAndTheirSubdomains(t *testing.T) {
 	}
 
 	for i, testCase := range testCases {
-		for _, blacklistedDomain := range blacklist {
+		for blacklistedDomain := range blacklist {
 
 			email := fmt.Sprintf(testCase.template, blacklistedDomain)
 			result := IsValid(email)
