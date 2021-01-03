@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
   name='mailchecker',
-  version = "4.0.2",
+  version = "4.0.3",
   py_modules=['MailChecker'],
   url='https://github.com/FGRibreau/mailchecker',
   license='MIT',
