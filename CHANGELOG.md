@@ -1,5 +1,15 @@
 ## Change Log
 
+### v4.0.3 (2021/01/03 08:39 +00:00)
+- [fdab144](https://github.com/FGRibreau/mailchecker/commit/fdab144cedc49ad90c143218e6d274c3808dd084) Release v4.0.3. (@FGRibreau)
+- [#296](https://github.com/FGRibreau/mailchecker/pull/296) Merge pull request #296 from maranqz/golang-map-storing (@maranqz)
+- [367ff17](https://github.com/FGRibreau/mailchecker/commit/367ff17bf8d969bbbd504c27cafa17edc03cf202) changing of matching structure from array to map (@maranqz)
+- [ce7ab11](https://github.com/FGRibreau/mailchecker/commit/ce7ab116663782eb6733d34286de677b87e8e83a) feat(rust): v4.0.2 (@FGRibreau)
+- [1289ee3](https://github.com/FGRibreau/mailchecker/commit/1289ee36eb76cb8685467d96a264f6df218ca436) feat(cargo): updated to 4.0.2 (@FGRibreau)
+- [602364b](https://github.com/FGRibreau/mailchecker/commit/602364b8688e06d38822a5e1b7807b6d28018123) feat(python): updated to 4.0.2 (@FGRibreau)
+- [effcb32](https://github.com/FGRibreau/mailchecker/commit/effcb32076f8d6dba710a308ff09c7bf61b0c595) feat(gemspec): updated to 4.0.2 (@FGRibreau)
+- [9a9c4f3](https://github.com/FGRibreau/mailchecker/commit/9a9c4f3e723aad6e39b51a2aff82d0e5ef0d5862) docs(changelog): updated (@FGRibreau)
+
 ### v4.0.2 (2020/12/23 12:01 +00:00)
 - [2fe4c1e](https://github.com/FGRibreau/mailchecker/commit/2fe4c1ee6191325443a083969fdd1c5fcdc726c8) feat(build): update plateform files (@FGRibreau)
 - [13e598c](https://github.com/FGRibreau/mailchecker/commit/13e598c497bafa6f4130b5e4c914ef52498b5340) Release v4.0.2. (@FGRibreau)
@@ -1113,8 +1123,6 @@
 - [ee847e3](https://github.com/FGRibreau/mailchecker/commit/ee847e3e78ab07f044edff162c55da491634143e) [Fix #62] Emails with spaces/newlines are invalid (@owst)
 - [fb435cc](https://github.com/FGRibreau/mailchecker/commit/fb435cc9147077b6e610a921a9566f51e32bb3d1) feat(gemspec): updated to 3.0.3 (@FGRibreau)
 - [e7251de](https://github.com/FGRibreau/mailchecker/commit/e7251de4cbd0aeb7ede8c5bab77d19ec7b1f1c39) docs(changelog) (@FGRibreau)
-
-### v3.0.3 (2016/04/15 06:45 +00:00)
 - [0b40556](https://github.com/FGRibreau/mailchecker/commit/0b405563ac3ef36bf3225f9d0ec68804d61c5e4c) Release v3.0.3. (@FGRibreau)
 - [b63b69d](https://github.com/FGRibreau/mailchecker/commit/b63b69d94913f1799b8266ab0116c28daf627ccb) feat(list): updated list (@FGRibreau)
 - [a21984f](https://github.com/FGRibreau/mailchecker/commit/a21984f3f789d88faa8fc15e28f364a29586c507) feat(gemspec): updated to 3.0.2 (@FGRibreau)
