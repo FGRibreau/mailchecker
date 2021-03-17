@@ -1,5 +1,16 @@
 ## Change Log
 
+### v4.0.4 (2021/03/17 10:18 +00:00)
+- [1df4fe9](https://github.com/FGRibreau/mailchecker/commit/1df4fe9fd4ece4cbdf18f18d98751e765b0656d6) feat(build): update plateform files
+- [582bc42](https://github.com/FGRibreau/mailchecker/commit/582bc42ed95626dfd6b8dbb58d09d7157441a3c6) Release v4.0.4.
+- [0633609](https://github.com/FGRibreau/mailchecker/commit/063360971a019453c87c9ac9cb517b95b9fad166) fix: cargo (@FGRibreau)
+- [#299](https://github.com/FGRibreau/mailchecker/pull/299) Merge pull request #299 from jakemalachowski/patch-1 (@jakemalachowski)
+- [a313f24](https://github.com/FGRibreau/mailchecker/commit/a313f2459d2dcc71569d8d686a39d5d103aac02c) Add tempmail service digdig.org (@jakemalachowski)
+- [4c2fcd3](https://github.com/FGRibreau/mailchecker/commit/4c2fcd30aa77677f344a1acd7c67ec1038464c61) feat(cargo): updated to 4.0.3 (@FGRibreau)
+- [b6cfacd](https://github.com/FGRibreau/mailchecker/commit/b6cfacd9f5f7bc7dd3137cf95db1d4033d9fc2d6) feat(python): updated to 4.0.3 (@FGRibreau)
+- [00636f2](https://github.com/FGRibreau/mailchecker/commit/00636f2f26ee431d71e76c56d372ddc5f58900af) feat(gemspec): updated to 4.0.3 (@FGRibreau)
+- [cdd36bc](https://github.com/FGRibreau/mailchecker/commit/cdd36bc601086e55f09455f8c9d621b51a942848) docs(changelog): updated (@FGRibreau)
+
 ### v4.0.3 (2021/01/03 08:39 +00:00)
 - [fdab144](https://github.com/FGRibreau/mailchecker/commit/fdab144cedc49ad90c143218e6d274c3808dd084) Release v4.0.3. (@FGRibreau)
 - [#296](https://github.com/FGRibreau/mailchecker/pull/296) Merge pull request #296 from maranqz/golang-map-storing (@maranqz)
@@ -86,7 +97,7 @@
 - [eb0ec46](https://github.com/FGRibreau/mailchecker/commit/eb0ec4664f28b9c9a2b8364e3cf35fb48f517171) Release v3.3.14. (@FGRibreau)
 - [accc689](https://github.com/FGRibreau/mailchecker/commit/accc689ac4edb1010ebccb6c4b75721ca0d66477) fix (@FGRibreau)
 - [#283](https://github.com/FGRibreau/mailchecker/pull/283) Merge pull request #283 from jannicars/master (@jannicars)
-- [72f7a49](https://github.com/FGRibreau/mailchecker/commit/72f7a494a7661d914049d5258d5abc8077c8c4be) Adding gomaild to the domain list. (@jannicars)
+- [72f7a49](https://github.com/FGRibreau/mailchecker/commit/72f7a494a7661d914049d5258d5abc8077c8c4be) Adding gomaild to the domain list. (@Buffele)
 - [5dababb](https://github.com/FGRibreau/mailchecker/commit/5dababb20470bd9fac720766a0441649c26f8d1e) feat(cargo): updated to 3.3.13 (@FGRibreau)
 - [23b3722](https://github.com/FGRibreau/mailchecker/commit/23b3722cadfdcd469f23e803543c4400e42b8a72) feat(python): updated to 3.3.13 (@FGRibreau)
 - [a53e438](https://github.com/FGRibreau/mailchecker/commit/a53e4381c62228621d50d78215a0c2d6aad1dc63) feat(gemspec): updated to 3.3.13 (@FGRibreau)
@@ -934,7 +945,7 @@
 - [a803eda](https://github.com/FGRibreau/mailchecker/commit/a803edadc1309b0e36e7469ce87338956b8b1278) Release v3.0.23. (@FGRibreau)
 - [0614ef5](https://github.com/FGRibreau/mailchecker/commit/0614ef55a84486554847d5e9cc583636e52cf071) feat(build): update plateform files (@FGRibreau)
 - [#96](https://github.com/FGRibreau/mailchecker/pull/96) Merge pull request #96 from zeeshan83/patch-1 (@zeeshan83)
-- [02f6c89](https://github.com/FGRibreau/mailchecker/commit/02f6c89cdaee209c1f2e5040d7b2302bb66deded) Update list.json (@zeeshan83)
+- [02f6c89](https://github.com/FGRibreau/mailchecker/commit/02f6c89cdaee209c1f2e5040d7b2302bb66deded) Update list.json
 - [cf03cfb](https://github.com/FGRibreau/mailchecker/commit/cf03cfbdb708e85042ad9313eefba2e1df38ef38) feat(gemspec): updated to 3.0.22 (@FGRibreau)
 - [49f7f50](https://github.com/FGRibreau/mailchecker/commit/49f7f50d62e3a9cdb0a83a4c6bd947d8dd3a668c) feat(cargo): updated to 3.0.22 (@FGRibreau)
 - [66e98dc](https://github.com/FGRibreau/mailchecker/commit/66e98dcc534a94c494a1d38ad5e15c863625c44d) Update README.md (@FGRibreau)
@@ -1110,8 +1121,6 @@
 - [0abda9d](https://github.com/FGRibreau/mailchecker/commit/0abda9df3bab0f9d2de0926318428f2286e6e7b6) Adding leeching.net, extremail.ru, kismail.ru, and divismail.ru from https://temp-mail.org/api/ + fixed my previous formatting to be more consistent (@dustywusty)
 - [20afe30](https://github.com/FGRibreau/mailchecker/commit/20afe30ebe144a7c9956f495ddb2f8c287c2408a) feat(gemspec): updated to 3.0.4 (@FGRibreau)
 - [d34b5f0](https://github.com/FGRibreau/mailchecker/commit/d34b5f0970587cbde5b7cec2fca04b0e05351f9b) docs(changelog) (@FGRibreau)
-
-### v3.0.4 (2016/04/25 14:17 +00:00)
 - [7a2b150](https://github.com/FGRibreau/mailchecker/commit/7a2b1506cd5ff90bc4a947291ad2feec4d3e7876) Release v3.0.4. (@FGRibreau)
 - [0c8c746](https://github.com/FGRibreau/mailchecker/commit/0c8c7461c5be314623a1060120e64770cb2d2c47) feat(list) (@FGRibreau)
 - [#66](https://github.com/FGRibreau/mailchecker/pull/66) Merge pull request #66 from trisix/add-mail72-domain (@trisix)
