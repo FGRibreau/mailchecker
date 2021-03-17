@@ -1,5 +1,15 @@
 ## Change Log
 
+### v4.0.5 (2021/03/17 11:13 +00:00)
+- [46931f2](https://github.com/FGRibreau/mailchecker/commit/46931f202261e30dd94aad3ad14595e399700c9a) Release v4.0.5.
+- [fd08f3a](https://github.com/FGRibreau/mailchecker/commit/fd08f3af055fbe6a7b68a661b430e04f84743c79) feat(build): update plateform files
+- [52187eb](https://github.com/FGRibreau/mailchecker/commit/52187ebed028b6216125f1b865bfe7a22540b920) fix: sort list.txt at each regeneration
+- [a674a45](https://github.com/FGRibreau/mailchecker/commit/a674a45bbc24922a911c75c7ac6d695d0f34b55e) feat(cargo): updated to 4.0.4
+- [1e00aaa](https://github.com/FGRibreau/mailchecker/commit/1e00aaa950ae6a1a4ddeb04cca45638683839ed8) feat(cargo): updated to 4.0.4
+- [29b3546](https://github.com/FGRibreau/mailchecker/commit/29b3546772b214527a20ccd26b47f6b03ffd4b9e) feat(python): updated to 4.0.4
+- [c39846f](https://github.com/FGRibreau/mailchecker/commit/c39846ffc09eb2f1fb1f5fa43cf5e78ea36195ce) feat(gemspec): updated to 4.0.4
+- [fa358a7](https://github.com/FGRibreau/mailchecker/commit/fa358a7b82518702995f990bfb832e02bc084ee3) docs(changelog): updated
+
 ### v4.0.4 (2021/03/17 10:18 +00:00)
 - [1df4fe9](https://github.com/FGRibreau/mailchecker/commit/1df4fe9fd4ece4cbdf18f18d98751e765b0656d6) feat(build): update plateform files
 - [582bc42](https://github.com/FGRibreau/mailchecker/commit/582bc42ed95626dfd6b8dbb58d09d7157441a3c6) Release v4.0.4.
@@ -1113,8 +1123,6 @@
 - [297eda9](https://github.com/FGRibreau/mailchecker/commit/297eda9b6b35e55aa8e5a6645643ca5e2c5a5e4e) Release v3.0.6. (@FGRibreau)
 - [855f15d](https://github.com/FGRibreau/mailchecker/commit/855f15d7e4b6a69fa2c3828e43f4c158073352fe) feat(build): update plateform files (@FGRibreau)
 - [6101e62](https://github.com/FGRibreau/mailchecker/commit/6101e626c032f7da86e1f1ed7317fa7295c38d41) feat(build): update plateform files (@FGRibreau)
-
-### v3.0.5 (2016/05/24 19:49 +00:00)
 - [d3083ac](https://github.com/FGRibreau/mailchecker/commit/d3083acb95daedecb5445c6d275e7da7c7249ac3) Release v3.0.5. (@FGRibreau)
 - [#67](https://github.com/FGRibreau/mailchecker/pull/67) Merge pull request #67 from dustywusty/master (@dustywusty)
 - [1bc6f24](https://github.com/FGRibreau/mailchecker/commit/1bc6f24ed1e760c08cc400bcc2f9a323b5a2c67b) +4 new sources (@dustywusty)
