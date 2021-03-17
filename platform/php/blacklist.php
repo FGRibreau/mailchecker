@@ -8585,6 +8585,7 @@ return [
     "dieukydieuophonggiamso7.com" => true,
     "diffamr.com" => true,
     "diflucanrxmeds.com" => true,
+    "digdig.org" => true,
     "digdown.xyz" => true,
     "diggmail.club" => true,
     "digibeat.pl" => true,
