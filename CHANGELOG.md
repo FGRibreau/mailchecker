@@ -1,5 +1,17 @@
 ## Change Log
 
+### v4.0.6 (2021/03/18 09:38 +00:00)
+- [1a67bd3](https://github.com/FGRibreau/mailchecker/commit/1a67bd34753d60d6b932cc7e6c9599c71cb462e2) Release v4.0.6.
+- [20b130b](https://github.com/FGRibreau/mailchecker/commit/20b130b38abd8181feec26793c9de5f4a5ea7313) feat(build): update plateform files
+- [e736788](https://github.com/FGRibreau/mailchecker/commit/e736788a760f5fb653ff82b5d944bcd80109a580) fix: clean script, remove dups
+- [#300](https://github.com/FGRibreau/mailchecker/pull/300) Merge pull request #300 from schorsch/master (@schorsch)
+- [615876c](https://github.com/FGRibreau/mailchecker/commit/615876c477742a75c74dc56f0d322becb73ecdd5) add domains from m.kuku.lu (@schorsch)
+- [1f7370e](https://github.com/FGRibreau/mailchecker/commit/1f7370ecdaeb67a5aad8c29628e76f4eabcd8a43) merge upstream master, resolve conflicts in list.txt adding new URLS and remove some duplicates (@schorsch)
+- [e0e9919](https://github.com/FGRibreau/mailchecker/commit/e0e9919417b2abc9c399f21407453dfe9cbbd770) feat(cargo): updated to 4.0.5
+- [78da65a](https://github.com/FGRibreau/mailchecker/commit/78da65a12c621aa61353cfffa8138be4bba9d8b6) feat(python): updated to 4.0.5
+- [6f6b564](https://github.com/FGRibreau/mailchecker/commit/6f6b564729490f26a81904373dae004f991216f3) feat(gemspec): updated to 4.0.5
+- [9019831](https://github.com/FGRibreau/mailchecker/commit/90198319f422c95f7ccbb052ab57ad6003bdeae5) docs(changelog): updated
+
 ### v4.0.5 (2021/03/17 11:13 +00:00)
 - [46931f2](https://github.com/FGRibreau/mailchecker/commit/46931f202261e30dd94aad3ad14595e399700c9a) Release v4.0.5.
 - [fd08f3a](https://github.com/FGRibreau/mailchecker/commit/fd08f3af055fbe6a7b68a661b430e04f84743c79) feat(build): update plateform files
@@ -16,6 +28,7 @@
 - [0633609](https://github.com/FGRibreau/mailchecker/commit/063360971a019453c87c9ac9cb517b95b9fad166) fix: cargo (@FGRibreau)
 - [#299](https://github.com/FGRibreau/mailchecker/pull/299) Merge pull request #299 from jakemalachowski/patch-1 (@jakemalachowski)
 - [a313f24](https://github.com/FGRibreau/mailchecker/commit/a313f2459d2dcc71569d8d686a39d5d103aac02c) Add tempmail service digdig.org (@jakemalachowski)
+- [ab18307](https://github.com/FGRibreau/mailchecker/commit/ab183078458f33f1c9870ccde5cca8266d1e2889) add more domains from muellmail.com, re-sort and unique the whole list (@schorsch)
 - [4c2fcd3](https://github.com/FGRibreau/mailchecker/commit/4c2fcd30aa77677f344a1acd7c67ec1038464c61) feat(cargo): updated to 4.0.3 (@FGRibreau)
 - [b6cfacd](https://github.com/FGRibreau/mailchecker/commit/b6cfacd9f5f7bc7dd3137cf95db1d4033d9fc2d6) feat(python): updated to 4.0.3 (@FGRibreau)
 - [00636f2](https://github.com/FGRibreau/mailchecker/commit/00636f2f26ee431d71e76c56d372ddc5f58900af) feat(gemspec): updated to 4.0.3 (@FGRibreau)
@@ -1118,8 +1131,6 @@
 - [9fefb74](https://github.com/FGRibreau/mailchecker/commit/9fefb74ac957020129c6c3af28d92246958915dd) Add from 10minutemail.net (@nalgeon)
 - [899c521](https://github.com/FGRibreau/mailchecker/commit/899c521e5ba82043b1e8081a60935ee2e0d8dbbc) feat(gemspec): updated to 3.0.6 (@FGRibreau)
 - [505bbf0](https://github.com/FGRibreau/mailchecker/commit/505bbf0f1fe5aedb7c887bb5a6b2a28fea34deca) docs(changelog) (@FGRibreau)
-
-### v3.0.6 (2016/05/24 19:52 +00:00)
 - [297eda9](https://github.com/FGRibreau/mailchecker/commit/297eda9b6b35e55aa8e5a6645643ca5e2c5a5e4e) Release v3.0.6. (@FGRibreau)
 - [855f15d](https://github.com/FGRibreau/mailchecker/commit/855f15d7e4b6a69fa2c3828e43f4c158073352fe) feat(build): update plateform files (@FGRibreau)
 - [6101e62](https://github.com/FGRibreau/mailchecker/commit/6101e626c032f7da86e1f1ed7317fa7295c38d41) feat(build): update plateform files (@FGRibreau)
