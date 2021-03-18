@@ -23,7 +23,7 @@ dependencies = [
 
 [[package]]
 name = "mailchecker"
-version = "4.0.4"
+version = "4.0.5"
 dependencies = [
  "fast_chemail",
  "pretty_assertions",
