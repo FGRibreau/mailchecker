@@ -18,6 +18,13 @@ class MailChecker
     {
         self::$blacklist = require __DIR__.'/blacklist.php';
     }
+  
+    public static function addCustomDomains(array $domains): void
+    {
+        foreach ($domains as $domain) {
+            self::$blacklist[$domain] = true;
+        }
+    }
 
     public static function isValid(string $email): bool
     {
