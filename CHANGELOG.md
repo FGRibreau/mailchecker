@@ -1,5 +1,16 @@
 ## Change Log
 
+### v4.0.8 (2021/06/05 15:09 +00:00)
+- [47b8a82](https://github.com/FGRibreau/mailchecker/commit/47b8a820af3093cede71fd3a7c93e2fe46de27bf) feat(build): update plateform files
+- [aa42372](https://github.com/FGRibreau/mailchecker/commit/aa42372ce4d629e196412c32bbae285f72c3b062) Release v4.0.8.
+- [8a47318](https://github.com/FGRibreau/mailchecker/commit/8a4731872b51116bfc595361e21e3f23240d8553) fix
+- [#305](https://github.com/FGRibreau/mailchecker/pull/305) Merge pull request #305 from auxepaul/new-domains (@auxepaul)
+- [a383b78](https://github.com/FGRibreau/mailchecker/commit/a383b78e521115f32db6657b854912d516d32bb3) Add new domains from temp-mail.org, temp-mail.io, www.emailtemporaire.fr, www.onetime-mail.com, instance-email.com, 2chmail.net, sute.jp, m.kuku.lu, mail7.io, spoofmail.de, trashmailgenerator.de, tmbox.net... (@auxepaul)
+- [735b47c](https://github.com/FGRibreau/mailchecker/commit/735b47c236a42cfb910c63276780df12a888b2e0) feat(cargo): updated to 4.0.7
+- [dc578bd](https://github.com/FGRibreau/mailchecker/commit/dc578bd76d7df4f7aeddd3fdb6723fb8d7dece40) feat(python): updated to 4.0.7
+- [21c18c4](https://github.com/FGRibreau/mailchecker/commit/21c18c4b18854593d32c59a5891683866633610c) feat(gemspec): updated to 4.0.7
+- [a8e3a5f](https://github.com/FGRibreau/mailchecker/commit/a8e3a5f67619a0b423fe3456fc07d03775aa4c4b) docs(changelog): updated
+
 ### v4.0.7 (2021/05/02 20:38 +00:00)
 - [72b5ba8](https://github.com/FGRibreau/mailchecker/commit/72b5ba8492acd4ee10fd8b94687be988219ed376) Release v4.0.7.
 - [03322aa](https://github.com/FGRibreau/mailchecker/commit/03322aa54c831697078bb1b35802e216ee50345a) feat(build): update plateform files
@@ -1131,8 +1142,6 @@
 - [79e40c3](https://github.com/FGRibreau/mailchecker/commit/79e40c3bcb18fe855345b9239a4d34d5a948ac4d) feat(list): added new emails (thx to @xlamplighter) fixes #69 (@FGRibreau)
 - [c59d667](https://github.com/FGRibreau/mailchecker/commit/c59d667cab6f5780896e1d34cfc6ca7280d26814) feat(gemspec): updated to 3.0.8 (@FGRibreau)
 - [a5b8f07](https://github.com/FGRibreau/mailchecker/commit/a5b8f07796ea7028e135a57260a4aac17f7c931c) docs(changelog): updated (@FGRibreau)
-
-### v3.0.8 (2016/06/14 07:04 +00:00)
 - [c5a5edc](https://github.com/FGRibreau/mailchecker/commit/c5a5edc697c64318adab2f791ff129e72f3061df) Release v3.0.8. (@FGRibreau)
 - [df525b9](https://github.com/FGRibreau/mailchecker/commit/df525b922362e35f58a4a0665ddb6a9b9107135d) fix(list): removed valid domains from list: qq.com, sohu.com, 21cn.com, yeah.net, naver.com, fixes #50 (@FGRibreau)
 - [0465bd0](https://github.com/FGRibreau/mailchecker/commit/0465bd0410999d683d2d1a3d16878277b35a5fb1) fix(changelog) (@FGRibreau)
