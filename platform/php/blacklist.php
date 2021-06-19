@@ -30264,6 +30264,7 @@ return [
     "uphomail.ga" => true,
     "upimage.net" => true,
     "upimail.com" => true,
+    "uplandscc.com" => true,
     "upliftnow.com" => true,
     "uplipht.com" => true,
     "uploadnolimit.com" => true,
