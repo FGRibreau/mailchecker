@@ -1,5 +1,16 @@
 ## Change Log
 
+### v4.0.9 (2021/06/19 14:44 +00:00)
+- [0e7ac2e](https://github.com/FGRibreau/mailchecker/commit/0e7ac2e455bdcc342622b976ae4f7d0a2fb24e15) Release v4.0.9.
+- [e32fb55](https://github.com/FGRibreau/mailchecker/commit/e32fb55c50fcd7bdc3ff9dcbfb166cd4045efbfb) feat(build): update plateform files
+- [#306](https://github.com/FGRibreau/mailchecker/pull/306) Merge pull request #306 from Vandesm14/patch-1 (@Vandesm14)
+- [326cdd2](https://github.com/FGRibreau/mailchecker/commit/326cdd2d4b6ada6252ce155b507f093794c8f3d2) Update list.txt (@Vandesm14)
+- [238a99c](https://github.com/FGRibreau/mailchecker/commit/238a99c056e8a5336c88781d87a7a264daa04db4) fix: cargo
+- [5ebd511](https://github.com/FGRibreau/mailchecker/commit/5ebd511b7fd25dff27a703a7d7da36fb55f2ccc8) feat(cargo): updated to 4.0.8
+- [fa5da46](https://github.com/FGRibreau/mailchecker/commit/fa5da465cb45f72add3723d269233d28491384d9) feat(python): updated to 4.0.8
+- [31de7da](https://github.com/FGRibreau/mailchecker/commit/31de7da9786db49cdfe8020bf512bf08427ef2f6) feat(gemspec): updated to 4.0.8
+- [256ccfd](https://github.com/FGRibreau/mailchecker/commit/256ccfdf9ddb5402248629f37ab65c3e8739fffa) docs(changelog): updated
+
 ### v4.0.8 (2021/06/05 15:09 +00:00)
 - [47b8a82](https://github.com/FGRibreau/mailchecker/commit/47b8a820af3093cede71fd3a7c93e2fe46de27bf) feat(build): update plateform files
 - [aa42372](https://github.com/FGRibreau/mailchecker/commit/aa42372ce4d629e196412c32bbae285f72c3b062) Release v4.0.8.
@@ -1136,8 +1147,6 @@
 - [404e009](https://github.com/FGRibreau/mailchecker/commit/404e009633265bf24a40275260e27a59a6359fef) fix(list): removed hushmail domains from list, fixes #32 (@FGRibreau)
 - [7d440d3](https://github.com/FGRibreau/mailchecker/commit/7d440d31a65159c263f2fd649d768cd7e84dc98f) feat(gemspec): updated to 3.0.9 (@FGRibreau)
 - [0c6d63a](https://github.com/FGRibreau/mailchecker/commit/0c6d63abd1025efa1b5c32c85e4666ea79523d89) docs(changelog): updated (@FGRibreau)
-
-### v3.0.9 (2016/07/09 10:31 +00:00)
 - [02a83a6](https://github.com/FGRibreau/mailchecker/commit/02a83a6492af061962924454d2f3e6f251a55bff) Release v3.0.9. (@FGRibreau)
 - [79e40c3](https://github.com/FGRibreau/mailchecker/commit/79e40c3bcb18fe855345b9239a4d34d5a948ac4d) feat(list): added new emails (thx to @xlamplighter) fixes #69 (@FGRibreau)
 - [c59d667](https://github.com/FGRibreau/mailchecker/commit/c59d667cab6f5780896e1d34cfc6ca7280d26814) feat(gemspec): updated to 3.0.8 (@FGRibreau)
