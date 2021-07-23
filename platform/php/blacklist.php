@@ -28466,6 +28466,7 @@ return [
     "temp-mail.com" => true,
     "temp-mail.de" => true,
     "temp-mail.info" => true,
+    "temp-mail.io" => true,
     "temp-mail.live" => true,
     "temp-mail.ml" => true,
     "temp-mail.net" => true,
