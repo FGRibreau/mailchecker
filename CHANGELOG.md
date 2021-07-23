@@ -1,5 +1,16 @@
 ## Change Log
 
+### v4.0.11 (2021/07/23 16:55 +00:00)
+- [95d8838](https://github.com/FGRibreau/mailchecker/commit/95d883890d44a8099dc151c47c2e785efe14faad) feat(build): update plateform files
+- [3a057d7](https://github.com/FGRibreau/mailchecker/commit/3a057d716cee13ecb00bcad23533953c2f4da60b) Release v4.0.11.
+- [d5aa5de](https://github.com/FGRibreau/mailchecker/commit/d5aa5de1bbe56add27b06c284f10c3fca1a44260) fix: cargo
+- [#309](https://github.com/FGRibreau/mailchecker/pull/309) Merge pull request #309 from acuciureanu/temp-mail-io (@acuciureanu)
+- [c8b896f](https://github.com/FGRibreau/mailchecker/commit/c8b896fc104980dd533837d64e7a2599bb1cf9d2) Adding temp-mail.io to list (@acuciureanu)
+- [74e523e](https://github.com/FGRibreau/mailchecker/commit/74e523e4fa50915e45dccb08a9725904b8b6f2ec) feat(cargo): updated to 4.0.10
+- [f34efe1](https://github.com/FGRibreau/mailchecker/commit/f34efe175a1882b1ce808d5d1671f2cce90293e8) feat(python): updated to 4.0.10
+- [294822c](https://github.com/FGRibreau/mailchecker/commit/294822c5bdc4d29fb0a26e3913afdc71ef8a1241) feat(gemspec): updated to 4.0.10
+- [31e4d52](https://github.com/FGRibreau/mailchecker/commit/31e4d52f4d1df9b380eb622ea332f98c162cc9fe) docs(changelog): updated
+
 ### v4.0.10 (2021/07/03 16:04 +00:00)
 - [dedf206](https://github.com/FGRibreau/mailchecker/commit/dedf206c8e1965b263746b4c269f28887caf246a) Release v4.0.10.
 - [ad72604](https://github.com/FGRibreau/mailchecker/commit/ad72604640f2514799bd84be6d5f021e766546e1) feat(build): update plateform files
@@ -1145,8 +1156,6 @@
 - [418f072](https://github.com/FGRibreau/mailchecker/commit/418f072949d3b0f5da432429ffc350202dcb41c7) docs(readme) (@FGRibreau)
 - [8e2f108](https://github.com/FGRibreau/mailchecker/commit/8e2f108421ae1b9ebbbf1dfb222e86bbcc1e8163) feat(gemspec): updated to 3.0.11 (@FGRibreau)
 - [a7b40d5](https://github.com/FGRibreau/mailchecker/commit/a7b40d522773ea57e27c5d65483783c78d1fcaf1) docs(changelog): updated (@FGRibreau)
-
-### v3.0.11 (2016/07/09 10:38 +00:00)
 - [123906c](https://github.com/FGRibreau/mailchecker/commit/123906cce9108fada97b6cd02bc4e06084eb836b) Release v3.0.11. (@FGRibreau)
 - [8ac796d](https://github.com/FGRibreau/mailchecker/commit/8ac796d5fa1faf08fa1611eb16d7afcb8df230cf) fix(list): forgot to gen new list without hushmail (@FGRibreau)
 - [2c19f72](https://github.com/FGRibreau/mailchecker/commit/2c19f72b235974701c14897c96c93cc9f955a00d) fix(package): upgrade cjson and eventemitter2 to latest version (@FGRibreau)
