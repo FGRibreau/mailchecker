@@ -28031,7 +28031,6 @@ return [
     "swaidaindustry.org" => true,
     "swapfinancebroker.org" => true,
     "swapinsta.com" => true,
-    "swatch.com" => true,
     "sweetheartdress.net" => true,
     "sweetmessage.ga" => true,
     "sweetnessrice.com" => true,
