@@ -1,5 +1,17 @@
 ## Change Log
 
+### v4.0.12 (2021/09/23 05:44 +00:00)
+- [b0f4685](https://github.com/FGRibreau/mailchecker/commit/b0f46857bdc62a0842e10ac2962c9484c990e31b) Release v4.0.12.
+- [312f5a7](https://github.com/FGRibreau/mailchecker/commit/312f5a780d9adabec076dbd4db406e016d135702) feat(build): update plateform files
+- [5ff54e9](https://github.com/FGRibreau/mailchecker/commit/5ff54e93f4d349aa12d5887f9839230ca781a4ac) fix: cargo
+- [#312](https://github.com/FGRibreau/mailchecker/pull/312) Merge pull request #312 from sl-ffx/master (@sl-ffx)
+- [a44aee0](https://github.com/FGRibreau/mailchecker/commit/a44aee09dadecee3ddcda89016546e90c7e0bb94) remove swatch.com from list (@sl-ffx)
+- [b225873](https://github.com/FGRibreau/mailchecker/commit/b22587367e761e806377d0d706b3b14e2aa0d3c2) Create CONTRIBUTING.md (@FGRibreau)
+- [fceecd2](https://github.com/FGRibreau/mailchecker/commit/fceecd2558a5a4134e6d9df46ed9d8f1a13eb565) feat(cargo): updated to 4.0.11
+- [2bd3acc](https://github.com/FGRibreau/mailchecker/commit/2bd3acc1b046fd4053a71076de7267508d7c092e) feat(python): updated to 4.0.11
+- [9df5061](https://github.com/FGRibreau/mailchecker/commit/9df506157aead65b20625dd9f1fb3e6bf3e9662d) feat(gemspec): updated to 4.0.11
+- [d931a96](https://github.com/FGRibreau/mailchecker/commit/d931a96cd5656f6198ddd62e49378b239f877736) docs(changelog): updated
+
 ### v4.0.11 (2021/07/23 16:55 +00:00)
 - [95d8838](https://github.com/FGRibreau/mailchecker/commit/95d883890d44a8099dc151c47c2e785efe14faad) feat(build): update plateform files
 - [3a057d7](https://github.com/FGRibreau/mailchecker/commit/3a057d716cee13ecb00bcad23533953c2f4da60b) Release v4.0.11.
@@ -1147,8 +1159,6 @@
 - [136562f](https://github.com/FGRibreau/mailchecker/commit/136562fd61884b951758e39d7f430716da970b28) feat(build): update plateform files (@FGRibreau)
 - [01d9990](https://github.com/FGRibreau/mailchecker/commit/01d9990239d3ab6c63afa83eb4d5ac8bb34335a1) feat(gemspec): updated to 3.0.12 (@FGRibreau)
 - [6812220](https://github.com/FGRibreau/mailchecker/commit/681222079c90fa5dc8d27d72903c39a5b7e6fb33) docs(changelog): updated (@FGRibreau)
-
-### v3.0.12 (2016/07/13 13:20 +00:00)
 - [ef27797](https://github.com/FGRibreau/mailchecker/commit/ef2779767f476ed4317c005cfd9cce84436fb264) Release v3.0.12. (@FGRibreau)
 - [c966ac7](https://github.com/FGRibreau/mailchecker/commit/c966ac7fb2c1ddbc50313a9ee19d4ec9371fe343) feat(build): update plateform files (@FGRibreau)
 - [#70](https://github.com/FGRibreau/mailchecker/pull/70) Merge pull request #70 from trisix/add-new-10minutemail-com-domain (@trisix)
