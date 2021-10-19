@@ -1,5 +1,18 @@
 ## Change Log
 
+### v4.0.13 (2021/10/19 13:36 +00:00)
+- [90e527b](https://github.com/FGRibreau/mailchecker/commit/90e527b220eeb54c99c2e62ebe399a5a31d842fa) Release v4.0.13.
+- [716ea13](https://github.com/FGRibreau/mailchecker/commit/716ea1392c6aadbad46689a5b1bd5dad347c00c3) feat(build): update plateform files
+- [7ced0d2](https://github.com/FGRibreau/mailchecker/commit/7ced0d2d02ae9f5fd86e4361d72daf1dbb3da818) fix: changelog
+- [d129b5e](https://github.com/FGRibreau/mailchecker/commit/d129b5eef5d053046cfc46e42a99b4457ed6309d) fix: remove ikmail.com because it was bought by infomaniak.com (@FGRibreau)
+- [#313](https://github.com/FGRibreau/mailchecker/pull/313) Merge pull request #313 from jslirola/patch-1 (@jslirola)
+- [9e3e9f1](https://github.com/FGRibreau/mailchecker/commit/9e3e9f1e1f036bbc49c881e18e16f054c0726152) Update list.txt (@jslirola)
+- [b2ec9a6](https://github.com/FGRibreau/mailchecker/commit/b2ec9a61031adf85f7d6948c2d90f78011d145dc) feat(cargo): updated to 4.0.12
+- [7c722b5](https://github.com/FGRibreau/mailchecker/commit/7c722b5e93fac655a6f0f4e7e78e33e02f2e0560) feat(python): updated to 4.0.12
+- [3091992](https://github.com/FGRibreau/mailchecker/commit/30919923f2415c4213d079ab219170bfecf27fd9) feat(gemspec): updated to 4.0.12
+- [5005238](https://github.com/FGRibreau/mailchecker/commit/5005238052ccaeefd0969c9a8287443a215cf2c4) fix: script
+- [76be19d](https://github.com/FGRibreau/mailchecker/commit/76be19d70372198492b173b6211e55cba4b26a82) fix: upgrade changelog cli
+
 ### v4.0.12 (2021/09/23 05:44 +00:00)
 - [b0f4685](https://github.com/FGRibreau/mailchecker/commit/b0f46857bdc62a0842e10ac2962c9484c990e31b) Release v4.0.12.
 - [312f5a7](https://github.com/FGRibreau/mailchecker/commit/312f5a780d9adabec076dbd4db406e016d135702) feat(build): update plateform files
@@ -1153,8 +1166,6 @@
 - [#72](https://github.com/FGRibreau/mailchecker/pull/72) Merge pull request #72 from frankydp/patch-1 (@frankydp)
 - [ccf3dca](https://github.com/FGRibreau/mailchecker/commit/ccf3dca7134ee2ffb8740c00c46d49d18e76e091) Yahoo domain (@frankydp)
 - [0856148](https://github.com/FGRibreau/mailchecker/commit/0856148daeaf63dbc8a08cf694f9968321225c08) docs(changelog): updated (@FGRibreau)
-
-### v3.0.13 (2016/07/18 12:38 +00:00)
 - [bd96105](https://github.com/FGRibreau/mailchecker/commit/bd961058ae1e726488f5f9b865206fb9d2d4f903) Release v3.0.13. (@FGRibreau)
 - [136562f](https://github.com/FGRibreau/mailchecker/commit/136562fd61884b951758e39d7f430716da970b28) feat(build): update plateform files (@FGRibreau)
 - [01d9990](https://github.com/FGRibreau/mailchecker/commit/01d9990239d3ab6c63afa83eb4d5ac8bb34335a1) feat(gemspec): updated to 3.0.12 (@FGRibreau)
