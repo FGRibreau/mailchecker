@@ -8,7 +8,7 @@ defmodule MailChecker do
   end
 
   def in_blacklist?(email) do
-    Enum.any?(extract_domain_suffixes(email), fn domain -> MapSet.member?(blacklist, domain) end)
+    Enum.any?(extract_domain_suffixes(email), fn domain -> MapSet.member?(blacklist(), domain) end)
   end
 
   def extract_domain_suffixes(email) do
