@@ -55,5 +55,16 @@ class TestMailCheckerIsValid(unittest.TestCase):
       # Should not be invalid as a subdomain of a valid domain.
       self.valid("test@%s.gmail.com" % blacklisted_domain)
 
+  def test_add_custom_domains(self):
+    self.valid('foo@youtube.com')
+    self.valid('foo@google.com')
+    self.valid('ok@gmail.com')
+
+    MailChecker.add_custom_domains(['youtube.com', 'google.com'])
+
+    self.invalid('foo@youtube.com')
+    self.invalid('foo@google.com')
+    self.valid('ok@gmail.com')
+
 if __name__ == '__main__':
     unittest.main()
