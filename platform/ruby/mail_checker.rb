@@ -17,6 +17,12 @@ module MailChecker
     extract_all_domain_suffixes(email).any? { |domain| BLACKLIST.include?(domain) }
   end
 
+  def self.add_custom_domains(domains)
+    domains.each do |domain|
+      BLACKLIST.add(domain)
+    end
+  end
+
   def self.extract_all_domain_suffixes(email)
     domain = email.to_s.gsub(/.+@([^.]+)/, '\1').downcase
 

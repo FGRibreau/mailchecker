@@ -60,4 +60,16 @@ class TestMailChecker < MiniTest::Test
     expected = %w(sub.example.org example.org org)
     assert_equal expected, MailChecker.extract_all_domain_suffixes('test@sub.example.org')
   end
+
+  def test_add_custom_domains
+    valid!('foo@youtube.com')
+    valid!('foo@google.com')
+    valid!('ok@gmail.com')
+
+    MailChecker.add_custom_domains(['youtube.com', 'google.com'])
+
+    invalid!('foo@youtube.com')
+    invalid!('foo@google.com')
+    valid!('ok@gmail.com')
+  end
 end
