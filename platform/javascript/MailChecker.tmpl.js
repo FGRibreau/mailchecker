@@ -46,6 +46,9 @@
     },
     blacklist: function () {
       return blacklist;
+    },
+    addCustomDomains: function (domains = []) {
+      blacklist.push(...domains)
     }
   };
 })(window);

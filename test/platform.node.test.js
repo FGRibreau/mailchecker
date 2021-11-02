@@ -53,6 +53,18 @@ suite('Node', function () {
       });
     });
 
+    test("should return false if the domaims is added later", function () {
+      isValid('foo@youtube.com')
+      isValid('foo@google.com')
+      isValid('ok@gmail.com')
+
+      MailChecker.addCustomDomains(['youtube.com', 'google.com'])
+
+      isInvalid('foo@youtube.com')
+      isInvalid('foo@google.com')
+      isValid('ok@gmail.com')
+    })
+
   });
 
 });
