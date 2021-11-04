@@ -1,5 +1,5 @@
 defmodule MailChecker do
-  @blacklist Enum.into([{{& listSTR }}], HashSet.new)
+  @blacklist Enum.into([{{& listSTR }}], MapSet.new)
 
   def blacklist, do: @blacklist
 
@@ -8,7 +8,7 @@ defmodule MailChecker do
   end
 
   def in_blacklist?(email) do
-    Enum.any?(extract_domain_suffixes(email), fn domain -> HashSet.member?(blacklist, domain) end)
+    Enum.any?(extract_domain_suffixes(email), fn domain -> MapSet.member?(blacklist(), domain) end)
   end
 
   def extract_domain_suffixes(email) do

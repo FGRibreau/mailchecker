@@ -4,6 +4,8 @@
 
 Before you begin:
 - Mailchecker is powered by Node.js. Check to see if you're on the right [version of node in `engines.node`](package.json).
+- Docker is used for setting up and running tests for various platforms. [Install Docker](https://www.docker.com/get-started) and make sure you have `docker` command in `PATH`.
+
 
 ### How to add new domains to the disallow list?
 
