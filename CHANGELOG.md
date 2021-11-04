@@ -1,5 +1,8 @@
 ## Change Log
 
+### upcoming (2021/11/04 17:22 +00:00)
+- [388f899](https://github.com/FGRibreau/mailchecker/commit/388f899727627f9b4806e2d24968c3d464f2de03) docs(changelog): updated
+
 ### v4.0.14 (2021/11/04 17:08 +00:00)
 - [6807766](https://github.com/FGRibreau/mailchecker/commit/68077669fafc504f4333ae88fea6623480ef3391) Release v4.0.14.
 - [fa971db](https://github.com/FGRibreau/mailchecker/commit/fa971db9f6ad277e62f2998239076c6a06590dc3) feat(build): update plateform files
