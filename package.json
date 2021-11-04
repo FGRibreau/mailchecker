@@ -12,7 +12,7 @@
     "setup": "npm run build && npm-run-all --max-parallel 2 --parallel setup:*",
     "setup:ruby": "docker run -i -v $(pwd):/app -w /app centurylink/ruby-base:2.2 bundler",
     "setup:clojure": "docker run -i -v $(pwd):/app -w /app clojure:lein-2.8.1 lein install",
-    "setup:rust": "docker run -i -v $(pwd)/platform/rust:/source -e CARGO_HOME=/source/cargo jimmycuadra/rust:1.19.0 cargo build",
+    "setup:rust": "docker run -i -v $(pwd)/platform/rust:/source -w /source -e CARGO_HOME=/source/cargo rust:1.38.0-slim-stretch cargo build",
     "full-build": "npm run build && npm run compile",
     "test": "npm run build && npm-run-all --max-parallel 2 --parallel test:*",
     "test:clojure": "echo 'skipping clojure test because it cant handle code too large' || docker run -i -v $(pwd):/app -w /app clojure:lein-2.8.1 lein exec test/platform.clojure.test.clj",
