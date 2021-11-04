@@ -1,7 +1,7 @@
 # coding: utf-8
 Gem::Specification.new do |spec|
   spec.name          = 'ruby-mailchecker'
-  spec.version='4.0.13'
+  spec.version='4.0.14'
   spec.authors       = ['Francois-Guillaume Ribreau', 'Jacob Burenstam', 'Owen Stephens']
   spec.email         = ['github@fgribreau.com']
 
