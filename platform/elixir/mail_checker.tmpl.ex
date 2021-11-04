@@ -9,6 +9,8 @@ defmodule MailChecker do
   end
 
   def add_custom_domains(new_domains) do
+    ensure_started()
+
     Agent.update(__MODULE__, fn config ->
       Map.update(config, :custom_domains, @initial_config[:custom_domains], fn existing_custom_domains ->
         new_domains
@@ -41,7 +43,16 @@ defmodule MailChecker do
     Regex.match?(~r/\A{{& unanchoredRegexpString }}\z/i, email)
   end
 
+  defp ensure_started do
+    case start_link() do
+      {:ok, pid} -> pid
+      {:error, {:already_started, pid}} -> pid
+    end
+  end
+
   defp custom_domains do
+    ensure_started()
+
     Agent.get(__MODULE__, & &1[:custom_domains])
   end
 

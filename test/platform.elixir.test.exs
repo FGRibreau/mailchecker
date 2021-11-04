@@ -25,7 +25,6 @@ defmodule MailCheckerTest do
   end
 
   test "should return true if the email is valid" do
-    {:ok, _pid} = MailChecker.start_link() # FIXME: This is a breaking change :(
     assert_valid("plop@plop.com")
     assert_valid("my.ok@ok.plop.com")
     assert_valid("my+ok@ok.plop.com")
@@ -48,7 +47,6 @@ defmodule MailCheckerTest do
   end
 
   test "should return false if the email come from a throwable domain" do
-    {:ok, _pid} = MailChecker.start_link() # FIXME: This is a breaking change :(
     assert_invalid("ok@tmail.com")
     assert_invalid("ok@33mail.com")
     assert_invalid("ok@ok.33mail.com")
@@ -56,7 +54,6 @@ defmodule MailCheckerTest do
   end
 
   test "should return false if the email is from a blacklisted domain" do
-    {:ok, _pid} = MailChecker.start_link() # FIXME: This is a breaking change :(
     Enum.each(MailChecker.blacklist, fn domain ->
         assert_invalid("test@" <> domain)
         assert_invalid("test@subdomain." <> domain)
@@ -65,7 +62,6 @@ defmodule MailCheckerTest do
   end
 
   test "should return false if the email is from a custom domain" do
-    {:ok, _pid} = MailChecker.start_link()
     assert_valid("foo@youtube.com")
     assert_valid("foo@google.com")
     assert_valid("ok@gmail.com")
@@ -75,5 +71,9 @@ defmodule MailCheckerTest do
     assert_invalid("foo@youtube.com")
     assert_invalid("foo@google.com")
     assert_valid("ok@gmail.com")
+
+    MailChecker.add_custom_domains(["gmail.com"])
+
+    assert_invalid("ok@gmail.com")
   end
 end
