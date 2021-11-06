@@ -5587,6 +5587,7 @@ return [
     "booooble.com" => true,
     "boopmail.com" => true,
     "boopmail.info" => true,
+    "bootcamp-upgrade.com" => true,
     "bootcampmania.co.uk" => true,
     "bootdeal.com" => true,
     "bootiebeer.com" => true,
