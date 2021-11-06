@@ -1,8 +1,11 @@
 (ns mailchecker)
 
 (require '[clojure.string :as str])
+(require '[clojure.set :as set])
 
 (def ^:const blacklist (set ["tmail.com", "33mail.com", "guerrillamailblock.com"]))
+
+(def custom_domains (atom #{}))
 
 (defn is-email?
   "Returns true if email is an email address"
@@ -42,7 +45,10 @@
 (defn in-blacklist?
   "Returns true if any suffix of the email domain is in the blacklist"
   [email]
-  (some (partial contains? blacklist) (all-domain-suffixes email)))
+  (let [domains (all-domain-suffixes email)]
+    (or
+      (some (partial contains? @custom_domains) domains)
+      (some (partial contains? blacklist) domains))))
 
 (defn valid?
   "Returns true if the email is valid"
@@ -51,3 +57,8 @@
     (is-email? email)
     (not
       (in-blacklist? email))))
+
+(defn add-custom-domains
+  "Add more domains to the blacklist"
+  [domains]
+  (swap! custom_domains (set/union @custom_domains domains)))
