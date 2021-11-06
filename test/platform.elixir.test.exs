@@ -5,7 +5,7 @@ ExUnit.start
 try do
   Code.require_file("mail_checker.ex", "platform/elixir/")
 rescue
-  _ -> raise ArgumentError, message: "You must be in the repository root directory in order to run the tests."
+  Code.LoadError -> raise ArgumentError, message: "You must be in the repository root directory in order to run the tests."
 end
 
 defmodule MailCheckerTest do
