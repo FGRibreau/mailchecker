@@ -2,10 +2,20 @@
 #[macro_use]
 extern crate pretty_assertions;
 
+#[macro_use]
+extern crate lazy_static;
+
 extern crate fast_chemail;
+
+use lazy_static::lazy_static;
+use std::collections::HashSet;
+use std::sync::Mutex;
 
 static BLACKLIST: &'static [&'static str] = &[{{ &listSTR }}];
 
+lazy_static! {
+  static ref CUSTOM_DOMAINS: Mutex<HashSet<&'static str>> = Mutex::new(HashSet::new());
+}
 
 /// # Usage
 ///
@@ -83,7 +93,7 @@ fn all_domain_suffixes(email: &str) -> Vec<String> {
 
 
 fn suffix_is_blacklisted(domain: &str) -> bool{
-  return BLACKLIST.contains(&domain)
+  return BLACKLIST.contains(&domain) || CUSTOM_DOMAINS.lock().unwrap().contains(&domain)
 }
 
 /// # Usage
@@ -98,11 +108,33 @@ fn suffix_is_blacklisted(domain: &str) -> bool{
 ///
 /// assert!(mailchecker::blacklist().len() > 2000, "blacklist should at least contain 2000 items");
 /// ```
-
 pub fn blacklist() -> Vec<&'static str> {
   return BLACKLIST.to_vec();
 }
 
+/// # Usage
+///
+///
+/// `add_custom_domains` allow more domains to be add to the blacklist
+///
+///
+///
+/// ```
+/// extern crate mailchecker;
+///
+/// assert_eq!(true, mailchecker::is_valid("foo@youtube.com"));
+/// assert_eq!(true, mailchecker::is_valid("foo@google.com"));
+/// assert_eq!(true, mailchecker::is_valid("ok@gmail.com"));
+
+/// mailchecker::add_custom_domains(["youtube.com", "google.com"].to_vec());
+
+/// assert_eq!(false, mailchecker::is_valid("foo@youtube.com"));
+/// assert_eq!(false, mailchecker::is_valid("foo@google.com"));
+/// assert_eq!(true, mailchecker::is_valid("ok@gmail.com"));
+/// ```
+pub fn add_custom_domains(domains: Vec<&'static str>) -> () {
+  return CUSTOM_DOMAINS.lock().unwrap().extend(domains.iter().copied());
+}
 
 // Helpers
 // https://gist.github.com/FGRibreau/9bab6501c13367e787b5f31dc1d670f4

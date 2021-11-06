@@ -40,6 +40,7 @@ include = ["src/lib.rs", "Cargo.toml"]
 
 [dependencies]
 fast_chemail = "0.9.5"
+lazy_static = "1.4.0"
 
 [dev-dependencies]
 pretty_assertions = "0.1.2"
