@@ -1,6 +1,28 @@
 ## Change Log
 
-### upcoming (2021/11/04 17:22 +00:00)
+### v4.0.16 (2021/11/06 17:01 +00:00)
+- [3477b22](https://github.com/FGRibreau/mailchecker/commit/3477b22c684bebe12cd018cfdca0896f7f847d7f) feat(build): update plateform files
+- [58d26d8](https://github.com/FGRibreau/mailchecker/commit/58d26d81e43da08f4456e31988fbbd9787cd6f64) Release v4.0.16.
+- [43a738c](https://github.com/FGRibreau/mailchecker/commit/43a738cea057cc7db81ca2e9db2ae2f0a7dafcfc) fix: cargo
+- [#326](https://github.com/FGRibreau/mailchecker/pull/326) Merge pull request #326 from choznerol/test/elixir/SyntaxError-reported-as-You-must-be-in-the-repository-root-directory-in-order-to-run-the-tests (@choznerol)
+- [#325](https://github.com/FGRibreau/mailchecker/pull/325) Merge pull request #325 from Vandesm14/patch-3 (@Vandesm14)
+- [a5b2b6d](https://github.com/FGRibreau/mailchecker/commit/a5b2b6da164f6d77be6c20fafa047dfd86682abe) test(elixir): SyntaxError reported as ArgumentError You must be in the repository root directory in order to run the tests: (@choznerol)
+- [b20b9a1](https://github.com/FGRibreau/mailchecker/commit/b20b9a11d2f070dc4c855098f8dc08cfcb0cba0b) add bootcamp-upgrade.com (@Vandesm14)
+- [2521f16](https://github.com/FGRibreau/mailchecker/commit/2521f16ae568b4d80508d9ce56d75555d3c60e1e) feat(cargo): updated to 4.0.15
+- [0e21cb3](https://github.com/FGRibreau/mailchecker/commit/0e21cb3a21d2c57173dd34b1aa32764cbadecc57) feat(python): updated to 4.0.15
+- [f78da44](https://github.com/FGRibreau/mailchecker/commit/f78da44932c9d1544064cb5434f25583f8022c20) feat(gemspec): updated to 4.0.15
+
+### v4.0.15 (2021/11/04 20:22 +00:00)
+- [3b581f6](https://github.com/FGRibreau/mailchecker/commit/3b581f60a61b73b68d7711123820d8aef927a784) feat(build): update plateform files
+- [45025ce](https://github.com/FGRibreau/mailchecker/commit/45025ce15f9ff92bb1695d1e88ff7ff021bbef06) Release v4.0.15.
+- [966ac44](https://github.com/FGRibreau/mailchecker/commit/966ac44815f486cd01915f530ccf3d2f9a9801ba) chore: cargo
+- [#324](https://github.com/FGRibreau/mailchecker/pull/324) Merge pull request #324 from Buffele/list-1 (@Buffele)
+- [81fc10f](https://github.com/FGRibreau/mailchecker/commit/81fc10f55e3aff17866a16db7eb0d8094cb97dc6) Update list.txt (@Buffele)
+- [f0a894d](https://github.com/FGRibreau/mailchecker/commit/f0a894d2b26c20eea5c020dd05a0148661d127d3) Update list.txt (@Buffele)
+- [4004450](https://github.com/FGRibreau/mailchecker/commit/40044509fcad0ee6ebcb336a503fcf06e583f118) feat(cargo): updated to 4.0.14
+- [aa6f7c3](https://github.com/FGRibreau/mailchecker/commit/aa6f7c32e9cfe19a245a2be4bc4200df4c0eed23) docs(changelog): updated
+- [787d2a9](https://github.com/FGRibreau/mailchecker/commit/787d2a928f5751c3ad490da622500d82c3b287ee) feat(python): updated to 4.0.14
+- [caa14e5](https://github.com/FGRibreau/mailchecker/commit/caa14e574a2549cdb891cf8113d1c482e4fc838a) feat(gemspec): updated to 4.0.14
 - [388f899](https://github.com/FGRibreau/mailchecker/commit/388f899727627f9b4806e2d24968c3d464f2de03) docs(changelog): updated
 
 ### v4.0.14 (2021/11/04 17:08 +00:00)
@@ -1220,8 +1242,6 @@
 - [#80](https://github.com/FGRibreau/mailchecker/pull/80) Merge pull request #80 from FGRibreau/greenkeeper-mocha-3.1.1 (@FGRibreau)
 - [853d863](https://github.com/FGRibreau/mailchecker/commit/853d863367b752afbda691074da3e1f97e087c06) chore(package): update mocha to version 3.1.1 (@greenkeeperio-bot)
 - [c24893f](https://github.com/FGRibreau/mailchecker/commit/c24893feb52df5e04c6d2e35ef4db4a18b5a16dd) docs(changelog): updated (@FGRibreau)
-
-### v3.0.16 (2016/10/05 15:23 +00:00)
 - [4972714](https://github.com/FGRibreau/mailchecker/commit/4972714d430971549ace8b5866ec8c46e91fed28) Release v3.0.16. (@FGRibreau)
 - [#79](https://github.com/FGRibreau/mailchecker/pull/79) Merge pull request #79 from dav1a1223/revise-ruby-logic-order (@dav1a1223)
 - [ef62e81](https://github.com/FGRibreau/mailchecker/commit/ef62e8149358f47b4ac8c442b9945c18d28a8bd3) revise ruby valid logic to one line (@dav1a1223)
@@ -1233,8 +1253,6 @@
 - [5ec16dc](https://github.com/FGRibreau/mailchecker/commit/5ec16dce62611a1337d5280b39644f86c34b8473) Update README.md (@FGRibreau)
 - [bc1c166](https://github.com/FGRibreau/mailchecker/commit/bc1c1667200c8f5b5c5b2980caf5f6cf2bf6c324) feat(gemspec): updated to 3.0.15 (@FGRibreau)
 - [a5236f5](https://github.com/FGRibreau/mailchecker/commit/a5236f57472c10dde7b1a19a83d1e8799e8afcb5) docs(changelog): updated (@FGRibreau)
-
-### v3.0.15 (2016/09/05 08:01 +00:00)
 - [a8e1fa3](https://github.com/FGRibreau/mailchecker/commit/a8e1fa39667d42711c26a2b690114fc17e791db5) feat(build): update plateform files (@FGRibreau)
 - [a42f070](https://github.com/FGRibreau/mailchecker/commit/a42f070827810d681872755c7b23ac2dff4b5237) Release v3.0.15. (@FGRibreau)
 - [0bae60e](https://github.com/FGRibreau/mailchecker/commit/0bae60e5ba27ce2fd32fe4fae2163f398b7cfeec) feat(gemspec): updated to 3.0.14 (@FGRibreau)
