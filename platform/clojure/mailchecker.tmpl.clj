@@ -2,7 +2,7 @@
 
 (require '[clojure.string :as str])
 
-(def ^:const blacklist (set [{{& listSTR }}]))
+(def ^:const blacklist (set ["tmail.com", "33mail.com", "guerrillamailblock.com"]))
 
 (defn is-email?
   "Returns true if email is an email address"
