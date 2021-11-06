@@ -9,12 +9,12 @@ extern crate fast_chemail;
 
 use lazy_static::lazy_static;
 use std::collections::HashSet;
-use std::sync::Mutex;
+use std::sync::RwLock;
 
 static BLACKLIST: &'static [&'static str] = &[{{ &listSTR }}];
 
 lazy_static! {
-  static ref CUSTOM_DOMAINS: Mutex<HashSet<&'static str>> = Mutex::new(HashSet::new());
+  static ref CUSTOM_DOMAINS: RwLock<HashSet<&'static str>> = RwLock::new(HashSet::new());
 }
 
 /// # Usage
@@ -93,7 +93,7 @@ fn all_domain_suffixes(email: &str) -> Vec<String> {
 
 
 fn suffix_is_blacklisted(domain: &str) -> bool{
-  return BLACKLIST.contains(&domain) || CUSTOM_DOMAINS.lock().unwrap().contains(&domain)
+  return BLACKLIST.contains(&domain) || CUSTOM_DOMAINS.read().unwrap().contains(&domain)
 }
 
 /// # Usage
@@ -133,7 +133,7 @@ pub fn blacklist() -> Vec<&'static str> {
 /// assert_eq!(true, mailchecker::is_valid("ok@gmail.com"));
 /// ```
 pub fn add_custom_domains(domains: Vec<&'static str>) -> () {
-  return CUSTOM_DOMAINS.lock().unwrap().extend(domains.iter().copied());
+  return CUSTOM_DOMAINS.write().unwrap().extend(domains.iter().copied());
 }
 
 // Helpers
