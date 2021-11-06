@@ -1,10 +1,6 @@
 #[cfg(test)]
-#[macro_use]
 extern crate pretty_assertions;
-
-#[macro_use]
 extern crate lazy_static;
-
 extern crate fast_chemail;
 
 use lazy_static::lazy_static;
