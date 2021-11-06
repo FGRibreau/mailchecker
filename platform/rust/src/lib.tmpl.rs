@@ -1,17 +1,15 @@
 #[cfg(test)]
 extern crate pretty_assertions;
-extern crate lazy_static;
+extern crate once_cell;
 extern crate fast_chemail;
 
-use lazy_static::lazy_static;
+use once_cell::sync::Lazy;
 use std::collections::HashSet;
 use std::sync::RwLock;
 
 static BLACKLIST: &'static [&'static str] = &[{{ &listSTR }}];
 
-lazy_static! {
-  static ref CUSTOM_DOMAINS: RwLock<HashSet<&'static str>> = RwLock::new(HashSet::new());
-}
+static CUSTOM_DOMAINS: Lazy<RwLock<HashSet<&'static str>>> = Lazy::new(|| RwLock::new(HashSet::new()));
 
 /// # Usage
 ///
