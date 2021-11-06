@@ -3,7 +3,7 @@
 (require '[clojure.string :as str])
 (require '[clojure.set :as set])
 
-(def ^:const blacklist (set ["tmail.com", "33mail.com", "guerrillamailblock.com"]))
+(def ^:const blacklist (set [{{& listSTR }}]))
 
 (def custom_domains (atom #{}))
 
