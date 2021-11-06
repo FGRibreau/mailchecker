@@ -18,16 +18,10 @@
   [email]
   (str/split email #"@"))
 
-(defn last-element
-  "Returns the last element of the arr"
-  [arr]
-  (first
-    (take-last 1 arr)))
-
 (defn domain-part
   "Returns the domain part from email"
   [email]
-  (last-element (at-split email)))
+  (last (at-split email)))
 
 (defn dot-join
   "Returns string from arr joined with dot char"
