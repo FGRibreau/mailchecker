@@ -1,9 +1,12 @@
 <?php
 
-// Run tests from the repository root directory:
-// $ composer install && ./vendor/bin/phpunit test/platform.php.test.php
+// Run tests from the repository root directory
+// Linux:
+// $ composer install && ./vendor/bin/phpunit test/MailCheckerTest.php
+// Windows:
+// > composer install && .\vendor\bin\phpunit.bat test\MailCheckerTest.php
 
-require __DIR__.'/../platform/php/MailChecker.php';
+require __DIR__ . '/../platform/php/MailChecker.php';
 
 class MailCheckerTest extends PHPUnit\Framework\TestCase
 {
@@ -65,9 +68,9 @@ class MailCheckerTest extends PHPUnit\Framework\TestCase
     /** @dataProvider provideBlackListTests */
     public function testReturnFalseForBlacklistedDomainsAndTheirSubdomains($blacklistedDomain)
     {
-        $this->isInvalid('test@'.$blacklistedDomain);
-        $this->isInvalid('test@subdomain.'.$blacklistedDomain);
+        $this->isInvalid('test@' . $blacklistedDomain);
+        $this->isInvalid('test@subdomain.' . $blacklistedDomain);
         // Should not be invalid as a subdomain of a valid domain.
-        $this->isValid('test@'.$blacklistedDomain.'.gmail.com');
+        $this->isValid('test@'.$blacklistedDomain . '.gmail.com');
     }
 }
