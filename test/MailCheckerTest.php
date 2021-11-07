@@ -71,6 +71,6 @@ class MailCheckerTest extends PHPUnit\Framework\TestCase
         $this->isInvalid('test@' . $blacklistedDomain);
         $this->isInvalid('test@subdomain.' . $blacklistedDomain);
         // Should not be invalid as a subdomain of a valid domain.
-        $this->isValid('test@'.$blacklistedDomain . '.gmail.com');
+        $this->isValid('test@' . $blacklistedDomain . '.gmail.com');
     }
 }

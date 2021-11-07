@@ -16,7 +16,7 @@ class MailChecker
 
     public static function init(): void
     {
-        self::$blacklist = require __DIR__.'/blacklist.php';
+        self::$blacklist = require __DIR__ . '/blacklist.php';
     }
 
     public static function isValid(string $email): bool
