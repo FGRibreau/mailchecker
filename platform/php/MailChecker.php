@@ -40,7 +40,7 @@ class MailChecker
         $domain = end($parts);
 
         foreach (self::allDomainSuffixes($domain) as $domainSuffix) {
-            if (array_key_exists($domainSuffix, self::$blacklist)) {
+            if (isset(self::$blacklist[$domainSuffix])) {
                 return true;
             }
         }
