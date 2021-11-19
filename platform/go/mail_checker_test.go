@@ -111,3 +111,63 @@ func TestReturnFalseForBlacklistedDomainsAndTheirSubdomains(t *testing.T) {
 		}
 	}
 }
+
+func TestAddCustomDomains(t *testing.T) {
+	testCasesBefore := []struct {
+		email string
+		valid bool
+	}{
+		{
+			email: "foo@youtube.com",
+			valid: true,
+		},
+		{
+			email: "foo@google.com",
+			valid: true,
+		},
+		{
+			email: "ok@gmail.com",
+			valid: true,
+		},
+	}
+
+	for i, testCase := range testCasesBefore {
+		result := IsValid(testCase.email)
+
+		if result != testCase.valid {
+			t.Errorf("Expected result for email %s (test case %d) is %t, got %t", testCase.email, i, testCase.valid, result)
+		}
+	}
+
+	domains := []string{
+		"youtube.com",
+		"google.com",
+	}
+	AddCustomDomains(domains)
+
+	testCasesAfter := []struct {
+		email string
+		valid bool
+	}{
+		{
+			email: "foo@youtube.com",
+			valid: false,
+		},
+		{
+			email: "foo@google.com",
+			valid: false,
+		},
+		{
+			email: "ok@gmail.com",
+			valid: true,
+		},
+	}
+
+	for i, testCase := range testCasesAfter {
+		result := IsValid(testCase.email)
+
+		if result != testCase.valid {
+			t.Errorf("Expected result for email %s (test case %d) is %t, got %t", testCase.email, i, testCase.valid, result)
+		}
+	}
+}

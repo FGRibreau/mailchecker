@@ -2,7 +2,7 @@
 
 [package]
 name = "mailchecker"
-version = "4.0.16"
+version = "4.1.0"
 authors = ["François-Guillaume Ribreau <rust@fgribreau.com>"]
 
 # A short blurb about the package. This is not rendered in any format when
@@ -40,6 +40,7 @@ include = ["src/lib.rs", "Cargo.toml"]
 
 [dependencies]
 fast_chemail = "0.9.5"
+once_cell = "1.8.0"
 
 [dev-dependencies]
 pretty_assertions = "0.1.2"

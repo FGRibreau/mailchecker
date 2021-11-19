@@ -1,5 +1,32 @@
 ## Change Log
 
+### v4.1.0 (2021/11/19 20:49 +00:00)
+- [e33ff05](https://github.com/FGRibreau/mailchecker/commit/e33ff050f9664065997073d0dbd27025fcdd6fed) Release v4.1.0.
+- [b41dff2](https://github.com/FGRibreau/mailchecker/commit/b41dff26acc20ebf90e81e085439aa913286668e) feat(build): update plateform files
+- [49ac2ed](https://github.com/FGRibreau/mailchecker/commit/49ac2edb73db97885224ad210f6d930d4e6f646c) Merge branch 'master' of github.com:FGRibreau/mailchecker
+- [#321](https://github.com/FGRibreau/mailchecker/pull/321) Merge pull request #321 from choznerol/feat/addCustomDomains-for-all-platforms (@choznerol)
+- [f12d885](https://github.com/FGRibreau/mailchecker/commit/f12d88505f2f69a401f8d739dd0f02af5f8ff4df) fix
+- [05208e3](https://github.com/FGRibreau/mailchecker/commit/05208e305d4e5043b87c8908aca3d08acc5af84d) feat(clojure): add add-custom-domains (@choznerol)
+- [57d4524](https://github.com/FGRibreau/mailchecker/commit/57d4524aeec532a0725f81bbf7f6d587be8f45c9) Revert "test(clojure): [workaround] npm run test:clojure" (@choznerol)
+- [8d6abd3](https://github.com/FGRibreau/mailchecker/commit/8d6abd3827927982f9df0326d05cddfac1baf0ca) refactor(rust): prefer once_cell over lazy_static: (@choznerol)
+- [1573958](https://github.com/FGRibreau/mailchecker/commit/1573958b111446c6104c861f046558c86d9f18cf) test(clojure): [workaround] npm run test:clojure (@choznerol)
+- [1f5d70d](https://github.com/FGRibreau/mailchecker/commit/1f5d70de7b776727db1f807c2b6ef02dc958f3cc) perf(rust): support concurrent readers (Mutax -> RwLock): (@choznerol)
+- [f6a4a60](https://github.com/FGRibreau/mailchecker/commit/f6a4a60d11b2a5fc4ed029bdc4511ff2afb9a64e) style(rust): fix warning: unused #[macro_use] import: (@choznerol)
+- [4027259](https://github.com/FGRibreau/mailchecker/commit/4027259c1b77c508e8b6d0f7d1a2194e438b6576) refactor(clojure): prefer built-in last method (@choznerol)
+- [fbc93e9](https://github.com/FGRibreau/mailchecker/commit/fbc93e971dd0a88b66a7cd5b4289418e658f10aa) feat(rust): add add_custom_domains : (@choznerol)
+- [dc5636b](https://github.com/FGRibreau/mailchecker/commit/dc5636be70159ae32ede7a0c7be3176fe428ad76) refacor(elixir): automatic start_link for backword-compatibility (@choznerol)
+- [f09dceb](https://github.com/FGRibreau/mailchecker/commit/f09dceb17feea3eb7835075bcbb42b2115a360c2) feat(elixir): add add_custom_domains (@choznerol)
+- [2a62379](https://github.com/FGRibreau/mailchecker/commit/2a62379656ecd2317bb97d2a3d01985dca5ebfeb) feat(go): add AddCustomDomains (@choznerol)
+- [72b47aa](https://github.com/FGRibreau/mailchecker/commit/72b47aae0651979a2b6eb93aea2e601294ef7a5d) test(php): test addCustomDomains (@choznerol)
+- [167cad2](https://github.com/FGRibreau/mailchecker/commit/167cad2d169015112a05008e47c0fc6e26b9841b) feat(ruby): add add_custom_domains (@choznerol)
+- [c3245c5](https://github.com/FGRibreau/mailchecker/commit/c3245c5c9558ad5b5cde5a7e6dc362f2c2666b02) feat(node): add addCustomDomains (@choznerol)
+- [4b668de](https://github.com/FGRibreau/mailchecker/commit/4b668deb1e9192ea8223854762c7bc92bf83d314) feat(python): add add_custom_domains (@choznerol)
+- [ed87b68](https://github.com/FGRibreau/mailchecker/commit/ed87b685062681eef2d48f81ee4939477fafd8a7) feat(php): add addCustomDomains (@choznerol)
+- [8236c76](https://github.com/FGRibreau/mailchecker/commit/8236c7616c2c3bda45ee4e76c213bbcb62dd8bc0) feat(cargo): updated to 4.0.16
+- [550d686](https://github.com/FGRibreau/mailchecker/commit/550d686bb45ae3275d69c77d089102b039e63dd6) feat(python): updated to 4.0.16
+- [49e5abd](https://github.com/FGRibreau/mailchecker/commit/49e5abd21c2476f12e1c23091467094fdc4ed219) feat(gemspec): updated to 4.0.16
+- [8bdf466](https://github.com/FGRibreau/mailchecker/commit/8bdf466f1b5d00b49a89092422942dd169acd470) docs(changelog): updated
+
 ### v4.0.16 (2021/11/06 17:01 +00:00)
 - [3477b22](https://github.com/FGRibreau/mailchecker/commit/3477b22c684bebe12cd018cfdca0896f7f847d7f) feat(build): update plateform files
 - [58d26d8](https://github.com/FGRibreau/mailchecker/commit/58d26d81e43da08f4456e31988fbbd9787cd6f64) Release v4.0.16.
@@ -1230,8 +1257,6 @@
 - [35c12c4](https://github.com/FGRibreau/mailchecker/commit/35c12c4e6cfd7e21186d615f88e6e3d6c6cfabf7) Update README.md (@FGRibreau)
 - [493d057](https://github.com/FGRibreau/mailchecker/commit/493d05771fd4e54877653206aeadd425d0cd0e65) Update README.md (@FGRibreau)
 - [5c12266](https://github.com/FGRibreau/mailchecker/commit/5c12266d23c9dc4342df1c7d174e59a34be7ae77) docs(changelog): updated (@FGRibreau)
-
-### v3.0.17 (2016/10/29 13:10 +00:00)
 - [8e798c6](https://github.com/FGRibreau/mailchecker/commit/8e798c63c0662ee655231f3ae8c5fa04a11f1b91) Release v3.0.17. (@FGRibreau)
 - [db99a69](https://github.com/FGRibreau/mailchecker/commit/db99a69c14ddd625ec95c73d12740c6f302ec631) feat(build): update plateform files (@FGRibreau)
 - [b0728b9](https://github.com/FGRibreau/mailchecker/commit/b0728b9f19e75d359900692b27b4ff77d87e4e30) feat(gemspec): updated to 3.0.16 (@FGRibreau)

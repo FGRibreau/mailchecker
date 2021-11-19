@@ -64,3 +64,11 @@ func IsBlacklisted(email string) bool {
 
 	return false
 }
+
+func AddCustomDomains(domains []string) map[string]struct{} {
+	for _, domain := range domains {
+		blacklist[domain] = itemExists
+	}
+
+	return blacklist
+}
