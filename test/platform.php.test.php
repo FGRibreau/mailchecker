@@ -70,4 +70,17 @@ class MailCheckerTest extends PHPUnit\Framework\TestCase
         // Should not be invalid as a subdomain of a valid domain.
         $this->isValid('test@'.$blacklistedDomain.'.gmail.com');
     }
+
+    public function testAddCustomDomains()
+    {
+        $this->isValid('foo@youtube.com');
+        $this->isValid('foo@google.com');
+        $this->isValid('ok@gmail.com');
+
+        MailChecker::addCustomDomains(['youtube.com', 'google.com']);
+
+        $this->isInvalid('foo@youtube.com');
+        $this->isInvalid('foo@google.com');
+        $this->isValid('ok@gmail.com');
+    }
 }

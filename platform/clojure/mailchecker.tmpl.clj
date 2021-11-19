@@ -1,8 +1,11 @@
 (ns mailchecker)
 
 (require '[clojure.string :as str])
+(require '[clojure.set :as set])
 
 (def ^:const blacklist (set [{{& listSTR }}]))
+
+(def custom_domains (atom #{}))
 
 (defn is-email?
   "Returns true if email is an email address"
@@ -18,16 +21,10 @@
   [email]
   (str/split email #"@"))
 
-(defn last-element
-  "Returns the last element of the arr"
-  [arr]
-  (first
-    (take-last 1 arr)))
-
 (defn domain-part
   "Returns the domain part from email"
   [email]
-  (last-element (at-split email)))
+  (last (at-split email)))
 
 (defn dot-join
   "Returns string from arr joined with dot char"
@@ -48,7 +45,10 @@
 (defn in-blacklist?
   "Returns true if any suffix of the email domain is in the blacklist"
   [email]
-  (some (partial contains? blacklist) (all-domain-suffixes email)))
+  (let [domains (all-domain-suffixes email)]
+    (or
+      (some (partial contains? @custom_domains) domains)
+      (some (partial contains? blacklist) domains))))
 
 (defn valid?
   "Returns true if the email is valid"
@@ -57,3 +57,8 @@
     (is-email? email)
     (not
       (in-blacklist? email))))
+
+(defn add-custom-domains
+  "Add more domains to the blacklist"
+  [domains]
+  (swap! custom_domains (set/union @custom_domains domains)))

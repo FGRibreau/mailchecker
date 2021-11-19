@@ -6,7 +6,8 @@
   (:use clojure.test))
 
 (defn expect-valid-result [expected-valid email]
-  (is (= expected-valid (mailchecker/valid? email))))
+  (is (= expected-valid (mailchecker/valid? email))
+      (format "Expected valid?(%s) to be %b" email expected-valid)))
 
 (def expect-invalid (partial expect-valid-result false))
 (def expect-valid (partial expect-valid-result true))
@@ -46,5 +47,15 @@
                   ;; valid domain.
                   (expect-valid (str "test@" domain ".gmail.com"))))
           mailchecker/blacklist))
+
+(deftest add-custom-domains)
+  (do
+    (expect-valid "foo@youtube.com")
+    (expect-valid "foo@google.com")
+    (expect-valid "ok@gmail.com")
+    (mailchecker/add-custom-domains #{"youtube.com" "google.com"})
+    (expect-invalid "foo@youtube.com")
+    (expect-invalid "foo@google.com")
+    (expect-valid "ok@gmail.com"))
 
 (run-all-tests)
