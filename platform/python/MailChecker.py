@@ -34,3 +34,7 @@ class MailChecker(object):
     @classmethod
     def is_valid_email_format(cls, email):
         return bool(email) and cls.valid_matcher.search(email) is not None
+
+    @classmethod
+    def add_custom_domains(cls, domains = []):
+        cls.blacklist.update(domains)

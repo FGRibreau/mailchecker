@@ -60,4 +60,20 @@ defmodule MailCheckerTest do
         assert_valid("test@" <> domain <> ".gmail.com")
     end)
   end
+
+  test "should return false if the email is from a custom domain" do
+    assert_valid("foo@youtube.com")
+    assert_valid("foo@google.com")
+    assert_valid("ok@gmail.com")
+
+    MailChecker.add_custom_domains(["youtube.com", "google.com"])
+
+    assert_invalid("foo@youtube.com")
+    assert_invalid("foo@google.com")
+    assert_valid("ok@gmail.com")
+
+    MailChecker.add_custom_domains(["gmail.com"])
+
+    assert_invalid("ok@gmail.com")
+  end
 end
