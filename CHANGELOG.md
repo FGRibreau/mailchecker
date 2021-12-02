@@ -1,11 +1,63 @@
 ## Change Log
 
+### v4.1.1 (2021/12/02 11:15 +00:00)
+- [e9ca221](https://github.com/FGRibreau/mailchecker/commit/e9ca221bca5a270f61970ff45c782f03636a59b6) Release v4.1.1.
+- [dc65c29](https://github.com/FGRibreau/mailchecker/commit/dc65c29a7811c4270d517769ca569933c3bab059) feat(build): update plateform files
+- [8615bc9](https://github.com/FGRibreau/mailchecker/commit/8615bc924d58d0c0cfd29700cda780cee5c05f40) fix
+- [f519637](https://github.com/FGRibreau/mailchecker/commit/f5196377ad56a5e1f6a058fdba66377e0200706b) fix: php test issue
+- [#330](https://github.com/FGRibreau/mailchecker/pull/330) Merge pull request #330 from Buffele/list (@Buffele)
+- [e386039](https://github.com/FGRibreau/mailchecker/commit/e386039ff78c167136fb3704f8c11061769baecb) Update list.txt (@Buffele)
+- [0b20b5c](https://github.com/FGRibreau/mailchecker/commit/0b20b5cb38d0326b4ed7cd134eda74cdaa1a3589) Update list.txt (@Buffele)
+- [30c723c](https://github.com/FGRibreau/mailchecker/commit/30c723cd91021ec1c0231dafb1c6e6f435b8fe45) Update list.txt (@Buffele)
+- [f51721f](https://github.com/FGRibreau/mailchecker/commit/f51721fc48417ed694055f31c3eeae0ee547130b) Update list.txt (@Buffele)
+- [fcc01b4](https://github.com/FGRibreau/mailchecker/commit/fcc01b4df0b24e3f4dd849f62893de0ddb24a410) Update list.txt (@Buffele)
+- [0ad7c67](https://github.com/FGRibreau/mailchecker/commit/0ad7c67188915f27b09df5239e71f83a165928fd) Update list.txt (@Buffele)
+- [af8399b](https://github.com/FGRibreau/mailchecker/commit/af8399b229395ceef30460022ba1a3696a5d6e8d) Update list.txt (@Buffele)
+- [5e684e8](https://github.com/FGRibreau/mailchecker/commit/5e684e8e2b052e574d4f438df31a8acd3bb9caa1) Update list.txt (@Buffele)
+- [6d4ffcf](https://github.com/FGRibreau/mailchecker/commit/6d4ffcf178440de874b3cb598122668aaa07e80f) Update list.txt (@Buffele)
+- [ab677c7](https://github.com/FGRibreau/mailchecker/commit/ab677c7338a6ffeb385b50b837fea621e36c1021) Update list.txt (@Buffele)
+- [a910883](https://github.com/FGRibreau/mailchecker/commit/a9108831c16cba05286185eea2c4469b15450059) Update list.txt (@Buffele)
+- [#328](https://github.com/FGRibreau/mailchecker/pull/328) Merge pull request #328 from Buffele/feature/update_php_unit (@Buffele)
+- [#327](https://github.com/FGRibreau/mailchecker/pull/327) Merge pull request #327 from Buffele/feature/php_performance_improvements (@Buffele)
+- [b4c7bbb](https://github.com/FGRibreau/mailchecker/commit/b4c7bbb31ef9e3717b6b491aafd3f5ce74e3cba1) Merge branch 'master' into feature/update_php_unit (@Buffele)
+- [#329](https://github.com/FGRibreau/mailchecker/pull/329) Merge pull request #329 from Buffele/list-1 (@Buffele)
+- [dc30ec4](https://github.com/FGRibreau/mailchecker/commit/dc30ec4b90e9b258d6bdacb489425edb0a90dbba) feat(cargo): updated to 4.1.0
+- [4c4c529](https://github.com/FGRibreau/mailchecker/commit/4c4c529c1904734f65e5ebfc9b706ef703c7fa41) feat(python): updated to 4.1.0
+- [cd32afb](https://github.com/FGRibreau/mailchecker/commit/cd32afb81c73651e574eea07d66b6dedc6fde513) feat(gemspec): updated to 4.1.0
+- [8031274](https://github.com/FGRibreau/mailchecker/commit/8031274bd34eaf6081dfa3a2e2bef595c55ffb59) docs(changelog): updated
+
 ### v4.1.0 (2021/11/19 20:49 +00:00)
 - [e33ff05](https://github.com/FGRibreau/mailchecker/commit/e33ff050f9664065997073d0dbd27025fcdd6fed) Release v4.1.0.
 - [b41dff2](https://github.com/FGRibreau/mailchecker/commit/b41dff26acc20ebf90e81e085439aa913286668e) feat(build): update plateform files
 - [49ac2ed](https://github.com/FGRibreau/mailchecker/commit/49ac2edb73db97885224ad210f6d930d4e6f646c) Merge branch 'master' of github.com:FGRibreau/mailchecker
 - [#321](https://github.com/FGRibreau/mailchecker/pull/321) Merge pull request #321 from choznerol/feat/addCustomDomains-for-all-platforms (@choznerol)
 - [f12d885](https://github.com/FGRibreau/mailchecker/commit/f12d88505f2f69a401f8d739dd0f02af5f8ff4df) fix
+- [1fe5f75](https://github.com/FGRibreau/mailchecker/commit/1fe5f75eee37a45531d95d4c0875d36d51a92e11) Update list.txt (@Buffele)
+- [08151d2](https://github.com/FGRibreau/mailchecker/commit/08151d2bd88192678cd4d5c47f8a537921885070) Update list.txt (@Buffele)
+- [78712a9](https://github.com/FGRibreau/mailchecker/commit/78712a900117ca4c943e35bc01e498dbdb854590) Update list.txt (@Buffele)
+- [21d93c3](https://github.com/FGRibreau/mailchecker/commit/21d93c389206990aee1a2816f45a99044e5c3dea) Update list.txt (@Buffele)
+- [784d424](https://github.com/FGRibreau/mailchecker/commit/784d42415ff9cc54b827b80f24e7cfed6df4699f) Update list.txt (@Buffele)
+- [3a270d3](https://github.com/FGRibreau/mailchecker/commit/3a270d3d00e87e4d36bff79e68fc98823971a0ef) Update list.txt (@Buffele)
+- [3065610](https://github.com/FGRibreau/mailchecker/commit/306561065faf39001fce238abfd8f9114ccd5008) Update list.txt (@Buffele)
+- [f9c0e35](https://github.com/FGRibreau/mailchecker/commit/f9c0e35ee4d5905a2c2f38557e4814c5b207c818) Update list.txt (@Buffele)
+- [1a23d4a](https://github.com/FGRibreau/mailchecker/commit/1a23d4a6639ea2f6f3750751f41f5b32cda3137d) Update list.txt (@Buffele)
+- [a37b436](https://github.com/FGRibreau/mailchecker/commit/a37b436d4c2b97646466bb0a5ba9d84a022f0ce3) Update list.txt (@Buffele)
+- [46c06a6](https://github.com/FGRibreau/mailchecker/commit/46c06a65603b872d5e6669bd93a5f2c7c2c93831) Update list.txt (@Buffele)
+- [5d6a5ca](https://github.com/FGRibreau/mailchecker/commit/5d6a5cad536b565b094b4d7f96046bc2840229b9) Update list.txt (@Buffele)
+- [3191c27](https://github.com/FGRibreau/mailchecker/commit/3191c2723ea61cb3b5ed5688b02d54b51d5dbee5) Update list.txt (@Buffele)
+- [87e20e2](https://github.com/FGRibreau/mailchecker/commit/87e20e20a51f3b2e9c64feeef6d01cb924b3b209) Update list.txt (@Buffele)
+- [e07fc22](https://github.com/FGRibreau/mailchecker/commit/e07fc229863de809b4b006168ff42f1c36cecdf4) Update list.txt (@Buffele)
+- [d5c95dc](https://github.com/FGRibreau/mailchecker/commit/d5c95dc4c0e76f0cd55168551c7d12addf35eb50) Update list.txt (@Buffele)
+- [3622910](https://github.com/FGRibreau/mailchecker/commit/3622910e445a0920d677f012f24a2b83aa176d08) Update list.txt (@Buffele)
+- [f01c4dc](https://github.com/FGRibreau/mailchecker/commit/f01c4dc660c2fcd45d93dee2ab1efc0d8bf20886) Update list.txt (@Buffele)
+- [67ce21a](https://github.com/FGRibreau/mailchecker/commit/67ce21a832144f8e23e9f380dc78a90aa136cd00) Update list.txt (@Buffele)
+- [2d057bb](https://github.com/FGRibreau/mailchecker/commit/2d057bbe348d751b70c9fdfe5f09c0d367729051) Update list.txt (@Buffele)
+- [2c78209](https://github.com/FGRibreau/mailchecker/commit/2c7820909f73e09f68a2f3f15d82fbd3eff5df76) Update list.txt (@Buffele)
+- [62c7e01](https://github.com/FGRibreau/mailchecker/commit/62c7e01ef8a940a9263a055ff0428c45398c7760) Update list.txt (@Buffele)
+- [2a2b716](https://github.com/FGRibreau/mailchecker/commit/2a2b716b12120a87d1fb33ff16d876e74d4b4ed2) Update list.txt (@Buffele)
+- [779ea47](https://github.com/FGRibreau/mailchecker/commit/779ea47501dec5aeb489f350dcbba579e2059219) Update list.txt (@Buffele)
+- [01f899e](https://github.com/FGRibreau/mailchecker/commit/01f899e872047c5496ad864368a7765ecbdd57de) Update list.txt (@Buffele)
+- [82bc3ca](https://github.com/FGRibreau/mailchecker/commit/82bc3caa54339fc1fa578bb93299301b1d47d7a4) Update list.txt (@Buffele)
 - [05208e3](https://github.com/FGRibreau/mailchecker/commit/05208e305d4e5043b87c8908aca3d08acc5af84d) feat(clojure): add add-custom-domains (@choznerol)
 - [57d4524](https://github.com/FGRibreau/mailchecker/commit/57d4524aeec532a0725f81bbf7f6d587be8f45c9) Revert "test(clojure): [workaround] npm run test:clojure" (@choznerol)
 - [8d6abd3](https://github.com/FGRibreau/mailchecker/commit/8d6abd3827927982f9df0326d05cddfac1baf0ca) refactor(rust): prefer once_cell over lazy_static: (@choznerol)
@@ -22,6 +74,9 @@
 - [c3245c5](https://github.com/FGRibreau/mailchecker/commit/c3245c5c9558ad5b5cde5a7e6dc362f2c2666b02) feat(node): add addCustomDomains (@choznerol)
 - [4b668de](https://github.com/FGRibreau/mailchecker/commit/4b668deb1e9192ea8223854762c7bc92bf83d314) feat(python): add add_custom_domains (@choznerol)
 - [ed87b68](https://github.com/FGRibreau/mailchecker/commit/ed87b685062681eef2d48f81ee4939477fafd8a7) feat(php): add addCustomDomains (@choznerol)
+- [38b7779](https://github.com/FGRibreau/mailchecker/commit/38b77791e311a45558843ff28ee451d57cdce8be) formatting (@Buffele)
+- [05c54fd](https://github.com/FGRibreau/mailchecker/commit/05c54fdd5f778ea5c3c3c61bbb5d8f151728d031) update phpunit and windows instructions (@Buffele)
+- [f256e52](https://github.com/FGRibreau/mailchecker/commit/f256e52df729857a63e2522b0c00184741274e8a) improve php lookup performance (@Buffele)
 - [8236c76](https://github.com/FGRibreau/mailchecker/commit/8236c7616c2c3bda45ee4e76c213bbcb62dd8bc0) feat(cargo): updated to 4.0.16
 - [550d686](https://github.com/FGRibreau/mailchecker/commit/550d686bb45ae3275d69c77d089102b039e63dd6) feat(python): updated to 4.0.16
 - [49e5abd](https://github.com/FGRibreau/mailchecker/commit/49e5abd21c2476f12e1c23091467094fdc4ed219) feat(gemspec): updated to 4.0.16
@@ -1245,8 +1300,6 @@
 - [bb3dfdf](https://github.com/FGRibreau/mailchecker/commit/bb3dfdf8ac5704919f0f10d84996ca89d30dd644) fix(list): fixes #86 (@FGRibreau)
 - [0476c22](https://github.com/FGRibreau/mailchecker/commit/0476c22870de7437e9e14a3616093248b7e5d5df) feat(gemspec): updated to 3.0.18 (@FGRibreau)
 - [955193a](https://github.com/FGRibreau/mailchecker/commit/955193aaf24a1be0c870b76ac97421278224891b) docs(changelog): updated (@FGRibreau)
-
-### v3.0.18 (2016/11/22 17:44 +00:00)
 - [f049289](https://github.com/FGRibreau/mailchecker/commit/f04928926ea73a791a29685b59ab11795d123910) feat(build): update plateform files (@FGRibreau)
 - [7637afd](https://github.com/FGRibreau/mailchecker/commit/7637afd0ac503207a33a6c23ab6dd25d5e3a2357) Release v3.0.18. (@FGRibreau)
 - [fdc3ff3](https://github.com/FGRibreau/mailchecker/commit/fdc3ff3ab174f9967cd2df245665c2c76ff9aa45) feat(gemspec): updated to 3.0.17 (@FGRibreau)
