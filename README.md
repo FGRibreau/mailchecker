@@ -1,12 +1,24 @@
 # MailChecker
 
-[![Deps](	https://img.shields.io/david/FGRibreau/mailchecker.svg)](https://david-dm.org/FGRibreau/mailchecker) [![Downloads](http://img.shields.io/npm/dm/mailchecker.svg)](https://www.npmjs.com/package/mailchecker) 
+[![PyPi version](https://img.shields.io/pypi/v/mailchecker.svg)](https://pypi.org/project/mailchecker/#history) ![PyPI - Downloads](https://img.shields.io/pypi/dm/mailchecker) 
 
-[![NPM version](https://img.shields.io/npm/v/mailchecker.svg)](http://badge.fury.io/js/mailchecker) ![npm](https://img.shields.io/npm/dm/mailchecker) [![Gem version](https://img.shields.io/gem/v/ruby-mailchecker.svg)](http://badge.fury.io/js/mailchecker) ![Gem](https://img.shields.io/gem/dt/mailchecker) [![PyPi version](https://img.shields.io/pypi/v/mailchecker.svg)](https://pypi.org/project/mailchecker/#history) ![PyPI - Downloads](https://img.shields.io/pypi/dm/mailchecker) [![Packagist version](https://img.shields.io/packagist/v/fgribreau/mailchecker.svg)](https://packagist.org/packages/fgribreau/mailchecker) ![Packagist](https://img.shields.io/packagist/dm/fgribreau/mailchecker) [![Cargo version](https://img.shields.io/crates/v/mailchecker.svg)](https://crates.io/crates/mailchecker) ![Crates.io](https://img.shields.io/crates/d/mailchecker) [![GoDoc](https://godoc.org/github.com/FGRibreau/mailchecker/platform/go?status.svg)](https://godoc.org/github.com/FGRibreau/mailchecker/platform/go)
+[![Cargo version](https://img.shields.io/crates/v/mailchecker.svg)](https://crates.io/crates/mailchecker) ![Crates.io](https://img.shields.io/crates/d/mailchecker) 
+
+[![NPM version](https://img.shields.io/npm/v/mailchecker.svg)](http://badge.fury.io/js/mailchecker) ![npm](https://img.shields.io/npm/dm/mailchecker) 
+
+[![Gem version](https://img.shields.io/gem/v/ruby-mailchecker.svg)](http://badge.fury.io/js/mailchecker) ![Gem](https://img.shields.io/gem/dt/mailchecker) 
+
+
+
+[![Packagist version](https://img.shields.io/packagist/v/fgribreau/mailchecker.svg)](https://packagist.org/packages/fgribreau/mailchecker) ![Packagist](https://img.shields.io/packagist/dm/fgribreau/mailchecker) 
+
+
+
+[![GoDoc](https://godoc.org/github.com/FGRibreau/mailchecker/platform/go?status.svg)](https://godoc.org/github.com/FGRibreau/mailchecker/platform/go)
 
 [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/francois-guillaume-ribreau?utm_source=github&utm_medium=button&utm_term=francois-guillaume-ribreau&utm_campaign=github)  [![available-for-advisory](https://img.shields.io/badge/available%20for%20advising-yes-ff69b4.svg?)](http://bit.ly/2c7uFJq) ![extra](https://img.shields.io/badge/actively%20maintained-yes-ff69b4.svg?) [![Slack](https://img.shields.io/badge/Slack-Join%20our%20tech%20community-17202A?logo=slack)](https://join.slack.com/t/fgribreau/shared_invite/zt-edpjwt2t-Zh39mDUMNQ0QOr9qOj~jrg)
 
-Cross-language email validation. Backed by a [database](./list.txt) of **over 30 000 throwable email domains**.
+Cross-language email validation. Backed by a [database](./list.txt) of **over 38 000 throwable email domains**.
 
 * Validate the format of your email (uses [validator.js](https://github.com/chriso/validator.js/blob/master/validator.js#L38) email regex underneath and `FILTER_VALIDATE_EMAIL` for PHP)
 * Validate if the email is not a **temporary mail** (yopmail-like..., [add your own dataset to list.txt](./list.txt))
@@ -14,14 +26,6 @@ Cross-language email validation. Backed by a [database](./list.txt) of **over 30
 This will be very helpful when you have to contact your users and you want to avoid errors causing lack of communication or want to block "spamboxes".
 
 -------------------------
-
-<!--
-> Need a **free Redis GUI**?
->
-> Redsmin offers real-time, atomic, performant administration and monitoring services for Redis
-
-
-<p align="center"><a href="https://redsmin.com?gh">Start administrating your Redis servers now<br/><img src="https://www.redsmin.com/im/mac-video.png"/></a></p>-->
 
 > Need to embed a charts into an email?
 >
