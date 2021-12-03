@@ -1,5 +1,17 @@
 ## Change Log
 
+### v4.1.2 (2021/12/03 15:10 +00:00)
+- [0584af0](https://github.com/FGRibreau/mailchecker/commit/0584af0db152332ff0a6e633e5cbac9ccc351ac2) Release v4.1.2.
+- [7339c1e](https://github.com/FGRibreau/mailchecker/commit/7339c1ebacfdb237449a5da4a3bba333e882af09) feat(build): update plateform files
+- [ecce1a5](https://github.com/FGRibreau/mailchecker/commit/ecce1a5cd8e25c2a68b58e825e8ca1dbdaea0ff1) fix: cargo
+- [#331](https://github.com/FGRibreau/mailchecker/pull/331) Merge pull request #331 from Buffele/list (@Buffele)
+- [0d56e79](https://github.com/FGRibreau/mailchecker/commit/0d56e79ad1a56adfefa70c38a1e1b70e5a71fb87) Update list.txt (@Buffele)
+- [dc79302](https://github.com/FGRibreau/mailchecker/commit/dc7930293aff8920c1ce267afb68ffea0972a6b4) Update list.txt (@Buffele)
+- [e89a802](https://github.com/FGRibreau/mailchecker/commit/e89a8025412f9dc4fc36f8721ba88b521efaafa6) feat(cargo): updated to 4.1.1
+- [94ab153](https://github.com/FGRibreau/mailchecker/commit/94ab1532388b1b2e81f1ad317416aeb577b1308d) feat(python): updated to 4.1.1
+- [f79625b](https://github.com/FGRibreau/mailchecker/commit/f79625b71da496de7e14b3c5844f1c2f9bbccc24) feat(gemspec): updated to 4.1.1
+- [fe3dd43](https://github.com/FGRibreau/mailchecker/commit/fe3dd438047d7ccf8c64acb6e90db7dbd99857a5) docs(changelog): updated
+
 ### v4.1.1 (2021/12/02 11:15 +00:00)
 - [e9ca221](https://github.com/FGRibreau/mailchecker/commit/e9ca221bca5a270f61970ff45c782f03636a59b6) Release v4.1.1.
 - [dc65c29](https://github.com/FGRibreau/mailchecker/commit/dc65c29a7811c4270d517769ca569933c3bab059) feat(build): update plateform files
@@ -1293,8 +1305,6 @@
 - [#87](https://github.com/FGRibreau/mailchecker/pull/87) Merge pull request #87 from FGRibreau/greenkeeper-mocha-3.2.0 (@FGRibreau)
 - [3f1bb65](https://github.com/FGRibreau/mailchecker/commit/3f1bb65c1c8027a5d684a12a4e0cf5588c763075) chore(package): update mocha to version 3.2.0 (@greenkeeperio-bot)
 - [88e399b](https://github.com/FGRibreau/mailchecker/commit/88e399bfb2d08c687cefa983469b776f0505c4e6) docs(changelog): updated (@FGRibreau)
-
-### v3.0.19 (2016/11/23 12:27 +00:00)
 - [4cc8912](https://github.com/FGRibreau/mailchecker/commit/4cc8912f419290b33d33dedf1a03bb24f3f6ea8d) feat(build): update plateform files (@FGRibreau)
 - [3793390](https://github.com/FGRibreau/mailchecker/commit/3793390df591d492a632040f8f810f70e1924a43) Release v3.0.19. (@FGRibreau)
 - [bb3dfdf](https://github.com/FGRibreau/mailchecker/commit/bb3dfdf8ac5704919f0f10d84996ca89d30dd644) fix(list): fixes #86 (@FGRibreau)
