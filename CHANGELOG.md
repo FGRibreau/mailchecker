@@ -1,5 +1,17 @@
 ## Change Log
 
+### v4.1.3 (2021/12/04 10:10 +00:00)
+- [501745e](https://github.com/FGRibreau/mailchecker/commit/501745ea6b47ceb20a476f99f68214c234fc5e89) Release v4.1.3.
+- [535ec51](https://github.com/FGRibreau/mailchecker/commit/535ec516f0cbe0fff1eebb15a6dfd5dfa43055b2) feat(build): update plateform files
+- [ff03fdd](https://github.com/FGRibreau/mailchecker/commit/ff03fdd6f982b66b4b08248cfcf950ebbfaa280d) fix: cargo
+- [#332](https://github.com/FGRibreau/mailchecker/pull/332) Merge pull request #332 from Buffele/list (@Buffele)
+- [bbd1e09](https://github.com/FGRibreau/mailchecker/commit/bbd1e0946021387c57c7738f8eb8ff9bbf84e962) Update list.txt (@Buffele)
+- [f44b92c](https://github.com/FGRibreau/mailchecker/commit/f44b92c69155895b498b1e49daf0e4457ab330af) Update README.md (@FGRibreau)
+- [15198a9](https://github.com/FGRibreau/mailchecker/commit/15198a9bba6b4a317f400239776e7440693a8e42) feat(cargo): updated to 4.1.2
+- [451a109](https://github.com/FGRibreau/mailchecker/commit/451a1091113548204380e51261b62df69c1efb74) feat(python): updated to 4.1.2
+- [4934ca5](https://github.com/FGRibreau/mailchecker/commit/4934ca5d965b006770250e782fb588b7838d104f) feat(gemspec): updated to 4.1.2
+- [d8c0a8d](https://github.com/FGRibreau/mailchecker/commit/d8c0a8d676b9b19b71a6bd7932f1e087572666d8) docs(changelog): updated
+
 ### v4.1.2 (2021/12/03 15:10 +00:00)
 - [0584af0](https://github.com/FGRibreau/mailchecker/commit/0584af0db152332ff0a6e633e5cbac9ccc351ac2) Release v4.1.2.
 - [7339c1e](https://github.com/FGRibreau/mailchecker/commit/7339c1ebacfdb237449a5da4a3bba333e882af09) feat(build): update plateform files
@@ -1289,8 +1301,6 @@
 - [479b66e](https://github.com/FGRibreau/mailchecker/commit/479b66e5c215935d53e2620b83da10f549a4a688) docs(readme): add Greenkeeper badge (@greenkeeper[bot])
 - [d2f1be4](https://github.com/FGRibreau/mailchecker/commit/d2f1be49874992faf9932175e60648fe3e17effb) chore(package): update dependencies (@greenkeeper[bot])
 - [00fbfd7](https://github.com/FGRibreau/mailchecker/commit/00fbfd7961f47b5ba5c68f83fdee6bb231b7bb82) docs(changelog): updated (@FGRibreau)
-
-### v3.0.20 (2017/01/24 15:04 +00:00)
 - [6d642f4](https://github.com/FGRibreau/mailchecker/commit/6d642f4221e68b7605948865c153bfa2fe3efde8) Release v3.0.20. (@FGRibreau)
 - [c95e0ee](https://github.com/FGRibreau/mailchecker/commit/c95e0eea2086ab083f5e8c85b4b9d49aaca030af) feat(build): update plateform files (@FGRibreau)
 - [#90](https://github.com/FGRibreau/mailchecker/pull/90) Merge pull request #90 from larsvegas/add-dsiay-com (@larsvegas)
