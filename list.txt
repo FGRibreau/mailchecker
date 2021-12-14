@@ -10069,6 +10069,7 @@ docw.site
 docx-expert.online
 docx.press
 docx.site
+docxa.site
 docxc.site
 docxd.site
 docxe.site
@@ -10344,6 +10345,7 @@ dreamhostcp.info
 dreamleaguesoccer2016.gq
 dreamsale.info
 dreamweddingplanning.com
+dreamyshop.fun
 dreamyshop.site
 dred.ru
 dremixd.com
@@ -11766,6 +11768,7 @@ epubln.site
 epublo.site
 epublp.site
 epublq.site
+epublt.site
 epublu.site
 epublv.site
 epublx.site
@@ -13586,6 +13589,7 @@ freshattempt.com
 freshautonews.ru
 freshbreadcrumbs.com
 freshmail.com
+freshmassage.club
 freshmassage.website
 freshsmokereview.com
 freshviralnewz.club
@@ -15657,6 +15661,7 @@ hazmatshipping.org
 hbccreditcard.net
 hbdya.info
 hbesjhbsd.cf
+hbesjhbsd.ga
 hbesjhbsd.tk
 hbo.dns-cloud.net
 hbo.dnsabr.com
@@ -22642,6 +22647,7 @@ mimpaharpur.tk
 min.edu.gov
 minamail.info
 minamitoyama.info
+mindcools.club
 mindless.com
 mindmail.ga
 mindpowerup.com
@@ -23656,6 +23662,7 @@ myjustmail.co.cc
 myk-pyk.eu
 mykcloud.com
 mykickassideas.com
+mykingle.xyz
 mylaguna.ru
 mylameexcuses.com
 mylapak.info
@@ -25659,6 +25666,7 @@ oolong.ro
 oolus.com
 oonies-shoprus.ru
 ooof.gq
+ooomail.ga
 oooomo.site
 ooooni.site
 oopi.org
@@ -28627,6 +28635,7 @@ readyb.site
 readyc.site
 readycoast.xyz
 readyd.site
+readye.site
 readyf.site
 readyforyou.cf
 readyforyou.ga
@@ -29102,6 +29111,7 @@ rincewind6.pl
 ring123.com
 ringobaby344.ga
 ringobaby344.gq
+ringobaby344.tk
 ringtoneculture.com
 ringwormadvice.info
 riniiya.com
@@ -38345,6 +38355,7 @@ ziprol.com
 zips.design
 zipsb.site
 zipsc.site
+zipsd.site
 zipsendtest.com
 zipsf.site
 zipsg.site
