@@ -27260,7 +27260,6 @@ return [
     "privatemailinator.nl" => true,
     "privatemitel.cf" => true,
     "privatemitel.ml" => true,
-    "privaterelay.appleid.com" => true,
     "privatesent.tk" => true,
     "privmag.com" => true,
     "privy-mail.com" => true,
