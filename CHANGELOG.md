@@ -1,5 +1,51 @@
 ## Change Log
 
+### v4.1.7 (2021/12/30 14:11 +00:00)
+- [d386157](https://github.com/FGRibreau/mailchecker/commit/d386157a5fadd475f49b2e8ea48efe6bcaf57474) Release v4.1.7.
+- [1671264](https://github.com/FGRibreau/mailchecker/commit/1671264fa1719cee18e7f0bdc0a9c5a8c969d833) feat(build): update plateform files
+- [9d25cc8](https://github.com/FGRibreau/mailchecker/commit/9d25cc8dfdf558ba724a161c157a335643ca1303) fix: cargo
+- [#337](https://github.com/FGRibreau/mailchecker/pull/337) Merge pull request #337 from dlackty/patch-1 (@dlackty)
+- [de35554](https://github.com/FGRibreau/mailchecker/commit/de355544553109bd071b2bc207f35fd6f6f5b767) Merge branch 'master' into patch-1 (@FGRibreau)
+- [#335](https://github.com/FGRibreau/mailchecker/pull/335) Merge pull request #335 from Buffele/list (@Buffele)
+- [#338](https://github.com/FGRibreau/mailchecker/pull/338) Merge pull request #338 from Kaleb99jOfficial/patch-2 (@Kaleb99jOfficial)
+- [6e051b3](https://github.com/FGRibreau/mailchecker/commit/6e051b3fe3669631d229bcbef6774c7a4bc9b301) Update list.txt (@Buffele)
+- [ddf738b](https://github.com/FGRibreau/mailchecker/commit/ddf738b1f0ff1f015a014e6a8d6532114f620d7b) Update list.txt (@Buffele)
+- [ec91a85](https://github.com/FGRibreau/mailchecker/commit/ec91a85858731b7f05c9fdc7063c50dc868dcee3) Update list.txt (@Buffele)
+- [420be37](https://github.com/FGRibreau/mailchecker/commit/420be37eaae5add8bf7353d3729370870078d266) Update list.txt (@Buffele)
+- [a8063f0](https://github.com/FGRibreau/mailchecker/commit/a8063f06c53593dce9d0648141335171ea1f3a33) Update list.txt (@Buffele)
+- [c98f276](https://github.com/FGRibreau/mailchecker/commit/c98f276e126705ecdf223ff9c470ef1a3e1f0cc5) Update list.txt (@Buffele)
+- [24a17e8](https://github.com/FGRibreau/mailchecker/commit/24a17e88ce1f58e158ed31219b779de5866dc0db) Update list.txt (@Buffele)
+- [65d586f](https://github.com/FGRibreau/mailchecker/commit/65d586fe5835926b16afe49614bc46c40a4af8ee) Update list.txt (@Buffele)
+- [3965cef](https://github.com/FGRibreau/mailchecker/commit/3965ceff8c53e7d7242b7ff3b9356517472efe07) Update list.txt (@Buffele)
+- [91ad1e3](https://github.com/FGRibreau/mailchecker/commit/91ad1e313e2365d957e0a9e41396344c8b69c88e) Update list.txt (@Buffele)
+- [3f8df99](https://github.com/FGRibreau/mailchecker/commit/3f8df995e059766ad9c33861e9da107de97ede57) Update list.txt (@Buffele)
+- [ce76d78](https://github.com/FGRibreau/mailchecker/commit/ce76d7841f74141db3e1428a9e79c605c3c25d52) Update list.txt (@Buffele)
+- [4250718](https://github.com/FGRibreau/mailchecker/commit/42507180d3a0f15e206a38b2717f002226ab41c0) Update list.txt (@Buffele)
+- [c69f6ed](https://github.com/FGRibreau/mailchecker/commit/c69f6edb25f23ac2ff19e17810321be0f67db3ea) Update list.txt (@Buffele)
+- [83b5b43](https://github.com/FGRibreau/mailchecker/commit/83b5b4325fd5ffd030d5a15da2c6408cde062cc6) Update list.txt (@Buffele)
+- [25943be](https://github.com/FGRibreau/mailchecker/commit/25943beb0a0150c27c56500901d8204ed6b58de9) Update list.txt (@Buffele)
+- [2b0b71b](https://github.com/FGRibreau/mailchecker/commit/2b0b71b219ce6e97457968cff8ae2eb147a4f2d9) Update list.txt (@Kaleb99jOfficial)
+- [b4ded0f](https://github.com/FGRibreau/mailchecker/commit/b4ded0f9297b73f3507f1781dd1b69fa1dcc7631) Update list.txt (@Buffele)
+- [ea17728](https://github.com/FGRibreau/mailchecker/commit/ea177281f61f5810bcff3646eccc578967115d9a) Update list.txt (@Buffele)
+- [e39bb1d](https://github.com/FGRibreau/mailchecker/commit/e39bb1d20bae52d51bf7d2a470278d38719916f3) Update list.txt (@Buffele)
+- [112cbef](https://github.com/FGRibreau/mailchecker/commit/112cbefb19880cafc4fc66c841bc9b3c462751d9) Remove privaterelay.appleid.com (@dlackty)
+- [3f98c12](https://github.com/FGRibreau/mailchecker/commit/3f98c129a69a8f35538274df81282a3f0bc6983d) Update list.txt (@Buffele)
+- [191e111](https://github.com/FGRibreau/mailchecker/commit/191e1118470e0413ebaaadea237d7902799802bd) Update list.txt (@Buffele)
+- [3824543](https://github.com/FGRibreau/mailchecker/commit/382454379cfc208d918798fe12384686beda15a9) Update list.txt (@Buffele)
+- [00e431a](https://github.com/FGRibreau/mailchecker/commit/00e431a8f66e29c973506266e16df445c175b768) Update list.txt (@Buffele)
+- [eaccfdc](https://github.com/FGRibreau/mailchecker/commit/eaccfdc74d4fb374526d7b564a34d11284d8473c) Update list.txt (@Buffele)
+- [dd0caa6](https://github.com/FGRibreau/mailchecker/commit/dd0caa6fe3decb49db39c6b7fd4d396ccc40f29f) Update list.txt (@Buffele)
+- [05925b4](https://github.com/FGRibreau/mailchecker/commit/05925b46b3870e27bd544b311e163075a66219a0) Update list.txt (@Buffele)
+- [c3de1c8](https://github.com/FGRibreau/mailchecker/commit/c3de1c8fb0580f586bfb284930e431ea36a38585) Update list.txt (@Buffele)
+- [7bea2e3](https://github.com/FGRibreau/mailchecker/commit/7bea2e33cc2cbe0a10e6d5e30eeea19d49f21101) Update list.txt (@Buffele)
+- [7ea7730](https://github.com/FGRibreau/mailchecker/commit/7ea7730dfbabce9d2b7282edeb23f646135d6ad1) Update list.txt (@Buffele)
+- [fcc4199](https://github.com/FGRibreau/mailchecker/commit/fcc41997e4ec62c077ee04d841462eaf5cd5f170) Update list.txt (@Buffele)
+- [9a0c633](https://github.com/FGRibreau/mailchecker/commit/9a0c6331a0cae7daad1cc9bd8dfb5a2be0d896e4) Update list.txt (@Buffele)
+- [85df82a](https://github.com/FGRibreau/mailchecker/commit/85df82a90399ca6e4b320fe619b6199e836b4447) feat(cargo): updated to 4.1.6
+- [c23bbd4](https://github.com/FGRibreau/mailchecker/commit/c23bbd4ec6a72134d71c83213eb4bc90f3574855) feat(python): updated to 4.1.6
+- [91c1f5c](https://github.com/FGRibreau/mailchecker/commit/91c1f5cb67e27c3407009ac2af04f7ffaf833034) feat(gemspec): updated to 4.1.6
+- [5c1d827](https://github.com/FGRibreau/mailchecker/commit/5c1d827fce668da7da17f8bc89b7e6225a294448) docs(changelog): updated
+
 ### v4.1.6 (2021/12/10 14:52 +00:00)
 - [4243692](https://github.com/FGRibreau/mailchecker/commit/4243692af5477353dd991c4df95b9f23850a20d7) feat(build): update plateform files
 - [6648f9c](https://github.com/FGRibreau/mailchecker/commit/6648f9c5e4a3ae5355a99fe72307ae526baa0022) Release v4.1.6.
@@ -1291,8 +1337,6 @@
 - [2fbbb80](https://github.com/FGRibreau/mailchecker/commit/2fbbb80cc61a7eebb9d5a093cceef919c82ebd38) feat(cargo): updated to 3.0.24 (@FGRibreau)
 - [4ad6b45](https://github.com/FGRibreau/mailchecker/commit/4ad6b45997436fd81ec84f6514f9730f1687f2ee) feat(gemspec): updated to 3.0.24 (@FGRibreau)
 - [f900d96](https://github.com/FGRibreau/mailchecker/commit/f900d96edaa7bb2d71c389c3a8cc3bc6b75405a3) docs(changelog): updated (@FGRibreau)
-
-### v3.0.24 (2017/03/13 10:50 +00:00)
 - [4bb0fae](https://github.com/FGRibreau/mailchecker/commit/4bb0fae907a0c9afc53af6b336d52d21dbe539a0) Release v3.0.24. (@FGRibreau)
 - [dbdf88d](https://github.com/FGRibreau/mailchecker/commit/dbdf88dd4a30719665da92693e863c95ca525a0f) feat(build): update plateform files (@FGRibreau)
 - [007ce4c](https://github.com/FGRibreau/mailchecker/commit/007ce4c1ee494fbfc5c416b79e1b6279fec650e2) feat(gemspec): updated to 3.0.23 (@FGRibreau)
