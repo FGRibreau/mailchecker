@@ -1,5 +1,32 @@
 ## Change Log
 
+### v4.1.8 (2022/01/09 13:03 +00:00)
+- [4dc8f08](https://github.com/FGRibreau/mailchecker/commit/4dc8f088971ecdfd16fbcfcbf870c2df792946ad) feat(build): update plateform files
+- [a10e45d](https://github.com/FGRibreau/mailchecker/commit/a10e45d25211a9a35a2cc9050494dafc3236c059) Release v4.1.8.
+- [4b72540](https://github.com/FGRibreau/mailchecker/commit/4b725402ad539e45fa8a1be9f1c844176e3e0508) fix: cargo
+- [#340](https://github.com/FGRibreau/mailchecker/pull/340) Merge pull request #340 from Buffele/list (@Buffele)
+- [c3c22dd](https://github.com/FGRibreau/mailchecker/commit/c3c22dd0bacd23ee4a3ad3179068b2fb0ca6942e) Update list.txt (@Buffele)
+- [a3fcc83](https://github.com/FGRibreau/mailchecker/commit/a3fcc83c4b888b35ad61e4d32bd45f5bf1c0e181) Update list.txt (@Buffele)
+- [0480ed4](https://github.com/FGRibreau/mailchecker/commit/0480ed41f4c601c00f5134a45e868c2aa79c4586) Update list.txt (@Buffele)
+- [82e02d4](https://github.com/FGRibreau/mailchecker/commit/82e02d462520c5e64e5a7f94fbacb9232af7f2b9) Update list.txt (@Buffele)
+- [626be51](https://github.com/FGRibreau/mailchecker/commit/626be51ee5cd6c3a5be94da2ab508e5b8938c5f2) Update list.txt (@Buffele)
+- [b79d6f5](https://github.com/FGRibreau/mailchecker/commit/b79d6f509aff030427187dd0d61e9aec2ee11d44) Update list.txt (@Buffele)
+- [9439c83](https://github.com/FGRibreau/mailchecker/commit/9439c8343b8cc246809f3d457dbbaec68a7743c4) Update list.txt (@Buffele)
+- [bce3d0b](https://github.com/FGRibreau/mailchecker/commit/bce3d0bc31f2d4de78d919d76a63d18969464b53) Update list.txt (@Buffele)
+- [a1ee88d](https://github.com/FGRibreau/mailchecker/commit/a1ee88d2a0942a832a3f3a9b5b95d52039550b04) Update list.txt (@Buffele)
+- [f49213b](https://github.com/FGRibreau/mailchecker/commit/f49213b90c6124f60bf7ebb00f190014c92d2d23) Update list.txt (@Buffele)
+- [b23e17c](https://github.com/FGRibreau/mailchecker/commit/b23e17ca200f903e7d80ba2094436b580171b58d) Update list.txt (@Buffele)
+- [30d3220](https://github.com/FGRibreau/mailchecker/commit/30d32201aaa2a6be2e0bb44cf25356ca6d626be8) Update list.txt (@Buffele)
+- [0312676](https://github.com/FGRibreau/mailchecker/commit/03126769040e193c01b04295bdff504c033326f1) Update list.txt (@Buffele)
+- [f8d2432](https://github.com/FGRibreau/mailchecker/commit/f8d2432598bca181f3cc6c6c106d87806273fbf6) Update list.txt (@Buffele)
+- [#339](https://github.com/FGRibreau/mailchecker/pull/339) Merge pull request #339 from Buffele/list (@Buffele)
+- [6c0709d](https://github.com/FGRibreau/mailchecker/commit/6c0709df76b85b9a2cc092aa4ce32e428f358e92) Update list.txt (@Buffele)
+- [17b0188](https://github.com/FGRibreau/mailchecker/commit/17b01884548b85f11bf2747d5578a9af4a66e25d) Update list.txt (@Buffele)
+- [0faff52](https://github.com/FGRibreau/mailchecker/commit/0faff528875056d41892875c93ed3fbe75c46cf0) feat(cargo): updated to 4.1.7
+- [a6422ee](https://github.com/FGRibreau/mailchecker/commit/a6422ee3d8bfbe7ca68393e01cbb5dfa0a750649) feat(python): updated to 4.1.7
+- [00bffa7](https://github.com/FGRibreau/mailchecker/commit/00bffa7f776a62fbff4158700cc369ed97a78fe9) feat(gemspec): updated to 4.1.7
+- [fbc13b3](https://github.com/FGRibreau/mailchecker/commit/fbc13b3cad651fc5349eee61334bbcfa6c7ee674) docs(changelog): updated
+
 ### v4.1.7 (2021/12/30 14:11 +00:00)
 - [d386157](https://github.com/FGRibreau/mailchecker/commit/d386157a5fadd475f49b2e8ea48efe6bcaf57474) Release v4.1.7.
 - [1671264](https://github.com/FGRibreau/mailchecker/commit/1671264fa1719cee18e7f0bdc0a9c5a8c969d833) feat(build): update plateform files
@@ -1327,8 +1354,6 @@
 - [26f9b2e](https://github.com/FGRibreau/mailchecker/commit/26f9b2efe42289cd8dc50b576a4c5d30fd838791) feat(cargo): updated to 3.0.25 (@FGRibreau)
 - [6b001af](https://github.com/FGRibreau/mailchecker/commit/6b001afb0c08bf45164d50328b19f0b8b744c198) feat(gemspec): updated to 3.0.25 (@FGRibreau)
 - [28e0a2f](https://github.com/FGRibreau/mailchecker/commit/28e0a2f843b5efd652b21303faab191c513cc84a) docs(changelog): updated (@FGRibreau)
-
-### v3.0.25 (2017/03/30 19:45 +00:00)
 - [3c87f7b](https://github.com/FGRibreau/mailchecker/commit/3c87f7bb3d2d18498da82e6bf70e3df167f3aba1) Release v3.0.25. (@FGRibreau)
 - [a9c29a1](https://github.com/FGRibreau/mailchecker/commit/a9c29a180e1f62febd9a4ccb699a63d3407e9244) feat(rust): add pretty_assertions (@FGRibreau)
 - [#99](https://github.com/FGRibreau/mailchecker/pull/99) Merge pull request #99 from FGRibreau/greenkeeper/eventemitter2-4.0.0 (@FGRibreau)
