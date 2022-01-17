@@ -1,5 +1,27 @@
 ## Change Log
 
+### v4.1.9 (2022/01/17 16:51 +00:00)
+- [1466264](https://github.com/FGRibreau/mailchecker/commit/146626440eac1905ceb3731c40908a029b73d925) feat(build): update plateform files
+- [0de1838](https://github.com/FGRibreau/mailchecker/commit/0de1838f3f411df8ca619ddcad1cacf29e29b614) Release v4.1.9.
+- [d07396d](https://github.com/FGRibreau/mailchecker/commit/d07396da1f91c84642e01e368ca8e27e11533230) fix: cargo
+- [#341](https://github.com/FGRibreau/mailchecker/pull/341) Merge pull request #341 from Buffele/list (@Buffele)
+- [fb21c1a](https://github.com/FGRibreau/mailchecker/commit/fb21c1a25f2ab14d87f8e9026f71edb642b0422c) Update list.txt (@Buffele)
+- [8b26e21](https://github.com/FGRibreau/mailchecker/commit/8b26e21789a68ba9d6143dd9f16b78ab44ebdf1e) Update list.txt (@Buffele)
+- [fd4e0b5](https://github.com/FGRibreau/mailchecker/commit/fd4e0b56cb1bed4384953f10b39e15bfd8dd8885) Update list.txt (@Buffele)
+- [7dd9f05](https://github.com/FGRibreau/mailchecker/commit/7dd9f056347d78907467c9cb715ade6e0c26decb) Update list.txt (@Buffele)
+- [2ba24ff](https://github.com/FGRibreau/mailchecker/commit/2ba24ff711d329424a8ba17c805a0012f53bf209) Update list.txt (@Buffele)
+- [1893d1e](https://github.com/FGRibreau/mailchecker/commit/1893d1e4f638357b364945883c2063c8e54c26bf) Update list.txt (@Buffele)
+- [31f8ac2](https://github.com/FGRibreau/mailchecker/commit/31f8ac2f5d64fef56829bcc65a471952cf06c751) Update list.txt (@Buffele)
+- [6c6eb20](https://github.com/FGRibreau/mailchecker/commit/6c6eb2084a77a52fbb5c09ce8134c032c580e464) Update list.txt (@Buffele)
+- [38e4ccc](https://github.com/FGRibreau/mailchecker/commit/38e4cccf6d2620dbd6f96c22c4c1fccf1bec7d92) Update list.txt (@Buffele)
+- [554961e](https://github.com/FGRibreau/mailchecker/commit/554961ecfbedaf98bced14a6cec7a65c39c342a3) Update list.txt (@Buffele)
+- [fedb6fe](https://github.com/FGRibreau/mailchecker/commit/fedb6fe43e8a40ab63036c490d14faf9f05e0840) Update list.txt (@Buffele)
+- [22278c0](https://github.com/FGRibreau/mailchecker/commit/22278c06125ce1283b16bb4673eab1a237e743e8) Update list.txt (@Buffele)
+- [fc3f982](https://github.com/FGRibreau/mailchecker/commit/fc3f982023d326fa1d87f0a3a812738ad12fa999) feat(cargo): updated to 4.1.8
+- [f11fc9a](https://github.com/FGRibreau/mailchecker/commit/f11fc9a321113f088873c3abb8f482652247f304) feat(python): updated to 4.1.8
+- [87803f4](https://github.com/FGRibreau/mailchecker/commit/87803f434b7d533d4f518bf0ac42625c6fa45ee3) feat(gemspec): updated to 4.1.8
+- [114ae76](https://github.com/FGRibreau/mailchecker/commit/114ae76406746cc4a9e435622fc1f2603d38b340) docs(changelog): updated
+
 ### v4.1.8 (2022/01/09 13:03 +00:00)
 - [4dc8f08](https://github.com/FGRibreau/mailchecker/commit/4dc8f088971ecdfd16fbcfcbf870c2df792946ad) feat(build): update plateform files
 - [a10e45d](https://github.com/FGRibreau/mailchecker/commit/a10e45d25211a9a35a2cc9050494dafc3236c059) Release v4.1.8.
@@ -1342,8 +1364,6 @@
 - [#103](https://github.com/FGRibreau/mailchecker/pull/103) Merge pull request #103 from trisix/addNewDomainFrom10MinMail (@trisix)
 - [3f2fcc7](https://github.com/FGRibreau/mailchecker/commit/3f2fcc708a924f0e5778ecbe51a77a13eeedc6a0) Add new domain from https://10minutemail.net (@trisix)
 - [198857d](https://github.com/FGRibreau/mailchecker/commit/198857dcafa724d4fe305bc6c0850fc6fc6deeee) docs(changelog): updated (@FGRibreau)
-
-### v3.0.26 (2017/05/25 07:16 +00:00)
 - [db49c02](https://github.com/FGRibreau/mailchecker/commit/db49c02301d4b8cb0bf07cb5b53df5747332f2c7) Release v3.0.26. (@FGRibreau)
 - [aa06556](https://github.com/FGRibreau/mailchecker/commit/aa06556c4184de82983db70c8ddf67d3c0565809) feat(build): update plateform files (@FGRibreau)
 - [fdc0753](https://github.com/FGRibreau/mailchecker/commit/fdc0753636378af8f5b39e7575eb0abaaf2a2a63) feat(build): update plateform files (@FGRibreau)
