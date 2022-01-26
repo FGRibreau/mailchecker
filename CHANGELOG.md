@@ -1,5 +1,19 @@
 ## Change Log
 
+### v4.1.10 (2022/01/26 10:27 +00:00)
+- [d31df07](https://github.com/FGRibreau/mailchecker/commit/d31df079c1059fad62bb27da6be81ff608234e73) feat(build): update plateform files
+- [9512c5b](https://github.com/FGRibreau/mailchecker/commit/9512c5ba4a6c6af4954c0d996798dd36db497c86) Release v4.1.10.
+- [1d07339](https://github.com/FGRibreau/mailchecker/commit/1d073399145b747edaab4d92d85c9f9f359d9be8) fix: cargo
+- [#342](https://github.com/FGRibreau/mailchecker/pull/342) Merge pull request #342 from Buffele/list (@Buffele)
+- [69d061d](https://github.com/FGRibreau/mailchecker/commit/69d061dea53f5017bc78549bc00a30199c32cbc4) Update list.txt (@Buffele)
+- [87b8b92](https://github.com/FGRibreau/mailchecker/commit/87b8b92c313a537172c5c2efc39296b4fdaa3af8) Update list.txt (@Buffele)
+- [b5b8550](https://github.com/FGRibreau/mailchecker/commit/b5b8550e16ce54f86e89d5aea4401a34f9f9dfbf) Update list.txt (@Buffele)
+- [a07dbdc](https://github.com/FGRibreau/mailchecker/commit/a07dbdcaf4788cf210c43209355524cfcbf817ce) Update list.txt (@Buffele)
+- [de639e1](https://github.com/FGRibreau/mailchecker/commit/de639e10b1a407d2f36c0b36409d2f61465cb744) feat(cargo): updated to 4.1.9
+- [a26b98c](https://github.com/FGRibreau/mailchecker/commit/a26b98c125e8fe3d72480b7925c6d698c5fc0069) feat(python): updated to 4.1.9
+- [1159490](https://github.com/FGRibreau/mailchecker/commit/11594901a9053870f1ada550ec56e13a07a9801a) feat(gemspec): updated to 4.1.9
+- [fd295f6](https://github.com/FGRibreau/mailchecker/commit/fd295f6ab6db588d19bb04d6c155238fffc8fa2e) docs(changelog): updated
+
 ### v4.1.9 (2022/01/17 16:51 +00:00)
 - [1466264](https://github.com/FGRibreau/mailchecker/commit/146626440eac1905ceb3731c40908a029b73d925) feat(build): update plateform files
 - [0de1838](https://github.com/FGRibreau/mailchecker/commit/0de1838f3f411df8ca619ddcad1cacf29e29b614) Release v4.1.9.
@@ -1355,8 +1369,6 @@
 - [#106](https://github.com/FGRibreau/mailchecker/pull/106) Merge pull request #106 from thorinisme/patch-1 (@thorinisme)
 - [c058950](https://github.com/FGRibreau/mailchecker/commit/c058950b40d69b7578e56fd3c48e8cc75100872b) add 228 domains from mailinator (list of hash) (@Oloompa)
 - [cc4fb7f](https://github.com/FGRibreau/mailchecker/commit/cc4fb7f077dc5350251d51e17f15210bbeeaaac9) docs(changelog): updated (@FGRibreau)
-
-### v3.0.27 (2017/05/31 22:35 +00:00)
 - [41db7b0](https://github.com/FGRibreau/mailchecker/commit/41db7b0a9feaa29a32003d09dd4583568fcf09d1) Release v3.0.27. (@FGRibreau)
 - [40f4dc2](https://github.com/FGRibreau/mailchecker/commit/40f4dc2ba6546caa3840da12909ab97e5198f09b) feat(build): update plateform files (@FGRibreau)
 - [1849fcf](https://github.com/FGRibreau/mailchecker/commit/1849fcf1fb5c3984864d4569980817b535ec17ae) feat(gemspec): updated to 3.0.26 (@FGRibreau)
