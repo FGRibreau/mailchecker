@@ -1,5 +1,19 @@
 ## Change Log
 
+### v4.1.11 (2022/02/01 09:18 +00:00)
+- [5a526b0](https://github.com/FGRibreau/mailchecker/commit/5a526b0eacef68608815a0b4f85e6f7e87b671c9) feat(build): update plateform files
+- [aebc6a7](https://github.com/FGRibreau/mailchecker/commit/aebc6a706e99f7d07aabf97f86ec5318c31e5bf0) Release v4.1.11.
+- [4929a97](https://github.com/FGRibreau/mailchecker/commit/4929a974b4dbcbdc786004edf7d00610b4ffab3b) fix: cargo
+- [#343](https://github.com/FGRibreau/mailchecker/pull/343) Merge pull request #343 from Buffele/list (@Buffele)
+- [79ca2cc](https://github.com/FGRibreau/mailchecker/commit/79ca2cc67f82114a1fd8aca32af3ac5a5c41abd3) Update list.txt (@Buffele)
+- [eac50bc](https://github.com/FGRibreau/mailchecker/commit/eac50bc1511f69be9454dbe04ea171f3a8fdbe58) Update list.txt (@Buffele)
+- [cb633cd](https://github.com/FGRibreau/mailchecker/commit/cb633cdef13dbd0d571c9dc7ee8d2f1173c5cbe7) Update list.txt (@Buffele)
+- [3f90bf4](https://github.com/FGRibreau/mailchecker/commit/3f90bf4ff3e68fb49c3a2f0f2ff908ca5f35b58c) Update list.txt (@Buffele)
+- [de6734e](https://github.com/FGRibreau/mailchecker/commit/de6734eb5e987f6ab61004d9f701312e3ee20117) feat(cargo): updated to 4.1.10
+- [1cf464d](https://github.com/FGRibreau/mailchecker/commit/1cf464dec5147be92f2585d78c3c087603f23119) feat(python): updated to 4.1.10
+- [421b347](https://github.com/FGRibreau/mailchecker/commit/421b347c0b26e862692822537e007cedeac9c130) feat(gemspec): updated to 4.1.10
+- [7dc47f7](https://github.com/FGRibreau/mailchecker/commit/7dc47f73ee006504690cdba8ac36e14f1d6815c3) docs(changelog): updated
+
 ### v4.1.10 (2022/01/26 10:27 +00:00)
 - [d31df07](https://github.com/FGRibreau/mailchecker/commit/d31df079c1059fad62bb27da6be81ff608234e73) feat(build): update plateform files
 - [9512c5b](https://github.com/FGRibreau/mailchecker/commit/9512c5ba4a6c6af4954c0d996798dd36db497c86) Release v4.1.10.
@@ -1361,8 +1375,6 @@
 - [38a8861](https://github.com/FGRibreau/mailchecker/commit/38a886165d4094630c4b4ab4adb231c99a15384e) feat(cargo): updated to 3.0.28 (@FGRibreau)
 - [33be4cb](https://github.com/FGRibreau/mailchecker/commit/33be4cb13040b9056a5ae409d1d62c022cd4fe11) feat(gemspec): updated to 3.0.28 (@FGRibreau)
 - [19e773f](https://github.com/FGRibreau/mailchecker/commit/19e773fcd2aa7163fe61a57e6681aa7145e738ee) docs(changelog): updated (@FGRibreau)
-
-### v3.0.28 (2017/08/11 12:09 +00:00)
 - [0334258](https://github.com/FGRibreau/mailchecker/commit/03342581c8bbd565ecf79e496cd5167f53f46642) Release v3.0.28. (@FGRibreau)
 - [0a922b3](https://github.com/FGRibreau/mailchecker/commit/0a922b367aa4db2d1593b373f13a555f23295395) feat(build): update plateform files (@FGRibreau)
 - [59f7c6b](https://github.com/FGRibreau/mailchecker/commit/59f7c6b0f5ec900d959934cdbc34dbc8cd4828c7) misc(package-lock) (@FGRibreau)
