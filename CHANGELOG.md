@@ -1,5 +1,14 @@
 ## Change Log
 
+### v4.1.12 (2022/02/15 09:20 +00:00)
+- [fb92649](https://github.com/FGRibreau/mailchecker/commit/fb9264966b21cdae8130b14d1caca0a81b10c7a3) Release v4.1.12.
+- [930f5ec](https://github.com/FGRibreau/mailchecker/commit/930f5ece91460162e900fc1cf47c350543bd0105) feat(build): update plateform files
+- [86f3d6c](https://github.com/FGRibreau/mailchecker/commit/86f3d6c5079228333a085a37b33844cabf186e4e) chore: chargo
+- [f695bdd](https://github.com/FGRibreau/mailchecker/commit/f695bddaddc880421350836d0151173b4808cddb) feat(cargo): updated to 4.1.11
+- [fe3af18](https://github.com/FGRibreau/mailchecker/commit/fe3af18fdeb558bcd4700c1ce384d7df9cd27d24) feat(python): updated to 4.1.11
+- [300b927](https://github.com/FGRibreau/mailchecker/commit/300b9279962ec033e0c667fe8a418ea44ccbbb20) feat(gemspec): updated to 4.1.11
+- [b0db6f6](https://github.com/FGRibreau/mailchecker/commit/b0db6f607af338da1bf9dad9fcfe3cbaa888d945) docs(changelog): updated
+
 ### v4.1.11 (2022/02/01 09:18 +00:00)
 - [5a526b0](https://github.com/FGRibreau/mailchecker/commit/5a526b0eacef68608815a0b4f85e6f7e87b671c9) feat(build): update plateform files
 - [aebc6a7](https://github.com/FGRibreau/mailchecker/commit/aebc6a706e99f7d07aabf97f86ec5318c31e5bf0) Release v4.1.11.
@@ -1367,8 +1376,6 @@
 - [c40f110](https://github.com/FGRibreau/mailchecker/commit/c40f110bb6de553cd28a575f011b45b9b21954fa) feat(cargo): updated to 3.0.29 (@FGRibreau)
 - [#113](https://github.com/FGRibreau/mailchecker/pull/113) Merge pull request #113 from nalgeon/patch-3 (@nalgeon)
 - [3cfe086](https://github.com/FGRibreau/mailchecker/commit/3cfe08681a9f23654b307ba576ca63302d8bee61) docs(changelog): updated (@FGRibreau)
-
-### v3.0.29 (2017/09/11 21:49 +00:00)
 - [f49f07e](https://github.com/FGRibreau/mailchecker/commit/f49f07ea589ed9635a3f28c8b69427961666e3ac) Release v3.0.29. (@FGRibreau)
 - [67554c5](https://github.com/FGRibreau/mailchecker/commit/67554c5dec260a94d3761a7d29286d8b2dbad330) fix(package): allow node version >=0.10 (@FGRibreau)
 - [24019fb](https://github.com/FGRibreau/mailchecker/commit/24019fb29383a39871f119c3d23a5dab77a927c8) More temporary emails from temp-mail.org etc (@nalgeon)
