@@ -23737,7 +23737,6 @@ mozillafirefox.ga
 mozillafirefox.gq
 mozillafirefox.ml
 mozillafirefox.tk
-mozmail.com
 mozmail.info
 mp-j.cf
 mp-j.ga
