@@ -1,5 +1,32 @@
 ## Change Log
 
+### v4.1.15 (2022/04/12 11:55 +00:00)
+- [530f335](https://github.com/FGRibreau/mailchecker/commit/530f335017ee1a8f44fc568513e610c743dd2195) feat(build): update plateform files
+- [697fd7e](https://github.com/FGRibreau/mailchecker/commit/697fd7e9c001a132fec8bcc67c517440cfb742dd) Release v4.1.15.
+- [4d61b3c](https://github.com/FGRibreau/mailchecker/commit/4d61b3c6c45e41f85e06524b8d2df742b9e1f5fd) fix: cargo
+- [#353](https://github.com/FGRibreau/mailchecker/pull/353) Merge pull request #353 from hansott/patch-1 (@hansott)
+- [#352](https://github.com/FGRibreau/mailchecker/pull/352) Merge pull request #352 from jesserayn/master (@jesserayn)
+- [#351](https://github.com/FGRibreau/mailchecker/pull/351) Merge pull request #351 from Buffele/list (@Buffele)
+- [#350](https://github.com/FGRibreau/mailchecker/pull/350) Merge pull request #350 from zetsumeishi/zetsumeishi/patch-1 (@zetsumeishi)
+- [#349](https://github.com/FGRibreau/mailchecker/pull/349) Merge pull request #349 from Vandesm14/master (@Vandesm14)
+- [3330be6](https://github.com/FGRibreau/mailchecker/commit/3330be66bb3d7e7e877534ab2c6fc3efc7244d56) Update list.txt (@Buffele)
+- [aa66487](https://github.com/FGRibreau/mailchecker/commit/aa6648759673ac482de10485fdfb69e32057bbda) Update list.txt (@Buffele)
+- [705e246](https://github.com/FGRibreau/mailchecker/commit/705e2465aaf381815e3762b9238e79ba92f7fc67) Update list.txt (@hansott)
+- [6fecffd](https://github.com/FGRibreau/mailchecker/commit/6fecffd6078b8c2c37e16fb997ea6da0e87e2e71) Update list.txt (@hansott)
+- [6109b71](https://github.com/FGRibreau/mailchecker/commit/6109b71c9bbcdee95f35b3fa46ac9e07b5392fcd) Update list.txt
+- [89bd8b4](https://github.com/FGRibreau/mailchecker/commit/89bd8b44c4350044ba119ea15d8828bfca90b961) Update list.txt (@Buffele)
+- [61a6a4c](https://github.com/FGRibreau/mailchecker/commit/61a6a4c3f1c80a65a07c7e84dd0e7fb5e7c9f48c) Update list.txt (@jesserayn)
+- [87e0edb](https://github.com/FGRibreau/mailchecker/commit/87e0edb3041361b55672fc2dafaee148dd0fc203) Update list.txt (@jesserayn)
+- [3569214](https://github.com/FGRibreau/mailchecker/commit/356921458700bc2111db01095e9613a57d7e138c) Update list.txt (@Buffele)
+- [4cae500](https://github.com/FGRibreau/mailchecker/commit/4cae5006eaf1341218e44aa11b3778889d6d61b1) Update list.txt (@Buffele)
+- [7743ecf](https://github.com/FGRibreau/mailchecker/commit/7743ecff9033787dd68d4b479e8ba1cfea205b75) Update list.txt (@Buffele)
+- [f7b4423](https://github.com/FGRibreau/mailchecker/commit/f7b44236ed783d04d9a39e59abe6fc068b7696ad) Update list.txt
+- [c437750](https://github.com/FGRibreau/mailchecker/commit/c437750f846b0c028d1aeb497f1da57b9a7d96aa) remove mozmail (@Vandesm14)
+- [7df0189](https://github.com/FGRibreau/mailchecker/commit/7df0189f0a665aeb4846dc6486cdd965a5e950b4) feat(cargo): updated to 4.1.14
+- [793139a](https://github.com/FGRibreau/mailchecker/commit/793139a5c0655a3dbda7f97f183fa96bd9d65fd6) feat(python): updated to 4.1.14
+- [5fb5bf2](https://github.com/FGRibreau/mailchecker/commit/5fb5bf2fefc464c9fdd92fac0326998f23c1b41a) feat(gemspec): updated to 4.1.14
+- [d6e9abc](https://github.com/FGRibreau/mailchecker/commit/d6e9abcdb238b81906e8f523d9c582ea44631710) docs(changelog): updated
+
 ### v4.1.14 (2022/03/11 21:37 +00:00)
 - [9ac503a](https://github.com/FGRibreau/mailchecker/commit/9ac503ae940020a9304d6a9bbe9c3895060af677) feat(build): update plateform files
 - [f351c14](https://github.com/FGRibreau/mailchecker/commit/f351c149d360e43833010656040061d3b9723f0a) Release v4.1.14.
@@ -1384,8 +1411,6 @@
 - [#118](https://github.com/FGRibreau/mailchecker/pull/118) Merge pull request #118 from nalgeon/patch-4 (@nalgeon)
 - [f448f34](https://github.com/FGRibreau/mailchecker/commit/f448f34ad427e19c474409f05fc6833a8d5cab82) More temporary emails from temp-mail.org etc (@nalgeon)
 - [b41cb44](https://github.com/FGRibreau/mailchecker/commit/b41cb449547c9d8e725c8c87686876f8af0c44c8) docs(changelog): updated (@FGRibreau)
-
-### v3.0.32 (2017/10/31 21:48 +00:00)
 - [ded7d47](https://github.com/FGRibreau/mailchecker/commit/ded7d47243fd4ce625be9f7f6e2f6b792075e9ba) Release v3.0.32. (@FGRibreau)
 - [ba52abc](https://github.com/FGRibreau/mailchecker/commit/ba52abc810683e9b01ae6e6978874352f9cf8d85) feat(build): update plateform files (@FGRibreau)
 - [ee884db](https://github.com/FGRibreau/mailchecker/commit/ee884dbe0b56ceda7904283a88e04da116b5b0f7) feat(gemspec): updated to 3.0.31 (@FGRibreau)
