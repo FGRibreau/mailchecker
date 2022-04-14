@@ -31716,7 +31716,6 @@ simpleemail.in
 simpleemail.info
 simpleitsecurity.info
 simplelogin.co
-simplelogin.fr
 simplemail.in
 simplemail.top
 simplemailserver.bid
