@@ -1,5 +1,56 @@
 ## Change Log
 
+### v4.1.19 (2022/07/26 09:53 +00:00)
+- [4b5dab1](https://github.com/FGRibreau/mailchecker/commit/4b5dab1c590f09eba94b07210a89816578fe0c51) Release v4.1.19.
+- [3b88097](https://github.com/FGRibreau/mailchecker/commit/3b880970fd10da88ebcc1cbedee56c7ab6205027) feat(build): update plateform files
+- [ae37b93](https://github.com/FGRibreau/mailchecker/commit/ae37b93d16badf8e836cb29884b33536adf2ed02) fix
+- [#368](https://github.com/FGRibreau/mailchecker/pull/368) Merge pull request #368 from mattruzicka/master (@mattruzicka)
+- [bc0feb2](https://github.com/FGRibreau/mailchecker/commit/bc0feb28041f0284c4c6e5415873374cf37a9bd2) Update list.txt (@mattruzicka)
+- [d8e45a7](https://github.com/FGRibreau/mailchecker/commit/d8e45a74dfc51205b8b82650ec8cf91f288bc1c6) feat(cargo): updated to 4.1.18
+- [e6f85dc](https://github.com/FGRibreau/mailchecker/commit/e6f85dc7d62fa77c3fc5df6184fdb547d46500ec) feat(python): updated to 4.1.18
+- [3c84bf1](https://github.com/FGRibreau/mailchecker/commit/3c84bf131859995e6211f7bc69736d252c9a91ea) feat(gemspec): updated to 4.1.18
+
+### v4.1.18 (2022/07/21 07:48 +00:00)
+- [10038b2](https://github.com/FGRibreau/mailchecker/commit/10038b289a313e7dc141f522fca5bb76dff159f4) Release v4.1.18.
+- [42e4576](https://github.com/FGRibreau/mailchecker/commit/42e4576af815c4c6e60f85ad3c679d9a220460eb) feat(build): update plateform files
+- [367daeb](https://github.com/FGRibreau/mailchecker/commit/367daeb59f582a22b21c0d48f1aa9c5f82551ea5) fix: cargo
+- [#367](https://github.com/FGRibreau/mailchecker/pull/367) Merge pull request #367 from Bardia95/master (@Bardia95)
+- [#366](https://github.com/FGRibreau/mailchecker/pull/366) Merge pull request #366 from mtmail/patch-1 (@mtmail)
+- [#360](https://github.com/FGRibreau/mailchecker/pull/360) Merge pull request #360 from noinkling/patch-1 (@noinkling)
+- [#365](https://github.com/FGRibreau/mailchecker/pull/365) Merge pull request #365 from TsankoBg/master (@TsankoBg)
+- [#363](https://github.com/FGRibreau/mailchecker/pull/363) Merge pull request #363 from han-so1omon/master (@han-so1omon)
+- [eeef93f](https://github.com/FGRibreau/mailchecker/commit/eeef93ff1c7b0ab20356145d662541833561f21f) removed national university of singapore domain (@Bardia95)
+- [c52cd74](https://github.com/FGRibreau/mailchecker/commit/c52cd74cd61313a3f3087790353c511000b44586) remove untels.edu.pe (@mtmail)
+- [bcb0827](https://github.com/FGRibreau/mailchecker/commit/bcb08276d52deb94eb16370333b221704dc69188) Add "mailingo.net" to list.txt (@TsankoBg)
+- [d12fd60](https://github.com/FGRibreau/mailchecker/commit/d12fd601f9dfe5f479bf10eb900540f433f856ed) Add disposable email domains to list.txt (@TsankoBg)
+- [5799bad](https://github.com/FGRibreau/mailchecker/commit/5799bad5d0b97526af0b0ae84f95f22fba9da6ec) Remove @icon.foundation from list.txt (@han-so1omon)
+- [#361](https://github.com/FGRibreau/mailchecker/pull/361) Merge pull request #361 from hansott/patch-1 (@hansott)
+- [#362](https://github.com/FGRibreau/mailchecker/pull/362) Merge pull request #362 from naijauser/add-whoisox (@naijauser)
+- [cada9be](https://github.com/FGRibreau/mailchecker/commit/cada9becbeea4ef527f1b902d37cb6bcd1b6c84d) add whoisox domain to list (@naijauser)
+- [9b9407d](https://github.com/FGRibreau/mailchecker/commit/9b9407d972f392f463d5d479fb1a41b49c9157bc) Add knowledgemd.com (@hansott)
+- [f4c84f7](https://github.com/FGRibreau/mailchecker/commit/f4c84f755bfc94149d4ae46cf3b53bc450cba499) Remove example.com (@noinkling)
+- [dca388d](https://github.com/FGRibreau/mailchecker/commit/dca388d2fb8b485bdcdaeacde49b7f497f0bceca) feat(cargo): updated to 4.1.17
+- [ed1e781](https://github.com/FGRibreau/mailchecker/commit/ed1e781c720543f2889ce541fd551164cafe17ae) feat(python): updated to 4.1.17
+- [034b4e3](https://github.com/FGRibreau/mailchecker/commit/034b4e3fc3a617329a3e7a34488571546da06aca) feat(gemspec): updated to 4.1.17
+
+### v4.1.17 (2022/05/17 19:55 +00:00)
+- [1640206](https://github.com/FGRibreau/mailchecker/commit/164020683ef2c52f300b8f93a9080f7658985efe) feat(build): update plateform files
+- [0529995](https://github.com/FGRibreau/mailchecker/commit/0529995d829ac7e2a2be67bf58be1f9fa3478c2e) Release v4.1.17.
+- [2964ff3](https://github.com/FGRibreau/mailchecker/commit/2964ff363cbba841de40e9d3b3c8f1b7a6fffba2) fix
+- [#358](https://github.com/FGRibreau/mailchecker/pull/358) Merge pull request #358 from Buffele/list (@Buffele)
+- [8ec6e39](https://github.com/FGRibreau/mailchecker/commit/8ec6e3936295895fd0296177422c6c1bcadebd54) Update list.txt (@Buffele)
+- [8a1e18c](https://github.com/FGRibreau/mailchecker/commit/8a1e18ce82831abcea901e982796040888e1a864) Update list.txt (@Buffele)
+- [384f597](https://github.com/FGRibreau/mailchecker/commit/384f597ef8b1359503a8a67c031db39cbbc81028) Update list.txt (@Buffele)
+- [#356](https://github.com/FGRibreau/mailchecker/pull/356) Merge pull request #356 from Buffele/list (@Buffele)
+- [#357](https://github.com/FGRibreau/mailchecker/pull/357) Merge pull request #357 from jeremypress/patch-1 (@jeremypress)
+- [df697a8](https://github.com/FGRibreau/mailchecker/commit/df697a851d7df7bd65a8c9e9bf1b988301274353) Add secure-mail.ml (@jeremypress)
+- [6f86a72](https://github.com/FGRibreau/mailchecker/commit/6f86a72980527201c62fa6e0c20358bb31af09b5) Update list.txt (@Buffele)
+- [20f7a24](https://github.com/FGRibreau/mailchecker/commit/20f7a24b42184ccb68b5be45181690274030b55e) Update list.txt (@Buffele)
+- [0a648a8](https://github.com/FGRibreau/mailchecker/commit/0a648a87cf80676708a19d69e9635d228345d0a8) feat(cargo): updated to 4.1.16
+- [53021af](https://github.com/FGRibreau/mailchecker/commit/53021af236d3246b54b509d80d4c5f3013fe3688) feat(python): updated to 4.1.16
+- [341fc62](https://github.com/FGRibreau/mailchecker/commit/341fc623b97e1dd9e644c721de75c3a5b641c331) feat(gemspec): updated to 4.1.16
+- [0e6e7bd](https://github.com/FGRibreau/mailchecker/commit/0e6e7bd3bea7e052b1c50febcdb85e1bc8207c77) docs(changelog): updated
+
 ### v4.1.16 (2022/04/24 19:29 +00:00)
 - [a7e4d1b](https://github.com/FGRibreau/mailchecker/commit/a7e4d1b21cbfd68b1353202aec3ec8cf57bc7844) Release v4.1.16.
 - [c222254](https://github.com/FGRibreau/mailchecker/commit/c222254460d56efddc449655937aca0107f5d1d3) feat(build): update plateform files
@@ -781,7 +832,7 @@
 - [779f797](https://github.com/FGRibreau/mailchecker/commit/779f797fb2ff1fe1ffe7a6911e29fb74fafcc04e) And more (@Chigusa0w0)
 - [2a6cc2c](https://github.com/FGRibreau/mailchecker/commit/2a6cc2cde4cd9ad2944d12991490a1929c497900) Add meantinc.com (@Chigusa0w0)
 - [#245](https://github.com/FGRibreau/mailchecker/pull/245) Merge pull request #245 from makitsune/changes (@makitsune)
-- [602e219](https://github.com/FGRibreau/mailchecker/commit/602e219855c789b4831334693a1fcf2032663152) Added domains from cock.li (@makitsune)
+- [602e219](https://github.com/FGRibreau/mailchecker/commit/602e219855c789b4831334693a1fcf2032663152) Added domains from cock.li (@makifoxgirl)
 - [89371a9](https://github.com/FGRibreau/mailchecker/commit/89371a944d0ae614d272bcc91b4beafd0d9ac096) fix(cargo) (@FGRibreau)
 - [f338ef3](https://github.com/FGRibreau/mailchecker/commit/f338ef3bfc856261e4f207b068e7268d972d82f7) feat(cargo): updated to 3.3.3 (@FGRibreau)
 - [fabac1f](https://github.com/FGRibreau/mailchecker/commit/fabac1fc33132e4d74c6081968872d045fe4708e) feat(python): updated to 3.3.3 (@FGRibreau)
@@ -913,7 +964,7 @@
 - [71f8aef](https://github.com/FGRibreau/mailchecker/commit/71f8aefab2931cee95fdb88192430223d7d88153) chore: update Cargo.lock (@FGRibreau)
 - [2023d65](https://github.com/FGRibreau/mailchecker/commit/2023d65826f009f2b11a0a049f6285ce6e0445e8) feat(python): updated to 3.2.35 (@FGRibreau)
 - [#200](https://github.com/FGRibreau/mailchecker/pull/200) Merge pull request #200 from dbyio/master (@dbyio)
-- [cf7d83a](https://github.com/FGRibreau/mailchecker/commit/cf7d83a11431bc4bc9426c599051cce1039492d1) New disposable domains, lowercase all and sort (@nicolasPerraud)
+- [cf7d83a](https://github.com/FGRibreau/mailchecker/commit/cf7d83a11431bc4bc9426c599051cce1039492d1) New disposable domains, lowercase all and sort
 - [#196](https://github.com/FGRibreau/mailchecker/pull/196) Merge pull request #196 from FGRibreau/dependabot/npm_and_yarn/async-tw-3.1.0 (@FGRibreau)
 - [#195](https://github.com/FGRibreau/mailchecker/pull/195) Merge pull request #195 from FGRibreau/dependabot/npm_and_yarn/updtr-tw-3.1.0 (@FGRibreau)
 - [#194](https://github.com/FGRibreau/mailchecker/pull/194) Merge pull request #194 from FGRibreau/dependabot/npm_and_yarn/mocha-tw-6.2.0 (@FGRibreau)
@@ -1042,7 +1093,7 @@
 - [384e2c3](https://github.com/FGRibreau/mailchecker/commit/384e2c39b3de8bb918c9126c3204f22d0192dda4) Add `tryninja.io` (@OctopodsIO)
 - [5d8c3ad](https://github.com/FGRibreau/mailchecker/commit/5d8c3ade976cde2b7e64573f29233db2b7b459f5) Add domains from temp-mail.org (@cosmosgenius)
 - [1f3aee3](https://github.com/FGRibreau/mailchecker/commit/1f3aee39a7b7135e244a762f362524f0e0f212ff) add cowstore.org (@cosmosgenius)
-- [f96bc34](https://github.com/FGRibreau/mailchecker/commit/f96bc3441fa276af27dc69dbafac7c563d56f094) Add domains from services: emailfake.com, sneakemail.com, grr.la, tempmail.net, 13dk.net, tmpeml.info, thetrash.email (@nicolasPerraud)
+- [f96bc34](https://github.com/FGRibreau/mailchecker/commit/f96bc3441fa276af27dc69dbafac7c563d56f094) Add domains from services: emailfake.com, sneakemail.com, grr.la, tempmail.net, 13dk.net, tmpeml.info, thetrash.email
 - [d2adb01](https://github.com/FGRibreau/mailchecker/commit/d2adb0180f2f99cd73f1de08a5e244422b15feea) fix(ci): since tests are run before every release and circleci changed it's way of doing docker in docker... (@FGRibreau)
 - [98b4386](https://github.com/FGRibreau/mailchecker/commit/98b43861f9cae3f9b996af42810a80b2571481e0) chore: testing circleci fix (@FGRibreau)
 - [5efd579](https://github.com/FGRibreau/mailchecker/commit/5efd579fb7d58fbf38954baca496a13cfadd7dd4) feat(python): updated to 3.2.26 (@FGRibreau)
@@ -1384,8 +1435,6 @@
 - [#128](https://github.com/FGRibreau/mailchecker/pull/128) Merge pull request #128 from heypixel/master (@heypixel)
 - [c97f3f1](https://github.com/FGRibreau/mailchecker/commit/c97f3f1f30141eb768074d797864de16017deaab) convert isBlacklisted method in public to be able to use library without email pattern checking
 - [c193518](https://github.com/FGRibreau/mailchecker/commit/c193518dab3c56833d999ccc6c409f44ec128724) docs(changelog): updated (@FGRibreau)
-
-### v3.0.36 (2018/01/03 07:40 +00:00)
 - [58bcf29](https://github.com/FGRibreau/mailchecker/commit/58bcf29da3143936449d79300547259bfcddc63a) Release v3.0.36. (@FGRibreau)
 - [9a6499c](https://github.com/FGRibreau/mailchecker/commit/9a6499cd11b58605bc51059b7a7846f0ad1e6bc0) feat(build): update plateform files (@FGRibreau)
 - [3f5171f](https://github.com/FGRibreau/mailchecker/commit/3f5171f7b335b4fc97ccde7aefc0e941b5094805) feat(gemspec): updated to 3.0.35 (@FGRibreau)
@@ -1393,8 +1442,6 @@
 - [#123](https://github.com/FGRibreau/mailchecker/pull/123) Merge pull request #123 from datio/master (@datio)
 - [2269b38](https://github.com/FGRibreau/mailchecker/commit/2269b384d7f8aef4dd0b4994de834393b9b56f54) Add 2144 hosts from ivolo/disposable-email-domains, closes #117 (@datio)
 - [c3d1893](https://github.com/FGRibreau/mailchecker/commit/c3d1893b56f43cacb55c1e170955b268da601bfc) docs(changelog): updated (@FGRibreau)
-
-### v3.0.35 (2018/01/01 13:55 +00:00)
 - [cd6f47e](https://github.com/FGRibreau/mailchecker/commit/cd6f47edd33ebfd21dc8705b34624613a46427cc) Release v3.0.35. (@FGRibreau)
 - [f4d6777](https://github.com/FGRibreau/mailchecker/commit/f4d67770ab3eb68576e9f3f880b3e0f89d92a5ce) feat(build): update plateform files (@FGRibreau)
 - [4cd6dfd](https://github.com/FGRibreau/mailchecker/commit/4cd6dfd2f30a3d3fdb49357e92e6806057c6320b) feat(gemspec): updated to 3.0.34 (@FGRibreau)
@@ -1403,8 +1450,6 @@
 - [e156b87](https://github.com/FGRibreau/mailchecker/commit/e156b87c8578b2fc1cf54eaccc4247dca31e008f) Add 20 new domains from bccto.me (@datio)
 - [eda9d85](https://github.com/FGRibreau/mailchecker/commit/eda9d85c835dc4bb4461b843323883fd516d5520) Update README.md (@FGRibreau)
 - [56ab498](https://github.com/FGRibreau/mailchecker/commit/56ab498bebb88175c3b0a7fc71bdf460086f8d84) docs(changelog): updated (@FGRibreau)
-
-### v3.0.34 (2017/12/26 19:46 +00:00)
 - [1bc54c1](https://github.com/FGRibreau/mailchecker/commit/1bc54c1202ae69b6b582a302ba2e7c324d1fab02) Release v3.0.34. (@FGRibreau)
 - [f6525e4](https://github.com/FGRibreau/mailchecker/commit/f6525e46de6dea658f0a13e4c3b656027044125a) feat(build): update plateform files (@FGRibreau)
 - [#121](https://github.com/FGRibreau/mailchecker/pull/121) Merge pull request #121 from Wapweb/master (@Wapweb)
