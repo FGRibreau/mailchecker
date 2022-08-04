@@ -1,5 +1,16 @@
 ## Change Log
 
+### v5.0.0 (2022/08/04 20:16 +00:00)
+- [048ac91](https://github.com/FGRibreau/mailchecker/commit/048ac91857e073b6889e629449c28a3591abcbac) Release v5.0.0.
+- [5f1e042](https://github.com/FGRibreau/mailchecker/commit/5f1e04278153bb0b756383eb9365ea7f2d467c2a) feat(build): update plateform files
+- [bd60cfe](https://github.com/FGRibreau/mailchecker/commit/bd60cfe5bd6f81988478df17f181d3e66377e59e) fix
+- [#369](https://github.com/FGRibreau/mailchecker/pull/369) Merge pull request #369 from nfacha/sync-to-facha-dev-list (@nfacha)
+- [a4124ad](https://github.com/FGRibreau/mailchecker/commit/a4124ad90208aa2a2e6163f3cc46052c4d6feebe) Sync to https://github.com/nfacha/temporary-email-list (@nfacha)
+- [ce2ed5b](https://github.com/FGRibreau/mailchecker/commit/ce2ed5bbabde29f9f27b9f1b0d3756c2e095901a) feat(cargo): updated to 4.1.19
+- [22dc3c7](https://github.com/FGRibreau/mailchecker/commit/22dc3c7e0b20f2ae3e2bcd4f7cde12db0bf21ec7) feat(python): updated to 4.1.19
+- [4d6e863](https://github.com/FGRibreau/mailchecker/commit/4d6e863754316ed5dcc8c143f3ba9c3ab7502373) feat(gemspec): updated to 4.1.19
+- [a444930](https://github.com/FGRibreau/mailchecker/commit/a4449307becb9463d43bd45521ba5ff8af3bf891) docs(changelog): updated
+
 ### v4.1.19 (2022/07/26 09:53 +00:00)
 - [4b5dab1](https://github.com/FGRibreau/mailchecker/commit/4b5dab1c590f09eba94b07210a89816578fe0c51) Release v4.1.19.
 - [3b88097](https://github.com/FGRibreau/mailchecker/commit/3b880970fd10da88ebcc1cbedee56c7ab6205027) feat(build): update plateform files
@@ -1423,7 +1434,7 @@
 - [9cf645b](https://github.com/FGRibreau/mailchecker/commit/9cf645bc8890cb8629f3fe85fcc0d4019d99ae03) Release v3.0.39. (@FGRibreau)
 - [d6f157a](https://github.com/FGRibreau/mailchecker/commit/d6f157a75f600064c00cb7bc2ffe4f8d3288aa80) fix(setup): fix dev setup phase (@FGRibreau)
 
-### v3.0.37 (2018/03/07 07:55 +00:00)
+### v3.0.38 (2018/03/10 09:49 +00:00)
 - [5773bb9](https://github.com/FGRibreau/mailchecker/commit/5773bb90a3985fde29c8f8590785eb8693bc5adf) Release v3.0.37. (@FGRibreau)
 - [c28b9b0](https://github.com/FGRibreau/mailchecker/commit/c28b9b055f792910f2873d3ace71649816418005) feat(build): update plateform files (@FGRibreau)
 - [#129](https://github.com/FGRibreau/mailchecker/pull/129) Merge pull request #129 from FGRibreau/improved-tests (@FGRibreau)
