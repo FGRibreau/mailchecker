@@ -9,7 +9,7 @@ if sys.version_info[0] >= 3:
 
 class MailChecker(object):
 
-    blacklist = set([{{& listSTR}}])
+    blacklist = { {{& listSTR}} }
     valid_matcher = re.compile(r"\A{{& unanchoredRegexpString }}\Z")
 
     @classmethod
