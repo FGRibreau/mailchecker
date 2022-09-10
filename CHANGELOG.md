@@ -1,5 +1,31 @@
 ## Change Log
 
+### v5.0.1 (2022/09/10 09:14 +00:00)
+- [81eba33](https://github.com/FGRibreau/mailchecker/commit/81eba33395f61e7d3b38635726fc227d14f44d29) Release v5.0.1.
+- [80ef505](https://github.com/FGRibreau/mailchecker/commit/80ef505b5c6b6586eb1e5975eea8ded9888e5463) feat(build): update plateform files
+- [715b463](https://github.com/FGRibreau/mailchecker/commit/715b4637f12e565c8f5ac12b0517f075dfe0b61a) fix
+- [#373](https://github.com/FGRibreau/mailchecker/pull/373) Merge pull request #373 from sagarvora/use-literal (@sagarvora)
+- [#376](https://github.com/FGRibreau/mailchecker/pull/376) Merge pull request #376 from zetsumeishi/master (@zetsumeishi)
+- [#377](https://github.com/FGRibreau/mailchecker/pull/377) Merge pull request #377 from Will956/patch-1 (@Will956)
+- [#375](https://github.com/FGRibreau/mailchecker/pull/375) Merge pull request #375 from omidmajdi/patch-1 (@omidmajdi)
+- [3d1ef38](https://github.com/FGRibreau/mailchecker/commit/3d1ef3873e6b0db01945e02403e52da8bef5c8f7) Update list.txt (@Will956)
+- [42ab52b](https://github.com/FGRibreau/mailchecker/commit/42ab52b3dbe503c7376ff89e6f110b7746261cab) Update list.txt (@zetsumeishi)
+- [e5d3848](https://github.com/FGRibreau/mailchecker/commit/e5d3848d91740848f4f7366680612c764ce1321c) Update list.txt (@omidmajdi)
+- [f95fcbc](https://github.com/FGRibreau/mailchecker/commit/f95fcbcd34e46ece9e44431f12dcf5a1e74e74ef) fix(python): use set literal instead of converting list (@sagarvora)
+- [#372](https://github.com/FGRibreau/mailchecker/pull/372) Merge pull request #372 from genygilles/update-list (@genygilles)
+- [5184ead](https://github.com/FGRibreau/mailchecker/commit/5184eadffdb2859240d6520864ec6c0e8545b18f) Add domains from temp-mail.org to list.txt (@genygilles)
+- [0f88ad6](https://github.com/FGRibreau/mailchecker/commit/0f88ad61b805ff3dc3691126b93bf71a8725d265) Add uranomail.es to list.txt (@genygilles)
+- [089c8bd](https://github.com/FGRibreau/mailchecker/commit/089c8bdd5b8aefc0060e4468b7dabb0f9750f782) Add domains from ImprovMX to list.txt (@genygilles)
+- [c8d0a4b](https://github.com/FGRibreau/mailchecker/commit/c8d0a4b9c9f0fc0838a25b4a8cf7b4cc2a647b3f) Add domain from CryptoGMail.com to list.txt (@genygilles)
+- [ed0d7e3](https://github.com/FGRibreau/mailchecker/commit/ed0d7e3bd3bf457fd5af619b4fc39f21217cf9e8) Add domains from temp-inbox.com to list.txt (@genygilles)
+- [#371](https://github.com/FGRibreau/mailchecker/pull/371) Merge pull request #371 from coffee-cup/patch-1 (@coffee-cup)
+- [227b74a](https://github.com/FGRibreau/mailchecker/commit/227b74a1f6d4089d2c2411e1c3cc0ccadef9f034) Ban kxcmail.com (@coffee-cup)
+- [47bac1d](https://github.com/FGRibreau/mailchecker/commit/47bac1d41731545f8ed2fc0c6d88ce719fba79d9) Update README.md (@FGRibreau)
+- [4fadbfe](https://github.com/FGRibreau/mailchecker/commit/4fadbfec3e7f91df1e21eab6458542a802b76f62) feat(cargo): updated to 5.0.0
+- [de5eeb1](https://github.com/FGRibreau/mailchecker/commit/de5eeb1fd8cad09b7330dee79b9bbb854a89a2c1) feat(python): updated to 5.0.0
+- [c088258](https://github.com/FGRibreau/mailchecker/commit/c08825849486cd30ae9671e68370f533eb56a86a) feat(gemspec): updated to 5.0.0
+- [efcf60e](https://github.com/FGRibreau/mailchecker/commit/efcf60ec687f2361245ad790e221fca78a6eca85) docs(changelog): updated
+
 ### v5.0.0 (2022/08/04 20:16 +00:00)
 - [048ac91](https://github.com/FGRibreau/mailchecker/commit/048ac91857e073b6889e629449c28a3591abcbac) Release v5.0.0.
 - [5f1e042](https://github.com/FGRibreau/mailchecker/commit/5f1e04278153bb0b756383eb9365ea7f2d467c2a) feat(build): update plateform files
@@ -1433,8 +1459,6 @@
 ### v3.0.39 (2018/03/10 09:55 +00:00)
 - [9cf645b](https://github.com/FGRibreau/mailchecker/commit/9cf645bc8890cb8629f3fe85fcc0d4019d99ae03) Release v3.0.39. (@FGRibreau)
 - [d6f157a](https://github.com/FGRibreau/mailchecker/commit/d6f157a75f600064c00cb7bc2ffe4f8d3288aa80) fix(setup): fix dev setup phase (@FGRibreau)
-
-### v3.0.38 (2018/03/10 09:49 +00:00)
 - [5773bb9](https://github.com/FGRibreau/mailchecker/commit/5773bb90a3985fde29c8f8590785eb8693bc5adf) Release v3.0.37. (@FGRibreau)
 - [c28b9b0](https://github.com/FGRibreau/mailchecker/commit/c28b9b055f792910f2873d3ace71649816418005) feat(build): update plateform files (@FGRibreau)
 - [#129](https://github.com/FGRibreau/mailchecker/pull/129) Merge pull request #129 from FGRibreau/improved-tests (@FGRibreau)
