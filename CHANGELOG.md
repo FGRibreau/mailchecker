@@ -1,5 +1,16 @@
 ## Change Log
 
+### v5.0.2 (2022/10/05 11:52 +00:00)
+- [0e68b32](https://github.com/FGRibreau/mailchecker/commit/0e68b32dc81176c2c515f257d55aa2fd24ea9282) Release v5.0.2.
+- [d8d4d57](https://github.com/FGRibreau/mailchecker/commit/d8d4d57842cecf812a38e7cb97d2046b69427c0c) feat(build): update plateform files
+- [511b84d](https://github.com/FGRibreau/mailchecker/commit/511b84dde654b2798eabe45e8cc995f1f1e58cbd) fix(cargo)
+- [#378](https://github.com/FGRibreau/mailchecker/pull/378) Merge pull request #378 from batmanscode/patch-1 (@batmanscode)
+- [24b513e](https://github.com/FGRibreau/mailchecker/commit/24b513ea4aed601c7c8cfdd172c7eb962d9bf1fe) remove simplelogin domains (@batmanscode)
+- [7c1bf78](https://github.com/FGRibreau/mailchecker/commit/7c1bf782f0bd0d84c2ea33f5c8c020fef564b3e1) feat(cargo): updated to 5.0.1
+- [4bb8b32](https://github.com/FGRibreau/mailchecker/commit/4bb8b324a37e493d4e1cc06df7a56b7ce6928a8a) feat(python): updated to 5.0.1
+- [de551a1](https://github.com/FGRibreau/mailchecker/commit/de551a156f114316549494274d74fad5a2fdfc68) feat(gemspec): updated to 5.0.1
+- [8bb9c54](https://github.com/FGRibreau/mailchecker/commit/8bb9c54399991c4164ba9e51a3824a2c0d90f5b3) docs(changelog): updated
+
 ### v5.0.1 (2022/09/10 09:14 +00:00)
 - [81eba33](https://github.com/FGRibreau/mailchecker/commit/81eba33395f61e7d3b38635726fc227d14f44d29) Release v5.0.1.
 - [80ef505](https://github.com/FGRibreau/mailchecker/commit/80ef505b5c6b6586eb1e5975eea8ded9888e5463) feat(build): update plateform files
@@ -1203,7 +1214,7 @@
 - [df3a46a](https://github.com/FGRibreau/mailchecker/commit/df3a46a5235b324652381a8d31eba5fbd796c8dc) Release v3.2.21. (@FGRibreau)
 - [05e9229](https://github.com/FGRibreau/mailchecker/commit/05e9229cdccd8ddbc234a0872c64775d2b25f4b8) fix: list.json (@FGRibreau)
 - [#163](https://github.com/FGRibreau/mailchecker/pull/163) Merge pull request #163 from milkyklim/patch-1 (@milkyklim)
-- [0cea89d](https://github.com/FGRibreau/mailchecker/commit/0cea89df34c63f4749d5e9bd3aeb15618ab25700) add  domains from https://tempr.email/ (@milkyklim)
+- [0cea89d](https://github.com/FGRibreau/mailchecker/commit/0cea89df34c63f4749d5e9bd3aeb15618ab25700) add  domains from https://tempr.email/
 - [d7a5895](https://github.com/FGRibreau/mailchecker/commit/d7a5895ecc71cd8ae1c4e579abda300c03d5470c) feat: cargo-lock (@FGRibreau)
 - [8177903](https://github.com/FGRibreau/mailchecker/commit/8177903e14804a45cb1e9d6d342c0ccd3de90155) feat(python): updated to 3.2.20 (@FGRibreau)
 - [c586d3b](https://github.com/FGRibreau/mailchecker/commit/c586d3b7022023be6481e83e328b08d2b82e6718) feat(cargo): updated to 3.2.20 (@FGRibreau)
@@ -1455,8 +1466,6 @@
 - [1933255](https://github.com/FGRibreau/mailchecker/commit/193325532f0196b1884773bd97e6bedbfa82097f) feat(cargo): updated to 3.0.39 (@FGRibreau)
 - [2f0d7bc](https://github.com/FGRibreau/mailchecker/commit/2f0d7bc294ce551d518b156f5d0f51b3d4728f63) feat(gemspec): updated to 3.0.39 (@FGRibreau)
 - [fcd5fef](https://github.com/FGRibreau/mailchecker/commit/fcd5fef1655a11240959697348135cfdda0f43c1) docs(changelog): updated (@FGRibreau)
-
-### v3.0.39 (2018/03/10 09:55 +00:00)
 - [9cf645b](https://github.com/FGRibreau/mailchecker/commit/9cf645bc8890cb8629f3fe85fcc0d4019d99ae03) Release v3.0.39. (@FGRibreau)
 - [d6f157a](https://github.com/FGRibreau/mailchecker/commit/d6f157a75f600064c00cb7bc2ffe4f8d3288aa80) fix(setup): fix dev setup phase (@FGRibreau)
 - [5773bb9](https://github.com/FGRibreau/mailchecker/commit/5773bb90a3985fde29c8f8590785eb8693bc5adf) Release v3.0.37. (@FGRibreau)
