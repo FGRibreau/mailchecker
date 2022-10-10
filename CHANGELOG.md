@@ -1,5 +1,15 @@
 ## Change Log
 
+### v5.0.3 (2022/10/10 09:52 +00:00)
+- [a713e97](https://github.com/FGRibreau/mailchecker/commit/a713e971ec78f16b1350f4c8c9fb8d7c64fe84c2) feat(build): update plateform files
+- [84c0c2d](https://github.com/FGRibreau/mailchecker/commit/84c0c2d460a7758ae7746632f5b0f656fc8506b8) Release v5.0.3.
+- [#379](https://github.com/FGRibreau/mailchecker/pull/379) Merge pull request #379 from LoganDark/patch-1 (@LoganDark)
+- [2206891](https://github.com/FGRibreau/mailchecker/commit/2206891218d450d77014160ac648e3e7aa51a177) Remove mozmail again (@LoganDark)
+- [b299a67](https://github.com/FGRibreau/mailchecker/commit/b299a6738c4f024a768240155730e8a2f87fa87f) feat(cargo): updated to 5.0.2
+- [ef6537a](https://github.com/FGRibreau/mailchecker/commit/ef6537ad4ac1f9b5406dca6c7ad5d963a47a01a7) feat(python): updated to 5.0.2
+- [cb57dc8](https://github.com/FGRibreau/mailchecker/commit/cb57dc8cd41af2befa667de86a59ba9d0467f874) feat(gemspec): updated to 5.0.2
+- [1bad76a](https://github.com/FGRibreau/mailchecker/commit/1bad76a19e2c06d4d7cba29fd423d9cd18285c44) docs(changelog): updated
+
 ### v5.0.2 (2022/10/05 11:52 +00:00)
 - [0e68b32](https://github.com/FGRibreau/mailchecker/commit/0e68b32dc81176c2c515f257d55aa2fd24ea9282) Release v5.0.2.
 - [d8d4d57](https://github.com/FGRibreau/mailchecker/commit/d8d4d57842cecf812a38e7cb97d2046b69427c0c) feat(build): update plateform files
@@ -1454,8 +1464,6 @@
 - [2706b93](https://github.com/FGRibreau/mailchecker/commit/2706b93f025603fc4f24e0c126f015f14f244c53) feat(cargo): updated to 3.0.40 (@FGRibreau)
 - [f994313](https://github.com/FGRibreau/mailchecker/commit/f9943134590ec837542e6daaf716d1da294bcb49) feat(gemspec): updated to 3.0.40 (@FGRibreau)
 - [1f5bbf3](https://github.com/FGRibreau/mailchecker/commit/1f5bbf3a32e3f3ffc5b7877f495cb5cb6dd080bf) docs(changelog): updated (@FGRibreau)
-
-### v3.0.40 (2018/03/11 15:27 +00:00)
 - [bd65976](https://github.com/FGRibreau/mailchecker/commit/bd659767cc767e5fc5ae858c58df4285f9ef98d2) Release v3.0.40. (@FGRibreau)
 - [fe94610](https://github.com/FGRibreau/mailchecker/commit/fe946108801a5815f99d2074b7c82c88e2742dd5) feat(build): update plateform files (@FGRibreau)
 - [73bbb91](https://github.com/FGRibreau/mailchecker/commit/73bbb915b8ca5deb9083c32077245271ebf7bbd4) fix(package): improved rust build (@FGRibreau)
