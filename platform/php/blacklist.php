@@ -33561,7 +33561,6 @@ return [
     "mozillafirefox.gq" => true,
     "mozillafirefox.ml" => true,
     "mozillafirefox.tk" => true,
-    "mozmail.com" => true,
     "mozmail.info" => true,
     "mozzinovo.club" => true,
     "mozzzi12.com" => true,
