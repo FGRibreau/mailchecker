@@ -1,5 +1,26 @@
 ## Change Log
 
+### v5.0.4 (2022/11/27 10:53 +00:00)
+- [6d85377](https://github.com/FGRibreau/mailchecker/commit/6d85377e843b637008dfba7e5a6435430256eaf5) feat(build): update plateform files
+- [3a6bd5e](https://github.com/FGRibreau/mailchecker/commit/3a6bd5e4ba4988924b1a0e6bb7925fba7935e977) Release v5.0.4.
+- [c4c8773](https://github.com/FGRibreau/mailchecker/commit/c4c87738b82e836d5e5529478015a530531e2470) fix: cargo
+- [#386](https://github.com/FGRibreau/mailchecker/pull/386) Merge pull request #386 from remybreuils/add-gufum.com (@remybreuils)
+- [#385](https://github.com/FGRibreau/mailchecker/pull/385) Merge pull request #385 from karlhorky/patch-1 (@karlhorky)
+- [#384](https://github.com/FGRibreau/mailchecker/pull/384) Merge pull request #384 from j0k3r/patch-1 (@j0k3r)
+- [#383](https://github.com/FGRibreau/mailchecker/pull/383) Merge pull request #383 from lzfxxx/master (@lzfxxx)
+- [#382](https://github.com/FGRibreau/mailchecker/pull/382) Merge pull request #382 from hansott/patch-1 (@hansott)
+- [#380](https://github.com/FGRibreau/mailchecker/pull/380) Merge pull request #380 from noinkling/patch-2 (@noinkling)
+- [6a6a288](https://github.com/FGRibreau/mailchecker/commit/6a6a288de30f6965b23d7b76b7fe0037e46651e6) add disposable/temporary domain: gufum.com (@remybreuils)
+- [2419ed6](https://github.com/FGRibreau/mailchecker/commit/2419ed6cab4136dee1f8704802a1b04c44670847) Add xgmail.com to list (@karlhorky)
+- [6abd535](https://github.com/FGRibreau/mailchecker/commit/6abd535db401e33e20ee45f2c913cd7b061d88d5) Remove ikmail.com (again) (@j0k3r)
+- [3ca2245](https://github.com/FGRibreau/mailchecker/commit/3ca2245e31c3a5daf896f5a69a5ffae23d4f54fa) Update list.txt (@lzfxxx)
+- [c686431](https://github.com/FGRibreau/mailchecker/commit/c6864318eb493ad736d9abf40c740aa74f08d2d7) Add evilant.com and 24rumen.com (@hansott)
+- [b617e20](https://github.com/FGRibreau/mailchecker/commit/b617e208b9cacc77f1153c4fc172bb0ad391b9ee) Remove example.com again (@noinkling)
+- [aab498a](https://github.com/FGRibreau/mailchecker/commit/aab498aeeb1fb9521f78b3cd99803aec667bd6f1) feat(cargo): updated to 5.0.3
+- [b1ce09d](https://github.com/FGRibreau/mailchecker/commit/b1ce09df53a7b5cc8319541141fa162c367edb41) feat(python): updated to 5.0.3
+- [cba5572](https://github.com/FGRibreau/mailchecker/commit/cba5572ac25ffeec7c7cc2abe039d0a4ca474a70) feat(gemspec): updated to 5.0.3
+- [1488dde](https://github.com/FGRibreau/mailchecker/commit/1488ddef6f9e4e4db204c39d7a7fcbfb968e4302) docs(changelog): updated
+
 ### v5.0.3 (2022/10/10 09:52 +00:00)
 - [a713e97](https://github.com/FGRibreau/mailchecker/commit/a713e971ec78f16b1350f4c8c9fb8d7c64fe84c2) feat(build): update plateform files
 - [84c0c2d](https://github.com/FGRibreau/mailchecker/commit/84c0c2d460a7758ae7746632f5b0f656fc8506b8) Release v5.0.3.
@@ -1456,8 +1477,6 @@
 - [227c2ba](https://github.com/FGRibreau/mailchecker/commit/227c2babb4ed35d05fa9663688ed9ed772587eb4) feat(cargo): updated to 3.1.0 (@FGRibreau)
 - [2df52bb](https://github.com/FGRibreau/mailchecker/commit/2df52bbf82a02afced8d990ad7d8afb981e261c2) feat(gemspec): updated to 3.1.0 (@FGRibreau)
 - [fcd04c7](https://github.com/FGRibreau/mailchecker/commit/fcd04c7f495a4e28c2440e015e1f6bdb72b357cd) docs(changelog): updated (@FGRibreau)
-
-### v3.1.0 (2018/03/11 15:34 +00:00)
 - [c90b76a](https://github.com/FGRibreau/mailchecker/commit/c90b76adc8ead2d846d5b37e29c6e5e4e4ad5917) Release v3.1.0. (@FGRibreau)
 - [e1b0016](https://github.com/FGRibreau/mailchecker/commit/e1b00163461ad7031d361a14cd556b740234ba43) chore: handle minor release (@FGRibreau)
 - [4b138cc](https://github.com/FGRibreau/mailchecker/commit/4b138cc5144157e6c0c11391517c87f03c26258f) feat(php): make isBlacklisted in PHP public, fixes #131 (@FGRibreau)
