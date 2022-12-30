@@ -1,9 +1,18 @@
 ## Change Log
 
+### upcoming (2022/12/30 22:35 +00:00)
+- [#395](https://github.com/FGRibreau/mailchecker/pull/395) Merge pull request #395 from hansott/patch-email (@hansott)
+- [b617c18](https://github.com/FGRibreau/mailchecker/commit/b617c18d8de32a8175b76353335c0258fd2ae3d0) Add paxven.com (@hansott)
+- [276b63c](https://github.com/FGRibreau/mailchecker/commit/276b63c4374b6993dfaee627e5d2a7da7be0e506) feat(cargo): updated to 5.0.5
+- [e0574ba](https://github.com/FGRibreau/mailchecker/commit/e0574bad4d41ebda53b6edad0a0eb5be00f0db6a) feat(python): updated to 5.0.5
+- [a6a39f2](https://github.com/FGRibreau/mailchecker/commit/a6a39f286b41f7200a449236cbf5b9464a8e68ad) feat(gemspec): updated to 5.0.5
+- [83ebd7e](https://github.com/FGRibreau/mailchecker/commit/83ebd7ed5cccd070e895dd07b06c08be2d367055) docs(changelog): updated
+
 ### v5.0.5 (2022/12/09 17:47 +00:00)
 - [fcbbf47](https://github.com/FGRibreau/mailchecker/commit/fcbbf47b02bf2b1e96a80c3c41ff080391b2e280) Release v5.0.5.
 - [75a102c](https://github.com/FGRibreau/mailchecker/commit/75a102c43dfc0dbd5f3a7808731c255d8db1e50c) feat(build): update plateform files
 - [#393](https://github.com/FGRibreau/mailchecker/pull/393) Merge pull request #393 from e-foundation/master (@e-foundation)
+- [0f41d35](https://github.com/FGRibreau/mailchecker/commit/0f41d3520be586f5792a07b49141a2207a8f4cc6) Add enhancedzoom.com (@hansott)
 - [e95769b](https://github.com/FGRibreau/mailchecker/commit/e95769b21a6f21b2e41d37dc1012cc4f7f4b84ba) remove lilo.org (@diroots)
 - [#391](https://github.com/FGRibreau/mailchecker/pull/391) Merge pull request #391 from essesoul/patch-1 (@essesoul)
 - [b853be1](https://github.com/FGRibreau/mailchecker/commit/b853be1382a86d523d61b9325af79f8a5b92bf60) Update list.txt (@essesoul)
