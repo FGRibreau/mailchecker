@@ -1,6 +1,10 @@
 ## Change Log
 
-### upcoming (2022/12/30 22:35 +00:00)
+### v5.0.6 (2022/12/30 22:36 +00:00)
+- [176d0ab](https://github.com/FGRibreau/mailchecker/commit/176d0ab7cc29bd50ffaa951be75112fe1304692a) Release v5.0.6.
+- [ea3a592](https://github.com/FGRibreau/mailchecker/commit/ea3a592601a8546ed62bff20c7e01353b391fa74) feat(build): update plateform files
+- [51376c8](https://github.com/FGRibreau/mailchecker/commit/51376c872c5e8b690008cab0e88354d1f49eecdd) docs(changelog): updated
+- [68ce021](https://github.com/FGRibreau/mailchecker/commit/68ce02161ed17a19405f9ef6b07d66268d2f51a7) fix
 - [#395](https://github.com/FGRibreau/mailchecker/pull/395) Merge pull request #395 from hansott/patch-email (@hansott)
 - [b617c18](https://github.com/FGRibreau/mailchecker/commit/b617c18d8de32a8175b76353335c0258fd2ae3d0) Add paxven.com (@hansott)
 - [276b63c](https://github.com/FGRibreau/mailchecker/commit/276b63c4374b6993dfaee627e5d2a7da7be0e506) feat(cargo): updated to 5.0.5
@@ -1482,8 +1486,6 @@
 - [781a554](https://github.com/FGRibreau/mailchecker/commit/781a554d0079541a5567f687a3d7f15fadf99826) feat(cargo): updated to 3.2.1 (@FGRibreau)
 - [33b0b0c](https://github.com/FGRibreau/mailchecker/commit/33b0b0cc721c91e637c258e6a09290a37fbeb9b5) feat(gemspec): updated to 3.2.1 (@FGRibreau)
 - [6a428c8](https://github.com/FGRibreau/mailchecker/commit/6a428c8d5a9476d1c38e1408d5d35dc61ef951fb) docs(changelog): updated (@FGRibreau)
-
-### v3.2.1 (2018/03/30 06:57 +00:00)
 - [3a467c4](https://github.com/FGRibreau/mailchecker/commit/3a467c40479eae15d81b1867ded8aed590ca7e67) Release v3.2.1. (@FGRibreau)
 - [63f0e21](https://github.com/FGRibreau/mailchecker/commit/63f0e2112c53b6380ef9ea11045b59067e9477b1) feat(build): update plateform files (@FGRibreau)
 - [1038819](https://github.com/FGRibreau/mailchecker/commit/1038819567ba2847f1dda0abad92f088d21ab35c) feat(gemspec): updated to 3.2.0 (@FGRibreau)
