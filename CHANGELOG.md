@@ -1,5 +1,20 @@
 ## Change Log
 
+### v5.0.7 (2023/01/24 21:54 +00:00)
+- [8d7b80a](https://github.com/FGRibreau/mailchecker/commit/8d7b80a49a5c0b191947f3810dfd39dd2ef9d38d) feat(build): update plateform files
+- [2a4cd33](https://github.com/FGRibreau/mailchecker/commit/2a4cd33f13d5bda20972a696a8d7c899a76598be) Release v5.0.7.
+- [#400](https://github.com/FGRibreau/mailchecker/pull/400) Merge pull request #400 from gdluck/patch-1 (@gdluck)
+- [#396](https://github.com/FGRibreau/mailchecker/pull/396) Merge pull request #396 from hansott/patch-email (@hansott)
+- [#399](https://github.com/FGRibreau/mailchecker/pull/399) Merge pull request #399 from mtmail/remove-icam-fr (@mtmail)
+- [2441e40](https://github.com/FGRibreau/mailchecker/commit/2441e40de259a871821d9a2aa214aca9d9cae325) Update list.txt (@gdluck)
+- [7221b3f](https://github.com/FGRibreau/mailchecker/commit/7221b3f8bd66f8048253d60c93414c9fafe767f7) remove icam.fr - university (@mtmail)
+- [6b89f97](https://github.com/FGRibreau/mailchecker/commit/6b89f9793f075dea65f3d67807892ce0edfa2a08) Add cnxcoin.com (@hansott)
+- [7dac9fe](https://github.com/FGRibreau/mailchecker/commit/7dac9feda11c3a13a092d0a149cf43a358798297) fix
+- [6cc02af](https://github.com/FGRibreau/mailchecker/commit/6cc02af7a7da038ac12614052d934351cbd613d8) feat(cargo): updated to 5.0.6
+- [4c9e7e8](https://github.com/FGRibreau/mailchecker/commit/4c9e7e83467ce4f96ea72a21ae1b6ea84e6135a9) feat(python): updated to 5.0.6
+- [c926b26](https://github.com/FGRibreau/mailchecker/commit/c926b2660b4b7fe5226dca6e1485d905875c6d57) feat(gemspec): updated to 5.0.6
+- [39b4e2a](https://github.com/FGRibreau/mailchecker/commit/39b4e2acef042ad559374e046de84f5be311f6d2) docs(changelog): updated
+
 ### v5.0.6 (2022/12/30 22:36 +00:00)
 - [176d0ab](https://github.com/FGRibreau/mailchecker/commit/176d0ab7cc29bd50ffaa951be75112fe1304692a) Release v5.0.6.
 - [ea3a592](https://github.com/FGRibreau/mailchecker/commit/ea3a592601a8546ed62bff20c7e01353b391fa74) feat(build): update plateform files
@@ -1473,8 +1488,6 @@
 - [f362001](https://github.com/FGRibreau/mailchecker/commit/f36200169659e7fd929faebe0fc20264d91c3737) feat(cargo): updated to 3.2.2 (@FGRibreau)
 - [e463934](https://github.com/FGRibreau/mailchecker/commit/e4639340384f805142ebcd5ae18b6d80c41e3107) feat(gemspec): updated to 3.2.2 (@FGRibreau)
 - [7eb6fce](https://github.com/FGRibreau/mailchecker/commit/7eb6fce4094e4f21c68a1fcfd9a28a6f404f48ec) docs(changelog): updated (@FGRibreau)
-
-### v3.2.2 (2018/04/02 08:43 +00:00)
 - [7d46ae4](https://github.com/FGRibreau/mailchecker/commit/7d46ae4b7380ef8daf2f3883ce18ff47269d735a) Release v3.2.2. (@FGRibreau)
 - [937fcf1](https://github.com/FGRibreau/mailchecker/commit/937fcf10610e28730c8e4de55b78a3b6e37a7904) feat(build): update plateform files (@FGRibreau)
 - [f9b0026](https://github.com/FGRibreau/mailchecker/commit/f9b0026b34bd139798f653644717bcd59087fe54) fix: package.json (@FGRibreau)
