@@ -1,5 +1,25 @@
 ## Change Log
 
+### v5.0.8 (2023/03/23 16:36 +00:00)
+- [d03d2d7](https://github.com/FGRibreau/mailchecker/commit/d03d2d765a68b87e76f654e5d27bc231a0fbcf7c) Release v5.0.8.
+- [d2c5119](https://github.com/FGRibreau/mailchecker/commit/d2c51191c5774406b12df593b0396c9c3ecabd5c) feat(build): update plateform files
+- [ed882d2](https://github.com/FGRibreau/mailchecker/commit/ed882d20f0dee322d8bf65d18f8df417fb9d483c) Merge branch 'master' of github.com:FGRibreau/mailchecker
+- [76e4b5a](https://github.com/FGRibreau/mailchecker/commit/76e4b5a0d1af0347f4a0db105534d18643bae574) fix
+- [#401](https://github.com/FGRibreau/mailchecker/pull/401) Merge pull request #401 from Sevenyine/master (@Sevenyine)
+- [0ab0e41](https://github.com/FGRibreau/mailchecker/commit/0ab0e41640a60d604cfaa2749dfa15659e897f36) Merge branch 'master' of github.com:FGRibreau/mailchecker
+- [d2d4088](https://github.com/FGRibreau/mailchecker/commit/d2d408889e5282f5cb4877eadc59b0b208156894) fix
+- [#403](https://github.com/FGRibreau/mailchecker/pull/403) Merge pull request #403 from russorat/ror/remove-nytimes-24hourfitness (@russorat)
+- [#405](https://github.com/FGRibreau/mailchecker/pull/405) Merge pull request #405 from jslirola/patch-1 (@jslirola)
+- [#407](https://github.com/FGRibreau/mailchecker/pull/407) Merge pull request #407 from CaseyDevs/patch (@CaseyDevs)
+- [8962f9e](https://github.com/FGRibreau/mailchecker/commit/8962f9ebd4870a996191b341d2408a6dfa2af1b5) Update list.txt (@CaseyDevs)
+- [ac8097e](https://github.com/FGRibreau/mailchecker/commit/ac8097e0f6d98ca150f73d8bcfdbd1e53b030ab4) Update list.txt (@jslirola)
+- [7c5e454](https://github.com/FGRibreau/mailchecker/commit/7c5e454c753295e3367c4e945235a3e42927b89f) fix: remove nytimes.com and 24hourfitness.com (@russorat)
+- [9655ad9](https://github.com/FGRibreau/mailchecker/commit/9655ad9d280cf25f849dc55495c32f6f43e75bfd) update list.txt (@Sevenyine)
+- [b70a699](https://github.com/FGRibreau/mailchecker/commit/b70a6995907c87acf8dc5fa1e8b6cbaddd80cfcd) feat(cargo): updated to 5.0.7
+- [e677e7c](https://github.com/FGRibreau/mailchecker/commit/e677e7cec772f74da47399b66fbeef747b466b18) feat(python): updated to 5.0.7
+- [74a0208](https://github.com/FGRibreau/mailchecker/commit/74a02089f6a4f2d4b6961b40097a1cea7e9e0465) feat(gemspec): updated to 5.0.7
+- [ffef04d](https://github.com/FGRibreau/mailchecker/commit/ffef04de13a41dbb3e81b90a7a8d3db53307e9bd) docs(changelog): updated
+
 ### v5.0.7 (2023/01/24 21:54 +00:00)
 - [8d7b80a](https://github.com/FGRibreau/mailchecker/commit/8d7b80a49a5c0b191947f3810dfd39dd2ef9d38d) feat(build): update plateform files
 - [2a4cd33](https://github.com/FGRibreau/mailchecker/commit/2a4cd33f13d5bda20972a696a8d7c899a76598be) Release v5.0.7.
@@ -1479,8 +1499,6 @@
 - [d9871d6](https://github.com/FGRibreau/mailchecker/commit/d9871d63cdced64edfc0cbe591c1f9767dabff2c) docs(changelog): updated (@FGRibreau)
 - [15ceb59](https://github.com/FGRibreau/mailchecker/commit/15ceb5901c5e7ab1b393367fccd427fc985b8550) feat(build): update plateform files (@FGRibreau)
 - [c5189d7](https://github.com/FGRibreau/mailchecker/commit/c5189d772ca8f744af22a031a9973e3a0eaf1b66) Release v3.2.3. (@FGRibreau)
-
-### v3.2.3 (2018/04/10 12:53 +00:00)
 - [#135](https://github.com/FGRibreau/mailchecker/pull/135) Merge pull request #135 from nalgeon/patch-5 (@nalgeon)
 - [ed94704](https://github.com/FGRibreau/mailchecker/commit/ed947043d14d0920fb45c60565ee979d464fa494) More from temp-mail.org and others (@nalgeon)
 - [976b6ee](https://github.com/FGRibreau/mailchecker/commit/976b6ee48d6503487b3c92bbbf1292ad0cbc312f) doc: mailchecker on pipy (@FGRibreau)
@@ -1610,7 +1628,7 @@
 - [0a922b3](https://github.com/FGRibreau/mailchecker/commit/0a922b367aa4db2d1593b373f13a555f23295395) feat(build): update plateform files (@FGRibreau)
 - [59f7c6b](https://github.com/FGRibreau/mailchecker/commit/59f7c6b0f5ec900d959934cdbc34dbc8cd4828c7) misc(package-lock) (@FGRibreau)
 - [#106](https://github.com/FGRibreau/mailchecker/pull/106) Merge pull request #106 from thorinisme/patch-1 (@thorinisme)
-- [c058950](https://github.com/FGRibreau/mailchecker/commit/c058950b40d69b7578e56fd3c48e8cc75100872b) add 228 domains from mailinator (list of hash) (@Oloompa)
+- [c058950](https://github.com/FGRibreau/mailchecker/commit/c058950b40d69b7578e56fd3c48e8cc75100872b) add 228 domains from mailinator (list of hash)
 - [cc4fb7f](https://github.com/FGRibreau/mailchecker/commit/cc4fb7f077dc5350251d51e17f15210bbeeaaac9) docs(changelog): updated (@FGRibreau)
 - [41db7b0](https://github.com/FGRibreau/mailchecker/commit/41db7b0a9feaa29a32003d09dd4583568fcf09d1) Release v3.0.27. (@FGRibreau)
 - [40f4dc2](https://github.com/FGRibreau/mailchecker/commit/40f4dc2ba6546caa3840da12909ab97e5198f09b) feat(build): update plateform files (@FGRibreau)
@@ -1814,7 +1832,7 @@
 - [458a5d6](https://github.com/FGRibreau/mailchecker/commit/458a5d6ad38e60254f7bed625f4dcf9dcabe2b6f) feat(package): added release-patch (@FGRibreau)
 - [#61](https://github.com/FGRibreau/mailchecker/pull/61) Merge pull request #61 from owst/extract_blacklisted_method_in_ruby (@owst)
 - [#60](https://github.com/FGRibreau/mailchecker/pull/60) Merge pull request #60 from Spir/patch-2 (@Spir)
-- [4afe036](https://github.com/FGRibreau/mailchecker/commit/4afe036a949de3485688795f9c106231d4fbc942) Extract blacklisted? method for Ruby implementation (@owst)
+- [4afe036](https://github.com/FGRibreau/mailchecker/commit/4afe036a949de3485688795f9c106231d4fbc942) Extract blacklisted? method for Ruby implementation
 - [1faa10b](https://github.com/FGRibreau/mailchecker/commit/1faa10b7368e26946507081df992a3d3f2eadb29) Installation using Composer (@Spir)
 - [cc41778](https://github.com/FGRibreau/mailchecker/commit/cc417786dca40acce585d780f2f7212664aba02c) docs(readme) (@FGRibreau)
 - [#59](https://github.com/FGRibreau/mailchecker/pull/59) Merge pull request #59 from Spir/patch-1 (@Spir)
