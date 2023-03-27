@@ -344,7 +344,6 @@ These amazing people have contributed code to this project:
 <li><a href="https://github.com/mcgregordan">Dan McGregor</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=mcgregordan" title="View the GitHub contributions of Dan McGregor on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://xthiago.com/">Thiago Rodrigues</a></li>
 <li><a href="http://www.dillilabs.com">Dilli Labs LLC</a></li>
-<li><a href="http://rya.nc/">Ryan Castellucci</a></li>
 <li><a href="http://spokephone.com">Kieron Lawson</a></li>
 <li><a href="http://kslr.org">Kslr</a></li>
 <li><a href="http://C0derLint.github.io">Lint</a></li>
