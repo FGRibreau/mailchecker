@@ -1,5 +1,8 @@
 package io.github.fgribreau;
 
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -17,15 +20,13 @@ public final class MailChecker {
     /**
      * Contains all the blacklisted domains present in the database at https://github.com/FGRibreau/mailchecker/blob/master/list.txt
      */
-    static final HashSet<String> BLACKLISTED = new HashSet<>(Arrays.asList({{& listSTR }}));
-    //static final HashSet<String> BLACKLISTED_SET = new HashSet<>(Arrays.asList("test.com", "test2.com"));
-
+    static final HashSet<String> BLACKLISTED_SET = new HashSet<>();
     /**
      * Provides a regex-pattern for matching whether the provided email is a valid email.
      * For more: See https://fightingforalostcause.net/content/misc/2006/compare-email-regex.php
      */
-    static final String VALIDATION_REGEX = "/^{{& unanchoredRegexpString }}$/";
-    //static final String VALIDATION_REGEX = "/^(?!(?:(?:\\x22?\\x5C[\\x00-\\x7E]\\x22?)|(?:\\x22?[^\\x5C\\x22]\\x22?)){255,})(?!(?:(?:\\x22?\\x5C[\\x00-\\x7E]\\x22?)|(?:\\x22?[^\\x5C\\x22]\\x22?)){65,}@)(?:(?:[\\x21\\x23-\\x27\\x2A\\x2B\\x2D\\x2F-\\x39\\x3D\\x3F\\x5E-\\x7E]+)|(?:\\x22(?:[\\x01-\\x08\\x0B\\x0C\\x0E-\\x1F\\x21\\x23-\\x5B\\x5D-\\x7F]|(?:\\x5C[\\x00-\\x7F]))*\\x22))(?:\\.(?:(?:[\\x21\\x23-\\x27\\x2A\\x2B\\x2D\\x2F-\\x39\\x3D\\x3F\\x5E-\\x7E]+)|(?:\\x22(?:[\\x01-\\x08\\x0B\\x0C\\x0E-\\x1F\\x21\\x23-\\x5B\\x5D-\\x7F]|(?:\\x5C[\\x00-\\x7F]))*\\x22)))*@(?:(?:(?!.*[^.]{64,})(?:(?:(?:xn--)?[a-z0-9]+(?:-[a-z0-9]+)*\\.){1,126}){1,}(?:(?:[a-z][a-z0-9]*)|(?:(?:xn--)[a-z0-9]+))(?:-[a-z0-9]+)*)|(?:\\[(?:(?:IPv6:(?:(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){7})|(?:(?!(?:.*[a-f0-9][:\\]]){7,})(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,5})?::(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,5})?)))|(?:(?:IPv6:(?:(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){5}:)|(?:(?!(?:.*[a-f0-9]:){5,})(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,3})?::(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,3}:)?)))?(?:(?:25[0-5])|(?:2[0-4][0-9])|(?:1[0-9]{2})|(?:[1-9]?[0-9]))(?:\\.(?:(?:25[0-5])|(?:2[0-4][0-9])|(?:1[0-9]{2})|(?:[1-9]?[0-9]))){3}))\\]))$/";
+    //static final String VALIDATION_REGEX = "/^{{& unanchoredRegexpString }}$/";
+    static final String VALIDATION_REGEX = "(?!(?:(?:\\x22?\\x5C[\\x00-\\x7E]\\x22?)|(?:\\x22?[^\\x5C\\x22]\\x22?)){255,})(?!(?:(?:\\x22?\\x5C[\\x00-\\x7E]\\x22?)|(?:\\x22?[^\\x5C\\x22]\\x22?)){65,}@)(?:(?:[\\x21\\x23-\\x27\\x2A\\x2B\\x2D\\x2F-\\x39\\x3D\\x3F\\x5E-\\x7E]+)|(?:\\x22(?:[\\x01-\\x08\\x0B\\x0C\\x0E-\\x1F\\x21\\x23-\\x5B\\x5D-\\x7F]|(?:\\x5C[\\x00-\\x7F]))*\\x22))(?:\\.(?:(?:[\\x21\\x23-\\x27\\x2A\\x2B\\x2D\\x2F-\\x39\\x3D\\x3F\\x5E-\\x7E]+)|(?:\\x22(?:[\\x01-\\x08\\x0B\\x0C\\x0E-\\x1F\\x21\\x23-\\x5B\\x5D-\\x7F]|(?:\\x5C[\\x00-\\x7F]))*\\x22)))*@(?:(?:(?!.*[^.]{64,})(?:(?:(?:xn--)?[a-z0-9]+(?:-[a-z0-9]+)*\\.){1,126}){1,}(?:(?:[a-z][a-z0-9]*)|(?:(?:xn--)[a-z0-9]+))(?:-[a-z0-9]+)*)|(?:\\[(?:(?:IPv6:(?:(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){7})|(?:(?!(?:.*[a-f0-9][:\\]]){7,})(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,5})?::(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,5})?)))|(?:(?:IPv6:(?:(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){5}:)|(?:(?!(?:.*[a-f0-9]:){5,})(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,3})?::(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,3}:)?)))?(?:(?:25[0-5])|(?:2[0-4][0-9])|(?:1[0-9]{2})|(?:[1-9]?[0-9]))(?:\\.(?:(?:25[0-5])|(?:2[0-4][0-9])|(?:1[0-9]{2})|(?:[1-9]?[0-9]))){3}))\\]))";
   }
 
   /**
@@ -38,6 +39,20 @@ public final class MailChecker {
    */
   static {
     VALIDATOR_PATTERN = Pattern.compile(MailCheckerConstants.VALIDATION_REGEX);
+
+    //This should throw null pointer
+    try (
+      final InputStream inputStream = MailChecker.class.getClassLoader().getResourceAsStream("list.txt");
+      final InputStreamReader isReader = new InputStreamReader(inputStream);
+      final BufferedReader reader = new BufferedReader(isReader);
+      ){
+      while (reader.ready()){
+        MailCheckerConstants.BLACKLISTED_SET.add(reader.readLine());
+      }
+    }catch (NullPointerException e){
+      throw new FailedInitializationException("Failed to locate list.txt with in the library! If issue persist, please open up an issue at https://github.com/FGRibreau/mailchecker/issues", e);
+    }catch (Exception e){
+      throw new FailedInitializationException(e);    }
   }
 
   /**
@@ -58,10 +73,20 @@ public final class MailChecker {
 
     for (String eachSuffix : getAllDomainSuffix(emailAddress)) {
       if(MailCheckerConstants.BLACKLISTED_SET.contains(eachSuffix))
-        return true;
+        return false;
     }
 
-    return false;
+    return true;
+  }
+
+  /**
+   * Checks whether a provided email is valid or not?
+   * This will also return true, if the passed string is null or empty
+   * @param emailAddress An email address
+   * @return true is the specified email is invalid, false otherwise
+   */
+  public static boolean isInvalidEmail(final String emailAddress){
+    return !isValidEmail(emailAddress);
   }
 
   /**
