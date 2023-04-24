@@ -309,7 +309,7 @@ These amazing people have contributed code to this project:
 <li><a href="http://jacobburenstam.com">Jacob Burenstam</a></li>
 <li><a href="http://hermanslatman.nl">Herman Slatman</a></li>
 <li><a href="https://github.com/trisix">trisix</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=trisix" title="View the GitHub contributions of trisix on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://greenkeeper.io/">Greenkeeper</a></li>
+<li><a href="http://greenkeeper.io/">Greenkeeper</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=greenkeeperio-bot" title="View the GitHub contributions of Greenkeeper on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://wusty.io">Dustin Clark</a></li>
 <li><a href="http://antonz.ru/">Anton Zhiyanov</a></li>
 <li><a href="https://github.com/NBruel">Bruel Nicolas</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=NBruel" title="View the GitHub contributions of Bruel Nicolas on repository FGRibreau/mailchecker">view contributions</a></li>

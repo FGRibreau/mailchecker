@@ -30693,7 +30693,6 @@ return [
     "mail.by" => true,
     "mail.c-n-shop.com" => true,
     "mail.chatfunny.com" => true,
-    "mail.com" => true,
     "mail.comx.cf" => true,
     "mail.crowdpress.it" => true,
     "mail.defaultdomain.ml" => true,
