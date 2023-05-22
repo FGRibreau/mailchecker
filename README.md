@@ -27,6 +27,9 @@ This will be very helpful when you have to contact your users and you want to av
 
 -------------------------
 
+> Need to provide Webhooks inside your SaaS?
+- [Try Hook0, an open-source self-hostable webhook micro-service](https://www.hook0.com/)
+
 > Need to embed a charts into an email?
 >
 > It's over with **[Image-Charts](https://image-charts.com?gh_mailchecker)**, no more server-side rendering pain, 1 url = 1 chart.
