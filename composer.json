@@ -10,6 +10,8 @@
         "phpunit/phpunit": "^9.0"
     },
     "autoload": {
-        "classmap": ["platform/php/MailChecker.php"]
+        "psr-4": {
+            "Fgribreau\\": "platform/php"
+          }
     }
 }
