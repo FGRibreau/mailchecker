@@ -47,8 +47,18 @@ cht=lc // chart type
 
 ------------------------
 
-# Upgrade from 1.x to 3.x
+# Upgrade
+## From 3.x to 4.x
+- PHP
+```php
+# import using the fully qualified name.
+use Fgribreau\MailChecker;
 
+// ...
+echo MailChecker::isValid('myemail@yopmail.com');
+```
+
+## From 1.x to 3.x
 Mailchecker public API has been normalized, here are the changes:
 
 - NodeJS/JavaScript: `MailChecker(email)` -> `MailChecker.isValid(email)`
@@ -120,7 +130,10 @@ if(!MailChecker.isValid('myemail.com')){
 ### PHP
 
 ```php
-include __DIR__."/MailChecker/platform/php/MailChecker.php";
+
+use Fgribreau\MailChecker;
+
+require __DIR__ . '/vendor/autoload.php';
 
 if(!MailChecker::isValid('myemail@yopmail.com')){
   die('O RLY !');
