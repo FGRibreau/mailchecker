@@ -1,5 +1,7 @@
 <?php
 
+namespace Fgribreau\PHP;
+
 /**
  * MailChecker
  *
