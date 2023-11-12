@@ -6,9 +6,12 @@
 // Windows:
 // > composer install && .\vendor\bin\phpunit.bat test\MailCheckerTest.php
 
-require __DIR__ . '/../platform/php/MailChecker.php';
+require_once __DIR__ . '/../platform/php/MailChecker.php';
 
-class MailCheckerTest extends PHPUnit\Framework\TestCase
+
+use Fgribreau\PHP\MailChecker;
+
+class Platform extends \PHPUnit\Framework\TestCase
 {
     public function assertIsValidResult($expected, $email)
     {
@@ -58,9 +61,9 @@ class MailCheckerTest extends PHPUnit\Framework\TestCase
         $this->isInvalid('ok@guerrillamailblock.com');
     }
 
-    public function provideBlackListTests()
+    public static function provideBlackListTests()
     {
-        foreach (MailChecker::blacklist() as $blacklistedDomain) {
+        foreach (\Fgribreau\PHP\MailChecker::blacklist() as $blacklistedDomain) {
             yield [$blacklistedDomain];
         }
     }
@@ -80,7 +83,7 @@ class MailCheckerTest extends PHPUnit\Framework\TestCase
         $this->isValid('foo@google.com');
         $this->isValid('ok@gmail.com');
 
-        MailChecker::addCustomDomains(['youtube.com', 'google.com']);
+        \Fgribreau\PHP\MailChecker::addCustomDomains(['youtube.com', 'google.com']);
 
         $this->isInvalid('foo@youtube.com');
         $this->isInvalid('foo@google.com');
