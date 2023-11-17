@@ -1,16 +1,7 @@
 <?php
-namespace Fgribreau\PHP;
 
-/**
- * MailChecker
- *
- * Usage:
- *
- * include('mailchecker/platform/php/Mailchecker.php');
- * MailChecker::isValid(string email): bool;
- *
- * @return {Boolean} true is the specified email is valid, false otherwise
- */
+namespace Fgribreau;
+
 class MailChecker
 {
     private static $blacklist;
@@ -39,9 +30,6 @@ class MailChecker
         return array_keys(self::$blacklist);
     }
 
-    /**
-     * Check if an email is blacklisted or not.
-     */
     public static function isBlacklisted(string $email): bool
     {
         $parts = explode('@', $email);
