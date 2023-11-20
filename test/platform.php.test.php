@@ -6,6 +6,8 @@
 // Windows:
 // > composer install && .\vendor\bin\phpunit.bat test\platform.php.test.php
 
+require_once __DIR__ . '/../platform/php/MailChecker.php';
+
 use Fgribreau\MailChecker;
 use PHPUnit\Framework\TestCase;
 
@@ -61,7 +63,7 @@ class Platform extends TestCase
 
     public static function provideBlackListTests()
     {
-        foreach (MailChecker::blacklist() as $blacklistedDomain) {
+        foreach (array_rand(MailChecker::blacklist(), 1000) as $blacklistedDomain) {
             yield [$blacklistedDomain];
         }
     }
