@@ -2,16 +2,14 @@
 
 // Run tests from the repository root directory
 // Linux:
-// $ composer install && ./vendor/bin/phpunit test/MailCheckerTest.php
+// $ composer install && vendor/bin/phpunit test/platform.php.test.php
 // Windows:
-// > composer install && .\vendor\bin\phpunit.bat test\MailCheckerTest.php
+// > composer install && .\vendor\bin\phpunit.bat test\platform.php.test.php
 
-require_once __DIR__ . '/../platform/php/MailChecker.php';
+use Fgribreau\MailChecker;
+use PHPUnit\Framework\TestCase;
 
-
-use Fgribreau\PHP\MailChecker;
-
-class Platform extends \PHPUnit\Framework\TestCase
+class Platform extends TestCase
 {
     public function assertIsValidResult($expected, $email)
     {
@@ -63,7 +61,7 @@ class Platform extends \PHPUnit\Framework\TestCase
 
     public static function provideBlackListTests()
     {
-        foreach (\Fgribreau\PHP\MailChecker::blacklist() as $blacklistedDomain) {
+        foreach (MailChecker::blacklist() as $blacklistedDomain) {
             yield [$blacklistedDomain];
         }
     }
@@ -83,7 +81,7 @@ class Platform extends \PHPUnit\Framework\TestCase
         $this->isValid('foo@google.com');
         $this->isValid('ok@gmail.com');
 
-        \Fgribreau\PHP\MailChecker::addCustomDomains(['youtube.com', 'google.com']);
+        MailChecker::addCustomDomains(['youtube.com', 'google.com']);
 
         $this->isInvalid('foo@youtube.com');
         $this->isInvalid('foo@google.com');
