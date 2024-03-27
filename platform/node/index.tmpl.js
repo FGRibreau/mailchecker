@@ -9,7 +9,7 @@
 
 var range = require('node-range');
 
-var blacklist        = [{{& listSTR }}];
+var blacklist        = new Set([{{& listSTR }}]);
 var isValidEmail     = /^{{& unanchoredRegexpString }}$/;
 
 function allDomainSuffixes(email) {
@@ -22,7 +22,7 @@ function allDomainSuffixes(email) {
 
 function isBlacklisted(email) {
   function suffixIsBlacklisted(domainSuffix) {
-    return blacklist.indexOf(domainSuffix) >= 0;
+    return blacklist.has(domainSuffix);
   }
 
   return allDomainSuffixes(email).some(suffixIsBlacklisted);
@@ -43,6 +43,6 @@ module.exports = {
     return blacklist;
   },
   addCustomDomains: function (domains = []) {
-    blacklist.push(...domains)
+    domains.forEach(item => blacklist.add(item));
   }
 };
