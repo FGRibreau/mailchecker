@@ -1,8 +1,51 @@
 ## Change Log
 
+### v6.0.3 (2024/04/08 13:29 +00:00)
+- [01d841f](https://github.com/FGRibreau/mailchecker/commit/01d841f636724babe5ebe30340de500aaad73218) feat(build): update plateform files
+- [4f1a1fc](https://github.com/FGRibreau/mailchecker/commit/4f1a1fc0de0c91bd75e091f238a9442dfbdabb33) Release v6.0.3.
+- [#450](https://github.com/FGRibreau/mailchecker/pull/450) Merge pull request #450 from dlackty/add-few-domains (@dlackty)
+- [#434](https://github.com/FGRibreau/mailchecker/pull/434) Merge pull request #434 from CamLong2/patch-1 (@CamLong2)
+- [#435](https://github.com/FGRibreau/mailchecker/pull/435) Merge pull request #435 from KrisSofr/patch-1 (@KrisSofr)
+- [#444](https://github.com/FGRibreau/mailchecker/pull/444) Merge pull request #444 from safakocamanoglu/patch-1 (@safakocamanoglu)
+- [#446](https://github.com/FGRibreau/mailchecker/pull/446) Merge pull request #446 from safakocamanoglu/patch-2 (@safakocamanoglu)
+- [feb0976](https://github.com/FGRibreau/mailchecker/commit/feb09763df13a6f75556381742c444896068067c) Add few domains to the list (@dlackty)
+- [#447](https://github.com/FGRibreau/mailchecker/pull/447) Merge pull request #447 from erikt9/patch-1 (@erikt9)
+- [#448](https://github.com/FGRibreau/mailchecker/pull/448) Merge pull request #448 from erikt9/no-newline-list.txt (@erikt9)
+- [12d87ae](https://github.com/FGRibreau/mailchecker/commit/12d87ae0b11257af84f4f8e66ce2c19efaf5866d) No newline for list.txt (@erikt9)
+- [d8127de](https://github.com/FGRibreau/mailchecker/commit/d8127de3e5d1aac949d9f0f72189a160d13102b5) Remove dallas.gov as it is a legitimate domain (@erikt9)
+- [c3fea84](https://github.com/FGRibreau/mailchecker/commit/c3fea84c3560a7bb95a6ec6c4c9d28897f0e374f) Update list.txt (@safakocamanoglu)
+- [057cf52](https://github.com/FGRibreau/mailchecker/commit/057cf525de8095ee0d9a5f5c267d820ac0f74f84) Update list.txt (@safakocamanoglu)
+- [#445](https://github.com/FGRibreau/mailchecker/pull/445) Merge pull request #445 from owst/master (@owst)
+- [4e574d2](https://github.com/FGRibreau/mailchecker/commit/4e574d2576fbad995e2adc24812e5cd5e292f177) Add mitico.org (@safakocamanoglu)
+- [ca0f8ab](https://github.com/FGRibreau/mailchecker/commit/ca0f8ab842078c1bd9eec50f2ed8b9b913109184) Add frozen_string_literal pragma (@owst)
+- [5ca7213](https://github.com/FGRibreau/mailchecker/commit/5ca721385df1bcd2a68f1cdc16f8b2132a4b9dfe) Add jcnorris.com (@safakocamanoglu)
+- [3920c6e](https://github.com/FGRibreau/mailchecker/commit/3920c6e7baa15b0664f9855153aaaf5d6d4cd6d4) Update list.txt Removed synami.com (@KrisSofr)
+- [8034565](https://github.com/FGRibreau/mailchecker/commit/80345654c90afba51640d3fbfa3dc8521c7aa97e) Update list.txt Removed lionelastomers.com (@CamLong2)
+
+### v6.0.2 (2023/11/20 21:49 +00:00)
+- [16401cc](https://github.com/FGRibreau/mailchecker/commit/16401cc48a8d426d417544814927fae0fa63678e) Release v6.0.2.
+- [001f298](https://github.com/FGRibreau/mailchecker/commit/001f29818a8a1d010c3a82d457fbfa5a1107d58e) feat(build): update plateform files
+- [017e5dc](https://github.com/FGRibreau/mailchecker/commit/017e5dcc8f3fdc7b7dc5f8f188fcf41ee10a32ff) fix(rust): upgrade version
+- [7347876](https://github.com/FGRibreau/mailchecker/commit/73478760c28b323babcc6d33e5491a1498893c37) fix(php): only test on 1000 random domains
+- [e65dcad](https://github.com/FGRibreau/mailchecker/commit/e65dcad83a6bc4c70177bbec8821aa2502486d08) Merge branch 'master' of github.com:FGRibreau/mailchecker
+- [bcb3880](https://github.com/FGRibreau/mailchecker/commit/bcb38801208aa627ad5aa28bb7dc7e0da7d02519) fix: cargo
+- [9d5f6e8](https://github.com/FGRibreau/mailchecker/commit/9d5f6e88c301870f4edb4bc6fb6e0cb13c2385d0) fix: python
+- [#430](https://github.com/FGRibreau/mailchecker/pull/430) Merge pull request #430 from lyrixx/fix-php-platform (@lyrixx)
+- [#429](https://github.com/FGRibreau/mailchecker/pull/429) Merge pull request #429 from mdbenjam/update-go-mod-version (@mdbenjam)
+- [#426](https://github.com/FGRibreau/mailchecker/pull/426) Merge pull request #426 from laurentgoudet/laurent-remove-tfbnw.net (@laurentgoudet)
+- [#423](https://github.com/FGRibreau/mailchecker/pull/423) Merge pull request #423 from alex-mamchenkov/patch-1 (@alex-mamchenkov)
+- [9333543](https://github.com/FGRibreau/mailchecker/commit/9333543a5787bedd7a5487bf18afdb9077e93cc0) Fix PHP platform (@lyrixx)
+- [a7ee4fb](https://github.com/FGRibreau/mailchecker/commit/a7ee4fbc8e358cb60f795c6f5004b186af09d6ba) Update go mod version (@mdbenjam)
+- [13fbe6f](https://github.com/FGRibreau/mailchecker/commit/13fbe6fe814087d7b4c975afe79a5a429160e99d) feat(cargo): updated to 6.0.1
+- [fb0f759](https://github.com/FGRibreau/mailchecker/commit/fb0f7596302e417cf0612df7db3c7e7aad7d8a6d) feat(python): updated to 6.0.1
+- [b11b504](https://github.com/FGRibreau/mailchecker/commit/b11b504fd0e6d9c4db9bd999d18c22f6f239893e) feat(gemspec): updated to 6.0.1
+- [f042a5a](https://github.com/FGRibreau/mailchecker/commit/f042a5a9bbb7edfdf902a246f5cf78070e45beed) docs(changelog): updated
+
 ### v6.0.1 (2023/11/12 17:53 +00:00)
 - [e1ae544](https://github.com/FGRibreau/mailchecker/commit/e1ae544cac7a16d0669c2f72991d3fe119195d25) Release v6.0.1.
 - [84b7038](https://github.com/FGRibreau/mailchecker/commit/84b703882210e3b605e10c4d8e345604c99ac9c2) feat(build): update plateform files and fix php test files
+- [99e7296](https://github.com/FGRibreau/mailchecker/commit/99e72968da5e771e52ee3729775bfe1825e9b77d) Remove tfbnw.net
+- [40292e7](https://github.com/FGRibreau/mailchecker/commit/40292e757abedd512ac6662c336e5cc26177d14c) Update list.txt (@alex-mamchenkov)
 - [4935e39](https://github.com/FGRibreau/mailchecker/commit/4935e39db7a3a892958c2ac4061f4edcd0ac95ea) chore(package): bump
 - [#421](https://github.com/FGRibreau/mailchecker/pull/421) Merge pull request #421 from palagyireka/master (@palagyireka)
 - [c16e748](https://github.com/FGRibreau/mailchecker/commit/c16e74856851a73a74c719ccad1682a171946abf) Remove fide.com from list (@palagyireka)
@@ -232,7 +275,7 @@
 - [384f597](https://github.com/FGRibreau/mailchecker/commit/384f597ef8b1359503a8a67c031db39cbbc81028) Update list.txt (@Buffele)
 - [#356](https://github.com/FGRibreau/mailchecker/pull/356) Merge pull request #356 from Buffele/list (@Buffele)
 - [#357](https://github.com/FGRibreau/mailchecker/pull/357) Merge pull request #357 from jeremypress/patch-1 (@jeremypress)
-- [df697a8](https://github.com/FGRibreau/mailchecker/commit/df697a851d7df7bd65a8c9e9bf1b988301274353) Add secure-mail.ml (@jeremypress)
+- [df697a8](https://github.com/FGRibreau/mailchecker/commit/df697a851d7df7bd65a8c9e9bf1b988301274353) Add secure-mail.ml
 - [6f86a72](https://github.com/FGRibreau/mailchecker/commit/6f86a72980527201c62fa6e0c20358bb31af09b5) Update list.txt (@Buffele)
 - [20f7a24](https://github.com/FGRibreau/mailchecker/commit/20f7a24b42184ccb68b5be45181690274030b55e) Update list.txt (@Buffele)
 - [0a648a8](https://github.com/FGRibreau/mailchecker/commit/0a648a87cf80676708a19d69e9635d228345d0a8) feat(cargo): updated to 4.1.16
@@ -834,7 +877,7 @@
 - [2fe4c1e](https://github.com/FGRibreau/mailchecker/commit/2fe4c1ee6191325443a083969fdd1c5fcdc726c8) feat(build): update plateform files (@FGRibreau)
 - [13e598c](https://github.com/FGRibreau/mailchecker/commit/13e598c497bafa6f4130b5e4c914ef52498b5340) Release v4.0.2. (@FGRibreau)
 - [#294](https://github.com/FGRibreau/mailchecker/pull/294) Merge pull request #294 from jeremypress/jeremypress-hush.com (@jeremypress)
-- [adfb534](https://github.com/FGRibreau/mailchecker/commit/adfb534891f23e94c9c39f5956d1f69edc4d3a0d) remove hush.com from list.txt (@jeremypress)
+- [adfb534](https://github.com/FGRibreau/mailchecker/commit/adfb534891f23e94c9c39f5956d1f69edc4d3a0d) remove hush.com from list.txt
 - [7ef28cf](https://github.com/FGRibreau/mailchecker/commit/7ef28cfbdee8efb26f46c6c866d7e66e4a8f267f) fix: cargo (@FGRibreau)
 - [3ffe530](https://github.com/FGRibreau/mailchecker/commit/3ffe5309b8e94c04069f1a82685eb6c778a769ab) feat(cargo): updated to 4.0.1 (@FGRibreau)
 - [f9cb79e](https://github.com/FGRibreau/mailchecker/commit/f9cb79e9fde8d30680c131830dc6fa108ddd041c) feat(python): updated to 4.0.1 (@FGRibreau)
@@ -871,7 +914,7 @@
 - [b822b1d](https://github.com/FGRibreau/mailchecker/commit/b822b1d259d8cccef24849f81c9a0f7bcb066c4e) Release v3.3.17. (@FGRibreau)
 - [79ffa5b](https://github.com/FGRibreau/mailchecker/commit/79ffa5b4caa883df17c9512844a74c47d4ac03fd) feat(build): update plateform files (@FGRibreau)
 - [#289](https://github.com/FGRibreau/mailchecker/pull/289) Merge pull request #289 from jeremypress/jeremypress-gmailnator (@jeremypress)
-- [80648a5](https://github.com/FGRibreau/mailchecker/commit/80648a5cda4d35716c190a629386ffa06ec823e9) add gmailnator to list.txt (@jeremypress)
+- [80648a5](https://github.com/FGRibreau/mailchecker/commit/80648a5cda4d35716c190a629386ffa06ec823e9) add gmailnator to list.txt
 - [528d52a](https://github.com/FGRibreau/mailchecker/commit/528d52aa38b72c000258b9b5725cc04d2212db40) chore: update Cargo.lock (@FGRibreau)
 - [14828c3](https://github.com/FGRibreau/mailchecker/commit/14828c3e84c06fb0967033248ef6410b46e4c3c6) feat(cargo): updated to 3.3.16 (@FGRibreau)
 - [4d00fd5](https://github.com/FGRibreau/mailchecker/commit/4d00fd5a87651e514d3fa7fe8db4e46ebe8518bb) feat(python): updated to 3.3.16 (@FGRibreau)
@@ -1021,7 +1064,7 @@
 - [779f797](https://github.com/FGRibreau/mailchecker/commit/779f797fb2ff1fe1ffe7a6911e29fb74fafcc04e) And more (@Chigusa0w0)
 - [2a6cc2c](https://github.com/FGRibreau/mailchecker/commit/2a6cc2cde4cd9ad2944d12991490a1929c497900) Add meantinc.com (@Chigusa0w0)
 - [#245](https://github.com/FGRibreau/mailchecker/pull/245) Merge pull request #245 from makitsune/changes (@makitsune)
-- [602e219](https://github.com/FGRibreau/mailchecker/commit/602e219855c789b4831334693a1fcf2032663152) Added domains from cock.li
+- [602e219](https://github.com/FGRibreau/mailchecker/commit/602e219855c789b4831334693a1fcf2032663152) Added domains from cock.li (@makidoll)
 - [89371a9](https://github.com/FGRibreau/mailchecker/commit/89371a944d0ae614d272bcc91b4beafd0d9ac096) fix(cargo) (@FGRibreau)
 - [f338ef3](https://github.com/FGRibreau/mailchecker/commit/f338ef3bfc856261e4f207b068e7268d972d82f7) feat(cargo): updated to 3.3.3 (@FGRibreau)
 - [fabac1f](https://github.com/FGRibreau/mailchecker/commit/fabac1fc33132e4d74c6081968872d045fe4708e) feat(python): updated to 3.3.3 (@FGRibreau)
@@ -1496,8 +1539,6 @@
 - [e8dd164](https://github.com/FGRibreau/mailchecker/commit/e8dd1641d08d1585e6e692bf898ea4192844cc18) feat(cargo): updated to 3.2.7 (@FGRibreau)
 - [02e6901](https://github.com/FGRibreau/mailchecker/commit/02e690192a410bc62fffe76e6ab372b640ff4e08) feat(gemspec): updated to 3.2.7 (@FGRibreau)
 - [8f52d0f](https://github.com/FGRibreau/mailchecker/commit/8f52d0f2363418ca3f574d4e5565cfbbe9d041f1) docs(changelog): updated (@FGRibreau)
-
-### v3.2.7 (2018/07/17 10:43 +00:00)
 - [7a38f6b](https://github.com/FGRibreau/mailchecker/commit/7a38f6bb5ee6a8edadc9c44cfd8eb977a8feba11) feat(build): update plateform files (@FGRibreau)
 - [346508f](https://github.com/FGRibreau/mailchecker/commit/346508f6d70eebd06316afbd3756a8a56cbec005) Release v3.2.7. (@FGRibreau)
 - [baf1eb2](https://github.com/FGRibreau/mailchecker/commit/baf1eb21d8f4ea20a583b2bfd49c3482f3a4ddd5) feat(gemspec): updated to 3.2.6 (@FGRibreau)
@@ -1506,8 +1547,6 @@
 - [#141](https://github.com/FGRibreau/mailchecker/pull/141) Merge pull request #141 from nalgeon/patch-6 (@nalgeon)
 - [98ce5be](https://github.com/FGRibreau/mailchecker/commit/98ce5be60bfdd9e1da6e93a942b4fc7589025b0d) More from 10minutemail.net and temp-mail.org (@nalgeon)
 - [4cc6766](https://github.com/FGRibreau/mailchecker/commit/4cc67666c19c24bb1373f3723fcdd0eab840ce4e) docs(changelog): updated (@FGRibreau)
-
-### v3.2.6 (2018/07/10 13:00 +00:00)
 - [7930514](https://github.com/FGRibreau/mailchecker/commit/79305146f52f73b5512aa73722bcf20c3dc11518) Release v3.2.6. (@FGRibreau)
 - [858e01d](https://github.com/FGRibreau/mailchecker/commit/858e01d6ca14e884a08a18a2f0ca989ba7c412f3) feat(build): update plateform files (@FGRibreau)
 - [6136aa4](https://github.com/FGRibreau/mailchecker/commit/6136aa4b5ceca09900ad4852061e6b2443b9ae9d) feat(gemspec): updated to 3.2.5 (@FGRibreau)
