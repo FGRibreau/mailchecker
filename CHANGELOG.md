@@ -1,5 +1,19 @@
 ## Change Log
 
+### v6.0.4 (2024/04/22 19:43 +00:00)
+- [76ac739](https://github.com/FGRibreau/mailchecker/commit/76ac7390cbaff3515a71555a062fe3ec9d69f2bf) feat(build): update plateform files
+- [f27a157](https://github.com/FGRibreau/mailchecker/commit/f27a1579be13b1f4d846b51d1465182a6b77dd40) Release v6.0.4.
+- [2a500c2](https://github.com/FGRibreau/mailchecker/commit/2a500c215aa56df88c8b106e4043fed9ee12ce1a) fix(rust): bump
+- [#438](https://github.com/FGRibreau/mailchecker/pull/438) Merge pull request #438 from amaury1093/master (@amaury1093)
+- [#451](https://github.com/FGRibreau/mailchecker/pull/451) Merge pull request #451 from anandrmedia/patch-1 (@anandrmedia)
+- [#452](https://github.com/FGRibreau/mailchecker/pull/452) Merge pull request #452 from safakocamanoglu/patch-3 (@safakocamanoglu)
+- [0f9f1e2](https://github.com/FGRibreau/mailchecker/commit/0f9f1e2fac88ece183e2ff97a994aa376d853f70) Update list.txt (@safakocamanoglu)
+- [4e1d713](https://github.com/FGRibreau/mailchecker/commit/4e1d713a9fec230d19c79bcce7ea8e04323cd2ce) Adds few emails from temp-mail.org (@anandrmedia)
+- [8033036](https://github.com/FGRibreau/mailchecker/commit/80330366e2105401980fe6bebc446c7c2cb68cf6) feat(cargo): updated to 6.0.3
+- [e776b9f](https://github.com/FGRibreau/mailchecker/commit/e776b9f1c5921b5995ea802ce1a3188fbc279b7d) feat(python): updated to 6.0.3
+- [e13dab5](https://github.com/FGRibreau/mailchecker/commit/e13dab54057728b95cdd70fb7032662ec6022dbc) feat(gemspec): updated to 6.0.3
+- [524b103](https://github.com/FGRibreau/mailchecker/commit/524b103df6b64de2655bbf08d44dafa57f4aaf8a) docs(changelog): updated
+
 ### v6.0.3 (2024/04/08 13:29 +00:00)
 - [01d841f](https://github.com/FGRibreau/mailchecker/commit/01d841f636724babe5ebe30340de500aaad73218) feat(build): update plateform files
 - [4f1a1fc](https://github.com/FGRibreau/mailchecker/commit/4f1a1fc0de0c91bd75e091f238a9442dfbdabb33) Release v6.0.3.
@@ -19,6 +33,7 @@
 - [4e574d2](https://github.com/FGRibreau/mailchecker/commit/4e574d2576fbad995e2adc24812e5cd5e292f177) Add mitico.org (@safakocamanoglu)
 - [ca0f8ab](https://github.com/FGRibreau/mailchecker/commit/ca0f8ab842078c1bd9eec50f2ed8b9b913109184) Add frozen_string_literal pragma (@owst)
 - [5ca7213](https://github.com/FGRibreau/mailchecker/commit/5ca721385df1bcd2a68f1cdc16f8b2132a4b9dfe) Add jcnorris.com (@safakocamanoglu)
+- [d1f91ae](https://github.com/FGRibreau/mailchecker/commit/d1f91ae2064ae62ab357024e25826cc50367f6fc) Add bayxs.com (@amaury1093)
 - [3920c6e](https://github.com/FGRibreau/mailchecker/commit/3920c6e7baa15b0664f9855153aaaf5d6d4cd6d4) Update list.txt Removed synami.com (@KrisSofr)
 - [8034565](https://github.com/FGRibreau/mailchecker/commit/80345654c90afba51640d3fbfa3dc8521c7aa97e) Update list.txt Removed lionelastomers.com (@CamLong2)
 
@@ -1528,8 +1543,6 @@
 - [24289d4](https://github.com/FGRibreau/mailchecker/commit/24289d493adfb2b661924d5172f43c47d0b41f90) adding memeil.top to the list of disposable email address domains (@dillilabs)
 - [b164f53](https://github.com/FGRibreau/mailchecker/commit/b164f535202843d453e5e5f1521f4319acdf74e8) Update README.md (@FGRibreau)
 - [56ddde7](https://github.com/FGRibreau/mailchecker/commit/56ddde7c6deaeef6537f59c4faf867be8ad8326d) docs(changelog): updated (@FGRibreau)
-
-### v3.2.8 (2018/09/26 13:00 +00:00)
 - [0e05244](https://github.com/FGRibreau/mailchecker/commit/0e0524462a641b54843d97d1dbe7069b24016eb7) Release v3.2.8. (@FGRibreau)
 - [68c579b](https://github.com/FGRibreau/mailchecker/commit/68c579b5e4497c1d5e6fac27b440852dc0643c93) feat(build): update plateform files (@FGRibreau)
 - [#143](https://github.com/FGRibreau/mailchecker/pull/143) Merge pull request #143 from xthiago/nwytgnet (@xthiago)
