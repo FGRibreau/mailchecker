@@ -34935,7 +34935,6 @@ nesy.pl
 net-led.com.pl
 net-list.com
 net-solution.info
-net.ua
 net191.com
 net1mail.com
 net2mail.top
