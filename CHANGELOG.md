@@ -1,5 +1,20 @@
 ## Change Log
 
+### v6.0.5 (2024/05/18 13:47 +00:00)
+- [3a362ca](https://github.com/FGRibreau/mailchecker/commit/3a362cac5451a6f3f1af511d9447a36992e49faa) feat(build): update plateform files
+- [a9abf64](https://github.com/FGRibreau/mailchecker/commit/a9abf64efb908da74fdc31699010932681cecf45) Release v6.0.5.
+- [8637aef](https://github.com/FGRibreau/mailchecker/commit/8637aeff363c12d155580442ae6ab2446f64a07a) fix
+- [#453](https://github.com/FGRibreau/mailchecker/pull/453) Merge pull request #453 from miry/rm-net-ua (@miry)
+- [#433](https://github.com/FGRibreau/mailchecker/pull/433) Merge pull request #433 from husainalzeera/patch-1 (@husainalzeera)
+- [#454](https://github.com/FGRibreau/mailchecker/pull/454) Merge pull request #454 from Iamaniketgupta/master (@Iamaniketgupta)
+- [#1](https://github.com/FGRibreau/mailchecker/pull/1) Merge pull request #1 from Iamaniketgupta/Iamaniketgupta-patch-1 (@Iamaniketgupta)
+- [cb81dc8](https://github.com/FGRibreau/mailchecker/commit/cb81dc832399e702d49f8cdf26bdf349fa74507b) add mfyax.com to list.txt (@Iamaniketgupta)
+- [4857401](https://github.com/FGRibreau/mailchecker/commit/485740144c8496d8e0632fa9d27e87beb6caef81) Exclude net.ua from the list (@miry)
+- [8a4b875](https://github.com/FGRibreau/mailchecker/commit/8a4b875e5ba14712149aaedf61e759dd0ddd928b) feat(cargo): updated to 6.0.4
+- [9b07742](https://github.com/FGRibreau/mailchecker/commit/9b07742b0ba5934efde95e187dd268a6ab87b2c7) feat(python): updated to 6.0.4
+- [6dc0a25](https://github.com/FGRibreau/mailchecker/commit/6dc0a2581ea4a2521c5d16fcbcde92b318bc1362) feat(gemspec): updated to 6.0.4
+- [1eb7183](https://github.com/FGRibreau/mailchecker/commit/1eb71839ee5edba353502e6cd5f70b78ec72e9fd) docs(changelog): updated
+
 ### v6.0.4 (2024/04/22 19:43 +00:00)
 - [76ac739](https://github.com/FGRibreau/mailchecker/commit/76ac7390cbaff3515a71555a062fe3ec9d69f2bf) feat(build): update plateform files
 - [f27a157](https://github.com/FGRibreau/mailchecker/commit/f27a1579be13b1f4d846b51d1465182a6b77dd40) Release v6.0.4.
@@ -36,6 +51,7 @@
 - [d1f91ae](https://github.com/FGRibreau/mailchecker/commit/d1f91ae2064ae62ab357024e25826cc50367f6fc) Add bayxs.com (@amaury1093)
 - [3920c6e](https://github.com/FGRibreau/mailchecker/commit/3920c6e7baa15b0664f9855153aaaf5d6d4cd6d4) Update list.txt Removed synami.com (@KrisSofr)
 - [8034565](https://github.com/FGRibreau/mailchecker/commit/80345654c90afba51640d3fbfa3dc8521c7aa97e) Update list.txt Removed lionelastomers.com (@CamLong2)
+- [bd9070c](https://github.com/FGRibreau/mailchecker/commit/bd9070cdce1c45cf2769e2b5c66db44d14725f7e) Convert node blacklist to a Set for performance gains (@husainalzeera)
 
 ### v6.0.2 (2023/11/20 21:49 +00:00)
 - [16401cc](https://github.com/FGRibreau/mailchecker/commit/16401cc48a8d426d417544814927fae0fa63678e) Release v6.0.2.
@@ -1532,8 +1548,6 @@
 - [#147](https://github.com/FGRibreau/mailchecker/pull/147) Merge pull request #147 from xthiago/tempmailaddress (@xthiago)
 - [48a1063](https://github.com/FGRibreau/mailchecker/commit/48a106363ddf1b48a17e52aef5c1880878d65a16) add tempmailaddress.com - fix issue #146 (@xthiago)
 - [b78dd19](https://github.com/FGRibreau/mailchecker/commit/b78dd199cb608f66f3cbb169dc3cb6f3ca2c88e2) docs(changelog): updated (@FGRibreau)
-
-### v3.2.9 (2018/10/10 20:28 +00:00)
 - [3ef2b85](https://github.com/FGRibreau/mailchecker/commit/3ef2b85210e6a8d2cc1aaa2dbac08d3b918e40eb) feat(build): update plateform files (@FGRibreau)
 - [2098284](https://github.com/FGRibreau/mailchecker/commit/20982849be1311bb3b5e91d28b50470dc9742c4c) Release v3.2.9. (@FGRibreau)
 - [10e6f19](https://github.com/FGRibreau/mailchecker/commit/10e6f1925ef5121a56abed97d9a5f9a65e2f6e12) feat(gemspec): updated to 3.2.8 (@FGRibreau)
