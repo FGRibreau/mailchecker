@@ -1,5 +1,28 @@
 ## Change Log
 
+### v6.0.6 (2024/08/23 07:35 +00:00)
+- [9a369a4](https://github.com/FGRibreau/mailchecker/commit/9a369a4d11cdabc8fecfb04a92dad9aba2ff9934) feat(build): update plateform files
+- [dbcb351](https://github.com/FGRibreau/mailchecker/commit/dbcb35165cdfd807ec3e1777f6b897b6584e814c) Release v6.0.6.
+- [#465](https://github.com/FGRibreau/mailchecker/pull/465) Merge pull request #465 from pointmax/feat/add-mediaholy.com-to-the-list (@pointmax)
+- [a3d7fcb](https://github.com/FGRibreau/mailchecker/commit/a3d7fcb8a67110d8cd6768ec41c29e3c5e88627e) feat: add mediaholy.com to the list (@pointmax)
+- [#464](https://github.com/FGRibreau/mailchecker/pull/464) Merge pull request #464 from WanerValencia2019/feat/temp-mail-org-domains (@WanerValencia2019)
+- [6a5843d](https://github.com/FGRibreau/mailchecker/commit/6a5843d62b439d552d59dc797d1c4905e28aa970) Add new domains from temp-mail.org (@WanerValencia2019)
+- [#462](https://github.com/FGRibreau/mailchecker/pull/462) Merge pull request #462 from RogozhinRoman/patch-1 (@RogozhinRoman)
+- [#463](https://github.com/FGRibreau/mailchecker/pull/463) Merge pull request #463 from pointmax/feat/add-wywnxa.com-to-list.txt (@pointmax)
+- [2069935](https://github.com/FGRibreau/mailchecker/commit/2069935d788c91693b5a1312f0676418673428c2) feat: add wywnxa.com to list.txt (@pointmax)
+- [d2d945c](https://github.com/FGRibreau/mailchecker/commit/d2d945c35dc6bdcba5ced595cb52792f56c352d4) Remove bbox.com from the list (@RogozhinRoman)
+- [#460](https://github.com/FGRibreau/mailchecker/pull/460) Merge pull request #460 from ndianabasi/patch-1 (@ndianabasi)
+- [147d62d](https://github.com/FGRibreau/mailchecker/commit/147d62dc3a602925e65ee3b4eb1087f046af97d4) fix: correct return type for `blacklist` fn (@ndianabasi)
+- [#456](https://github.com/FGRibreau/mailchecker/pull/456) Merge pull request #456 from dlackty/mohmal-com (@dlackty)
+- [#455](https://github.com/FGRibreau/mailchecker/pull/455) Merge pull request #455 from dlackty/temp-mail-io (@dlackty)
+- [58f0be9](https://github.com/FGRibreau/mailchecker/commit/58f0be9391b82dd7442b25e5639f3c8e289000d8) Add new domains from mohmal.com (@dlackty)
+- [bf68f3f](https://github.com/FGRibreau/mailchecker/commit/bf68f3fdca85cb684e806c454302a6a25c30e44a) Add new domains from temp-mail.io (@dlackty)
+- [448f194](https://github.com/FGRibreau/mailchecker/commit/448f194393ecf8663b02093fe67a80c8b96c3a29) fix
+- [99924e5](https://github.com/FGRibreau/mailchecker/commit/99924e576760e9b287b3dc8618558c572166b8d6) feat(cargo): updated to 6.0.5
+- [7a68531](https://github.com/FGRibreau/mailchecker/commit/7a68531e0cbadd0179bc9e6a653b33f5b7c85871) feat(python): updated to 6.0.5
+- [d426b95](https://github.com/FGRibreau/mailchecker/commit/d426b95c04a646232af3ac0be2459642b82df743) feat(gemspec): updated to 6.0.5
+- [6ef24e9](https://github.com/FGRibreau/mailchecker/commit/6ef24e9ce3a360799c967d67072429e19bd5ca7b) docs(changelog): updated
+
 ### v6.0.5 (2024/05/18 13:47 +00:00)
 - [3a362ca](https://github.com/FGRibreau/mailchecker/commit/3a362cac5451a6f3f1af511d9447a36992e49faa) feat(build): update plateform files
 - [a9abf64](https://github.com/FGRibreau/mailchecker/commit/a9abf64efb908da74fdc31699010932681cecf45) Release v6.0.5.
@@ -1537,8 +1560,6 @@
 - [200779b](https://github.com/FGRibreau/mailchecker/commit/200779b29cb673d654346a43a8ff3734d53f2948) feat(cargo): updated to 3.2.10 (@FGRibreau)
 - [d956cf6](https://github.com/FGRibreau/mailchecker/commit/d956cf64e31010fe1da2454d7e339561e0b2a14c) feat(gemspec): updated to 3.2.10 (@FGRibreau)
 - [2b1ace8](https://github.com/FGRibreau/mailchecker/commit/2b1ace882bdd447fa496fe06f4768ff1b6722958) docs(changelog): updated (@FGRibreau)
-
-### v3.2.10 (2018/10/22 07:16 +00:00)
 - [d5a71cf](https://github.com/FGRibreau/mailchecker/commit/d5a71cf8e579db6018bc2ec9fc852e185f0557eb) Release v3.2.10. (@FGRibreau)
 - [80e52a5](https://github.com/FGRibreau/mailchecker/commit/80e52a5f66221f478a9fc01140373d33d8451cd6) feat(build): update plateform files (@FGRibreau)
 - [5e550ba](https://github.com/FGRibreau/mailchecker/commit/5e550ba3786e4ab9db7a929eb14736aa1e5c3dab) feat(gemspec): updated to 3.2.9 (@FGRibreau)
@@ -2101,7 +2122,7 @@
 - [35706a6](https://github.com/FGRibreau/mailchecker/commit/35706a6a3b8d055ebc5be70112f7ff4650891d76) Added 10minutemail (@FGRibreau)
 - [47322ac](https://github.com/FGRibreau/mailchecker/commit/47322acf1123e48c814ec7e772d4684aa36df447) Support for spamdecoy (@FGRibreau)
 - [#15](https://github.com/FGRibreau/mailchecker/pull/15) Merge pull request #15 from LuckyDino/master (@LuckyDino)
-- [1afb323](https://github.com/FGRibreau/mailchecker/commit/1afb3238adb79ef3c55d437cef40a9dc4bf233ab) Update list.json
+- [1afb323](https://github.com/FGRibreau/mailchecker/commit/1afb3238adb79ef3c55d437cef40a9dc4bf233ab) Update list.json (@luckydino)
 - [4cb6250](https://github.com/FGRibreau/mailchecker/commit/4cb6250fd3b83d8274ffa4642693745f2f80174e) Update README.md (@FGRibreau)
 - [d9af264](https://github.com/FGRibreau/mailchecker/commit/d9af2641ec1658a937096b8de073b35e99b9a1bc) Update README.md (@FGRibreau)
 - [88ce112](https://github.com/FGRibreau/mailchecker/commit/88ce1128ab879f4044b3578c87be07154a751d91) Updating email list (@FGRibreau)
