@@ -1,5 +1,21 @@
 ## Change Log
 
+### v6.0.8 (2024/08/27 13:32 +00:00)
+- [ab7e99b](https://github.com/FGRibreau/mailchecker/commit/ab7e99b0632763bbd75b75fdd18afca354a1a738) feat(build): update plateform files
+- [40529f8](https://github.com/FGRibreau/mailchecker/commit/40529f8183dd6abbe96e223bda1f3827a80b5acc) Release v6.0.8.
+- [b8b9527](https://github.com/FGRibreau/mailchecker/commit/b8b95279b17f59607bc05687e1bdc2eeb8869794) fix: ruby
+- [c8623ff](https://github.com/FGRibreau/mailchecker/commit/c8623ff29af18f267807d6f8e267373663458b23) fix: java
+- [defc24e](https://github.com/FGRibreau/mailchecker/commit/defc24ee487424360f9fc188b1992e25b1a6778d) Release v6.0.7.
+- [1a7deed](https://github.com/FGRibreau/mailchecker/commit/1a7deed314602e5b90e2279cb788a973b251012b) fix(cargo)
+
+### v6.0.7 (2024/08/27 13:29 +00:00)
+- [#467](https://github.com/FGRibreau/mailchecker/pull/467) Merge pull request #467 from bohwaz/master (@bohwaz)
+- [c3de7ae](https://github.com/FGRibreau/mailchecker/commit/c3de7ae4cc0789dd87f59668374aa6dae825e1ff) Remove personal domain (@bohwaz)
+- [9622785](https://github.com/FGRibreau/mailchecker/commit/96227851bbcfb1e1746153b751e114ee418cae98) feat(cargo): updated to 6.0.6
+- [5893703](https://github.com/FGRibreau/mailchecker/commit/5893703dd4285e68efb82f862dc43391debda07d) feat(python): updated to 6.0.6
+- [aa10812](https://github.com/FGRibreau/mailchecker/commit/aa1081210ccc39c09cf63c92ebe4a90b79321699) feat(gemspec): updated to 6.0.6
+- [4d1236a](https://github.com/FGRibreau/mailchecker/commit/4d1236a7478823e8ae3f9cf6d08cb3b2f7edc9b4) docs(changelog): updated
+
 ### v6.0.6 (2024/08/23 07:35 +00:00)
 - [9a369a4](https://github.com/FGRibreau/mailchecker/commit/9a369a4d11cdabc8fecfb04a92dad9aba2ff9934) feat(build): update plateform files
 - [dbcb351](https://github.com/FGRibreau/mailchecker/commit/dbcb35165cdfd807ec3e1777f6b897b6584e814c) Release v6.0.6.
@@ -1537,8 +1553,6 @@
 - [a6b59ad](https://github.com/FGRibreau/mailchecker/commit/a6b59ad54a5acfe8406eb6051b35ea9770ce66a7) remove more sneakemail/snkmail refs (@ryancdotorg)
 - [#2](https://github.com/FGRibreau/mailchecker/pull/2) Merge pull request #2 from FGRibreau/master (@FGRibreau)
 - [6192d1b](https://github.com/FGRibreau/mailchecker/commit/6192d1b61b767993cc51bc21c07f5785ce30fbe9) docs(changelog): updated (@FGRibreau)
-
-### v3.2.12 (2018/11/27 20:55 +00:00)
 - [8f43ccb](https://github.com/FGRibreau/mailchecker/commit/8f43ccb0e8af97514417d5f68cdc196bfdc9326a) Release v3.2.12. (@FGRibreau)
 - [232ce44](https://github.com/FGRibreau/mailchecker/commit/232ce44150cf6a73bee0e79416af1ad1e99539e6) feat(build): update plateform files (@FGRibreau)
 - [efe30ff](https://github.com/FGRibreau/mailchecker/commit/efe30ffa3a32177d3d2692b3a82ea5f4fe6e9766) feat(gemspec): updated to 3.2.11 (@FGRibreau)
@@ -1549,8 +1563,6 @@
 - [3d502a8](https://github.com/FGRibreau/mailchecker/commit/3d502a8b65706d7dcf0cfe477eb378f799222040) remove sneakemail domains (@ryancdotorg)
 - [44dfdfd](https://github.com/FGRibreau/mailchecker/commit/44dfdfddfc4a9edd60089655698afe76556562e7) Update README.md (@FGRibreau)
 - [c29e15c](https://github.com/FGRibreau/mailchecker/commit/c29e15c42567315ea936f81e37bda8334ff587fb) docs(changelog): updated (@FGRibreau)
-
-### v3.2.11 (2018/10/30 08:05 +00:00)
 - [86e02e3](https://github.com/FGRibreau/mailchecker/commit/86e02e369503819142738708acddab9c3456111c) feat(build): update plateform files (@FGRibreau)
 - [a0e5bcc](https://github.com/FGRibreau/mailchecker/commit/a0e5bcc647c0737d0bb3382b4da909c9bb871052) Release v3.2.11. (@FGRibreau)
 - [#148](https://github.com/FGRibreau/mailchecker/pull/148) Merge pull request #148 from nalgeon/patch-7 (@nalgeon)
