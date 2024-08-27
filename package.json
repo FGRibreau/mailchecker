@@ -10,7 +10,7 @@
   "scripts": {
     "build": "node lib/clean.js && node gen.js",
     "setup": "npm run build && npm-run-all --max-parallel 2 --parallel setup:*",
-    "setup:ruby": "docker run -i -v $(pwd):/app -w /app centurylink/ruby-base:2.2 bundler",
+    "setup:ruby": "docker run -i -v $(pwd):/app -w /app ruby:2.2 bash -c 'gem install bundler -v 1.17.3 && bundler'",
     "setup:clojure": "docker run -i -v $(pwd):/app -w /app clojure:lein-2.8.1 lein install",
     "setup:rust": "docker run -i -v $(pwd)/platform/rust:/source -w /source -e CARGO_HOME=/source/cargo rust:1.74.0-slim-buster cargo build",
     "full-build": "npm run build && npm run compile",
@@ -22,7 +22,7 @@
     "test:php": "docker run --platform linux/amd64 -i -v $(pwd):/code -e XDEBUG_MODE=coverage -w /code pipelinecomponents/phpunit phpunit test/platform.php.test.php",
     "test:python": "docker run -i -v $(pwd):/app -w /app python:2.7-alpine3.7 python test/*.test.py",
     "test:python3": "docker run -i -v $(pwd):/app -w /app python:3.6-alpine3.7 python test/*.test.py",
-    "test:ruby": "docker run -i -v $(pwd):/app -w /app centurylink/ruby-base:2.2 ruby test/platform.ruby.test.rb",
+    "test:ruby": "docker run -i -v $(pwd):/app -w /app ruby:2.2 ruby test/platform.ruby.test.rb",
     "test:rust": "docker run -i -v $(pwd)/platform/rust:/source -w /source -e CARGO_HOME=/source/cargo rust:1.74.0-slim-buster cargo test",
     "watch": "mocha -r should -R spec -u tdd -w",
     "compile": "projectz compile",
