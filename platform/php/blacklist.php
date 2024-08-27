@@ -32674,7 +32674,6 @@ return [
     "mial.com.creou.dev" => true,
     "mial.tk" => true,
     "mialbox.info" => true,
-    "miam.kd2.org" => true,
     "miamimetro.com" => true,
     "miamovies.com" => true,
     "miamovies.net" => true,
