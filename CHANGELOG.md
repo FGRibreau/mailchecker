@@ -1,5 +1,14 @@
 ## Change Log
 
+### v6.0.11 (2024/10/02 19:34 +00:00)
+- [c92227f](https://github.com/FGRibreau/mailchecker/commit/c92227fc39f10b4c84fca13774b3ea9502f17898) feat(version): Bump version to 6.0.11 (@FGRibreau)
+- [1413727](https://github.com/FGRibreau/mailchecker/commit/1413727d8f00c24661628177905818f29639678e) feat(build): Update platform files (@FGRibreau)
+- [d4f1c58](https://github.com/FGRibreau/mailchecker/commit/d4f1c58cf85d533ba59c50eeb7a9adf42947cd21) fix(cargo) (@FGRibreau)
+- [77b754d](https://github.com/FGRibreau/mailchecker/commit/77b754d8ae161a4dac699f5997694cb67b334cc0) feat(cargo): updated to 6.0.10 (@FGRibreau)
+- [6e6bfcc](https://github.com/FGRibreau/mailchecker/commit/6e6bfcc201ca343e91a82a1bcafe865bb9894c52) feat(python): updated to 6.0.10 (@FGRibreau)
+- [5802a29](https://github.com/FGRibreau/mailchecker/commit/5802a291903dbd147c0bdb759d313263bee6362d) feat(gemspec): updated to 6.0.10 (@FGRibreau)
+- [ca0c5fd](https://github.com/FGRibreau/mailchecker/commit/ca0c5fd06791445828ddda1f9d151eb759d3b4a5) docs(changelog): updated (@FGRibreau)
+
 ### v6.0.10 (2024/09/30 16:02 +00:00)
 - [80d1628](https://github.com/FGRibreau/mailchecker/commit/80d1628c311e4bdd8f3ae03fd67e605aff894b7d) feat(build): update plateform files (@FGRibreau)
 - [78ea843](https://github.com/FGRibreau/mailchecker/commit/78ea8435f5bcc315f654b16aca588d138d5019d5) Release v6.0.10. (@FGRibreau)
@@ -1556,8 +1565,6 @@
 - [#158](https://github.com/FGRibreau/mailchecker/pull/158) Merge pull request #158 from nalgeon/patch-8 (@nalgeon)
 - [07af7c8](https://github.com/FGRibreau/mailchecker/commit/07af7c8eaae393a55888a1a008132c4783ea79ef) More from temp-mail.org and others (@nalgeon)
 - [9646741](https://github.com/FGRibreau/mailchecker/commit/9646741286d23b88704336e8b0f7945a4e57dac0) docs(changelog): updated (@FGRibreau)
-
-### v3.2.15 (2018/12/12 07:41 +00:00)
 - [7ed7a80](https://github.com/FGRibreau/mailchecker/commit/7ed7a800432c4319f0d364dcab6e51d4ab648b7d) Release v3.2.15. (@FGRibreau)
 - [8347a97](https://github.com/FGRibreau/mailchecker/commit/8347a97d91802cbd3768ad5977dfa05f583061b9) feat(build): update plateform files (@FGRibreau)
 - [b1647f8](https://github.com/FGRibreau/mailchecker/commit/b1647f8a879339fe484950891b4fae95ee717604) fix: remove pp.ua (@FGRibreau)
