@@ -321,11 +321,11 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-<ul><li><a href="http://www.owenstephens.co.uk">Owen Stephens</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=owst" title="View the GitHub contributions of Owen Stephens on repository FGRibreau/mailchecker">view contributions</a></li>
+<ul><li><a href="http://www.owenstephens.co.uk">Owen Stephens</a></li>
 <li><a href="http://jacobburenstam.com">Jacob Burenstam Linder</a></li>
 <li><a href="http://hermanslatman.nl">Herman Slatman</a></li>
 <li><a href="https://github.com/trisix">trisix</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=trisix" title="View the GitHub contributions of trisix on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="http://greenkeeper.io/">Greenkeeper</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=greenkeeperio-bot" title="View the GitHub contributions of Greenkeeper on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://greenkeeper.io/">Greenkeeper</a></li>
 <li><a href="http://wusty.io">Dustin Clark</a></li>
 <li><a href="http://antonz.ru/">Anton Zhiyanov</a></li>
 <li><a href="https://github.com/NBruel">Bruel Nicolas</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=NBruel" title="View the GitHub contributions of Bruel Nicolas on repository FGRibreau/mailchecker">view contributions</a></li>
@@ -372,7 +372,7 @@ These amazing people have contributed code to this project:
 <li><a href="http://fabiocaccamo.com/">Fabio Caccamo</a></li>
 <li><a href="https://github.com/nayluge">cyril souillard</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=nayluge" title="View the GitHub contributions of cyril souillard on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://blog.lyrixx.info">Grégoire Pineau</a></li>
-<li><a href="meterian.io">Bruno Bossola</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=bbossola" title="View the GitHub contributions of Bruno Bossola on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="meterian.io">Bruno Bossola</a></li>
 <li><a href="https://github.com/florian-crtl">florian-crtl</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=florian-crtl" title="View the GitHub contributions of florian-crtl on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://aneveningcalm.com">mikeyzm</a></li>
 <li><a href="http://lyrixx.info/">Grégoire Pineau</a></li>
