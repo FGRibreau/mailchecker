@@ -34054,7 +34054,6 @@ my.blatnet.com
 my.cowsnbullz.com
 my.efxs.ca
 my.hellohappy2.com
-my.id
 my.lakemneadows.com
 my.longaid.net
 my.makingdomes.com
@@ -52301,7 +52300,6 @@ web-sift.com
 web-site-sale.ru
 web-sites-sale.ru
 web.discard-email.cf
-web.id
 web20.club
 web20r.com
 web2mailco.com
