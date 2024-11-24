@@ -7,26 +7,24 @@
  */
 'use strict';
 
-var range = require('node-range');
-
 var blacklist        = new Set([{{& listSTR }}]);
 var isValidEmail     = /^{{& unanchoredRegexpString }}$/;
 
-function allDomainSuffixes(email) {
-  var domainComponents = email.split('@')[1].split('.');
-
-  return range(0, domainComponents.length).map(function (n) {
-    return domainComponents.slice(n).join('.');
-  });
-}
-
 function isBlacklisted(email) {
-  function suffixIsBlacklisted(domainSuffix) {
-    return blacklist.has(domainSuffix);
-  }
+  var currentDomain = email.split("@")[1];
+  var nextDot;
 
-  return allDomainSuffixes(email).some(suffixIsBlacklisted);
-};
+  do {
+    if (blacklist.has(currentDomain)) {
+      return true;
+    }
+  } while (
+    (nextDot = currentDomain.indexOf(".")) !== -1 &&
+    (currentDomain = currentDomain.slice(nextDot + 1))
+  );
+
+  return false;
+}
 
 module.exports = {
   isValid: function (email){
