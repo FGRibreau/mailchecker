@@ -28,15 +28,15 @@
     "compile": "projectz compile",
     "updtr": "updtr",
     "changelog": "github-changes --owner $(node -p \"require('./package.json').repository.url.split('/')[3];\") --repository $(node -p \"a=require('./package.json').repository.url.split('/');a[a.length-1].split('.')[0]\") --token $CHANGELOG_GITHUB_TOKEN_FG -f CHANGELOG.md",
-    "changelog-git": "npm run changelog && git add CHANGELOG.md && git commit -m 'docs(changelog): updated' && git push origin master",
-    "release-after-pr": "git pull --rebase && npm run full-build && npm run test && git commit -a -m 'feat(build): update plateform files' && npm-release patch && npm run release-cross",
-    "release-patch": "npm run full-build && npm run test && git commit -a -m 'feat(build): update plateform files' && npm-release patch && npm run release-cross",
-    "release-minor": "npm run full-build && npm run test && git commit -a -m 'feat(build): update plateform files' && npm-release minor && npm run release-cross",
+    "changelog-git": "npm run changelog && git add CHANGELOG.md && git commit --no-verify -m 'docs(changelog): updated' && git push origin master",
+    "release-after-pr": "git pull --rebase && npm run full-build && npm run test && git commit --no-verify -a -m 'feat(build): update plateform files' && npm-release patch && npm run release-cross",
+    "release-patch": "npm run full-build && npm run test && git commit --no-verify -a -m 'feat(build): update plateform files' && npm-release patch && npm run release-cross",
+    "release-minor": "npm run full-build && npm run test && git commit --no-verify -a -m 'feat(build): update plateform files' && npm-release minor && npm run release-cross",
     "release-cross": "npm run changelog-git && npm run publish-gem && npm run publish-python && npm run publish-go && npm run publish-cargo",
     "publish-go": "version=$(echo $npm_package_version | cut -d '.' -f 1) && sed -E -i '' \"s#github.com/FGRibreau/mailchecker/(.*)#github.com/FGRibreau/mailchecker/v${version}#g\" go.mod",
-    "publish-gem": "sed -E -i '' \"s/spec.version[[:space:]]*=(.*)/spec.version='${npm_package_version}'/g\" *.gemspec && (git add *.gemspec && git commit -m \"feat(gemspec): updated to ${npm_package_version}\" || true) && gem build *.gemspec && gem push ruby-mailchecker-${npm_package_version}.gem",
-    "publish-cargo": "cd platform/rust && sed -E -i '' \"s/version[[:space:]]*=(.*)/version = \\\"${npm_package_version}\\\"/g\" Cargo.toml && (git add Cargo.toml && git add Cargo.lock && git commit -m \"feat(cargo): updated to ${npm_package_version}\" && git push || true); sleep 3; pwd; (git add Cargo.lock && git commit -m 'chore: update Cargo.lock' && git push || true) && cargo package --allow-dirty && cargo publish --allow-dirty",
-    "publish-python": "cd platform/python && sed -E -i '' \"s/version[[:space:]]*=(.*)/version = \\\"${npm_package_version}\\\",/g\" setup.py && (git add setup.py && git commit -m \"feat(python): updated to ${npm_package_version}\" || true) && rm -rf dist/* && python3 setup.py sdist && twine upload --repository mailchecker dist/*"
+    "publish-gem": "sed -E -i '' \"s/spec.version[[:space:]]*=(.*)/spec.version='${npm_package_version}'/g\" *.gemspec && (git add *.gemspec && git commit --no-verify -m \"feat(gemspec): updated to ${npm_package_version}\" || true) && gem build *.gemspec && gem push ruby-mailchecker-${npm_package_version}.gem",
+    "publish-cargo": "cd platform/rust && sed -E -i '' \"s/version[[:space:]]*=(.*)/version = \\\"${npm_package_version}\\\"/g\" Cargo.toml && (git add Cargo.toml && git add Cargo.lock && git commit --no-verify -m \"feat(cargo): updated to ${npm_package_version}\" && git push || true); sleep 3; pwd; (git add Cargo.lock && git commit --no-verify -m 'chore: update Cargo.lock' && git push || true) && cargo package --allow-dirty && cargo publish --allow-dirty",
+    "publish-python": "cd platform/python && sed -E -i '' \"s/version[[:space:]]*=(.*)/version = \\\"${npm_package_version}\\\",/g\" setup.py && (git add setup.py && git commit --no-verify -m \"feat(python): updated to ${npm_package_version}\" || true) && rm -rf dist/* && python3 setup.py sdist && twine upload --repository mailchecker dist/*"
   },
   "repository": {
     "type": "git",
