@@ -36,7 +36,7 @@
     "publish-go": "version=$(echo $npm_package_version | cut -d '.' -f 1) && sed -E -i '' \"s#github.com/FGRibreau/mailchecker/(.*)#github.com/FGRibreau/mailchecker/v${version}#g\" go.mod",
     "publish-gem": "sed -E -i '' \"s/spec.version[[:space:]]*=(.*)/spec.version='${npm_package_version}'/g\" *.gemspec && (git add *.gemspec && git commit --no-verify -m \"feat(gemspec): updated to ${npm_package_version}\" || true) && gem build *.gemspec && gem push ruby-mailchecker-${npm_package_version}.gem",
     "publish-cargo": "cd platform/rust && sed -E -i '' \"s/version[[:space:]]*=(.*)/version = \\\"${npm_package_version}\\\"/g\" Cargo.toml && (git add Cargo.toml && git add Cargo.lock && git commit --no-verify -m \"feat(cargo): updated to ${npm_package_version}\" && git push || true); sleep 3; pwd; (git add Cargo.lock && git commit --no-verify -m 'chore: update Cargo.lock' && git push || true) && cargo package --allow-dirty && cargo publish --allow-dirty",
-    "publish-python": "cd platform/python && sed -E -i '' \"s/version[[:space:]]*=(.*)/version = \\\"${npm_package_version}\\\",/g\" setup.py && (git add setup.py && git commit --no-verify -m \"feat(python): updated to ${npm_package_version}\" || true) && rm -rf dist/* && python3 setup.py sdist && twine upload --repository mailchecker dist/*"
+    "publish-python": "cd platform/python && sed -E -i '' \"s/version[[:space:]]*=(.*)/version = \\\"${npm_package_version}\\\",/g\" setup.py && (git add setup.py && git commit --no-verify -m \"feat(python): updated to ${npm_package_version}\" || true) && rm -rf dist/* && python3 -m build && twine upload --repository mailchecker dist/*"
   },
   "repository": {
     "type": "git",
