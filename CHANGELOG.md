@@ -1,5 +1,16 @@
 ## Change Log
 
+### v6.0.13 (2024/11/27 12:09 +00:00)
+- [0ba4ccb](https://github.com/FGRibreau/mailchecker/commit/0ba4ccb08f4c029bd5c89e327951bc0645378438) Bump version to 6.0.13Release v6.0.13. (@FGRibreau)
+- [688512e](https://github.com/FGRibreau/mailchecker/commit/688512e588d41d24c39fa6828d8a1cc375860054) feat(build): update platform Dockerfiles to use rust 1.82.0 and latest Cargo versionfeat(build): update plateform files (@FGRibreau)
+- [690239a](https://github.com/FGRibreau/mailchecker/commit/690239a29ac797fa9ff8aba9eb2dcdef56a26825) bump cargo version to 4 and rust to 6.0.12bump (@FGRibreau)
+- [#502](https://github.com/FGRibreau/mailchecker/pull/502) Merge pull request #502 from dimbleby/publish-wheels (@dimbleby)
+- [e83ad8e](https://github.com/FGRibreau/mailchecker/commit/e83ad8e13a4b196bc011e609fb58b509e292f331) publish wheels (@dimbleby)
+- [8542ef0](https://github.com/FGRibreau/mailchecker/commit/8542ef00b45a4df00814d039c3fa6826ec30e6f8) feat(cargo): updated to 6.0.12 (@FGRibreau)
+- [0f41746](https://github.com/FGRibreau/mailchecker/commit/0f417468492f10bef0080c146c818e4b4ea758d9) feat(python): updated to 6.0.12 (@FGRibreau)
+- [1bef23b](https://github.com/FGRibreau/mailchecker/commit/1bef23b35e0ec9d23743e5ce78ec08466436d803) feat(gemspec): updated to 6.0.12 (@FGRibreau)
+- [0e46d3e](https://github.com/FGRibreau/mailchecker/commit/0e46d3e2cb7011508eedcb506f301a0cf384fd84) feat: update changelog (@FGRibreau)
+
 ### v6.0.12 (2024/11/25 22:21 +00:00)
 - [e02ba56](https://github.com/FGRibreau/mailchecker/commit/e02ba56d6a623287ebe32087ab002fe42abba94c) feat(package): update package versions to 6.0.12 (@FGRibreau)
 - [3878187](https://github.com/FGRibreau/mailchecker/commit/3878187aebf0f4e2737a6b9f1d3eee5245ebcbf1) feat(build): update platform files (@FGRibreau)
@@ -1606,8 +1617,6 @@
 - [#160](https://github.com/FGRibreau/mailchecker/pull/160) Merge pull request #160 from C0derLint/moarr (@C0derLint)
 - [6a8e5a8](https://github.com/FGRibreau/mailchecker/commit/6a8e5a8c8b636290ec1f29a6da4c6a2d7389ea80) Added domains from Rainmail.xyz (@radiantly)
 - [6d8d007](https://github.com/FGRibreau/mailchecker/commit/6d8d0074882c8c00fcbf7dd13f886525ba183f72) docs(changelog): updated (@FGRibreau)
-
-### v3.2.17 (2019/02/07 23:00 +00:00)
 - [6e6eb1c](https://github.com/FGRibreau/mailchecker/commit/6e6eb1c09d456e87876e7c997bf511217795b548) feat(build): update plateform files (@FGRibreau)
 - [6739036](https://github.com/FGRibreau/mailchecker/commit/673903688d75e5931a1d5d6e9ad9d7ab1d4b9a89) Release v3.2.17. (@FGRibreau)
 - [f9d6cab](https://github.com/FGRibreau/mailchecker/commit/f9d6cab840de1d3fed7a69702110b5cb8c389e36) fix: list.json (@FGRibreau)
