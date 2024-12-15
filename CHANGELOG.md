@@ -1,5 +1,15 @@
 ## Change Log
 
+### v6.0.14 (2024/12/15 13:27 +00:00)
+- [f6f260c](https://github.com/FGRibreau/mailchecker/commit/f6f260ccde972c02308c0756d754afa1a950a328) Release v6.0.14. (@FGRibreau)
+- [b2fbf23](https://github.com/FGRibreau/mailchecker/commit/b2fbf239163776a34a8efdec1cc188e3a94aa8f0) feat(build): update plateform files (@FGRibreau)
+- [8995dd9](https://github.com/FGRibreau/mailchecker/commit/8995dd9697634188b09dc97bfc73bcfa92f45364) Merge branch 'master' of github.com:FGRibreau/mailchecker (@FGRibreau)
+- [#499](https://github.com/FGRibreau/mailchecker/pull/499) Merge pull request #499 from spookyorange/add_some_popular_mails_and_proxies (@spookyorange)
+- [023774e](https://github.com/FGRibreau/mailchecker/commit/023774e60a15351db01ae605cad57383d1f1439d) list -> remove protonmail from (@spookyorange)
+- [c773f9c](https://github.com/FGRibreau/mailchecker/commit/c773f9c2d7acfdcdf80123db2dc165200efe6f3e) feat(python): updated to 6.0.13feat(python): updated to 6.0.13 (@FGRibreau)
+- [331a503](https://github.com/FGRibreau/mailchecker/commit/331a503b8309c52d6ba6155ca6fd1d686fce63d0) feat(gemspec): update spec.version to 6.0.13feat(gemspec): updated to 6.0.13 (@FGRibreau)
+- [0aa161e](https://github.com/FGRibreau/mailchecker/commit/0aa161e6e112eeca3493e4c2935f1fc9bf648f0f) docs(changelog): update changelogdocs(changelog): updated (@FGRibreau)
+
 ### v6.0.13 (2024/11/27 12:09 +00:00)
 - [0ba4ccb](https://github.com/FGRibreau/mailchecker/commit/0ba4ccb08f4c029bd5c89e327951bc0645378438) Bump version to 6.0.13Release v6.0.13. (@FGRibreau)
 - [688512e](https://github.com/FGRibreau/mailchecker/commit/688512e588d41d24c39fa6828d8a1cc375860054) feat(build): update platform Dockerfiles to use rust 1.82.0 and latest Cargo versionfeat(build): update plateform files (@FGRibreau)
@@ -18,6 +28,7 @@
 - [#500](https://github.com/FGRibreau/mailchecker/pull/500) Merge pull request #500 from safakocamanoglu/add-wsypc.com (@safakocamanoglu)
 - [4654fea](https://github.com/FGRibreau/mailchecker/commit/4654fea0f0f1b06a32fb537ff2cafc4039b08c7f) Update list.txt (@safakocamanoglu)
 - [f6d7764](https://github.com/FGRibreau/mailchecker/commit/f6d7764768601c63d1c5cedb28c7137e80149975) add: wsypc.com (@safakocamanoglu)
+- [a3b0484](https://github.com/FGRibreau/mailchecker/commit/a3b048468dd3c8abe919917dc195dec4cc43d4d1) list, update -> add some proton&mozilla domains/proxies (@spookyorange)
 - [#498](https://github.com/FGRibreau/mailchecker/pull/498) Merge pull request #498 from burakyilmaz321/add-cpaurl-domain (@burakyilmaz321)
 - [3801e59](https://github.com/FGRibreau/mailchecker/commit/3801e596182b1608b0843a7b64020a17ca384787) fix sorting (@burakyilmaz321)
 - [676d8a9](https://github.com/FGRibreau/mailchecker/commit/676d8a9c6fe500f8f18dfe8df601afa2f53d2bbe) add cpaurl domain (@burakyilmaz321)
@@ -1607,8 +1618,6 @@
 - [#161](https://github.com/FGRibreau/mailchecker/pull/161) Merge pull request #161 from chadliu23/master (@chadliu23)
 - [dbd80cc](https://github.com/FGRibreau/mailchecker/commit/dbd80cc17761ea7ad93b5770fc3ed15bf925e5e7) Add some 10 minute mail (@chadliu23)
 - [c6d6d09](https://github.com/FGRibreau/mailchecker/commit/c6d6d0977b9d2401e0ee6b28d9423c55708036f8) docs(changelog): updated (@FGRibreau)
-
-### v3.2.18 (2019/02/21 21:28 +00:00)
 - [a636658](https://github.com/FGRibreau/mailchecker/commit/a6366585e8eac53e9959cb564c95a76348632472) Release v3.2.18. (@FGRibreau)
 - [20de10f](https://github.com/FGRibreau/mailchecker/commit/20de10fb05074bf9d83b982532699ce5a27265d0) feat(build): update plateform files (@FGRibreau)
 - [4c91326](https://github.com/FGRibreau/mailchecker/commit/4c91326ef6fa2919d9d98ede9721b4c44a49f8c3) feat(gemspec): updated to 3.2.17 (@FGRibreau)
