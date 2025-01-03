@@ -215,15 +215,15 @@ package main
 
 import (
   "log"
-  
-  "github.com/FGRibreau/mailchecker/platform/go"
+
+  mail_checker "github.com/FGRibreau/mailchecker/v6/platform/go"
 )
 
-if !mail_checker.IsValid('myemail@yopmail.com') {
-  log.Fatal('O RLY !');
+if !mail_checker.IsValid("myemail@yopmail.com") {
+  log.Fatal("O RLY !");
 }
 
-if !mail_checker.IsValid('myemail.com') {
+if !mail_checker.IsValid("myemail.com") {
   log.Fatal("O RLY !")
 }
 ```
@@ -235,7 +235,7 @@ if !mail_checker.IsValid('myemail.com') {
 
 Go
 ```bash
-go get https://github.com/FGRibreau/mailchecker
+go get github.com/FGRibreau/mailchecker/v6/platform/go
 ```
 
 NodeJS/JavaScript
