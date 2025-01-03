@@ -1,5 +1,20 @@
 ## Change Log
 
+### v6.0.15 (2025/01/03 22:24 +00:00)
+- [fd246ab](https://github.com/FGRibreau/mailchecker/commit/fd246ab18c8e6a8d9f653ae958a0a1e52c7232d3) feat(build): update plateform files (@FGRibreau)
+- [d4f9c26](https://github.com/FGRibreau/mailchecker/commit/d4f9c26706f7a8859b9c66ff13cb13b6247e1180) Release v6.0.15. (@FGRibreau)
+- [#506](https://github.com/FGRibreau/mailchecker/pull/506) Merge pull request #506 from mnau23/add-domains (@mnau23)
+- [#505](https://github.com/FGRibreau/mailchecker/pull/505) Merge pull request #505 from burakyilmaz321/add-cctoolz-domain (@burakyilmaz321)
+- [#507](https://github.com/FGRibreau/mailchecker/pull/507) Merge pull request #507 from mnau23/update-readme (@mnau23)
+- [26289f4](https://github.com/FGRibreau/mailchecker/commit/26289f4b8ec01a7449ccc90130836915c9fb4171) fix go instructions (@mnau23)
+- [67b4ad0](https://github.com/FGRibreau/mailchecker/commit/67b4ad04fb3037fd038566feced89e07820d5b78) add more domains (@mnau23)
+- [5e51c51](https://github.com/FGRibreau/mailchecker/commit/5e51c51d3500ad8636758ad5c449fa4d826168d1) add cctoolz.com to list (@burakyilmaz321)
+- [7fd0d34](https://github.com/FGRibreau/mailchecker/commit/7fd0d34eec26d1b1d8d8a501bd9b0ee91d88e126) fix (@FGRibreau)
+- [6aec566](https://github.com/FGRibreau/mailchecker/commit/6aec5665a74bad78bd67f3c3a0047d435f0cc77e) feat(cargo): updated to 6.0.14 (@FGRibreau)
+- [9e6f046](https://github.com/FGRibreau/mailchecker/commit/9e6f0466f565782c29bf5aa284ec7e94b71115ab) feat(python): updated to 6.0.14 (@FGRibreau)
+- [363e921](https://github.com/FGRibreau/mailchecker/commit/363e92118a6e286069f7bbe91f4a691fa8d17563) feat(gemspec): updated to 6.0.14 (@FGRibreau)
+- [6261b82](https://github.com/FGRibreau/mailchecker/commit/6261b82dae57d20dd11f286ccad5482511533249) docs(changelog): updated (@FGRibreau)
+
 ### v6.0.14 (2024/12/15 13:27 +00:00)
 - [f6f260c](https://github.com/FGRibreau/mailchecker/commit/f6f260ccde972c02308c0756d754afa1a950a328) Release v6.0.14. (@FGRibreau)
 - [b2fbf23](https://github.com/FGRibreau/mailchecker/commit/b2fbf239163776a34a8efdec1cc188e3a94aa8f0) feat(build): update plateform files (@FGRibreau)
@@ -301,7 +316,7 @@
 - [8962f9e](https://github.com/FGRibreau/mailchecker/commit/8962f9ebd4870a996191b341d2408a6dfa2af1b5) Update list.txt (@CaseyDevs)
 - [ac8097e](https://github.com/FGRibreau/mailchecker/commit/ac8097e0f6d98ca150f73d8bcfdbd1e53b030ab4) Update list.txt (@jslirola)
 - [7c5e454](https://github.com/FGRibreau/mailchecker/commit/7c5e454c753295e3367c4e945235a3e42927b89f) fix: remove nytimes.com and 24hourfitness.com (@russorat)
-- [9655ad9](https://github.com/FGRibreau/mailchecker/commit/9655ad9d280cf25f849dc55495c32f6f43e75bfd) update list.txt (@Sevenyine)
+- [9655ad9](https://github.com/FGRibreau/mailchecker/commit/9655ad9d280cf25f849dc55495c32f6f43e75bfd) update list.txt (@Tosd0)
 - [b70a699](https://github.com/FGRibreau/mailchecker/commit/b70a6995907c87acf8dc5fa1e8b6cbaddd80cfcd) feat(cargo): updated to 5.0.7 (@FGRibreau)
 - [e677e7c](https://github.com/FGRibreau/mailchecker/commit/e677e7cec772f74da47399b66fbeef747b466b18) feat(python): updated to 5.0.7 (@FGRibreau)
 - [74a0208](https://github.com/FGRibreau/mailchecker/commit/74a02089f6a4f2d4b6961b40097a1cea7e9e0465) feat(gemspec): updated to 5.0.7 (@FGRibreau)
@@ -1613,8 +1628,6 @@
 - [bf7964b](https://github.com/FGRibreau/mailchecker/commit/bf7964bd77ec5a74b8f80d67af050df5011f4c3c) feat(python): updated to 3.2.18 (@FGRibreau)
 - [5f9950f](https://github.com/FGRibreau/mailchecker/commit/5f9950fca778b1398b5cdc88bc0cdf8fca6692a7) feat(build): update plateform files (@FGRibreau)
 - [8d77c36](https://github.com/FGRibreau/mailchecker/commit/8d77c366da3b397dcf579f21994d3f98f7be7bf0) Release v3.2.19. (@FGRibreau)
-
-### v3.2.19 (2019/03/04 09:13 +00:00)
 - [#161](https://github.com/FGRibreau/mailchecker/pull/161) Merge pull request #161 from chadliu23/master (@chadliu23)
 - [dbd80cc](https://github.com/FGRibreau/mailchecker/commit/dbd80cc17761ea7ad93b5770fc3ed15bf925e5e7) Add some 10 minute mail (@chadliu23)
 - [c6d6d09](https://github.com/FGRibreau/mailchecker/commit/c6d6d0977b9d2401e0ee6b28d9423c55708036f8) docs(changelog): updated (@FGRibreau)
