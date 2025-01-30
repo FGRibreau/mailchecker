@@ -14,12 +14,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        # List of actively supported Node.js LTS releases
-        # Check https://nodejs.org/en/about/releases for the current versions and update the following if needed:
-        node-version: [18.x, 20.x, 22.x]
-
     steps:
       - uses: actions/checkout@v4
 
@@ -31,7 +25,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 22.x
           cache: npm
           cache-dependency-path: package-lock.json
 
