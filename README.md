@@ -155,7 +155,7 @@ pip install mailchecker
 from MailChecker import MailChecker
 
 if not MailChecker.is_valid('bla@example.com'):
-    print "O RLY !"
+    print("O RLY !")
 ```
 
 Django validator: https://github.com/jonashaag/django-indisposable
