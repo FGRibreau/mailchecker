@@ -9,6 +9,7 @@
 require_once __DIR__ . '/../platform/php/MailChecker.php';
 
 use Fgribreau\MailChecker;
+use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 
 class Platform extends TestCase
@@ -68,7 +69,7 @@ class Platform extends TestCase
         }
     }
 
-    /** @dataProvider provideBlackListTests */
+    #[DataProvider('provideBlackListTests')]
     public function testReturnFalseForBlacklistedDomainsAndTheirSubdomains($blacklistedDomain)
     {
         $this->isInvalid('test@' . $blacklistedDomain);
