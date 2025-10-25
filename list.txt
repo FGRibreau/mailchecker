@@ -19595,7 +19595,6 @@ freemail-host.info
 freemail.best
 freemail.bid
 freemail.co.pl
-freemail.hu
 freemail.men
 freemail.ms
 freemail.nx.cninfo.net
