@@ -4,7 +4,7 @@ import setuptools
 
 setuptools.setup(
   name="mailchecker",
-  version = "6.0.18",
+  version = "6.0.19",
   author='Francois-Guillaume Ribreau',
   author_email='github@fgribreau.com',
   description="Cross-language temporary email detection library. Stop users from signing up with temporary email addresses.",
