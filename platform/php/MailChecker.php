@@ -4,6 +4,7 @@ namespace Fgribreau;
 
 class MailChecker
 {
+    /** @var array<string, true> */
     private static $blacklist;
 
     public static function init(): void
@@ -11,6 +12,7 @@ class MailChecker
         self::$blacklist = require __DIR__ . '/blacklist.php';
     }
 
+    /** @param array<string> $domains */
     public static function addCustomDomains(array $domains): void
     {
         foreach ($domains as $domain) {
@@ -25,6 +27,7 @@ class MailChecker
         return self::validEmail($email) && !self::isBlacklisted($email);
     }
 
+    /** @return array<string, true> */
     public static function blacklist(): array
     {
         return array_keys(self::$blacklist);
@@ -44,6 +47,7 @@ class MailChecker
         return false;
     }
 
+    /** @return \Generator<string> */
     private static function allDomainSuffixes(string $domain): \Generator
     {
         $components = explode('.', $domain);
