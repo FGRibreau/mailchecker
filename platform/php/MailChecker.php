@@ -30,7 +30,7 @@ class MailChecker
         return self::validEmail($email) && !self::isBlacklisted($email);
     }
 
-    /** @return array<string, true> */
+    /** @return array<string> */
     public static function blacklist(): array
     {
         return array_keys(self::$blocklist);
