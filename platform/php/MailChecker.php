@@ -4,17 +4,22 @@ namespace Fgribreau;
 
 class MailChecker
 {
-    private static $blacklist;
+    /** @var array<string, true> */
+    private static array $blocklist;
 
+    /**
+    * @internal
+    */
     public static function init(): void
     {
-        self::$blacklist = require __DIR__ . '/blacklist.php';
+        self::$blocklist = require __DIR__ . '/blacklist.php';
     }
 
+    /** @param array<string> $domains */
     public static function addCustomDomains(array $domains): void
     {
         foreach ($domains as $domain) {
-            self::$blacklist[$domain] = true;
+            self::$blocklist[$domain] = true;
         }
     }
 
@@ -25,9 +30,10 @@ class MailChecker
         return self::validEmail($email) && !self::isBlacklisted($email);
     }
 
+    /** @return array<string, true> */
     public static function blacklist(): array
     {
-        return array_keys(self::$blacklist);
+        return array_keys(self::$blocklist);
     }
 
     public static function isBlacklisted(string $email): bool
@@ -36,7 +42,7 @@ class MailChecker
         $domain = end($parts);
 
         foreach (self::allDomainSuffixes($domain) as $domainSuffix) {
-            if (isset(self::$blacklist[$domainSuffix])) {
+            if (isset(self::$blocklist[$domainSuffix])) {
                 return true;
             }
         }
@@ -44,6 +50,7 @@ class MailChecker
         return false;
     }
 
+    /** @return \Generator<string> */
     private static function allDomainSuffixes(string $domain): \Generator
     {
         $components = explode('.', $domain);
