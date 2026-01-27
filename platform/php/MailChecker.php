@@ -41,7 +41,13 @@ class MailChecker
         $parts = explode('@', $email);
         $domain = end($parts);
 
-        foreach (self::allDomainSuffixes($domain) as $domainSuffix) {
+        return self::isDomainBlocked($domain, true);
+    }
+
+    public static function isDomainBlocked(string $domain, bool $checkSubdomain): bool
+    {
+        $domainSuffixes = $checkSubdomain ? self::allDomainSuffixes($domain) : [$domain];
+        foreach ($domainSuffixes as $domainSuffix) {
             if (isset(self::$blocklist[$domainSuffix])) {
                 return true;
             }
