@@ -90,4 +90,13 @@ class Platform extends TestCase
         $this->isInvalid('foo@google.com');
         $this->isValid('ok@gmail.com');
     }
+
+    #[DataProvider('provideBlackListTests')]
+    public function testIsDomainBlocked($blacklistedDomain)
+    {
+        $this->assertEquals(true, MailChecker::isDomainBlocked($blacklistedDomain, true));
+        $this->assertEquals(true, MailChecker::isDomainBlocked('subdomain.'.$blacklistedDomain, true));
+        $this->assertEquals(true, MailChecker::isDomainBlocked($blacklistedDomain, false));
+        $this->assertEquals(false, MailChecker::isDomainBlocked('subdomain.'.$blacklistedDomain, false));
+    }
 }
