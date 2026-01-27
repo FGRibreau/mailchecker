@@ -64,8 +64,9 @@ class Platform extends TestCase
 
     public static function provideBlackListTests()
     {
-        foreach (array_rand(MailChecker::blacklist(), 1000) as $blacklistedDomain) {
-            yield [$blacklistedDomain];
+        $blacklist = MailChecker::blacklist();
+        foreach (array_rand($blacklist, 1000) as $key) {
+            yield [$blacklist[$key]];
         }
     }
 
