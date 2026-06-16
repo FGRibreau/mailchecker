@@ -30,6 +30,7 @@ class MailCheckerTest {
     assertTrue(MailChecker.isValidEmail("my=ok@ok.plop.com"));
     assertTrue(MailChecker.isValidEmail("ok@gmail.com"));
     assertTrue(MailChecker.isValidEmail("ok@hotmail.com"));
+    assertTrue(MailChecker.isValidEmail("tëst@gmail.com"));
   }
 
   @Test

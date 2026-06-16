@@ -18,7 +18,8 @@
       (expect-valid "my+ok@ok.plop.com")
       (expect-valid "my=ok@ok.plop.com")
       (expect-valid "ok@gmail.com")
-      (expect-valid "ok@hotmail.com")))
+      (expect-valid "ok@hotmail.com")
+      (expect-valid "tëst@gmail.com")))
 
 (deftest false-for-invalid
   (do (expect-invalid "")

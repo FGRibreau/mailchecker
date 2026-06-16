@@ -1,3 +1,4 @@
+# encoding: utf-8
 # Run tests from the repository root directory:
 # $ bundle install && bundle exec ruby test/platform.ruby.test.rb
 require 'minitest/autorun'
@@ -20,6 +21,7 @@ class TestMailChecker < MiniTest::Test
     valid!('my=ok@ok.plop.com')
     valid!('ok@gmail.com')
     valid!('ok@hotmail.com')
+    valid!('tëst@gmail.com')
   end
 
   def test_return_false_if_email_invalid

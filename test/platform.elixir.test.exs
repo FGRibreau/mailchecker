@@ -31,6 +31,7 @@ defmodule MailCheckerTest do
     assert_valid("my=ok@ok.plop.com")
     assert_valid("ok@gmail.com")
     assert_valid("ok@hotmail.com")
+    assert_valid("tëst@gmail.com")
   end
 
   test "should return false if the email is invalid" do

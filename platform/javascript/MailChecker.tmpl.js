@@ -11,7 +11,7 @@
  */
 
 (function(global){
-  var isValidEmail     = /^{{& unanchoredRegexpString }}$/;
+  var isValidEmail     = /^{{& unanchoredRegexpString }}$/u;
   var blacklist        = [{{& listSTR }}];
 
   function mapRange(start, endExclusive, f) {

@@ -37,6 +37,7 @@ class Platform extends TestCase
         $this->isValid('my=ok@ok.plop.com');
         $this->isValid('ok@gmail.com');
         $this->isValid('ok@hotmail.com');
+        $this->isValid('tëst@gmail.com');
     }
 
     public function testReturnFalseIfEmailInvalid()

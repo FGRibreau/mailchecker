@@ -1,5 +1,8 @@
-import re
-
+try:
+    import regex as re
+except ImportError:
+    import re
+    
 import sys
 
 

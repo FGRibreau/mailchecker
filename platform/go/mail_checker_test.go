@@ -14,6 +14,7 @@ func TestReturnTrueIfValidEmail(t *testing.T) {
 		"my=ok@ok.plop.com",
 		"ok@gmail.com",
 		"ok@hotmail.com",
+		"tëst@gmail.com",
 	}
 
 	for i, email := range emails {

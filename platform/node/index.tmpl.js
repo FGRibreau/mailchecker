@@ -8,7 +8,7 @@
 'use strict';
 
 var blacklist        = new Set([{{& listSTR }}]);
-var isValidEmail     = /^{{& unanchoredRegexpString }}$/;
+var isValidEmail     = /^{{& unanchoredRegexpString }}$/u;
 
 function isBlacklisted(email) {
   var currentDomain = email.split("@")[1];

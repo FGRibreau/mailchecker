@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Run tests from the repository root directory:
 # $ python test/platform.python.test.py
 
@@ -28,6 +29,8 @@ class TestMailCheckerIsValid(unittest.TestCase):
     self.valid("my=ok@ok.plop.com")
     self.valid("ok@gmail.com")
     self.valid("ok@hotmail.com")
+    if sys.version_info[0] >= 3:
+        self.valid("tëst@example.com")
 
   def test_return_false_if_email_invalid(self):
     self.invalid("")

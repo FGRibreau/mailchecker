@@ -40,7 +40,7 @@ defmodule MailChecker do
   end
 
   def valid_address?(email) do
-    Regex.match?(~r/\A{{& unanchoredRegexpString }}\z/i, email)
+    Regex.match?(~r/\A{{& unanchoredRegexpString }}\z/iu, email)
   end
 
   defp ensure_started do
