@@ -27,7 +27,7 @@
     "watch": "mocha -r should -R spec -u tdd -w",
     "compile": "projectz compile",
     "updtr": "updtr",
-    "changelog": "github-changes --owner $(node -p \"require('./package.json').repository.url.split('/')[3];\") --repository $(node -p \"a=require('./package.json').repository.url.split('/');a[a.length-1].split('.')[0]\") --token $CHANGELOG_GITHUB_TOKEN_FG -f CHANGELOG.md",
+    "changelog": "auto-changelog --template .changelog.hbs --commit-limit false --hide-credit --output CHANGELOG.md",
     "changelog-git": "npm run changelog && git add CHANGELOG.md && git commit --no-verify -m 'docs(changelog): updated' && git push origin master",
     "release-after-pr": "npm whoami && git pull --rebase && npm run full-build && npm run test && git commit --no-verify -a -m 'feat(build): update plateform files' && npm-release patch && npm run release-cross",
     "release-patch": "npm run full-build && npm run test && git commit --no-verify -a -m 'feat(build): update plateform files' && npm-release patch && npm run release-cross",
@@ -150,8 +150,8 @@
   "dependencies": {},
   "devDependencies": {
     "async": "^3.1.0",
+    "auto-changelog": "^2.6.0",
     "eventemitter2": "^6.0.0",
-    "github-changes": "^2.0.3",
     "glob": "^7.0.3",
     "lodash": "^4.17.15",
     "mocha": "^7.0.0",

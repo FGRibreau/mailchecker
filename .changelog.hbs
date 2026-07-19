@@ -1,0 +1,14 @@
+## Change Log
+{{#each releases}}
+
+### {{title}}{{#if niceDate}} ({{niceDate}}){{/if}}
+{{#each merges}}
+- [#{{id}}]({{href}}) {{{message}}}
+{{/each}}
+{{#each fixes}}
+- [{{commit.shorthash}}]({{commit.href}}) {{{commit.subject}}}
+{{/each}}
+{{#each commits}}
+- [{{shorthash}}]({{href}}) {{{subject}}}
+{{/each}}
+{{/each}}
