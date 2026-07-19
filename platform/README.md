@@ -27,23 +27,65 @@ This will be very helpful when you have to contact your users and you want to av
 
 -------------------------
 
-> Need to provide Webhooks inside your SaaS?
-- [Try Hook0, an open-source self-hostable webhook micro-service](https://www.hook0.com/)
+## Sponsors
 
-> Need to embed a charts into an email?
->
-> It's over with **[Image-Charts](https://image-charts.com?gh_mailchecker)**, no more server-side rendering pain, 1 url = 1 chart.
+<table>
+  <tr>
+    <td align="center" width="175">
+      <a href="https://france-nuage.fr/?mtm_source=github&mtm_medium=sponsor&mtm_campaign=france-nuage&mtm_content=mailchecker">
+        <img src="assets/sponsors/france-nuage.svg" height="60" alt="France-Nuage"/><br/>
+        <b>France-Nuage</b>
+      </a><br/>
+      <sub>Sovereign French cloud for your signup pipeline. No vendor lock-in.</sub>
+    </td>
+    <td align="center" width="175">
+      <a href="https://www.hook0.com/?mtm_source=github&mtm_medium=sponsor&mtm_campaign=hook0&mtm_content=mailchecker">
+        <img src="assets/sponsors/hook0.png" height="60" alt="Hook0"/><br/>
+        <b>Hook0</b>
+      </a><br/>
+      <sub>Send signup events as signed webhooks. Self-hosted, retry built-in.</sub>
+    </td>
+    <td align="center" width="175">
+      <a href="https://getnatalia.com/?mtm_source=github&mtm_medium=sponsor&mtm_campaign=natalia&mtm_content=mailchecker">
+        <img src="assets/sponsors/natalia.svg" height="60" alt="Natalia"/><br/>
+        <b>Natalia</b>
+      </a><br/>
+      <sub>Catch the leads that signed up with bad emails — Natalia calls them back.</sub>
+    </td>
+    <td align="center" width="175">
+      <a href="https://netir.fr/?mtm_source=github&mtm_medium=sponsor&mtm_campaign=netir&mtm_content=mailchecker">
+        <img src="assets/sponsors/netir.svg" height="60" alt="Netir"/><br/>
+        <b>Netir</b>
+      </a><br/>
+      <sub>Hire vetted French freelance backend devs through mentored marketplace.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="233">
+      <a href="https://nobullshitconseil.com/?mtm_source=github&mtm_medium=sponsor&mtm_campaign=nbc&mtm_content=mailchecker">
+        <img src="assets/sponsors/nobullshitconseil.svg" height="60" alt="NoBullshitConseil"/><br/>
+        <b>NoBullshitConseil</b>
+      </a><br/>
+      <sub>No-bullshit tech advisory. Founders &amp; CTOs get straight answers.</sub>
+    </td>
+    <td align="center" width="233">
+      <a href="https://qualneo.fr/?mtm_source=github&mtm_medium=sponsor&mtm_campaign=qualneo&mtm_content=mailchecker">
+        <img src="assets/sponsors/qualneo.svg" height="60" alt="Qualneo"/><br/>
+        <b>Qualneo</b>
+      </a><br/>
+      <sub>Qualiopi LMS for French trainers. 32 indicators wired in, audit-ready.</sub>
+    </td>
+    <td align="center" width="233">
+      <a href="https://recapro.ai/?mtm_source=github&mtm_medium=sponsor&mtm_campaign=recapro&mtm_content=mailchecker">
+        <img src="assets/sponsors/recapro.png" height="60" alt="Recapro"/><br/>
+        <b>Recapro</b>
+      </a><br/>
+      <sub>Private AI that transcribes meetings &amp; drafts reports. Sovereign hosting.</sub>
+    </td>
+  </tr>
+</table>
 
-```
-https://image-charts.com/chart?
-cht=lc // chart type
-&chd=s:cEAELFJHHHKUju9uuXUc // chart data
-&chxt=x,y // axis
-&chxl=0:|0|1|2|3|4|5| // axis labels
-&chs=873x200 // size
-```
-
-<p align="center"><strong><a href="https://image-charts.com?gh_mailchecker">Use Image-Charts for free<br/><img src="https://image-charts.com/chart?cht=lc&chd=s:cEAELFJHHHKUju9uuXUc&chco=76A4FB&chls=2.0,0.0,0.0&chxt=x,y&chxl=0:%7C0%7C1%7C2%7C3%7C4%7C5%7C1:%7C0%7C50%7C100&chs=873x200&chg=20,50&chan&chf=b0,lg,90,4CA4F5,0.1,C371D3,0.8,EA469E,1"/></a></strong></p>
+> **Interested in sponsoring?** [Get in touch](mailto:rust@fgribreau.com)
 
 ------------------------
 
@@ -356,7 +398,7 @@ These amazing people have contributed code to this project:
 <li><a href="https://github.com/jbzdak">Jacek Bzdak</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=jbzdak" title="View the GitHub contributions of Jacek Bzdak on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="https://github.com/dustywusty">D</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=dustywusty" title="View the GitHub contributions of D on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://cashlink.io">Jonas Haag</a></li>
-<li><a href="http://alex.domakidis.com/">￸A￸l￸e￸x D￸o￸m￸a￸k￸i￸d￸i￸s</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=datio" title="View the GitHub contributions of ￸A￸l￸e￸x D￸o￸m￸a￸k￸i￸d￸i￸s on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="http://alex.domakidis.com/">￸A￸l￸e￸x D￸o￸m￸a￸k￸i￸d￸i￸s</a></li>
 <li><a href="https://github.com/mcgregordan">Dan McGregor</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=mcgregordan" title="View the GitHub contributions of Dan McGregor on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="xthiago) (http://xthiago.com/">Thiago Rodrigues</a></li>
 <li><a href="http://www.dillilabs.com">Dilli Labs LLC</a></li>
@@ -377,7 +419,7 @@ These amazing people have contributed code to this project:
 <li><a href="http://aneveningcalm.com">mikeyzm</a></li>
 <li><a href="http://lyrixx.info/">Grégoire Pineau</a></li>
 <li><a href="https://github.com/alongat">alonga</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=alongat" title="View the GitHub contributions of alonga on repository FGRibreau/mailchecker">view contributions</a></li>
-<li><a href="nitralabs.com">Vitalii Tverdokhlib</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=vitaliytv" title="View the GitHub contributions of Vitalii Tverdokhlib on repository FGRibreau/mailchecker">view contributions</a></li>
+<li><a href="nitralabs.com">Vitalii Tverdokhlib</a></li>
 <li><a href="https://github.com/F21">Francis Chuang</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=F21" title="View the GitHub contributions of Francis Chuang on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://mikeyzm.cn">mikeyzm</a> — <a href="https://github.com/FGRibreau/mailchecker/commits?author=mikeyzm" title="View the GitHub contributions of mikeyzm on repository FGRibreau/mailchecker">view contributions</a></li>
 <li><a href="http://www.syshack.ch">Pascal Vizeli</a></li>
