@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/FGRibreau/mailchecker'
   spec.license       = 'MIT'
 
-  spec.files         = ['platform/ruby/mail_checker.rb', 'platform/ruby/ruby-mailchecker.rb']
+  spec.files         = ['platform/ruby/mail_checker.rb', 'platform/ruby/mail_checker/blacklist.rb', 'platform/ruby/ruby-mailchecker.rb']
   spec.require_paths = ['platform/ruby']
   spec.add_development_dependency 'minitest', '~>5.8'
 end
