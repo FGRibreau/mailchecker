@@ -1,10 +1,9 @@
 # frozen_string_literal: true
-require 'set'
 
 module MailChecker
   EMAIL_REGEX = /\A{{& unanchoredRegexpString }}\z/i
-  # Blacklisted domains
-  BLACKLIST = [{{& listSTR }}].to_set
+  # Blacklisted domains, loaded on first use: tens of thousands of strings
+  autoload :BLACKLIST, File.expand_path('mail_checker/blacklist', __dir__)
 
   def self.valid?(email)
     valid_email?(email) && !blacklisted?(email)

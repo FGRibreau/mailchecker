@@ -212,6 +212,12 @@ unless MailChecker.valid?('myemail@yopmail.com')
 end
 ```
 
+The blacklist (about 12 MB) is loaded on the first `valid?` or `blacklisted?` call. On a preforking server (Puma with `preload_app!`, Unicorn, Passenger), load it before forking so that workers share one copy instead of building one each, for instance in a Rails initializer:
+
+```ruby
+MailChecker::BLACKLIST
+```
+
 
 ### Rust
 
